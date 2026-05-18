@@ -50,6 +50,6 @@ export const headerNavItems: NavItem[] = [
       },
     ],
   },
-  { type: 'link', label: 'AI支持', href: 'https://qs-legal.com/' },
+  { type: 'link', label: 'AI支持', href: 'https://ai.qs-legal.com/' },
   { type: 'link', label: '关于我们', href: '/aboutus' },
 ]

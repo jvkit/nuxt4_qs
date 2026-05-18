@@ -201,7 +201,7 @@
 /* 6. 优势卡片 */
 .advantages-section { background: var(--about-light); padding: 40px 0 80px; }
 .advantages-inner { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--about-gap); }
-.advantage-card { display: flex; flex-direction: column; background: var(--about-light); border-radius: var(--about-radius); overflow: hidden; }
+.advantage-card { display: flex; flex-direction: column; background: var(--about-light); border-radius: var(--about-radius); overflow: hidden; text-decoration: none; }
 .advantage-card .card-media { aspect-ratio: 3 / 2; }
 
 /* 7. 时间线 */

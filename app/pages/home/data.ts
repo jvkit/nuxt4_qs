@@ -1,39 +1,38 @@
+import articlesJson from '../article/articles.json'
+import practicesJson from '../practice-areas/practices.json'
+
 export const heroData = {
   title: '以卓越法律实力塑造商事争议解决的未来',
   description:
     '青颂致力于帮助世界各地的企业与机构应对最复杂的商事诉讼与仲裁挑战。从跨国企业到创新型公司——客户选择青颂，是因为我们以策略、执行力和结果为导向，在最关键的时刻赢得胜利。',
 }
 
-export const serviceCarouselItems = [
-  {
-    id: 'commercial-dispute',
-    image: '/about/image1/7.jpg',
-    category: 'COMMERCIAL DISPUTE RESOLUTION',
-    title: 'QingSong Represents Listed Company in RMB 50M+ Share Repurchase Dispute, Securing Favorable Settlement',
-    link: '/practice-areas',
-  },
-  {
-    id: 'cross-border-m&a',
-    image: '/about/image1/8.jpg',
-    category: 'CROSS-BORDER M&A',
-    title: 'QingSong Advises European Pharma Giant on Strategic Acquisition of Chinese Biotech Firm Valued at USD 120M',
-    link: '/practice-areas',
-  },
-  {
-    id: 'sports-law',
-    image: '/about/image1/5.jpg',
-    category: 'SPORTS & ENTERTAINMENT LAW',
-    title: 'QingSong Successfully Defends Premier League Club in Multi-Jurisdictional Player Transfer Arbitration',
-    link: '/practice-areas',
-  },
-  {
-    id: 'enforcement',
-    image: '/pic_best/2.png',
-    category: 'JUDGMENT ENFORCEMENT',
-    title: 'QingSong Recovers Over RMB 80M in Concealed Assets Through Innovative Cross-Regional Enforcement Strategy',
-    link: '/practice-areas',
-  },
+// 执业领域轮播数据（来自 practices.json）
+const practiceImages = [
+  '/about/image1/7.jpg',
+  '/about/image1/8.jpg',
+  '/about/image1/5.jpg',
+  '/pic_best/2.png',
+  '/about/image1/11.jpg',
+  '/about/image1/12.jpg',
 ]
+
+const practiceCategories = [
+  'FOREIGN INVESTMENT & M&A',
+  'COMMERCIAL DISPUTE RESOLUTION',
+  'JUDGMENT ENFORCEMENT',
+  'SPORTS & ENTERTAINMENT LAW',
+  'DEBT RESTRUCTURING',
+  'TAX SERVICES',
+]
+
+export const serviceCarouselItems = practicesJson.map((p, idx) => ({
+  id: p.slug,
+  image: practiceImages[idx % practiceImages.length],
+  category: practiceCategories[idx % practiceCategories.length],
+  title: p.name,
+  link: `/practice-areas/${p.slug}`,
+}))
 
 export const impactTabs = [
   {
@@ -87,29 +86,19 @@ export const philosophyData = {
   ctaHref: '/practice-areas',
 }
 
-export const advantageCards = [
-  {
-    id: 'global',
-    title: '全球化合作网络',
-    description:
-      '青颂与意大利、德国、西班牙、波兰、澳大利亚、新加坡、日本、泰国、韩国和美国等多个国家的律师事务所有着紧密的合作关系，能满足客户在境内外的多元化法律需求。',
-    image: '/article/12.jpg',
-  },
-  {
-    id: 'team-culture',
-    title: '团结奋进的团队文化',
-    description:
-      '青颂律师团队保持着团结友爱、钻研奋进的团队文化。在青颂，每位员工都拥有平等的发展机会与话语权，在律所的平台上共同向上生长。我们关心并重视每位员工的职业发展与身心健康。',
-    image: '/article/16.jpg',
-  },
-  {
-    id: 'business',
-    title: '超越法律的商业价值',
-    description:
-      '服务过程中，青颂始终以客户需求为核心，充分发挥专业团队的优势，利用国内及海外合作资源，在为客户提供高效高质的法律服务的同时，还为客户提供有效商业信息，积极促进客户间的商业合作。',
-    image: '/about/image1/7.jpg',
-  },
-]
+// 首页优势卡片 - 取自真实文章（前3篇）
+const articleImages = ['/article/12.jpg', '/article/16.jpg', '/about/image1/7.jpg']
+
+export const advantageCards = articlesJson.slice(0, 3).map((article, idx) => {
+  const desc = article.lead.length > 80 ? article.lead.slice(0, 80) + '…' : article.lead
+  return {
+    id: article.slug,
+    title: article.title,
+    description: desc,
+    image: articleImages[idx % articleImages.length],
+    link: `/article/${article.slug}`,
+  }
+})
 
 export const timelineTabs = [
   {

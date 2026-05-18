@@ -258,7 +258,12 @@ onUnmounted(() => {
     <!-- 6. 优势卡片 -->
     <section class="advantages-section">
       <div class="qs-container advantages-inner">
-        <div class="advantage-card" v-for="card in advantageCards" :key="card.id">
+        <NuxtLink
+          v-for="card in advantageCards"
+          :key="card.id"
+          :to="card.link"
+          class="advantage-card"
+        >
           <div class="card-media">
             <img :src="card.image" :alt="card.title" loading="lazy" />
           </div>
@@ -266,7 +271,7 @@ onUnmounted(() => {
             <h3 class="card-title">{{ card.title }}</h3>
             <p class="card-desc">{{ card.description }}</p>
           </div>
-        </div>
+        </NuxtLink>
       </div>
     </section>
 
