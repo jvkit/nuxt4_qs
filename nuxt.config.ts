@@ -13,7 +13,14 @@ const articleUrls = (articlesData as any[]).map((a) => ({
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  ignore: ['**/data.ts', '**/detail.data.ts', '**/style.css'],
+  // 注意：不要在此 ignore data.ts / style.css，否则会导致热更新失效
+  ignore: [],
+
+  // 开发服务器默认监听所有网络接口（局域网可访问）
+  devServer: {
+    host: '0.0.0.0',
+    port: 3000,
+  },
 
   css: ['~/assets/css/main.css'],
 

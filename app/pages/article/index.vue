@@ -1,10 +1,11 @@
 <script setup lang="ts">
 // 统一使用 default layout，Hero 背景由 config 控制
 import { ref, computed } from 'vue'
-import { articlesData } from './data'
+import { articlesRaw } from './data'
 import type { Article } from './data'
+import { useContent } from '~/composables/useContent'
 
-const articles = ref<Article[]>(articlesData as Article[])
+const articles = useContent(articlesRaw)
 const search = ref('')
 
 const filtered = computed(() => {

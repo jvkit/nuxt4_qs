@@ -1,8 +1,15 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import type { NavItem, NavMegaMenu, NavDropdown } from '~/utils/nav.model'
+import { useLocale } from '~/composables/useLocale'
 
 const props = defineProps<{ item: NavItem }>()
+
+const { t } = useLocale()
+
+function translateLabel(label: string, i18nKey?: string) {
+  return t.value(i18nKey || label)
+}
 
 const practiceLinks = ref<{ label: string; href: string }[]>([])
 
@@ -40,7 +47,7 @@ defineExpose({ refresh })
       <div class="megaCol">
         <ul class="megaList">
           <li v-for="link in practiceLinks" :key="link.href">
-            <NuxtLink :to="link.href">{{ link.label }}</NuxtLink>
+            <NuxtLink :to="link.href">{{ translateLabel(link.label, link.i18nKey) }}</NuxtLink>
           </li>
         </ul>
       </div>
@@ -53,7 +60,7 @@ defineExpose({ refresh })
         <h4 v-if="col.title" class="megaColTitle">{{ col.title }}</h4>
         <ul class="megaList">
           <li v-for="link in col.links" :key="link.href">
-            <NuxtLink :to="link.href">{{ link.label }}</NuxtLink>
+            <NuxtLink :to="link.href">{{ translateLabel(link.label, link.i18nKey) }}</NuxtLink>
           </li>
         </ul>
       </div>
@@ -126,5 +133,27 @@ defineExpose({ refresh })
   margin-top: 12px;
   padding-top: 12px;
   border-top: 1px solid var(--qs-color-border);
+}
+
+/* 移动端适配 */
+@media (max-width: 992px) {
+  .megaMenu {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: none;
+    color: #fff;
+  }
+  .megaColTitle {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+  .megaList li a {
+    color: rgba(255, 255, 255, 0.85);
+    padding: 10px 12px;
+  }
+  .megaList li a:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+  }
 }
 </style>

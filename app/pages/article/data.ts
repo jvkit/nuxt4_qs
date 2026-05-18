@@ -7,17 +7,30 @@ export interface ArticleBlock {
   caseId?: string
 }
 
-export interface Article {
-  id: number
-  slug: string
+export interface ArticleTranslation {
   title: string
   subtitle?: string
   lead: string
-  tags: string[]
   meta: Record<string, string>
   blocks: ArticleBlock[]
   conclusion?: string
   references: string[]
 }
 
-export { default as articlesData } from './articles.json'
+export interface ArticleRaw {
+  id: number
+  slug: string
+  date: string
+  tags: string[]
+  translations: Record<string, ArticleTranslation>
+}
+
+export interface Article extends ArticleTranslation {
+  id: number
+  slug: string
+  date: string
+  tags: string[]
+}
+
+import rawData from './articles.json'
+export const articlesRaw = rawData as ArticleRaw[]

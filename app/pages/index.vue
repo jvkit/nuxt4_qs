@@ -1,25 +1,34 @@
 <script setup lang="ts">
 definePageMeta({ layout: 'plain' })
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { useLocale } from '~/composables/useLocale'
 import {
-  heroData,
   serviceCarouselItems,
-  impactTabs,
-  philosophyData,
   advantageCards,
-  timelineTabs,
-  esgData,
+  getHomeData,
 } from './home/data'
 
-useSeoMeta({
-  title: '北京青颂律师事务所 - 专注商事争议解决',
-  description: '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。',
-  ogTitle: '北京青颂律师事务所 - 专注商事争议解决',
-  ogDescription: '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。',
+const { locale, t } = useLocale()
+
+const hd = computed(() => getHomeData(locale.value))
+
+useSeoMeta(() => ({
+  title: locale.value === 'zh'
+    ? '北京青颂律师事务所 - 专注商事争议解决'
+    : 'QingSong Law Firm - Commercial Dispute Resolution',
+  description: locale.value === 'zh'
+    ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
+    : 'Founded in 2004, QingSong Law Firm is a corporate boutique firm specializing in foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
+  ogTitle: locale.value === 'zh'
+    ? '北京青颂律师事务所 - 专注商事争议解决'
+    : 'QingSong Law Firm - Commercial Dispute Resolution',
+  ogDescription: locale.value === 'zh'
+    ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
+    : 'Founded in 2004, QingSong Law Firm is a corporate boutique firm specializing in foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogImage: 'https://qs-legal.com/about/about_us/heading.png',
   ogUrl: 'https://qs-legal.com/',
   twitterCard: 'summary_large_image',
-})
+}))
 
 const activeImpactTab = ref(0)
 const activeTimelineTab = ref(0)
@@ -34,11 +43,11 @@ interface Slide {
   subtitle: string
 }
 
-const slides = ref<Slide[]>([
-  { id: 1, image: '/about/image1/5.jpg', title: '追求卓越', subtitle: '以客户的商业目标作为导向' },
-  { id: 2, image: '/pic_best/buiding.png', title: '全球协作', subtitle: '携手十余国律所，提供境内外一体化法律服务' },
-  { id: 3, image: '/about/image1/1.jpg', title: '保持精进', subtitle: '用极致的专注解决复杂问题' },
-  { id: 4, image: '/pic_best/2.png', title: '使命必达', subtitle: '从策略制定到判决执行，全程护航客户权益' },
+const slides = computed<Slide[]>(() => [
+  { id: 1, image: '/about/image1/5.jpg', title: t.value('hero.slide1Title'), subtitle: t.value('hero.slide1Subtitle') },
+  { id: 2, image: '/pic_best/buiding.png', title: t.value('hero.slide2Title'), subtitle: t.value('hero.slide2Subtitle') },
+  { id: 3, image: '/about/image1/1.jpg', title: t.value('hero.slide3Title'), subtitle: t.value('hero.slide3Subtitle') },
+  { id: 4, image: '/pic_best/2.png', title: t.value('hero.slide4Title'), subtitle: t.value('hero.slide4Subtitle') },
 ])
 
 const active_index = ref(0)
@@ -174,8 +183,8 @@ onUnmounted(() => {
     <!-- 2. 主标题区 -->
     <section class="title-section">
       <div class="qs-container title-inner">
-        <h1 class="main-title">{{ heroData.title }}</h1>
-        <p class="main-desc">{{ heroData.description }}</p>
+        <h1 class="main-title">{{ hd.heroData.title }}</h1>
+        <p class="main-desc">{{ hd.heroData.description }}</p>
       </div>
     </section>
 
@@ -201,15 +210,15 @@ onUnmounted(() => {
     <!-- 4. 影响力 Tabs -->
     <section class="impact-section">
       <div class="qs-container impact-header">
-        <h2 class="section-title">我们如何发挥影响力</h2>
+        <h2 class="section-title">{{ t('home.impactTitle') }}</h2>
         <p class="section-desc">
-          深入了解青颂如何持续深耕专业领域、突破服务边界，并在本地及全球范围内为客户创造积极价值。
+          {{ t('home.impactDesc') }}
         </p>
       </div>
       <div class="tabs-wrapper">
         <div class="tab-list" role="tablist">
           <button
-            v-for="(tab, idx) in impactTabs"
+            v-for="(tab, idx) in hd.impactTabs"
             :key="tab.id"
             role="tab"
             class="tab-btn"
@@ -222,7 +231,7 @@ onUnmounted(() => {
         </div>
         <div class="tab-panels">
           <div
-            v-for="(tab, idx) in impactTabs"
+            v-for="(tab, idx) in hd.impactTabs"
             :key="tab.id"
             v-show="activeImpactTab === idx"
             role="tabpanel"
@@ -247,10 +256,10 @@ onUnmounted(() => {
     <!-- 5. 理念区 -->
     <section class="philosophy-section">
       <div class="qs-container philosophy-inner">
-        <h2 class="section-title">{{ philosophyData.title }}</h2>
-        <p class="section-desc">{{ philosophyData.description }}</p>
+        <h2 class="section-title">{{ hd.philosophyData.title }}</h2>
+        <p class="section-desc">{{ hd.philosophyData.description }}</p>
         <div class="cta-wrap">
-          <a :href="philosophyData.ctaHref" class="outline-btn">{{ philosophyData.ctaText }}</a>
+          <a :href="hd.philosophyData.ctaHref" class="outline-btn">{{ hd.philosophyData.ctaText }}</a>
         </div>
       </div>
     </section>
@@ -278,15 +287,15 @@ onUnmounted(() => {
     <!-- 7. 发展时间线 -->
     <section class="timeline-section">
       <div class="qs-container timeline-header">
-        <h2 class="section-title light">自 2004 年起，不断书写历史</h2>
+        <h2 class="section-title light">{{ t('home.timelineTitle') }}</h2>
         <p class="section-desc light">
-          探索青颂发展道路上的重要时刻——从 2004 年的创立起步，到国际化合作网络的建立，再到专业领域的持续深耕与突破。
+          {{ t('home.timelineDesc') }}
         </p>
       </div>
       <div class="tabs-wrapper dark">
         <div class="tab-list" role="tablist">
           <button
-            v-for="(tab, idx) in timelineTabs"
+            v-for="(tab, idx) in hd.timelineTabs"
             :key="tab.id"
             role="tab"
             class="tab-btn light"
@@ -299,7 +308,7 @@ onUnmounted(() => {
         </div>
         <div class="tab-panels">
           <div
-            v-for="(tab, idx) in timelineTabs"
+            v-for="(tab, idx) in hd.timelineTabs"
             :key="tab.id"
             v-show="activeTimelineTab === idx"
             role="tabpanel"
@@ -323,9 +332,9 @@ onUnmounted(() => {
     <!-- 8. ESG 理念 -->
     <section class="esg-section">
       <div class="qs-container esg-inner">
-        <h2 class="section-title light">{{ esgData.title }}</h2>
+        <h2 class="section-title light">{{ hd.esgData.title }}</h2>
         <div class="esg-body">
-          <p v-for="(p, idx) in esgData.paragraphs" :key="idx" class="esg-para">
+          <p v-for="(p, idx) in hd.esgData.paragraphs" :key="idx" class="esg-para">
             {{ p }}
           </p>
         </div>

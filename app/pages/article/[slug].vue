@@ -1,17 +1,14 @@
 <script setup lang="ts">
 // 统一使用 default layout，Hero 背景由 config 控制
-import { ref, computed } from 'vue'
-import { articlesData } from './data'
+import { computed } from 'vue'
+import { articlesRaw } from './data'
 import ArticleRenderer from '~/components/ArticleRenderer.vue'
-import type { Article } from './data'
+import { useContentItem } from '~/composables/useContent'
 
 const route = useRoute()
-const articles = ref<Article[]>(articlesData as Article[])
+const slug = computed(() => route.params.slug as string)
 
-const article = computed(() => {
-  const slug = route.params.slug as string
-  return articles.value.find((a) => a.slug === slug) || null
-})
+const article = useContentItem(articlesRaw, (a) => a.slug === slug.value)
 
 useSeoMeta({
   title: () => article.value?.title ? article.value.title + ' - 北京青颂律师事务所' : '文章详情',
