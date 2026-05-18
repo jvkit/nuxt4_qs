@@ -1,7 +1,7 @@
 {
   "attorney": {
     "image": "/head/1.png",
-    "height": "52vh"
+    "height": "40vh"
   },
   "attorney-id": {
     "image": "/head/2.png",
@@ -17,11 +17,11 @@
   },
   "practice-areas": {
     "image": "/head/7.png",
-    "height": "25vh"
+    "height": "30vh"
   },
   "practice-areas-slug": {
     "image": "/head/7.png",
-    "height": "35vh"
+    "height": "30vh"
   },
   "test": {
     "image": "/head/1.png",

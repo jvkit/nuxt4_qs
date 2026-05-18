@@ -259,12 +259,12 @@ useSchemaOrg(() =>
 
 .lawyer-hero__title {
   font-size: 18px;
-  color: var(--qs-color-brand);
+  color:#a5f1eb;
   margin-bottom: 12px;
 }
 
 .lawyer-hero__email {
-  color: var(--qs-color-brand);
+  color:#a5f1eb;
   text-decoration: none;
   display: block;
   margin-bottom: 8px;
