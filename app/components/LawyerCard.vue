@@ -9,6 +9,9 @@
  */
 
 import type { Lawyer } from '~/pages/attorney/data'
+import { useLocale } from '~/composables/useLocale'
+
+const { locale, t } = useLocale()
 
 // ----------------------------------------
 // Props 定义：组件的 "输入接口"
@@ -38,6 +41,65 @@ const emit = defineEmits<{
   /** 点击 "发送邮件" 时触发，携带邮箱地址 */
   (e: 'sendEmail', email: string): void
 }>()
+
+// 专业领域名称映射（中→英）
+const areaNameMap: Record<string, string> = {
+  '商事争议解决': 'Dispute Resolution',
+  '执行': 'Enforcement',
+  '强制执行': 'Enforcement',
+  '执行异议': 'Enforcement Objection',
+  '涉外法律咨询': 'Foreign-related Legal Advisory',
+  '体育仲裁': 'Sports Arbitration',
+  '劳动人事': 'Labour & Employment',
+  '公司治理': 'Corporate Governance',
+  '跨境交易': 'Cross-border Transactions',
+  '并购': 'M&A',
+  '合资合作': 'Joint Ventures',
+  '私募股权': 'Private Equity',
+  '国际仲裁': 'International Arbitration',
+  'GDPR合规': 'GDPR Compliance',
+  '税法服务': 'Tax Services',
+  '国际税务': 'International Tax',
+  '资产处置': 'Asset Disposal',
+  '民商事争议': 'Civil & Commercial Disputes',
+  '民商事争议解决': 'Civil & Commercial Dispute Resolution',
+  '投融资': 'Investment & Financing',
+  '行政诉讼': 'Administrative Litigation',
+  '刑事辩护': 'Criminal Defense',
+}
+
+function translateArea(name: string) {
+  if (locale.value === 'zh') return name
+  return areaNameMap[name] || name
+}
+
+function displayName(lawyer: Lawyer) {
+  if (locale.value === 'zh') return lawyer.name
+  return lawyer.name_en || lawyer.name
+}
+
+function displayTitle(lawyer: Lawyer) {
+  if (locale.value === 'zh') return lawyer.title
+  const map: Record<string, string> = {
+    '合伙人': 'Partner',
+    '顾问': 'Consultant',
+    '顾问律师/助理教授': 'Consultant Attorney / Assistant Professor',
+    '资深律师': 'Senior Attorney',
+    '执业律师': 'Attorney',
+  }
+  return lawyer.title_en || map[lawyer.title] || lawyer.title
+}
+
+function displayOffice(lawyer: Lawyer) {
+  if (locale.value === 'zh') return lawyer.office
+  const map: Record<string, string> = { '北京': 'Beijing', '上海': 'Shanghai', '罗马': 'Rome', '墨尔本': 'Melbourne' }
+  return lawyer.office_en || map[lawyer.office] || lawyer.office
+}
+
+function displayBio(lawyer: Lawyer) {
+  if (locale.value === 'zh') return lawyer.bio
+  return lawyer.bio_en || lawyer.bio
+}
 </script>
 
 <template>
@@ -57,19 +119,19 @@ const emit = defineEmits<{
     <div class="lawyer-card__avatar-wrapper">
       <img
         :src="lawyer.avatar || lawyer.image_url"
-        :alt="lawyer.name"
+        :alt="displayName(lawyer)"
         class="lawyer-card__avatar"
       />
       <!-- 重点推荐角标 -->
-      <span v-if="lawyer.featured" class="lawyer-card__badge">推荐</span>
+      <span v-if="lawyer.featured" class="lawyer-card__badge">{{ t('attorney.featured') }}</span>
     </div>
 
     <!-- 信息区域 -->
     <div class="lawyer-card__body">
       <header class="lawyer-card__header">
-        <h3 class="lawyer-card__name">{{ lawyer.name }}</h3>
-        <span class="lawyer-card__title">{{ lawyer.title }}</span>
-        <span class="lawyer-card__office">{{ lawyer.office }}</span>
+        <h3 class="lawyer-card__name">{{ displayName(lawyer) }}</h3>
+        <span class="lawyer-card__title">{{ displayTitle(lawyer) }}</span>
+        <span class="lawyer-card__office">{{ displayOffice(lawyer) }}</span>
       </header>
 
       <!-- 专业领域：使用 v-for 循环渲染标签 -->
@@ -79,12 +141,12 @@ const emit = defineEmits<{
           :key="area.name"
           class="lawyer-card__area-tag"
         >
-          {{ area.name }}
+          {{ translateArea(area.name) }}
         </li>
       </ul>
 
       <!-- 简介：限制行数，保持卡片高度统一 -->
-      <p class="lawyer-card__bio">{{ lawyer.bio }}</p>
+      <p class="lawyer-card__bio">{{ displayBio(lawyer) }}</p>
 
       <!-- 操作按钮 -->
       <footer class="lawyer-card__actions">
@@ -92,14 +154,8 @@ const emit = defineEmits<{
           class="btn btn--primary"
           @click="emit('viewDetail', lawyer.id)"
         >
-          查看详情
+          {{ t('attorney.viewProfile') }}
         </button>
-        <!-- <button
-          class="btn btn--ghost"
-          @click="emit('sendEmail', lawyer.email)"
-        >
-          发送邮件
-        </button> -->
       </footer>
     </div>
   </article>

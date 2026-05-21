@@ -14,6 +14,9 @@
 import { ref, computed, onMounted } from 'vue'
 import LawyerCard from '~/components/LawyerCard.vue'
 import type { Lawyer } from './data'
+import { useLocale } from '~/composables/useLocale'
+
+const { locale, t } = useLocale()
 
 // ----------------------------------------
 // 响应式状态
@@ -29,30 +32,67 @@ const errorMsg = ref('')
 const layoutMode = ref<'horizontal' | 'vertical'>('horizontal')
 
 /** 当前选中的专业领域筛选条件 */
-const selectedArea = ref<string>('全部')
+const selectedArea = ref<string>('')
 
 /** 当前选中的办公室筛选条件 */
-const selectedOffice = ref<string>('全部')
+const selectedOffice = ref<string>('')
+
+// 专业领域名称映射（中→英）
+const areaNameMap: Record<string, string> = {
+  '商事争议解决': 'Dispute Resolution',
+  '执行': 'Enforcement',
+  '强制执行': 'Enforcement',
+  '执行异议': 'Enforcement Objection',
+  '涉外法律咨询': 'Foreign-related Legal Advisory',
+  '体育仲裁': 'Sports Arbitration',
+  '劳动人事': 'Labour & Employment',
+  '公司治理': 'Corporate Governance',
+  '跨境交易': 'Cross-border Transactions',
+  '并购': 'M&A',
+  '合资合作': 'Joint Ventures',
+  '私募股权': 'Private Equity',
+  '国际仲裁': 'International Arbitration',
+  'GDPR合规': 'GDPR Compliance',
+  '税法服务': 'Tax Services',
+  '国际税务': 'International Tax',
+  '资产处置': 'Asset Disposal',
+  '民商事争议': 'Civil & Commercial Disputes',
+  '民商事争议解决': 'Civil & Commercial Dispute Resolution',
+  '投融资': 'Investment & Financing',
+  '行政诉讼': 'Administrative Litigation',
+  '刑事辩护': 'Criminal Defense',
+}
+
+function translateArea(name: string) {
+  if (locale.value === 'zh') return name
+  return areaNameMap[name] || name
+}
+
+function translateOffice(name: string) {
+  if (locale.value === 'zh') return name
+  const map: Record<string, string> = { '北京': 'Beijing', '上海': 'Shanghai', '罗马': 'Rome', '墨尔本': 'Melbourne' }
+  return map[name] || name
+}
 
 // ----------------------------------------
 // 计算属性：派生数据
 // ----------------------------------------
 
 /** 所有可选的专业领域（包含 "全部"） */
-const areaOptions = computed(() => ['全部', ...practiceAreaOptionsFromApi.value])
+const areaOptions = computed(() => ['', ...practiceAreaOptionsFromApi.value])
 
 /** 所有可选的办公室（包含 "全部"） */
-const officeOptions = computed(() => ['全部', ...officeOptionsFromApi.value])
+const officeOptions = computed(() => ['', ...officeOptionsFromApi.value])
 
 /** 根据筛选条件过滤后的律师列表 */
 const filteredLawyers = computed(() => {
   return lawyers.value.filter((lawyer) => {
     const matchArea =
-      selectedArea.value === '全部' ||
+      selectedArea.value === '' ||
       lawyer.practice_areas.some((a) => a.name === selectedArea.value)
 
     const matchOffice =
-      selectedOffice.value === '全部' || lawyer.office === selectedOffice.value
+      selectedOffice.value === '' || lawyer.office === selectedOffice.value
 
     return matchArea && matchOffice
   })
@@ -75,7 +115,7 @@ async function fetchData() {
     officeOptionsFromApi.value = res.offices
     practiceAreaOptionsFromApi.value = res.practice_areas
   } catch (e) {
-    errorMsg.value = '加载律师数据失败，请稍后重试'
+    errorMsg.value = t('attorney.loadError')
     console.error(e)
   } finally {
     loading.value = false
@@ -85,8 +125,6 @@ async function fetchData() {
 // ----------------------------------------
 // 事件处理
 // ----------------------------------------
-
-const router = useRouter()
 
 function onViewDetail(id: number) {
   navigateTo('/attorney/' + id)
@@ -109,10 +147,10 @@ onMounted(() => {
 // ----------------------------------------
 
 useSeoMeta({
-  title: '专业人员 - 北京青颂律师事务所',
-  description: '青颂律师事务所专业律师团队，覆盖涉外法律咨询、争议解决、执行领域及体育法律服务。',
-  ogTitle: '专业人员 - 北京青颂律师事务所',
-  ogDescription: '青颂律师事务所专业律师团队，覆盖涉外法律咨询、争议解决、执行领域及体育法律服务。',
+  title: () => t.value('attorney.pageTitle') + ' - QingSolve Law Firm',
+  description: 'QingSolve Law Firm professional attorney team, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
+  ogTitle: () => t.value('attorney.pageTitle') + ' - QingSolve Law Firm',
+  ogDescription: 'QingSolve Law Firm professional attorney team, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogImage: 'https://qs-legal.com/head/1.png',
   ogUrl: 'https://qs-legal.com/attorney',
   twitterCard: 'summary_large_image',
@@ -121,14 +159,14 @@ useSeoMeta({
 
 <template>
   <div class="attorney-page">
-    <BreadcrumbBar :items="[{ label: '首页', href: '/' }, { label: '专业人员' }]" />
+    <BreadcrumbBar :items="[{ label: t('attorney.breadcrumbHome'), href: '/' }, { label: t('attorney.breadcrumbCurrent') }]" />
     <section class="lawyer-list">
       <div class="qs-container">
         <!-- 页面标题 -->
       <header class="lawyer-list__header">
-        <h1 class="lawyer-list__title">专业人员</h1>
+        <h1 class="lawyer-list__title">{{ t('attorney.pageTitle') }}</h1>
         <p class="lawyer-list__subtitle">
-          我们拥有一支由资深律师组成的专业团队，覆盖多个核心执业领域
+          {{ t('attorney.pageSubtitle') }}
         </p>
       </header>
 
@@ -137,20 +175,22 @@ useSeoMeta({
         <div class="lawyer-list__filters">
           <!-- 专业领域筛选 -->
           <label class="filter-group">
-            <span class="filter-label">专业领域</span>
+            <span class="filter-label">{{ t('attorney.filterArea') }}</span>
             <select v-model="selectedArea" class="filter-select">
-              <option v-for="opt in areaOptions" :key="opt" :value="opt">
-                {{ opt }}
+              <option value="">{{ t('attorney.filterAll') }}</option>
+              <option v-for="opt in practiceAreaOptionsFromApi" :key="opt" :value="opt">
+                {{ translateArea(opt) }}
               </option>
             </select>
           </label>
 
           <!-- 办公室筛选 -->
           <label class="filter-group">
-            <span class="filter-label">办公室</span>
+            <span class="filter-label">{{ t('attorney.filterOffice') }}</span>
             <select v-model="selectedOffice" class="filter-select">
-              <option v-for="opt in officeOptions" :key="opt" :value="opt">
-                {{ opt }}
+              <option value="">{{ t('attorney.filterAll') }}</option>
+              <option v-for="opt in officeOptionsFromApi" :key="opt" :value="opt">
+                {{ translateOffice(opt) }}
               </option>
             </select>
           </label>
@@ -179,11 +219,11 @@ useSeoMeta({
 
       <!-- 结果统计 -->
       <p v-if="!loading && !errorMsg" class="lawyer-list__count">
-        共找到 {{ filteredLawyers.length }} 位律师
+        {{ t('attorney.countPrefix') }} {{ filteredLawyers.length }} {{ t('attorney.countSuffix') }}
       </p>
 
       <!-- 加载与错误状态 -->
-      <div v-if="loading" class="lawyer-list__empty">加载中…</div>
+      <div v-if="loading" class="lawyer-list__empty">{{ t('attorney.loading') }}</div>
       <div v-else-if="errorMsg" class="lawyer-list__empty error">{{ errorMsg }}</div>
 
       <!--
@@ -211,7 +251,7 @@ useSeoMeta({
 
       <!-- 空状态 -->
       <div v-if="!loading && !errorMsg && filteredLawyers.length === 0" class="lawyer-list__empty">
-        <p>没有找到符合条件的律师，请尝试调整筛选条件。</p>
+        <p>{{ t('attorney.noResult') }}</p>
       </div>
     </div>
   </section>

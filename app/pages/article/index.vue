@@ -2,10 +2,12 @@
 // 统一使用 default layout，Hero 背景由 config 控制
 import { ref, computed } from 'vue'
 import { articlesRaw } from './data'
-import type { Article } from './data'
+import type { ArticleRaw } from './data'
 import { useContent } from '~/composables/useContent'
+import { useLocale } from '~/composables/useLocale'
 
-const articles = useContent(articlesRaw)
+const { t } = useLocale()
+const articles = useContent(articlesRaw as ArticleRaw[])
 const search = ref('')
 
 const filtered = computed(() => {
@@ -21,10 +23,10 @@ function goDetail(slug: string) {
 }
 
 useSeoMeta({
-  title: '专业文章 - 北京青颂律师事务所',
-  description: '青颂律师事务所专业团队撰写的法律实务文章，涵盖商事争议解决、涉外法律等多个领域。',
-  ogTitle: '专业文章 - 北京青颂律师事务所',
-  ogDescription: '青颂律师事务所专业团队撰写的法律实务文章，涵盖商事争议解决、涉外法律等多个领域。',
+  title: () => t.value('article.pageTitle') + ' - QingSolve Law Firm',
+  description: 'Legal practice articles written by the professional team of QingSolve Law Firm, covering commercial dispute resolution, foreign-related law, and more.',
+  ogTitle: () => t.value('article.pageTitle') + ' - QingSolve Law Firm',
+  ogDescription: 'Legal practice articles written by the professional team of QingSolve Law Firm.',
   ogImage: 'https://qs-legal.com/head/4.png',
   ogUrl: 'https://qs-legal.com/article',
   twitterCard: 'summary_large_image',
@@ -33,19 +35,19 @@ useSeoMeta({
 
 <template>
   <div class="article-page">
-    <BreadcrumbBar :items="[{ label: '首页', href: '/' }, { label: '专业文章' }]" />
+    <BreadcrumbBar :items="[{ label: t('article.breadcrumbHome'), href: '/' }, { label: t('article.breadcrumbCurrent') }]" />
     <section class="article-list">
       <div class="qs-container">
         <header class="article-list__header">
-        <h1 class="article-list__title">专业文章</h1>
+        <h1 class="article-list__title">{{ t('article.pageTitle') }}</h1>
         <p class="article-list__subtitle">
-          青颂律师事务所专业团队撰写的法律实务文章
+          {{ t('article.pageSubtitle') }}
         </p>
         <div class="article-list__search">
           <input
             v-model="search"
             type="text"
-            placeholder="搜索文章..."
+            :placeholder="t('article.searchPlaceholder')"
             class="search-input"
           />
         </div>
@@ -62,12 +64,12 @@ useSeoMeta({
           <div class="article-card__body">
             <h3 class="article-card__title">{{ article.title }}</h3>
             <p class="article-card__lead">{{ article.lead.slice(0, 120) }}...</p>
-            <span class="article-card__more">阅读全文 →</span>
+            <span class="article-card__more">{{ t('article.readMore') }} →</span>
           </div>
         </article>
       </div>
 
-      <p v-if="!filtered.length" class="article-list__empty">没有找到相关文章</p>
+      <p v-if="!filtered.length" class="article-list__empty">{{ t('article.noResult') }}</p>
     </div>
   </section>
 </div>

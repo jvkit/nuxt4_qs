@@ -10,24 +10,23 @@
  */
 
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
-import { practicesData } from './data'
-import type { Practice } from './data'
+import { practicesRaw } from './data'
+import type { PracticeRaw } from './data'
+import { useContentItem } from '~/composables/useContent'
+import { useLocale } from '~/composables/useLocale'
 
 const route = useRoute()
-const practices = ref<Practice[]>(practicesData as Practice[])
+const { t } = useLocale()
 
-const practice = computed(() => {
-  const slug = route.params.slug as string
-  return practices.value.find((p) => p.slug === slug) || null
-})
+const practice = useContentItem(practicesRaw as PracticeRaw[], (p) => p.slug === (route.params.slug as string))
 
 /* -------- 目录导航 -------- */
 const navItems = computed(() => {
   const items: { id: string; label: string }[] = []
   if (!practice.value) return items
-  if (practice.value.overview.length) items.push({ id: 'overview', label: '概述' })
-  if (practice.value.cases.length) items.push({ id: 'cases', label: '代表性案例' })
-  if (practice.value.services.length) items.push({ id: 'services', label: '法律服务内容' })
+  if (practice.value.overview.length) items.push({ id: 'overview', label: t.value('practiceAreas.detailOverview') })
+  if (practice.value.cases.length) items.push({ id: 'cases', label: t.value('practiceAreas.detailCases') })
+  if (practice.value.services.length) items.push({ id: 'services', label: t.value('practiceAreas.detailServices') })
   return items
 })
 
@@ -62,10 +61,10 @@ onMounted(() => {
 onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 useSeoMeta({
-  title: () => practice.value?.name ? practice.value.name + ' - 北京青颂律师事务所' : '专业领域详情',
-  description: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : '青颂律师事务所专业领域详情',
-  ogTitle: () => practice.value?.name ? practice.value.name + ' - 北京青颂律师事务所' : '专业领域详情',
-  ogDescription: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : '青颂律师事务所专业领域详情',
+  title: () => practice.value?.name ? practice.value.name + ' - QingSolve Law Firm' : 'Practice Area Detail',
+  description: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : 'QingSolve Law Firm practice area details',
+  ogTitle: () => practice.value?.name ? practice.value.name + ' - QingSolve Law Firm' : 'Practice Area Detail',
+  ogDescription: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : 'QingSolve Law Firm practice area details',
   ogImage: 'https://qs-legal.com/head/7.png',
   ogUrl: () => 'https://qs-legal.com/practice-areas/' + route.params.slug,
   twitterCard: 'summary_large_image',
@@ -74,7 +73,11 @@ useSeoMeta({
 
 <template>
   <div v-if="practice" class="practice-detail">
-    <BreadcrumbBar :items="[{ label: '首页', href: '/' }, { label: '专业领域', href: '/practice-areas' }, { label: practice.name }]" />
+    <BreadcrumbBar :items="[
+      { label: t('practiceAreas.breadcrumbHome'), href: '/' },
+      { label: t('practiceAreas.breadcrumbCurrent'), href: '/practice-areas' },
+      { label: practice.name }
+    ]" />
     <header class="pa-header">
       <div class="qs-container">
         <h1 class="pa-header__title">{{ practice.name }}</h1>
@@ -84,7 +87,7 @@ useSeoMeta({
     <div class="qs-container pa-body">
       <!-- 左侧导航 -->
       <aside class="pa-nav">
-        <div class="pa-nav__title">目录</div>
+        <div class="pa-nav__title">{{ t('practiceAreas.detailToc') }}</div>
         <nav class="pa-nav__list">
           <button
             v-for="item in navItems"
@@ -106,7 +109,7 @@ useSeoMeta({
           id="section-overview"
           class="pa-section"
         >
-          <h2 class="pa-section__title">概述</h2>
+          <h2 class="pa-section__title">{{ t('practiceAreas.detailOverview') }}</h2>
           <div class="pa-section__body">
             <p v-for="(text, i) in practice.overview" :key="i">{{ text }}</p>
           </div>
@@ -118,7 +121,7 @@ useSeoMeta({
           id="section-cases"
           class="pa-section"
         >
-          <h2 class="pa-section__title">代表性案例</h2>
+          <h2 class="pa-section__title">{{ t('practiceAreas.detailCases') }}</h2>
           <ul class="pa-case-list">
             <li v-for="(c, i) in practice.cases" :key="i">{{ c }}</li>
           </ul>
@@ -130,7 +133,7 @@ useSeoMeta({
           id="section-services"
           class="pa-section"
         >
-          <h2 class="pa-section__title">法律服务内容</h2>
+          <h2 class="pa-section__title">{{ t('practiceAreas.detailServices') }}</h2>
           <div class="pa-service-tags">
             <span v-for="(s, i) in practice.services" :key="i" class="pa-service-tag">{{ s }}</span>
           </div>
@@ -144,14 +147,14 @@ useSeoMeta({
       :class="{ 'is-visible': showTop }"
       @click="scrollToTop()"
     >
-      ↑
+      {{ t('common.backToTop') }}
     </button>
   </div>
 
   <div v-else class="practice-notfound">
     <div class="qs-container">
-      <p>专业领域不存在</p>
-      <NuxtLink to="/practice-areas">返回列表</NuxtLink>
+      <p>{{ t('practiceAreas.detailNotFound') }}</p>
+      <NuxtLink to="/practice-areas">{{ t('practiceAreas.detailBack') }}</NuxtLink>
     </div>
   </div>
 </template>

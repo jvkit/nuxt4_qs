@@ -1,9 +1,11 @@
-export interface Practice {
-  name: string
+export interface PracticeRaw {
   slug: string
-  overview: string[]
-  cases: string[]
-  services: string[]
+  translations: Record<string, {
+    name: string
+    overview: string[]
+    cases: string[]
+    services: string[]
+  }>
 }
 
-export { default as practicesData } from './practices.json'
+export { default as practicesRaw } from './practices.json'

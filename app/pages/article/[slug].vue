@@ -2,19 +2,22 @@
 // 统一使用 default layout，Hero 背景由 config 控制
 import { computed } from 'vue'
 import { articlesRaw } from './data'
+import type { ArticleRaw } from './data'
 import ArticleRenderer from '~/components/ArticleRenderer.vue'
 import { useContentItem } from '~/composables/useContent'
+import { useLocale } from '~/composables/useLocale'
 
 const route = useRoute()
+const { locale, t } = useLocale()
 const slug = computed(() => route.params.slug as string)
 
-const article = useContentItem(articlesRaw, (a) => a.slug === slug.value)
+const article = useContentItem(articlesRaw as ArticleRaw[], (a) => a.slug === slug.value)
 
 useSeoMeta({
-  title: () => article.value?.title ? article.value.title + ' - 北京青颂律师事务所' : '文章详情',
-  description: () => article.value?.lead ? article.value.lead.slice(0, 160) : '青颂律师事务所专业文章',
-  ogTitle: () => article.value?.title ? article.value.title + ' - 北京青颂律师事务所' : '文章详情',
-  ogDescription: () => article.value?.lead ? article.value.lead.slice(0, 160) : '青颂律师事务所专业文章',
+  title: () => article.value?.title ? article.value.title + ' - QingSolve Law Firm' : 'Article Detail',
+  description: () => article.value?.lead ? article.value.lead.slice(0, 160) : 'QingSolve Law Firm article',
+  ogTitle: () => article.value?.title ? article.value.title + ' - QingSolve Law Firm' : 'Article Detail',
+  ogDescription: () => article.value?.lead ? article.value.lead.slice(0, 160) : 'QingSolve Law Firm article',
   ogImage: 'https://qs-legal.com/head/5.png',
   ogUrl: () => 'https://qs-legal.com/article/' + route.params.slug,
   twitterCard: 'summary_large_image',
@@ -28,14 +31,14 @@ useSchemaOrg(() =>
           description: article.value.lead,
           author: {
             '@type': 'Organization',
-            name: article.value.meta.author || '青颂律师事务所',
+            name: article.value.meta?.author || (locale.value === 'zh' ? '青颂律师事务所' : 'QingSolve Law Firm'),
           },
-          datePublished: article.value.meta.date,
-          dateModified: article.value.meta.date,
+          datePublished: article.value.meta?.date,
+          dateModified: article.value.meta?.date,
           image: 'https://qs-legal.com/head/5.png',
           publisher: {
             '@type': 'Organization',
-            name: '北京青颂律师事务所',
+            name: locale.value === 'zh' ? '北京青颂律师事务所' : 'Beijing QingSolve Law Firm',
             url: 'https://qs-legal.com',
           },
         }),
@@ -46,7 +49,11 @@ useSchemaOrg(() =>
 
 <template>
   <div v-if="article" class="article-detail-page">
-    <BreadcrumbBar :items="[{ label: '首页', href: '/' }, { label: '专业文章', href: '/article' }, { label: article.title }]" />
+    <BreadcrumbBar :items="[
+      { label: t('article.breadcrumbHome'), href: '/' },
+      { label: t('article.breadcrumbCurrent'), href: '/article' },
+      { label: article.title }
+    ]" />
     <header class="article-header">
       <div class="qs-container">
         <h1 class="article-header__title">{{ article.title }}</h1>
@@ -60,8 +67,8 @@ useSchemaOrg(() =>
   </div>
   <div v-else class="article-notfound">
     <div class="qs-container">
-      <p>文章不存在或已被删除</p>
-      <NuxtLink to="/article">返回文章列表</NuxtLink>
+      <p>{{ t('article.detailNotFound') }}</p>
+      <NuxtLink to="/article">{{ t('article.detailBack') }}</NuxtLink>
     </div>
   </div>
 </template>

@@ -1,20 +1,23 @@
 <script setup lang="ts">
 // 统一使用 default layout，Hero 背景由 config 控制
-import { ref } from 'vue'
-import { practicesData } from './data'
-import type { Practice } from './data'
+import { computed } from 'vue'
+import { practicesRaw } from './data'
+import type { PracticeRaw } from './data'
+import { useContent } from '~/composables/useContent'
+import { useLocale } from '~/composables/useLocale'
 
-const practices = ref<Practice[]>(practicesData as Practice[])
+const { t } = useLocale()
+const practices = useContent(practicesRaw as PracticeRaw[])
 
 function goDetail(slug: string) {
   navigateTo('/practice-areas/' + slug)
 }
 
 useSeoMeta({
-  title: '专业领域 - 北京青颂律师事务所',
-  description: '青颂律师事务所专注商事法律领域，涵盖涉外法律咨询、争议解决、执行领域及体育法律服务。',
-  ogTitle: '专业领域 - 北京青颂律师事务所',
-  ogDescription: '青颂律师事务所专注商事法律领域，涵盖涉外法律咨询、争议解决、执行领域及体育法律服务。',
+  title: () => t.value('practiceAreas.pageTitle') + ' - QingSolve Law Firm',
+  description: 'QingSolve Law Firm focuses on commercial legal services, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
+  ogTitle: () => t.value('practiceAreas.pageTitle') + ' - QingSolve Law Firm',
+  ogDescription: 'QingSolve Law Firm focuses on commercial legal services, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogImage: 'https://qs-legal.com/head/7.png',
   ogUrl: 'https://qs-legal.com/practice-areas',
   twitterCard: 'summary_large_image',
@@ -23,13 +26,13 @@ useSeoMeta({
 
 <template>
   <div class="pa-page">
-    <BreadcrumbBar :items="[{ label: '首页', href: '/' }, { label: '专业领域' }]" />
+    <BreadcrumbBar :items="[{ label: t('practiceAreas.breadcrumbHome'), href: '/' }, { label: t('practiceAreas.breadcrumbCurrent') }]" />
     <section class="pa-list">
       <div class="qs-container">
         <header class="pa-list__header">
-        <h1 class="pa-list__title">专业领域</h1>
+        <h1 class="pa-list__title">{{ t('practiceAreas.pageTitle') }}</h1>
         <p class="pa-list__subtitle">
-          青颂专注商事法律领域，为客户提供专业、务实的法律服务
+          {{ t('practiceAreas.pageSubtitle') }}
         </p>
       </header>
 
@@ -42,7 +45,7 @@ useSeoMeta({
         >
           <h3 class="pa-card__title">{{ p.name }}</h3>
           <p class="pa-card__lead">{{ p.overview[0]?.slice(0, 100) }}...</p>
-          <span class="pa-card__more">了解详情 →</span>
+          <span class="pa-card__more">{{ t('practiceAreas.readMore') }} →</span>
         </article>
       </div>
     </div>

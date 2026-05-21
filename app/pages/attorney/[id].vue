@@ -10,13 +10,57 @@ definePageMeta({ layout: 'default' })
 
 import { ref, onMounted, computed } from 'vue'
 import type { LawyerDetail } from './detail.data'
-import { detailNavItems, render_markdown } from './detail.data'
+import { getDetailNavItems, render_markdown } from './detail.data'
+import { useLocale } from '~/composables/useLocale'
 
 const route = useRoute()
+const { locale, t } = useLocale()
 const lawyer = ref<LawyerDetail | null>(null)
 const loading = ref(false)
 const errorMsg = ref('')
 const activeSection = ref('resume')
+
+function displayName() {
+  if (!lawyer.value) return ''
+  if (locale.value === 'zh') return lawyer.value.name
+  return lawyer.value.name_en || lawyer.value.name
+}
+
+function displayTitle() {
+  if (!lawyer.value) return ''
+  if (locale.value === 'zh') return lawyer.value.title
+  const map: Record<string, string> = {
+    '合伙人': 'Partner',
+    '顾问': 'Consultant',
+    '顾问律师/助理教授': 'Consultant Attorney / Assistant Professor',
+    '资深律师': 'Senior Attorney',
+    '执业律师': 'Attorney',
+  }
+  return lawyer.value.title_en || map[lawyer.value.title] || lawyer.value.title
+}
+
+function displayOffice() {
+  if (!lawyer.value) return ''
+  if (locale.value === 'zh') return lawyer.value.office
+  const map: Record<string, string> = { '北京': 'Beijing', '上海': 'Shanghai', '罗马': 'Rome', '墨尔本': 'Melbourne' }
+  return lawyer.value.office_en || map[lawyer.value.office] || lawyer.value.office
+}
+
+function displayBio() {
+  if (!lawyer.value) return ''
+  if (locale.value === 'zh') return lawyer.value.bio
+  return lawyer.value.bio_en || lawyer.value.bio
+}
+
+function displayProfile(key: keyof AttorneyProfile) {
+  if (!lawyer.value) return ''
+  const enProfile = lawyer.value.profile_en
+  const zhProfile = lawyer.value.profile
+  if (locale.value === 'zh') {
+    return zhProfile?.[key] || ''
+  }
+  return enProfile?.[key] || zhProfile?.[key] || ''
+}
 
 async function fetchLawyer() {
   const id = Number(route.params.id)
@@ -30,10 +74,10 @@ async function fetchLawyer() {
     }>('/attorneys/data.json')
     lawyer.value = res.attorneys.find((a) => a.id === id) || null
     if (!lawyer.value) {
-      errorMsg.value = '未找到该律师信息'
+      errorMsg.value = t('attorney.detailNotFound')
     }
   } catch (e) {
-    errorMsg.value = '加载律师数据失败，请稍后重试'
+    errorMsg.value = t('attorney.detailLoadError')
     console.error(e)
   } finally {
     loading.value = false
@@ -50,11 +94,13 @@ function scrollToSection(key: string) {
 
 onMounted(fetchLawyer)
 
+const detailNavItems = computed(() => getDetailNavItems())
+
 useSeoMeta({
-  title: () => lawyer.value?.name ? lawyer.value.name + ' - 北京青颂律师事务所' : '律师详情',
-  description: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : '青颂律师事务所专业律师详情',
-  ogTitle: () => lawyer.value?.name ? lawyer.value.name + ' - 北京青颂律师事务所' : '律师详情',
-  ogDescription: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : '青颂律师事务所专业律师详情',
+  title: () => lawyer.value?.name ? lawyer.value.name + ' - QingSolve Law Firm' : 'Attorney Detail',
+  description: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : 'QingSolve Law Firm attorney details',
+  ogTitle: () => lawyer.value?.name ? lawyer.value.name + ' - QingSolve Law Firm' : 'Attorney Detail',
+  ogDescription: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : 'QingSolve Law Firm attorney details',
   ogImage: () => lawyer.value?.avatar ? 'https://qs-legal.com' + lawyer.value.avatar : 'https://qs-legal.com/head/2.png',
   ogUrl: () => 'https://qs-legal.com/attorney/' + route.params.id,
   twitterCard: 'summary_large_image',
@@ -74,7 +120,7 @@ useSchemaOrg(() =>
           telephone: lawyer.value.phone,
           worksFor: {
             '@type': 'Organization',
-            name: '北京青颂律师事务所',
+            name: locale.value === 'zh' ? '北京青颂律师事务所' : 'Beijing QingSolve Law Firm',
             url: 'https://qs-legal.com',
           },
         }),
@@ -84,10 +130,14 @@ useSchemaOrg(() =>
 </script>
 
 <template>
-  <div v-if="loading" class="lawyer-detail__loading">加载中…</div>
+  <div v-if="loading" class="lawyer-detail__loading">{{ t('attorney.detailLoading') }}</div>
   <div v-else-if="errorMsg" class="lawyer-detail__error">{{ errorMsg }}</div>
   <div v-else-if="lawyer" class="lawyer-detail">
-    <BreadcrumbBar :items="[{ label: '首页', href: '/' }, { label: '专业人员', href: '/attorney' }, { label: lawyer.name }]" />
+    <BreadcrumbBar :items="[
+      { label: t('attorney.breadcrumbHome'), href: '/' },
+      { label: t('attorney.breadcrumbCurrent'), href: '/attorney' },
+      { label: lawyer.name }
+    ]" />
     <!-- 顶部 Hero -->
     <section class="lawyer-hero">
       <div class="qs-container lawyer-hero__inner">
@@ -95,8 +145,8 @@ useSchemaOrg(() =>
           <img :src="lawyer.avatar || lawyer.image_url" :alt="lawyer.name" />
         </div>
         <div class="lawyer-hero__info">
-          <h1 class="lawyer-hero__name">{{ lawyer.name }}</h1>
-          <p class="lawyer-hero__title">{{ lawyer.title }}</p>
+          <h1 class="lawyer-hero__name">{{ displayName() }}</h1>
+          <p class="lawyer-hero__title">{{ displayTitle() }}</p>
           <a
             v-if="lawyer.email"
             :href="'mailto:' + lawyer.email"
@@ -108,7 +158,7 @@ useSchemaOrg(() =>
             Direct Tel: {{ lawyer.phone }}
           </p>
           <p class="lawyer-hero__office">
-            <strong>{{ lawyer.office }}</strong>
+            <strong>{{ displayOffice() }}</strong>
           </p>
         </div>
       </div>
@@ -124,7 +174,7 @@ useSchemaOrg(() =>
             :class="{ 'is-active': activeSection === item.key }"
             @click="scrollToSection(item.key)"
           >
-            {{ item.label }}
+            {{ t(item.i18nKey) }}
           </li>
         </ul>
       </aside>
@@ -132,85 +182,74 @@ useSchemaOrg(() =>
       <main class="lawyer-detail__content">
         <!-- 简介 -->
         <section id="section-resume" class="detail-section">
-          <h2>简介</h2>
+          <h2>{{ t('attorney.detailResume') }}</h2>
           <div
-            v-if="lawyer.profile?.resume"
+            v-if="displayProfile('resume')"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.resume)"
+            v-html="render_markdown(displayProfile('resume'))"
           ></div>
           <div
-            v-else-if="lawyer.bio"
+            v-else-if="displayBio()"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.bio)"
+            v-html="render_markdown(displayBio())"
           ></div>
-          <p v-else class="detail-section__empty">暂无简历信息</p>
+          <p v-else class="detail-section__empty">{{ t('attorney.detailEmpty') }}</p>
         </section>
 
         <!-- 代表性案例 -->
         <section id="section-representative_cases" class="detail-section">
-          <h2>代表性案例</h2>
+          <h2>{{ t('attorney.detailCases') }}</h2>
           <div
-            v-if="lawyer.profile?.representative_cases"
+            v-if="displayProfile('representative_cases')"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.representative_cases)"
+            v-html="render_markdown(displayProfile('representative_cases'))"
           ></div>
-          <p v-else class="detail-section__empty">暂无代表性案例</p>
+          <p v-else class="detail-section__empty">{{ t('attorney.detailEmpty') }}</p>
         </section>
 
         <!-- 教育背景 -->
         <section id="section-education" class="detail-section">
-          <h2>教育背景</h2>
+          <h2>{{ t('attorney.detailEducation') }}</h2>
           <div
-            v-if="lawyer.profile?.education"
+            v-if="displayProfile('education')"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.education)"
+            v-html="render_markdown(displayProfile('education'))"
           ></div>
-          <p v-else class="detail-section__empty">暂无教育背景</p>
+          <p v-else class="detail-section__empty">{{ t('attorney.detailEmpty') }}</p>
         </section>
 
         <!-- 职业资格 -->
         <section id="section-qualifications" class="detail-section">
-          <h2>职业资格</h2>
+          <h2>{{ t('attorney.detailQualifications') }}</h2>
           <div
-            v-if="lawyer.profile?.qualifications"
+            v-if="displayProfile('qualifications')"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.qualifications)"
+            v-html="render_markdown(displayProfile('qualifications'))"
           ></div>
-          <p v-else class="detail-section__empty">暂无职业资格信息</p>
+          <p v-else class="detail-section__empty">{{ t('attorney.detailEmpty') }}</p>
         </section>
 
         <!-- 工作经历 -->
         <section id="section-work_experience" class="detail-section">
-          <h2>工作经历</h2>
+          <h2>{{ t('attorney.detailWorkExp') }}</h2>
           <div
-            v-if="lawyer.profile?.work_experience"
+            v-if="displayProfile('work_experience')"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.work_experience)"
+            v-html="render_markdown(displayProfile('work_experience'))"
           ></div>
-          <p v-else class="detail-section__empty">暂无工作经历</p>
+          <p v-else class="detail-section__empty">{{ t('attorney.detailEmpty') }}</p>
         </section>
 
         <!-- 奖项及社会职务 -->
         <section id="section-awards" class="detail-section">
-          <h2>奖项及社会职务</h2>
+          <h2>{{ t('attorney.detailAwards') }}</h2>
           <div
-            v-if="lawyer.profile?.awards"
+            v-if="displayProfile('awards')"
             class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.awards)"
+            v-html="render_markdown(displayProfile('awards'))"
           ></div>
-          <p v-else class="detail-section__empty">暂无奖项及社会职务信息</p>
+          <p v-else class="detail-section__empty">{{ t('attorney.detailEmpty') }}</p>
         </section>
-
-        <!-- 其他 -->
-        <!-- <section id="section-other" class="detail-section">
-          <h2>其他</h2>
-          <div
-            v-if="lawyer.profile?.other"
-            class="detail-section__body markdown-body"
-            v-html="render_markdown(lawyer.profile.other)"
-          ></div>
-          <p v-else class="detail-section__empty">暂无其他信息</p>
-        </section> -->
       </main>
     </div>
   </div>

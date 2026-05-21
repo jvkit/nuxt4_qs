@@ -1,97 +1,266 @@
 [
   {
-    "name": "涉外法律咨询",
     "slug": "涉外法律咨询",
-    "overview": [
-      "青颂的涉外法律团队拥有资深的律师，具有近20年的服务欧洲各国和中国国内的各行业企业的涉外法律咨询服务经验，能够针对客户的问题和需求提供高效而定制化的咨询服务。具体服务领域涉及公司法、外商投资、并购、国内和跨境商事合同和劳动等。此外，青颂与外部专业团队合作，提供知识产权和项目融资方面的法律咨询服务。",
-      "青颂团队律师可以独立用中、英文语言提供咨询服务。此外，在团队意大利顾问的协助下，青颂团队也可以用意大利语言提供咨询服务。"
-    ],
-    "cases": [
-      "长期为各行业境外公司提供日常运营支持（包括500强欧洲能源公司）提供日常法律咨询，涉及的服务如：商标和商标侵权事物的处理和咨询、商务合同审阅、劳动事项咨询、公司各项变更手续的办理；协助客户处理运营过程中的合规事宜等；",
-      "协助境外投资方处理外商独资企业在中国境内设立的各项事务，涉及的服务如：代表客户与目的地地方政府关于优惠政策的协商、谈判事宜，审阅相关优惠待遇的协议；审阅租赁协议；审阅装修和厂房建设协议；办理设立手续；起草劳动合同等；",
-      "协助制造业公司跨省市迁移：涉及的服务如：协助办理迁移相关手续；协助客户处理劳动问题；",
-      "协助境外公司（行业涉及食品、零售业、贸易和制造业）在中国市场的并购，涉及的服务如：目标公司尽职调查并制作相关报告；起草并购相关的各类法律文件，并协助客户参与谈判；协助客户交割；协助客户办理相关变更手续等；",
-      "协助境外化工公司处理中国合资公司的撤资事宜；",
-      "协助境外投资方处理与中方股东之间就合资公司运营和股权的争议事项；",
-      "为各行业外商投资公司和境内投资公司提供劳动方面咨询并协助处理相关事宜，涉及的服务如：起草各类劳动相关合同（劳动合同、劳务合同、解除协议、规章制度、警告函等）；代表客户与员工进行解除谈判；代表投资方参与并购导致的集体性劳动事件的处理；代表客户在清算过程中处理劳动事宜；协助客户处理员工的违法违规（犯罪）行为等；和协助投资方处理清算中的劳动问题。"
-    ],
-    "services": [
-      "跨境投资及并购","公司治理及合规","劳动人事法律咨询","市场准入","合资和战略合作","知识产权保护"
-    ]
+    "translations": {
+      "zh": {
+        "name": "涉外法律咨询",
+        "overview": [
+          "青颂的涉外法律团队拥有资深的律师，具有近20年的服务欧洲各国和中国国内的各行业企业的涉外法律咨询服务经验，能够针对客户的问题和需求提供高效而定制化的咨询服务。具体服务领域涉及公司法、外商投资、并购、国内和跨境商事合同和劳动等。此外，青颂与外部专业团队合作，提供知识产权和项目融资方面的法律咨询服务。",
+          "青颂团队律师可以独立用中、英文语言提供咨询服务。此外，在团队意大利顾问的协助下，青颂团队也可以用意大利语言提供咨询服务。"
+        ],
+        "cases": [
+          "长期为各行业境外公司提供日常运营支持（包括500强欧洲能源公司）提供日常法律咨询，涉及的服务如：商标和商标侵权事物的处理和咨询、商务合同审阅、劳动事项咨询、公司各项变更手续的办理；协助客户处理运营过程中的合规事宜等；",
+          "协助境外投资方处理外商独资企业在中国境内设立的各项事务，涉及的服务如：代表客户与目的地地方政府关于优惠政策的协商、谈判事宜，审阅相关优惠待遇的协议；审阅租赁协议；审阅装修和厂房建设协议；办理设立手续；起草劳动合同等；",
+          "协助制造业公司跨省市迁移：涉及的服务如：协助办理迁移相关手续；协助客户处理劳动问题；",
+          "协助境外公司（行业涉及食品、零售业、贸易和制造业）在中国市场的并购，涉及的服务如：目标公司尽职调查并制作相关报告；起草并购相关的各类法律文件，并协助客户参与谈判；协助客户交割；协助客户办理相关变更手续等；",
+          "协助境外化工公司处理中国合资公司的撤资事宜；",
+          "协助境外投资方处理与中方股东之间就合资公司运营和股权的争议事项；",
+          "为各行业外商投资公司和境内投资公司提供劳动方面咨询并协助处理相关事宜，涉及的服务如：起草各类劳动相关合同（劳动合同、劳务合同、解除协议、规章制度、警告函等）；代表客户与员工进行解除谈判；代表投资方参与并购导致的集体性劳动事件的处理；代表客户在清算过程中处理劳动事宜；协助客户处理员工的违法违规（犯罪）行为等；和协助投资方处理清算中的劳动问题。"
+        ],
+        "services": [
+          "跨境投资及并购",
+          "公司治理及合规",
+          "劳动人事法律咨询",
+          "市场准入",
+          "合资和战略合作",
+          "知识产权保护"
+        ]
+      },
+      "en": {
+        "name": "Legal Advisory Services on Foreign Related Matters",
+        "overview": [
+          "QingSolve's foreign-related legal advisory team has senior lawyers with nearly 20 years of experience in providing legal advisory services to clients of various industries coming from abroad. They are able to provide efficient and customized advisory services based on clients' issues and needs. The specific service areas cover, among others, company law, foreign investment, mergers and acquisitions, domestic and cross-border commercial contracts and labour. In addition, QingSolve collaborates with external professional teams to enable it to provide legal advisory services on intellectual property and project financing.",
+          "QingSolve lawyers can independently provide legal advisory services in both Chinese and English languages. In addition, with the assistance of Italian consultants in the team, QingSolve team can also provide services in Italian language."
+        ],
+        "cases": [
+          "Long-term provision of daily operational support for foreign companies in various industries (including Fortune 500 European energy companies), providing daily legal advisory services such as: handling and advice on trademark and trademark infringement matters, reviewing commercial contracts, advice and assistance on labor matters, handling various company changing formalities, assisting clients in handling compliance matters during their operation, etc.;",
+          "Assisting foreign investors in handling various affairs related to the establishment of wholly foreign-owned enterprises in China, providing services such as: representing clients in negotiations with local governments on preferential treatment policies and reviewing relevant preferential treatment agreements, reviewing lease agreements; reviewing the decoration and factory construction agreements; handling establishment procedures; drafting labour contracts, etc.;",
+          "Assisting manufacturing companies in relocating across provinces and cities, providing services such as: assisting in handling relocation related procedures, assisting clients in handling labour issues;",
+          "Assisting foreign companies (in industries such as food, retail, trade and manufacturing) in mergers and acquisitions in China, providing services such as due diligence on the target company and draft of relevant report, drafting various legal documents related to mergers and acquisitions and assisting clients in participating in negotiations, assisting clients in closing; assisting clients in handling relevant changing procedures, etc.;",
+          "Assisting foreign chemical company in handling the divestment in its Chinese joint ventures;",
+          "Assisting foreign investors in resolving disputes with Chinese shareholders regarding the operation and equity of the joint venture company;",
+          "Advising on labour relating matters and assisting in handling labour related matters for foreign-invested and domestic companies in various industries, including drafting various labour related contracts (labour contracts, service contracts, termination agreements, internal rules and regulations, warning letters, etc.), representing clients in negotiations with employees for termination, representing investors in handling collective labour disputes resulting from M&A, representing clients in handling labour matters during the liquidation; assisting clients in dealing with employees' illegal and irregular (criminal) behaviors, assisting investors in handling labour matters during liquidation."
+        ],
+        "services": [
+          "Cross-border Investment/M&A",
+          "Corporate Operation and Compliance",
+          "Labour Consult",
+          "Market Entry",
+          "Joint Venture & Strategy Cooperation",
+          "Intellectual Property"
+        ]
+      }
+    }
   },
   {
-    "name": "商事争议解决",
     "slug": "商事争议解决",
-    "overview": [
-      "青颂的商事争议解决团队在代理客户处理各类商事诉讼及仲裁案件上具有丰富的实务经验。团队律师不仅具有丰富的实战经验和娴熟的法律技术，同时还有着不懈的钻研精神，有能力协助客户梳理复杂的案件案件的事实，也能严谨而精确地进行法律分析，并在此基础上提出创造性的争议解决方案。"
-    ],
-    "cases": [
-      "代表中国国家篮球队周琦先生与新疆广汇篮球俱乐部转会纠纷仲裁案；",
-      "代表北京泰跃投资公司与山西某公司涉及1.2亿元股权投资纠纷案",
-      "代表山西水塔醋业股份有限公司与法国威立雅公司涉及3.6亿元股权回购纠纷案；",
-      "代表利欧集团股份有限公司（股票代码：002131）及其关联公司处理其与众多合作方之间的纠纷案；"
-    ],
-    "services": [
-      "公司纠纷","商业合同纠纷","房地产与建筑纠纷","行政纠纷","证券、银行、基金、金融纠纷"
-    ]
+    "translations": {
+      "zh": {
+        "name": "商事争议解决",
+        "overview": [
+          "青颂的商事争议解决团队在代理客户处理各类商事诉讼及仲裁案件上具有丰富的实务经验。团队律师不仅具有丰富的实战经验和娴熟的法律技术，同时还有着不懈的钻研精神，有能力协助客户梳理复杂的案件案件的事实，也能严谨而精确地进行法律分析，并在此基础上提出创造性的争议解决方案。"
+        ],
+        "cases": [
+          "代表中国国家篮球队周琦先生与新疆广汇篮球俱乐部转会纠纷仲裁案；",
+          "代表北京泰跃投资公司与山西某公司涉及1.2亿元股权投资纠纷案",
+          "代表山西水塔醋业股份有限公司与法国威立雅公司涉及3.6亿元股权回购纠纷案；",
+          "代表利欧集团股份有限公司（股票代码：002131）及其关联公司处理其与众多合作方之间的纠纷案；"
+        ],
+        "services": [
+          "公司纠纷",
+          "商业合同纠纷",
+          "房地产与建筑纠纷",
+          "行政纠纷",
+          "证券、银行、基金、金融纠纷"
+        ]
+      },
+      "en": {
+        "name": "Dispute Resolution (Litigation and Arbitration)",
+        "overview": [
+          "QingSolve's dispute resolution team has extensive experiences in handling various types of commercial litigation and arbitration cases. The team lawyers not only have extensive experiences and adequate legal skills, but also have a persistent spirit of delving deep, capable of assisting clients in sorting out the facts of complicated cases and conducting rigorous and accurate legal analysis and, based on such, proposing creative dispute resolution solutions."
+        ],
+        "cases": [
+          "Representing Mr. Zhou Qi of Chinese National Basketball team in handling arbitration case against Xinjiang Guanghui Basketball Club for the athlete transfer dispute;",
+          "Representing Beijing Taiyue Investment Company in litigation against a company in Shanxi Province for equity investment disputes, the disputing amount being RMB 120 million;",
+          "Representing Shanxi Shuita Vinegar Industry Co., Ltd. in a equity repurchase dispute with French company Veolia with disputing amount of RMB 360 million;",
+          "Representing LEO Group (Chinese listing company) and its affiliated companies in resolving various commercial contracts disputes."
+        ],
+        "services": [
+          "Corporate Investment and Operation Disputes",
+          "Commercial Contracts Disputes",
+          "Real Estate and Construction Disputes",
+          "Administrative Law Disputes",
+          "Securities, Banking, Funds and Financial Disputes"
+        ]
+      }
+    }
   },
   {
-    "name": "强制执行",
     "slug": "强制执行",
-    "overview": [
-      "青颂的执行业务团队是行业领先的团队，我们在代理疑难、复杂执行案件、跨境执行案件上具有丰富的实战经验和钻研创新精神，为国内外大中型企业成功实现了巨额的执行回款。",
-      "青颂的执行团队致力于通过执行异议、代位权、撤销权、破产重整、执行和解、跨境司法协助、资产处置等方式为客户挽回财产损失，维护客户的合法权益。团队律师每年处理数以百计的执行案件，年均处理的执行案件标的达数10亿元以上。"
-    ],
-    "cases": [
-      "代表中化二建集团与中基建设发展有限公司（BVI公司）涉及1.89亿元跨境执行案；",
-      "代表天诺财富与山西永泰集团涉及2亿元投资纠纷执行案；",
-      "代表意大利某冶金设备有限公司与伊朗新经济银行涉及400万欧元执行案；",
-      "代表意大利某冶金设备有限公司与西王特钢有限公司涉及3500万元执行案；",
-      "代表山东康堃公司与山西长源集团公司涉及3500万元贸易纠纷执行案；",
-      "代表正元地理信息股份有限公司（股票代码：688509）与山东某地方政府纠纷执行案"
-    ],
-    "services": [
-      "强制执行","执行异议","执行和解","资产拍卖","衍生诉讼","跨境执行、涉外司法协助","境外判决/裁决的承认和执行","内地判决/裁决在境外的承认与执行（含港澳）"
-    ]
+    "translations": {
+      "zh": {
+        "name": "强制执行",
+        "overview": [
+          "青颂的执行业务团队是行业领先的团队，我们在代理疑难、复杂执行案件、跨境执行案件上具有丰富的实战经验和钻研创新精神，为国内外大中型企业成功实现了巨额的执行回款。",
+          "青颂的执行团队致力于通过执行异议、代位权、撤销权、破产重整、执行和解、跨境司法协助、资产处置等方式为客户挽回财产损失，维护客户的合法权益。团队律师每年处理数以百计的执行案件，年均处理的执行案件标的达数10亿元以上。"
+        ],
+        "cases": [
+          "代表中化二建集团与中基建设发展有限公司（BVI公司）涉及1.89亿元跨境执行案；",
+          "代表天诺财富与山西永泰集团涉及2亿元投资纠纷执行案；",
+          "代表意大利某冶金设备有限公司与伊朗新经济银行涉及400万欧元执行案；",
+          "代表意大利某冶金设备有限公司与西王特钢有限公司涉及3500万元执行案；",
+          "代表山东康堃公司与山西长源集团公司涉及3500万元贸易纠纷执行案；",
+          "代表正元地理信息股份有限公司（股票代码：688509）与山东某地方政府纠纷执行案"
+        ],
+        "services": [
+          "强制执行",
+          "执行异议",
+          "执行和解",
+          "资产拍卖",
+          "衍生诉讼",
+          "跨境执行、涉外司法协助",
+          "境外判决/裁决的承认和执行",
+          "内地判决/裁决在境外的承认与执行（含港澳）"
+        ]
+      },
+      "en": {
+        "name": "Enforcement (Recognition and Enforcement of Overseas Judgments/Awards; Enforcement of Domestic Judgments; Cross-border Enforcement)",
+        "overview": [
+          "QingSolve's team of enforcement is a leading team in the market in handling enforcement (and credit recovery) cases. We have extensive experience and innovative spirit in handling difficult, complicated and cross-border enforcement cases and have successfully recovered huge payments for large and medium-sized enterprises at home and abroad by way of enforcement.",
+          "QingSolve's team of enforcement is committed to recovering credits and losses for clients and safeguarding their legitimate rights and interests by initiating/exercising enforcement objections, subrogation rights, revocation rights, bankruptcy reorganization, enforcement settlements, cross-border judicial assistance, asset disposal and other means. The team handles hundreds of enforcement cases every year, with an average of annual handling value over RMB 1 billion."
+        ],
+        "cases": [
+          "Representing China National Chemical Second Construction Group handling the cross-board enforcement of RMB 189 million;",
+          "Representing Tiannuo Wealth handling the enforcement against Shanxi Yongtai Group with enforcement amount of RMB 200 million relating to investment dispute;",
+          "Representing a big European metallurgical equipment company handling enforcement case relating to EUR 4 million at an Iranian bank;",
+          "Representing a big European metallurgical equipment company handling enforcement of RMB 35 million against Xiwang Special Steel Co., Ltd.;",
+          "Representing Shandong Kangkun Company handling enforcement of RMB 35 million against Shanxi Changyuan Group Company;",
+          "Representing Zhengyuan Geographic Information Co., Ltd. (Chinese listing company) handling enforcement against Shandong local government"
+        ],
+        "services": [
+          "Enforcement",
+          "Enforcement Objection",
+          "Enforcement Settlement",
+          "Asset Auction",
+          "Enforcement Derivative Litigation",
+          "Cross-border Enforcement / Foreign-related Judicial Assistance",
+          "Recognition and Enforcement of Overseas Judgments/Awards",
+          "Overseas Recognition and Enforcement of China Mainland Judgments/Awards (including Hong Kong and Macau)"
+        ]
+      }
+    }
   },
   {
-    "name": "体育专项法律服务",
     "slug": "体育专项法律服务",
-    "overview": [
-      "作为中国体育法律服务的先行者，青颂自2012年即深度布局体育产业法律版图，构建起覆盖全产业链的专业服务体系。团队以\"法律+体育\"的跨界思维，在职业体育、商业赛事、运动员权益等细分领域形成行业标杆地位。我们为体育行业内的诸多知名企业、运动员和经纪公司提供专业且具有前瞻性的法律服务，包括但不限于体育品牌、互联网新媒体、体育培训、体育经纪、体育赛事和运动员权益保护等方面。青颂始终秉持\"让规则成就体育梦想\"的理念，以法律为支点，助力客户撬动体育产业新价值。"
-    ],
-    "cases": [
-      "代表前美国NBA火箭队球员周琦处理回归中国CBA职业联赛的法律事务及体育仲裁；",
-      "代表中国女子篮球运动员李梦处理加盟美国WNBA华盛顿神秘队的法律合同事务；",
-      "协助美国NBA现役球员李凯尔（Kyle Anderson）国籍归化的法律操作；",
-      "代表中国男篮球员王哲林处理转会加盟上海久事篮球俱乐部的法律合同事务；",
-      "担任中国知名体育公司北京东方启明星集团总法律顾问处理投融资、政府谈判、公司合规等法律事务；和",
-      "担任美国知名运动护具品牌迈克达威（Mc.David）中国区总代理法律顾问；"
-    ],
-    "services": [
-      "体育听证及仲裁法律服务","赛事运营法律风控","体育产业资本运作","体育经纪法律服务","职业体育俱乐部合规服务"
-    ]
+    "translations": {
+      "zh": {
+        "name": "体育专项法律服务",
+        "overview": [
+          "作为中国体育法律服务的先行者，青颂自2012年即深度布局体育产业法律版图，构建起覆盖全产业链的专业服务体系。团队以\"法律+体育\"的跨界思维，在职业体育、商业赛事、运动员权益等细分领域形成行业标杆地位。我们为体育行业内的诸多知名企业、运动员和经纪公司提供专业且具有前瞻性的法律服务，包括但不限于体育品牌、互联网新媒体、体育培训、体育经纪、体育赛事和运动员权益保护等方面。青颂始终秉持\"让规则成就体育梦想\"的理念，以法律为支点，助力客户撬动体育产业新价值。"
+        ],
+        "cases": [
+          "代表前美国NBA火箭队球员周琦处理回归中国CBA职业联赛的法律事务及体育仲裁；",
+          "代表中国女子篮球运动员李梦处理加盟美国WNBA华盛顿神秘队的法律合同事务；",
+          "协助美国NBA现役球员李凯尔（Kyle Anderson）国籍归化的法律操作；",
+          "代表中国男篮球员王哲林处理转会加盟上海久事篮球俱乐部的法律合同事务；",
+          "担任中国知名体育公司北京东方启明星集团总法律顾问处理投融资、政府谈判、公司合规等法律事务；和",
+          "担任美国知名运动护具品牌迈克达威（Mc.David）中国区总代理法律顾问；"
+        ],
+        "services": [
+          "体育听证及仲裁法律服务",
+          "赛事运营法律风控",
+          "体育产业资本运作",
+          "体育经纪法律服务",
+          "职业体育俱乐部合规服务"
+        ]
+      },
+      "en": {
+        "name": "Sports Related Legal Service",
+        "overview": [
+          "As a pioneer sports legal services provider in China, QingSolve has been deeply embedded in the legal landscape of the sports industry since 2012, having built a professional service system covering the entire sports industry chain. With a \"law+sports\" cross-industry approach, the team has established benchmark positions across specialized fields covering professional sports, commercial events and athlete rights protection. We provide professional and forward-looking legal services to numerous renowned enterprises, athletes and agencies in the sports sector, such as sports branding, internet new media, sports training, athlete representation, sports events and athlete rights protection. Upholding the philosophy of \"Empowering Sports Dreams Through Rules\", QingSolve leverages legal expertise to help clients unlock new value in the sports industry."
+        ],
+        "cases": [
+          "Representing former NBA Houston Rockets player Zhou Qi in legal affairs related to his return to China's CBA league and sports arbitration;",
+          "Representing Chinese Women's basketball player Li Meng in handing the legal contract matter for her international transfer to join WNBA's Washington Mystics Club;",
+          "Assisting NBA player Kyle Anderson in legal procedures for naturalization in China;",
+          "Representing Chinese Men's basketball player Wang Zhelin in handing the legal contract matter for his transfer to join Shanghai Sharks Basketball Club.",
+          "Serving as General Legal Counsel for Beijing East Star Group, a leading Chinese sports company, responsible for investment advice, government negotiations and corporate compliance advice;",
+          "Serving as General Legal Counsel for McDavid, a renowned American sports protective gear brand, in its China operations."
+        ],
+        "services": [
+          "Sports Hearing and Arbitration",
+          "Event Operation Legal Risk Control",
+          "Sports Related Investment",
+          "Sports Agency",
+          "Professional Sports Club Compliance"
+        ]
+      }
+    }
   },
   {
-    "name": "债务重组及不良资产处置",
     "slug": "债务重组及不良资产处置",
-    "overview": [
-      "债务重组及不良资产处置是我们的核心业务之一，我们的团队具备运用诸多领域知识解决问题的综合能力，有能力为处于困境的企业、各类投资人以及债权人提供多方面的专业服务，旨在通过设计重整方案，优化解决策略，在谈判、诉讼、执行等方面最大限度地维护客户的核心利益与诉求。"
-    ],
-    "cases": [],
-    "services": [
-      "代表困境企业实施债务重组","代表投资人参与困境企业债务重组","代表收购方进行尽职调查","不良资产投资法律服务","不良资产处置法律服务（企业债转股、债务重组、资产出售、租赁、资产置换、破产清偿）"
-    ]
+    "translations": {
+      "zh": {
+        "name": "债务重组及不良资产处置",
+        "overview": [
+          "债务重组及不良资产处置是我们的核心业务之一，我们的团队具备运用诸多领域知识解决问题的综合能力，有能力为处于困境的企业、各类投资人以及债权人提供多方面的专业服务，旨在通过设计重整方案，优化解决策略，在谈判、诉讼、执行等方面最大限度地维护客户的核心利益与诉求。"
+        ],
+        "cases": [],
+        "services": [
+          "代表困境企业实施债务重组",
+          "代表投资人参与困境企业债务重组",
+          "代表收购方进行尽职调查",
+          "不良资产投资法律服务",
+          "不良资产处置法律服务（企业债转股、债务重组、资产出售、租赁、资产置换、破产清偿）"
+        ]
+      },
+      "en": {
+        "name": "Debt Restructuring and Disposal of Non-performing Assets",
+        "overview": [
+          "Debt restructuring and disposal of non-performing assets are one of our core businesses. Our team has the comprehensive ability to apply knowledge from various fields to solve problems and is capable of providing professional services to distressed enterprises, various investors and creditors. Our goal is to design restructuring plans, optimize resolution strategies and maximize the protection of our clients' core interests and demands during negotiation, litigation, enforcement and proceedings."
+        ],
+        "cases": [],
+        "services": [
+          "Implementing Debt Restructuring on Behalf of Distressed Enterprises",
+          "Representing Investors in Debt Restructuring of Distressed Enterprises",
+          "Conduct Due Diligence on Behalf of the Acquirer",
+          "Advice for Non-performing Asset Investment",
+          "Advice and Assistance for Disposal of Non-performing Assets (Corporate Debt to Equity Swaps, Debt Restructuring, Asset Sales, Leasing, Asset Swaps, Bankruptcy)"
+        ]
+      }
+    }
   },
   {
-    "name": "税法服务",
     "slug": "税法服务",
-    "overview": [
-      "青颂提供外商投资有关的税务规划和支持服务，尤其擅长处理复杂的跨境事项，如与跨国投资和交易相关的税务咨询、筹划和各类税收争议解决。我们税法团队的牵头人是顶尖的国际税法专家，对境外投资、跨境业务具有深厚的学术研究能力和丰富的实务经验。"
-    ],
-    "cases": [],
-    "services": [
-      "跨境税务筹划和架构","反避税和税收协定相关服务","公司日常税务咨询","外籍高管税法服务","公司日常税务合规服务"
-    ]
+    "translations": {
+      "zh": {
+        "name": "税法服务",
+        "overview": [
+          "青颂提供外商投资有关的税务规划和支持服务，尤其擅长处理复杂的跨境事项，如与跨国投资和交易相关的税务咨询、筹划和各类税收争议解决。我们税法团队的牵头人是顶尖的国际税法专家，对境外投资、跨境业务具有深厚的学术研究能力和丰富的实务经验。"
+        ],
+        "cases": [],
+        "services": [
+          "跨境税务筹划和架构",
+          "反避税和税收协定相关服务",
+          "公司日常税务咨询",
+          "外籍高管税法服务",
+          "公司日常税务合规服务"
+        ]
+      },
+      "en": {
+        "name": "Tax Legal Services",
+        "overview": [
+          "Qingsolve provides tax planning and support services related to foreign investment, and it particularly excels in handling complex cross-border matters. These include tax consultation, planning for cross-border investments and transactions, as well as the resolution of various tax disputes. The leader of our tax law team is a top international tax law expert, who has profound academic research capabilities and extensive practical experience in overseas investment and cross-border business."
+        ],
+        "cases": [],
+        "services": [
+          "Cross-border Tax Planning and Structuring",
+          "Related Services on Anti-tax Avoidance and Tax Treaties",
+          "Daily Tax Consultation for Companies",
+          "Tax Law Services for Foreign Executives",
+          "Daily Tax Compliance Services for Companies"
+        ]
+      }
+    }
   }
 ]
