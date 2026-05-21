@@ -7,7 +7,7 @@ const resolver = createResolver(import.meta.url)
 const articleUrls = (articlesData as any[]).map((a) => ({
   loc: `/article/${a.slug}`,
   lastmod: a.meta?.date || new Date().toISOString().split('T')[0],
-  priority: 0.7,
+  priority: 0.7 as const,
 }))
 
 export default defineNuxtConfig({
@@ -26,9 +26,8 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/seo'],
 
-  seo: {
-    canonical: true,
-  },
+  seo: {},
+
 
   site: {
     url: 'https://qs-legal.com',
@@ -50,7 +49,7 @@ export default defineNuxtConfig({
           urls.push({
             loc: `/attorney/${l.id}`,
             lastmod: new Date().toISOString().split('T')[0],
-            priority: 0.7,
+            priority: 0.7 as const,
           })
         })
       } catch {
@@ -66,14 +65,8 @@ export default defineNuxtConfig({
   },
 
   ogImage: {
-    defaults: {
-      component: 'NuxtSeo',
-      props: {
-        title: '北京青颂律师事务所',
-        description: '青颂律师事务所 - 专业商事争议解决法律服务',
-        image: '/about/about_us/heading.png',
-      },
-    },
+    // 内容属性（title/description/image/component）请在页面/布局中使用 defineOgImage() 设置
+    // 此处仅配置模块级渲染参数
   },
 
   schemaOrg: {

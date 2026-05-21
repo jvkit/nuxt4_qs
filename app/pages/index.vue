@@ -12,23 +12,23 @@ const { locale, t } = useLocale()
 
 const hd = computed(() => getHomeData(locale.value))
 
-useSeoMeta(() => ({
-  title: locale.value === 'zh'
+useSeoMeta({
+  title: () => locale.value === 'zh'
     ? '北京青颂律师事务所 - 专注商事争议解决'
     : 'QingSong Law Firm - Commercial Dispute Resolution',
-  description: locale.value === 'zh'
+  description: () => locale.value === 'zh'
     ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
     : 'Founded in 2004, QingSong Law Firm is a corporate boutique firm specializing in foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogTitle: locale.value === 'zh'
+  ogTitle: () => locale.value === 'zh'
     ? '北京青颂律师事务所 - 专注商事争议解决'
     : 'QingSong Law Firm - Commercial Dispute Resolution',
-  ogDescription: locale.value === 'zh'
+  ogDescription: () => locale.value === 'zh'
     ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
     : 'Founded in 2004, QingSong Law Firm is a corporate boutique firm specializing in foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogImage: 'https://qs-legal.com/about/about_us/heading.png',
   ogUrl: 'https://qs-legal.com/',
   twitterCard: 'summary_large_image',
-}))
+})
 
 const activeImpactTab = ref(0)
 const activeTimelineTab = ref(0)
@@ -192,7 +192,7 @@ onUnmounted(() => {
     <section class="carousel-section" @mouseenter="pause_service_auto" @mouseleave="resume_service_auto">
       <div
         v-for="(item, i) in serviceCarouselItems"
-        :key="item.id"
+        :key="i"
         class="slide"
         :class="service_slide_class(i)"
         @click="handle_service_click(i)"

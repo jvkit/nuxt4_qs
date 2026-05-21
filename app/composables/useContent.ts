@@ -16,19 +16,22 @@ import { useLocale } from './useLocale'
  *   }
  * }
  */
-export interface TranslatableItem {
-  translations: Record<string, Record<string, any>>
+export interface TranslatableItem<TR = Record<string, any>> {
+  translations: Record<string, TR>
   [key: string]: any
 }
 
-export function useContent<T extends TranslatableItem>(data: T[]) {
+export function useContent<
+  T extends TranslatableItem,
+  TR = T extends TranslatableItem<infer R> ? R : Record<string, any>
+>(data: T[]) {
   const { locale } = useLocale()
 
   return computed(() =>
     data.map((item) => {
       const tr = item.translations[locale.value] || item.translations['zh'] || {}
       const { translations, ...rest } = item
-      return { ...rest, ...tr } as Omit<T, 'translations'> & Record<string, any>
+      return { ...rest, ...tr } as Omit<T, 'translations'> & TR
     })
   )
 }
@@ -36,10 +39,10 @@ export function useContent<T extends TranslatableItem>(data: T[]) {
 /**
  * 单条内容加载（用于详情页）
  */
-export function useContentItem<T extends TranslatableItem>(
-  data: T[],
-  matcher: (item: T) => boolean
-) {
+export function useContentItem<
+  T extends TranslatableItem,
+  TR = T extends TranslatableItem<infer R> ? R : Record<string, any>
+>(data: T[], matcher: (item: T) => boolean) {
   const { locale } = useLocale()
 
   return computed(() => {
@@ -48,6 +51,6 @@ export function useContentItem<T extends TranslatableItem>(
 
     const tr = item.translations[locale.value] || item.translations['zh'] || {}
     const { translations, ...rest } = item
-    return { ...rest, ...tr } as Omit<T, 'translations'> & Record<string, any>
+    return { ...rest, ...tr } as Omit<T, 'translations'> & TR
   })
 }
