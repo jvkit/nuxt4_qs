@@ -184,16 +184,182 @@
         "conclusion": "新《公司法》下未届期股权转让责任规则的变革，对各方主体都提出了新要求。无论是原股东、受让人还是债权人，都需准确把握规则变化，合理规划商事行为，防范法律风险。若您在实务中遇到相关问题，欢迎联系我们，北京青颂律师事务所将为您提供专业的法律服务。"
       },
       "en": {
-        "title": "Equity Transfer Liability Reform: Reconstructing Shareholder Boundaries Under Old and New Company Law",
-        "lead": "With the new Company Law effective July 1, 2024, the issue of liability for shareholders transferring equity before the contribution deadline has become a focal point in legal practice. This article compares the old and new legal frameworks, combined with the latest judicial interpretations from the Supreme Court, to systematically clarify the boundaries of original shareholders' liability for corporate debts.",
+        "title": "Reform of Equity Transfer Responsibility: Reconstruction of the Original Shareholders' Liability Boundary under the Old and New Company Laws",
+        "lead": "With the formal implementation of the new Company Law on July 1, 2024, the issue of liability for shareholders after transferring their equity within the term of capital contribution has become the focus of practice. By comparing the old and new legal systems and combining the latest judicial interpretations of the Supreme People's Court, this article systematically combs the liability boundaries of the original shareholders in corporate debts, and provides a reference path for creditors and shareholders to safeguard their rights.",
         "meta": {
           "date": "2024-03-15",
-          "author": "QingSong Law Firm"
+          "author": "Qingsong Law Firm"
         },
-        "blocks": [],
-        "references": [],
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Comparative Analysis of the Liability System of the New and Old Company Laws"
+          },
+          {
+            "type": "h2",
+            "text": "The regulatory logic of the original Company Law and judicial interpretations"
+          },
+          {
+            "type": "law",
+            "title": "Provisions of the Supreme People's Court on Several Issues Concerning the Application of the Company Law of the People's Republic of China (III)",
+            "content": "Article 18 Where a shareholder of a limited liability company transfers his equity without performing or fully performing his obligation of capital contribution, and the transferee knows or should know about it, and the company requests the shareholder to perform his obligation of capital contribution, and the transferee shall bear joint and several liability for it, the people's court shall support it;Where a creditor of the company brings a lawsuit against the shareholder in accordance with the second paragraph of Article 13 of these Provisions and requests the above-mentioned transferee to bear joint and several liability for this, the people's court shall support it.\n If the transferee, after assuming the liability in accordance with the provisions of the preceding paragraph, claims compensation from the shareholder who has not fulfilled or has not fully fulfilled the obligation of capital contribution, the people's court shall support it.However, unless otherwise agreed upon by the parties.\n The premise for the application of this interpretation is that the shareholder transfers the equity without fulfilling or fully fulfilling the obligation of capital contribution, and the transferee shall be jointly and severally liable to the company or creditors if he knows or should know that the original shareholder has a defect in capital contribution.At the same time, the interpretation gives the transferee the right of recourse, and the transferee has the right to recover from the original shareholder after assuming the responsibility, unless otherwise agreed by both parties.The creditor or the company shall provide evidence to prove that the transferee \"knows or should know\" the defect of the original shareholder's capital contribution, otherwise it is difficult to require the transferee to assume responsibility.In practice, the court will presume the informed state of the transferee according to the relationship between the transferor and the transferee, the reasonableness of the equity transfer price and other factors."
+          },
+          {
+            "type": "h2",
+            "text": "Institutional Innovation in Article 88 of the New Company Law"
+          },
+          {
+            "type": "h4",
+            "text": "Company Law of the People's Republic of China"
+          },
+          {
+            "type": "p",
+            "text": "Article 88 Where a shareholder transfers the equity that has subscribed for the capital contribution but has not yet reached the time limit for capital contribution, the transferee shall bear the obligation to pay the capital contribution;If the transferee fails to pay the capital contribution in full and on time, the transferor shall bear supplementary liability for the capital contribution that the transferee fails to pay on time."
+          },
+          {
+            "type": "p",
+            "text": "Where a shareholder who fails to pay the capital contribution on the date of capital contribution stipulated in the articles of association or whose actual value of the non-monetary property as capital contribution is significantly lower than the subscribed capital contribution transfers its equity, the transferor and the transferee shall be jointly and severally liable within the scope of insufficient capital contribution;If the transferee does not know and should not know that the above circumstances exist, the transferor shall be liable."
+          },
+          {
+            "type": "law",
+            "title": "The legislative basis of the first paragraph of Article 88 of the Company Law is the addition of debts. After the transfer of the equity that has not been contributed, the original shareholder shall still bear supplementary liability for the capital contribution that the transferee has not paid on time.",
+            "content": "Paragraph 2 of Article 88 refers to the distribution of capital contribution liability for the transfer of defective equity. Under such circumstances, the transferor shall bear joint and several liability within the scope of insufficient capital contribution of the transferee, and the transferor shall be liable if the transferee is in good faith.However, if the creditor provides rebuttal evidence to prove that the transferee actually knows or should know that there is a defect in the capital contribution, the transferee shall not be exempted from liability, for example, the transfer price is obviously abnormal, far lower than the normal equity transfer price, and the transferor has no reasonable explanation for this."
+          },
+          {
+            "type": "h2",
+            "text": "Applicable scenarios for the responsibility of the original shareholders"
+          },
+          {
+            "type": "h3",
+            "text": "(1) Disputes over capital contribution liability arising from the transfer of equity by shareholders before the expiration of the capital contribution period before July 1, 2024"
+          },
+          {
+            "type": "viewpoint",
+            "title": "Opinion 1: The original shareholder is not exempt from liability and still has the responsibility for capital contribution",
+            "content": "This view holds that although the transfer of equity within the term of subscribed capital contribution is a mutual agreement between the two parties, which conforms to the formal requirements of the general assignment of creditor's rights and debts, the transfer of equity involves the capital adequacy of the company. The shareholder's commitment to and obligation to make up capital contributions are mandatory provisions of the Company Law. The freedom of equity transfer transactions and the exercise of shareholders' term interests shall not harm the interests of the company and the company's creditors. The original shareholder's subscribed capital cannot be transferred along with the equity, and the original shareholder still needs to bear the responsibility for capital contribution."
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2021) SU03 Min Zhong No. 7173",
+            "content": "(2021) SU03 Min Zhong No. 7173 Case, the court of second instance considers that although the time limit for capital contribution has not expired at the time of equity transfer, Article 18 of Judicial Interpretation III of the Company Law stipulates that \"the shareholders of a limited liability company transfer their equity before and after the expiration of the time limit for capital contribution if they fail to perform or fully perform their obligations for capital contribution\" does not distinguish between the transfer of equity before and after the expiration of the time limit for capital contribution. Therefore, whether the equity is transferred before or after the expiration of the capital contribution period, it falls within the normative intent of Article 18, and the original shareholder shall perform the obligation of capital contribution."
+          },
+          {
+            "type": "viewpoint",
+            "title": "Point 2: The original shareholder is no longer liable",
+            "content": ""
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2021) Wan Min Zhong No. 427",
+            "content": "(2021) Wan Min Zhong No. 427 Case, the court of first instance took the third paragraph of Article 13 of Judicial Interpretation III of the Company Law as the judgment basis, and determined that the original shareholder shall be liable for supplementary compensation. However, the court of second instance considers that the premise of the original shareholder's liability is that the shareholder has the obligation to actually pay the capital contribution at the time of the establishment of the company, and if the shareholder transfers the equity before the expiration of the capital contribution period, the corresponding capital contribution obligations shall be deemed to be transferred together, and the original shareholder shall no longer be liable for the transferee's capital contribution obligations."
+          },
+          {
+            "type": "viewpoint",
+            "title": "Opinion 3: In principle, the original shareholder shall no longer be liable, except that it can be proved that the original shareholder maliciously infringes upon the interests of creditors",
+            "content": ""
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2024) Yue 19 Min Zhong No. 853",
+            "content": "In (2024) Yue 19 Min Zhong No. 853 Civil Judgment, the court pointed out that when the shareholder transferred the equity within the term of capital contribution, the company was in normal business operation. Although it owed debts, there was no evidence to prove that the company was unable to pay off its due debts at the time of equity transfer, and the transferee was not obviously lacking the ability to pay capital contribution. Such equity transfer was a normal commercial act. Therefore, the court did not determine that the shareholder has the malice to evade the obligation of capital contribution when transferring the equity within the term of capital contribution, and thus did not order it to bear responsibility."
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2020) Jing 03 Min Zhong No. 3634",
+            "content": "However, in the case of (2020) Jing 03 Min Zhong No. 3634, although the shareholder has not reached the time limit for capital contribution when transferring his equity, the shareholder knows that the company cannot pay off the due debts at the time of transfer, and the transferee obviously lacks the ability to pay capital contribution. Such equity transfer increases the risk of the paid-in registered capital of the company and affects the realization of the creditor's rights due to the company. Obviously, it is a malicious evasion of the obligation of capital contribution by means of equity transfer, and the transferor shall be liable for capital contribution according to law."
+          },
+          {
+            "type": "h3",
+            "text": "(2) Disputes over capital contribution liability arising from the transfer of equity by shareholders within the term of capital contribution after July 1, 2024"
+          },
+          {
+            "type": "h4",
+            "text": "1. Statutory circumstances under which liability must be assumed"
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2024) Nei 04 Min Zhong No. 5215",
+            "content": "When a shareholder transfers the equity within the term of capital contribution, if the transferee fails to pay the capital contribution in full and on time, the original shareholder shall bear supplementary liability for the unpaid part, excluding interest. In the case of (2024) Nei 04 Min Zhong No. 5215, the court of second instance held that the debt between the creditor and the company occurred during the period when the original shareholder was a shareholder of the company, and the original shareholder transferred his equity without fully fulfilling his obligation to make capital contributions. If the company was unable to pay off its debts and enforce its final capital, the court applied for adding the original shareholder as the person subjected to execution in accordance with the law."
+          },
+          {
+            "type": "p",
+            "text": "If the original shareholder fails to pay the capital contribution in accordance with the articles of association or the non-monetary assets are significantly insufficient, even if the equity has been transferred, he shall still be jointly and severally liable with the transferee within the scope of insufficient capital contribution."
+          },
+          {
+            "type": "h4",
+            "text": "2. Possible Paths for Disclaimer"
+          },
+          {
+            "type": "p",
+            "text": "If the original shareholder can prove that the capital contribution has been paid in full or there is no defect, or that the creditor's rights are formed after the transfer of equity, the original shareholder may claim exemption based on the protection of trust interests. In addition, if the limitation of action has expired when the creditor claims the debt, the original shareholder may be exempted from liability by claiming the defense of limitation."
+          },
+          {
+            "type": "h2",
+            "text": "Suggestions on Optimizing the Protection Route of Creditors' Interests"
+          },
+          {
+            "type": "h2",
+            "text": "Litigation stage"
+          },
+          {
+            "type": "h2",
+            "text": "Thru Thru Recourse"
+          },
+          {
+            "type": "h4",
+            "text": "Bring a lawsuit against the original shareholder and the transferee at the same time (especially in the case of false capital contribution)"
+          },
+          {
+            "type": "h4",
+            "text": "Make good use of Article 35 of the Enterprise Bankruptcy Law to accelerate the maturity"
+          },
+          {
+            "type": "h2",
+            "text": "Key Points for Evidence Collection"
+          },
+          {
+            "type": "h4",
+            "text": "Access to industrial and commercial internal files to verify investment commitments"
+          },
+          {
+            "type": "h4",
+            "text": "Obtain the certificate of payment of the equity transfer price"
+          },
+          {
+            "type": "h4",
+            "text": "Collect the chain of evidence for the withdrawal of capital by the original shareholders"
+          },
+          {
+            "type": "h3",
+            "text": "(2) Execution stage"
+          },
+          {
+            "type": "h4",
+            "text": "Provisions on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution"
+          },
+          {
+            "type": "p",
+            "text": "Article 19 Where the property of a company as the person subjected to execution is insufficient to pay off the debts specified in the effective legal documents, and its shareholder fails to perform its obligation of capital contribution in accordance with the law and transfers its equity, the applicant for execution may apply to the people's court for changing or adding the original shareholder or the initiator who shall bear joint and several liability for the capital contribution in accordance with the provisions of the Company Law as the person subjected to execution, and the people's court shall support it if it is liable within the scope of capital contribution not made in accordance with the law."
+          },
+          {
+            "type": "p",
+            "text": "The original shareholder shall be changed or added as the person subjected to execution, so as to make him liable within the scope of capital contribution not made according to law."
+          }
+        ],
+        "references": [
+          "Company Law of the People's Republic of China",
+          "Enterprise Bankruptcy Law of the People's Republic of China",
+          "Provisions of the Supreme People's Court on Several Issues Concerning the Application of the Company Law of the People's Republic of China (III) (Revised in 2020)",
+          "Provisions on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution",
+          "Several Provisions of the Supreme People's Court on the Time Effect of the Application of the Company Law of the People's Republic of China"
+        ],
         "subtitle": "— Article 88 of the Company Law",
-        "conclusion": "TODO"
+        "conclusion": "The change of the liability rules for the transfer of unexpired equity under the new Company Law has put forward new requirements for all parties. Whether the original shareholders, transferees or creditors, they should accurately grasp the changes in rules, rationally plan commercial acts and prevent legal risks. If you encounter relevant problems in practice, you are welcome to contact us, and Beijing Qingsong Law Firm will provide you with professional legal services."
       }
     }
   },
@@ -367,6 +533,172 @@
         ],
         "references": [],
         "conclusion": "股东利用知识产权虚假出资的“合法外衣”终将被法律击穿！债权人需善用司法审计、追加被执行人、撤销权诉讼等工具，结合刑事追责形成高压态势。唯有专业布局+快速行动，方能破解执行僵局，实现债权回款。"
+      },
+      "en": {
+        "title": "Cracking the \"Golden Cicada Deblocking\" Technique of Shareholders Using Intellectual Property Rights to Make False Capital Contributions: Legal Paths and Practical Guidelines",
+        "lead": "The minority shareholder makes a capital contribution of 3 million yuan with the intellectual property right of a game. However, the creditor finds that the actual value of the intellectual property right is far lower than the subscribed amount, resulting in no property for the company to enforce.",
+        "meta": {
+          "date": "2024-04-08",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h4",
+            "text": "— The company has no property to enforce? How creditors fight back"
+          },
+          {
+            "type": "h2",
+            "text": "Background of the problem: the typical pattern of shareholders' \"empty handed white wolf\""
+          },
+          {
+            "type": "p",
+            "text": "For a company with a registered capital of 39 million yuan, the minority shareholder shall make a capital contribution of 3 million yuan with the intellectual property right of a game. However, the creditor finds that the actual value of the intellectual property right is far lower than the subscribed amount, resulting in no property available for execution by the company, and the shareholder tries to evade liability through the \"evaluation report\". Although the creditor has won the lawsuit and added the shareholder as the person subjected to execution, the shareholder has filed a lawsuit against the execution, and the case has reached a deadlock."
+          },
+          {
+            "type": "p",
+            "text": "Core contradiction: How to prove that the intellectual property investment is untrue? How to break through the \"legality\" of the original evaluation report?"
+          },
+          {
+            "type": "h2",
+            "text": "Legal Weapons: Three Core Bases for Cracking Down on False Capital Contributions"
+          },
+          {
+            "type": "h2",
+            "text": "Statutory requirements for non-monetary capital contribution — transfer of ownership + valuation"
+          },
+          {
+            "type": "p",
+            "text": "In accordance with Articles 48 and 49 of the Company Law and Articles 9 and 10 of Judicial Interpretation III of the Company Law, shareholders may make capital contributions in kind, intellectual property rights, land use rights, equity, creditor's rights and other non-monetary property that can be valued in currency and transferred according to law, and two obligations shall be fulfilled for intellectual property rights:"
+          },
+          {
+            "type": "p",
+            "text": "✅ Change of ownership: transfer the intellectual property right to the company;"
+          },
+          {
+            "type": "p",
+            "text": "✅ Appraisal and pricing: a report shall be issued by a legal appraisal institution, and the price shall not be falsely overvalued."
+          },
+          {
+            "type": "p",
+            "text": "Legal consequences: If the transfer of ownership has not been completed or the appraisal price is significantly low, it shall be deemed that it has not fulfilled its obligation of capital contribution, and the shareholders shall make up the difference."
+          },
+          {
+            "type": "h2",
+            "text": "Joint and several liability for false capital contribution of shareholders"
+          },
+          {
+            "type": "p",
+            "text": "Paragraph 1 of Article 23 of the Company Law. Where a shareholder of a company abuses the independent status of a company as a juridical person and the limited liability of a shareholder to evade debts and seriously damages the interests of the creditors of the company, he shall bear joint and several liabilities for the debts of the company."
+          },
+          {
+            "type": "p",
+            "text": "The creditor may, in accordance with Article 50 of the Company Law or Article 13 of the Judicial Interpretation III of the Company Law, require the shareholder to assume supplementary liability for the debts of the company within the scope of the principal and interest not contributed."
+          },
+          {
+            "type": "p",
+            "text": "In addition, if a shareholder abuses his right to transfer assets or evade debts, which seriously damages the interests of the creditors of the company, the damaged creditor may, in accordance with Article 23 of the Company Law, claim that the shareholder is confused with the company's personality and require the shareholder to bear joint and several liability."
+          },
+          {
+            "type": "h2",
+            "text": "Cracking the Way: Four Steps to Break through the \"Obstruction\" of Shareholders"
+          },
+          {
+            "type": "h2",
+            "text": "Step 1: Application for Investigation Order and Property Preservation"
+          },
+          {
+            "type": "p",
+            "text": "The transfer of assets by shareholders is concealed, and creditors first need to apply for property preservation simultaneously at the litigation stage."
+          },
+          {
+            "type": "p",
+            "text": "Next, obtain the industrial and commercial internal files of the company by applying for an investigation order, focusing on the verification of intellectual property evaluation reports, intellectual property registration information, related party transaction records, ownership change records and capital verification files in the industrial and commercial archives. In this step, we can find the clues of the value of the intellectual property used by the shareholder as capital contribution and the loopholes therein, so as to prepare for the next step of applying for judicial audit."
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2020) Lu 15 Min Zai No. 23",
+            "content": "If the shareholder fails to complete the change of ownership of intellectual property rights in the (2020) Case No. 23 of the 15th People's Court of Shandong Province, the court directly determines that it has not fulfilled its obligation of capital contribution and assumes supplementary liability."
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2024) Jing 03 Min Zhong No. 11534",
+            "content": "In Case No. 11534 [2024] of Jing 03 Civil Division, the judge pointed out that the amount of intellectual property investment shown in the resolution of the shareholders' meeting and the amendment to the articles of association made earlier was completely consistent with the value of intellectual property in the evaluation report made later, which was obviously unreasonable; Secondly, when the shareholder changes the monetary capital contribution into a patent during the debt crisis, the court ruled that the act would not have the legal effect of capital contribution on the grounds that the act reduced the liquidity of property and objectively damaged the interests of creditors."
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2023) Yu 0107 Zhiyi No. 311",
+            "content": "In the case of (2023) Yu 0107 Zhiyi No. 311, the court held that when judging whether a shareholder has fulfilled the capital contribution of non-patented technology, it should also examine the relevance of the non-patented technology to the business purpose of the company to prevent shareholders from \"spending money to buy packages\", making capital contributions at a price of false non-patented technology, and covering up untrue capital contributions in legal form. This can also be used as an important basis for judging whether shareholders make false capital contributions by using intellectual property rights."
+          },
+          {
+            "type": "h2",
+            "text": "Step 2: Apply for Judicial Audit and Peel the Veil of False Assessment"
+          },
+          {
+            "type": "law",
+            "title": "Provisions of the Supreme People's Court on Several Issues Concerning Property Investigation in Civil Execution (2020 Amendment)",
+            "content": "Article 17 If a juridical person or unincorporated organization as the person subjected to execution fails to perform the obligations specified in the effective legal documents, and the applicant for execution considers that it has evaded its debts by refusing to report, falsely reporting its property, concealing or transferring its property, or that its shareholders or investors have made false capital contributions or withdrawn their capital contributions, it may apply in writing to the people's court for entrusting an audit institution to audit the person subjected to execution. The people's court shall decide whether to grant or not within ten days from the date of receipt of the written application."
+          },
+          {
+            "type": "h2",
+            "text": "Practical Difficulties and Cracking Skills"
+          },
+          {
+            "type": "p",
+            "text": "Difficulty 1: How can the judge be persuaded to initiate a reassessment?"
+          },
+          {
+            "type": "p",
+            "text": "Obtain clues such as intellectual property appraisal reports, ownership change records and capital verification files by applying for investigation orders to find out possible defects in the capital contribution, such as:"
+          },
+          {
+            "type": "p",
+            "text": "Creditors may prove that the actual value of intellectual property rights differs greatly from the amount subscribed by comparing the transaction price, actual income data and cost price of obtaining intellectual property rights of the same kind in the market;"
+          },
+          {
+            "type": "p",
+            "text": "If the intellectual property is not actually delivered for use (such as the game is not online for operation) or the intellectual property has no relevance to the business purpose of the company, it may be claimed that the capital contribution has not been completed accordingly;"
+          },
+          {
+            "type": "p",
+            "text": "Provide the \"black history\" of the original assessment institution (such as administrative penalty records), directly claim that the original report is not trustworthy, and request a new assessment;"
+          },
+          {
+            "type": "p",
+            "text": "If the evaluation report of the intellectual property right does not disclose the key restrictions and the evaluation parameters are unreasonable, it may be claimed that the evaluation procedure is illegal;"
+          },
+          {
+            "type": "p",
+            "text": "Difficulty 2: How to deal with the shareholder's claim that \"market fluctuations lead to depreciation\"?"
+          },
+          {
+            "type": "p",
+            "text": "If the shareholder claims the depreciation caused by market changes in accordance with Article 15 of Judicial Interpretation III of the Company Law, the shareholder does not need to make up for it, and indicates that the depreciation is not caused by subjective malice."
+          },
+          {
+            "type": "p",
+            "text": "Creditors may deny the \"market fluctuation\" defense by proving that intellectual property rights do not have high value from the beginning (such as outdated technology and no practical application scenario)."
+          },
+          {
+            "type": "h2",
+            "text": "Step 3: The application for declaring the shareholder's change in the mode of capital contribution invalid and recovering the transferred assets"
+          },
+          {
+            "type": "p",
+            "text": "After the company's debts arise, and the company's creditors have already requested the shareholders to accelerate the expiration of their capital contributions through litigation, if the shareholders change the mode of capital contribution through a shareholders' resolution to evade the obligation of monetary capital contribution, it is an act of abusing shareholders' rights to harm the interests of the company's creditors, which is prohibited by the Company Law. However, the Company Law does not explicitly stipulate the legal effect of such acts. Paragraph 3 of Article 3 of the Interpretation of the Supreme People's Court on Several Issues Concerning the Application of the General Principles of the Civil Code of the People's Republic of China stipulates that if an abuse of civil rights is constituted, the people's court shall determine that the abuse does not have corresponding legal effect."
+          },
+          {
+            "type": "case",
+            "badge": "Reference Case",
+            "caseId": "(2024) Jing Min Zhong No. 3",
+            "content": "In (2024) Jing Min Zhong No. 3, when the company's debts cannot be paid off to the outside world, the shareholders change the monetary capital contribution into non-monetary intellectual property capital contribution. As the Company Law stipulates that the mode of capital contribution is publicity, the creditor decides whether to trade with the company according to the publicity information, and the creditor has a trust interest in the mode of capital contribution. Non-monetary capital contribution, especially intellectual property capital contribution, is obviously limited in its solvency compared with monetary capital contribution. Therefore, if the shareholder changes the capital contribution after the debt occurs, it shall not be binding on the creditor, and the creditor shall still have the right to request the shareholder to continue to make monetary capital contribution."
+          }
+        ],
+        "references": [],
+        "subtitle": "",
+        "conclusion": "The \"legal cloak\" of shareholders who make false capital contributions by using intellectual property rights will eventually be broken down by law! Creditors should make good use of such tools as judicial audit, additional executors and revocation litigation to form a high-pressure situation in combination with criminal accountability. Only professional layout + rapid action can solve the implementation deadlock and realize the collection of creditor's rights."
       }
     }
   },
@@ -549,6 +881,181 @@
         ],
         "references": [],
         "conclusion": "房产登记在他人名下绝非“避债保险箱”！债权人只需抓住出资来源、实际控制、债务时间线三大核心，配合法律工具的灵活运用，即可通过法律程序否定登记外观主义效力，让隐匿财产无所遁形！\n（文中案例当事人均为化名，如需个案咨询请联系专业执行律师）\n——专注执行领域10年，我们让判决落地有声——\n参考资料：\n《中华人民共和国民法典》\n第一百五十四条 行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。\n第三百零三条　共有人约定不得分割共有的不动产或者动产，以维持共有关系的，应当按照约定，但是共有人有重大理由需要分割的，可以请求分割；没有约定或者约定不明确的，按份共有人可以随时请求分割，共同共有人在共有的基础丧失或者有重大理由需要分割时可以请求分割。因分割造成其他共有人损害的，应当给予赔偿。\n第五百三十八条 债务人以放弃其债权、放弃债权担保、无偿转让财产等方式无偿处分财产权益，或者恶意延长其到期债权的履行期限，影响债权人的债权实现的，债权人可以请求人民法院撤销债务人的行为。\n第五百四十一条 撤销权自债权人知道或者应当知道撤销事由之日起一年内行使。自债务人的行为发生之日起五年内没有行使撤销权的，该撤销权消灭。\n《中华人民共和国刑法》\n第三百一十三条　【拒不执行判决、裁定罪】对人民法院的判决、裁定有能力执行而拒不执行，情节严重的，处三年以下有期徒刑、拘役或者罚金；情节特别严重的，处三年以上七年以下有期徒刑，并处罚金。\n《最高人民法院关于人民法院民事执行中查封、扣押、冻结财产的规定》\n第十二条 对被执行人与其他人共有的财产，人民法院可以查封、扣押、冻结，并及时通知共有人。\n共有人协议分割共有财产，并经债权人认可的，人民法院可以认定有效。查封、扣押、冻结的效力及于协议分割后被执行人享有份额内的财产；对其他共有人享有份额内的财产的查封、扣押、冻结，人民法院应当裁定予以解除。\n共有人提起析产诉讼或者申请执行人代位提起析产诉讼的，人民法院应当准许。诉讼期间中止对该财产的执行。\n第十三条第一、二款 对第三人为被执行人的利益占有的被执行人的财产，人民法院可以查封、扣押、冻结；该财产被指定给第三人继续保管的，第三人不得将其交付给被执行人。\n对第三人为自己的利益依法占有的被执行人的财产，人民法院可以查封、扣押、冻结，第三人可以继续占有和使用该财产，但不得将其交付给被执行人。\n（2020）最高法民申6800号\n（2020）最高法民申5648号\n（2021）豫05民终888号\n（2022）湘0725民初3288号\n（2023）渝0231民初2731号\n（2024）云01民终959号\n（2025）新40刑终9号"
+      },
+      "en": {
+        "title": "Interpretation of the Implementation Practice of Real Estate Registration and Concealment: Four Scenes and Legal Paths to Pierce the Veil",
+        "lead": "Real estate registered in the name of others is definitely not a\" debt avoidance safe \"!Creditors only need to grasp the three cores of the source of capital contribution, actual control and debt time line, and cooperate with the flexible use of legal tools, they can negate the effect of registration facade through legal procedures, so that hidden property has no hiding place.. ",
+        "subtitle": "",
+        "meta": {
+          "date": "2024-05-22",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h4",
+            "text": "Introduction"
+          },
+          {
+            "type": "p",
+            "text": "In the civil execution procedure, some persons subjected to execution, in order to evade their debts, register the purchase of real estate actually funded by themselves in the name of their spouses, children or even other third parties, resulting in\" no property available for execution \"when the court executes it - a common phenomenon.However, the real estate registration is not equal to the real ownership!This article, based on the Civil Code and judicial interpretations and supported by judicial precedents, dismantles the four scenarios of \"concealing property by name\" and the ways to solve them, so as to provide creditors with a penetrating execution plan."
+          },
+          {
+            "type": "h2",
+            "text": "Four Hidden Scenes and Cracking Paths"
+          },
+          {
+            "type": "p",
+            "text": "Scenario 1: Real Estate Registered in Spouse's Name – Subdivision of Common Property by Subrogation&Cancellation of Improper Punishment"
+          },
+          {
+            "type": "p",
+            "text": "Can the property registered in the name of the spouse be directly executed if the person subjected to execution divides his or her real estate or the real estate belonging to the common property of the husband and wife by means of divorce agreement?"
+          },
+          {
+            "type": "p",
+            "text": "If the property is registered in the name of the spouse, but there is direct evidence to prove that it is the joint property of the husband and wife, according to Article 12 of the Provisions of the Supreme People's Court on Sealing up, Seizure and Freezing Property in Civil Execution by the People's Court, the court may directly seal up the jointly owned property and notify the co-owners in a timely manner. The co-owners may agree to divide the property or bring a lawsuit against the co-owners for property division. If the co-owners are lazy in dividing the property and cause damage to the rights and interests of the creditors, the creditors may directly bring a lawsuit against the creditors for property division on their behalf."
+          },
+          {
+            "type": "p",
+            "text": "If the spouse claims personal property, the creditor may bring a lawsuit of property division by subrogation to confirm the debtor's share of property.If the person subjected to execution transfers his property free of charge through a divorce agreement, the creditor may bring an action for cancellation right"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2024)云01民终959号",
+            "content": "In case No. 959 [2024] of Yun01 Civil Division, the court held that after the debt was incurred, the debtor's gratuitous disposal of the house involved in the case through the divorce agreement had affected the realization of the creditor's rights, and the agreement seriously weakened the debtor's ability to pay off, so the court supported the claim to revoke the case involving the second paragraph of Article 5\" Property Division \"of the Divorce Agreement."
+          },
+          {
+            "type": "p",
+            "text": "Scene 2: Real Estate Registered in the Name of a Third Person – Revocation Action"
+          },
+          {
+            "type": "p",
+            "text": "If the person subjected to execution has a high solvency at the time of signing the contract for debts, the creditor decides to trade with the person subjected to execution only on the basis of the better goodwill of the person subjected to execution. However, after the creditor's rights and debts are incurred, if the person subjected to execution donates property or transfers it to others at an unreasonable low price, his solvency will be reduced, and the gratuitous donation will damage the interests of the creditor. Therefore, the creditor may bring a lawsuit to revoke the donation or transfer."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2021)豫05民终888号",
+            "content": "In the case of (2021) Yu 05 Min Zhong No.888, the debtor transferred the house in dispute to a third party at an obviously unreasonable low price after the debt occurred, thus harming the realization of the interests of the creditor, so the court supported the creditor's claim to revoke the House Sale Agreement signed by the defendant and the third party, and confirmed that the real estate involved in the case was owned by the debtor."
+          },
+          {
+            "type": "p",
+            "text": "However, conversely, if the person subjected to execution had already donated property to others before signing the contract, and at the time of entering into the debt contract, the creditor had examined the other party's (i.e., the person subjected to execution's) goodwill and still decided to conduct business, this constitutes the creditor's failure to exercise due diligence, and the creditor should bear the transaction risk itself and may not revoke the gift of the person subjected to execution."
+          },
+          {
+            "type": "p",
+            "text": "Scene 3: Real estate registered in the name of minor children - confirmation action is recognized as family common property"
+          },
+          {
+            "type": "h2",
+            "text": "First of all, generally speaking, minor children have no income and the purchase money generally comes from their parents."
+          },
+          {
+            "type": "p",
+            "text": "The People's Court of Yunyang County considers that according to Article 595 of the Civil Code,\" a sales contract is a contract whereby the seller transfers the ownership of the subject matter to the buyer and the buyer pays the price \". According to the purchase contract and relevant payment receipts and other evidence, if the price of the purchase subject matter is actually paid, it shall be the actual buyer of the sales contract."
+          },
+          {
+            "type": "p",
+            "text": "If the purchase price is paid by the child, examine whether the child has the actual purchasing power.If a minor child has no independent source of income and basically has no purchasing power, the nature of the property under the minor child's name should be emphasized.As a member of the family, the property under the name of a minor child, regardless of whether it comes from either party of the husband and wife, generally belongs to the common property of the family.However, it does not rule out that some minor children do enjoy personal property. From the perspective of protecting the legitimate rights and interests of creditors and safeguarding the safety of transactions, such property should undoubtedly be recognized as owned by minor children, and the court shall not list such property as the scope of execution when handling enforcement cases, nor shall it take compulsory measures such as freezing and sealing up."
+          },
+          {
+            "type": "p",
+            "text": "Secondly, although the house is registered under the name of the minor child, most of the houses are shared by family members for a long time, and the real estate managed by the parents shall be regarded as the common property of the family."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "（2022）湘0725民初3288号",
+            "content": "In the case No. 3288 [2022] of the early Republic of China of Xiang 0725, the court took the existing use status of the house as one of the bases for judging the actual ownership of the house."
+          },
+          {
+            "type": "p",
+            "text": "The time of final real estate registration and the time before and after the formation of the debt is an important factor in examining whether the debtor is malicious, and also an important basis for the creditor to exercise the right of revocation."
+          },
+          {
+            "type": "p",
+            "text": "If the real estate is registered after the debt, according to the provisions of Article 154 of the Civil Code:\" A civil juristic act of malicious collusion between the actor and the counterpart that damages the legitimate rights and interests of others is invalid. \"Malicious transfer may be directly presumed;The applicant for execution may revoke the gift through the creditor's action for revocation to make the above-mentioned house return to the owner of the executed person, and then execute the above-mentioned house."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "（2022）湘0725民初3288号",
+            "content": "If the real estate is registered before the debt occurs, the Civil Ruling No. (2020) of the Supreme People's Court holds that the house registered in the name of the minor child purchased by the person subjected to execution is the common property of the family, and the shares owned by the person subjected to execution may be executed.The People's Court of Taoyuan County, Hunan Province, in Case No. 3288 [2022] of the early Republic of China, held that there was no sufficient evidence to prove that the debtor's husband and wife really meant to donate the house to their minor daughter when purchasing the house;In addition, if his minor daughter has not provided evidence to prove that he has invested or contributed to the house involved in the case, the court shall determine that the house is the joint property of the debtor's husband and wife from the perspective of balancing the interests of both creditors and debtors in light of the actual investment, existing use status and social status of the house involved in the case."
+          },
+          {
+            "type": "p",
+            "text": "Scene 4: Real estate is registered in the name of an adult child - the action for confirmation is recognized as the common property of the family"
+          },
+          {
+            "type": "p",
+            "text": "Adult children need to prove their ability to purchase houses by themselves, otherwise they may still be recognized as holding on their behalf!Whether the purchase money comes from the debtor is an important basis for judging the actual ownership of the house. For adult children, we should focus on examining whether their wage income level is positively related to the property involved, such as large transfer and property status before the formation of debts."
+          },
+          {
+            "type": "p",
+            "text": "(2020) In the Supreme People's Court Case No. 5648, the Supreme People's Court held that the children of the person subjected to execution did not have the corresponding ability to pay the purchase price when purchasing the house, and the money involved in the case was paid by the person subjected to execution.However, when the children of the person subjected to execution purchased the house involved in the case, the creditor's rights and debts between the creditor and the person subjected to execution did not occur, and it cannot be proved that the purchase of a house for the children of the person subjected to execution was a malicious evasion of debts.The house involved in the case is purchased by the debtor's husband and wife, and his adult daughter has no financial ability to purchase a house with a value of nearly one million yuan when purchasing the house. The actual investor of the house involved in the case is not the right registrant. Therefore, the court determines that the house involved in the case is the common property of the debtor's husband and wife and their adult daughter's family, and the shares owned by the person subjected to execution may be executed."
+          },
+          {
+            "type": "h2",
+            "text": "Lawyers' Case Handling Tool Box: Guidelines for the Whole Process of Enforcement Procedures"
+          },
+          {
+            "type": "h2",
+            "text": "Property clues mining and evidence chain construction"
+          },
+          {
+            "type": "p",
+            "text": "Application for investigation order: obtain the bank flow, house purchase contract, real estate registration information and property records of the debtor and related parties;Find out the certificate of capital contribution for the purchase price and the certificate of actual possession and use."
+          },
+          {
+            "type": "h2",
+            "text": "Through the flow of funds: According to the debtor's property report, focus on the verification of abnormal transfers before and after the formation of debts."
+          },
+          {
+            "type": "h2",
+            "text": "Litigation Strategy Selection"
+          },
+          {
+            "type": "h2",
+            "text": "Revocation right action: against gratuitous transfer or malicious transfer"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "（2023）渝0231民初2731号",
+            "content": "In Case No. 2731 [2023] of the Early Republic of China, the debtor attempted to dispose of the house involved in the case free of charge by signing the Divorce Agreement, which seriously damaged the legitimate rights and interests of the creditor, and the court supported the creditor's claim to revoke the debtor's agreement through the divorce agreement."
+          },
+          {
+            "type": "h2",
+            "text": "Subrogation of property division litigation: against the common property of husband, wife and family, and the debtor is negligent in dividing the property"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2024)陕0111民初5035号",
+            "content": "In the (2024) Shaan 0111 Early Republic of China Case No. 5035 and (2025) Yun 01 Civil End Case No. 518, the relevant creditor's rights are in the compulsory execution of the court, and the debtor has no other property available for execution except for the property shared with an outsider. The court has sealed up, seized or frozen the common property and notified the co-owners. The person subjected to execution and other co-owners neither agree to divide the common property nor bring a lawsuit for property division, which hinders the compulsory execution of the court and the realization of the creditor's rights of the applicant for execution. The court supports the creditor's claim for property division, and safeguards the legitimate rights and interests of the creditor."
+          },
+          {
+            "type": "h2",
+            "text": "Use the\" crime of refusing to execute \"flexibly to exert pressure: those whose malicious transfer is serious shall be investigated for criminal responsibility"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "（2025）新40刑终9号",
+            "content": "In the case of (2025) Xin 40 Xing Zhong No. 9, the court held that the defendant Chen Moujia, in order to evade responsibility, after receiving the notice from the court adding him as the person subjected to execution, knowing that his real estate had unpaid bank loans and that his property was insufficient to pay off the debts to the applicant for execution Yang Mouyi, still sold the real estate and required the purchaser to pay the sale proceeds in cash to his son. The subjective intention to transfer and conceal property to evade court execution was obvious, resulting in the effective ruling of the people's court being unenforceable, which constitutes a serious circumstance and has constituted the crime of refusing to execute judgments and rulings, and should be punished according to law."
+          },
+          {
+            "type": "h2",
+            "text": "Implementation of interface measures"
+          },
+          {
+            "type": "p",
+            "text": "In accordance with the provisions of the first and second paragraphs of Article 13 of the Provisions of the Supreme People's Court on Sealing up, Seizure and Freezing Property in Civil Execution by People's Courts, the real estate under the name of a third party shall be applied for sealing up synchronously to prevent sale;To apply for execution directly with an effective judgment to avoid idling of the procedure."
+          }
+        ],
+        "conclusion": "Real estate registered in the name of others is definitely not a\" safe for avoiding debts \"!Creditors only need to grasp the three cores of the source of capital contribution, actual control and debt time line, and cooperate with the flexible use of legal tools, they can negate the validity of registration facade through legal procedures, so that hidden property has nothing to hide!\\N (All parties to the case in the text are pseudonyms, please contact a professional enforcement lawyer if you need case consultation)  n-We have been focusing on the field of enforcement for 10 years, and we have made the judgment sound -  nReference:  n Civil Code of the People's Republic of China  n Article 154 Civil juristic acts in which the actor and the counterpart collude maliciously and damage the legitimate rights and interests of others are invalid.\\N Article 303 Where the co-owners agree not to divide a commonly owned realty or chattel in order to maintain the relationship of co-ownership, the agreement shall be followed, provided that if the co-owners have major reasons to divide the realty or chattel, they may request the division;If there is no agreement or the agreement is not clear, the co-owners by shares may request the division at any time, and the co-owners may request the division when the common basis is lost or there are major reasons for the division.If the division causes damage to other co-owners, compensation shall be made.\\N Article 538 Where a debtor disposes of its property rights and interests free of charge by waiving its creditor's rights, waiving the guarantee of its creditor's rights, or transferring its property free of charge, or maliciously extends the time limit for the performance of its due creditor's rights, thus affecting the realization of the creditor's rights, the creditor may request the people's court to revoke the debtor's act.\\N Article 541 The obligee's cancellation right shall be exercised within one year from the date on which the obligee knows or should know the cause for cancellation.If the debtor fails to exercise the right of cancellation within five years from the date of occurrence of the debtor's act, the right of cancellation shall be extinguished.\\N Criminal Law of the People's Republic of China  n Article 313 [Crime of Refusing to Execute Judgments or Orders] Whoever refuses to execute a judgment or order of a people's court when he has the ability to do so, if the circumstances are serious, shall be sentenced to fixed-term imprisonment of not more than three years, criminal detention or a fine;If the circumstances are especially serious, he shall be sentenced to fixed-term imprisonment of not less than three years but not more than seven years and shall also be fined.\\N Provisions of the Supreme People's Court on Sealing up, Seizure and Freezing of Property in Civil Execution by People's Courts  n Article 12 The people's court may seal up, seize or freeze the property jointly owned by the person subjected to execution and other persons, and notify the co-owners in a timely manner.\\N If the co-owners divide the common property by agreement and are approved by the creditors, the people's court may determine it to be valid.The effect of sealing up, distraining or freezing shall extend to the property within the share enjoyed by the person subjected to execution after the division of the agreement;The people's court shall rule to terminate the seizure, seizure or freezing of the property within the share enjoyed by other co-owners.\\N If a co-owner brings a lawsuit for division of property or an applicant for execution brings a lawsuit for division of property by subrogation, the people's court shall grant permission.Execution of the property shall be suspended during the proceedings.\\N Article 13 The people's court may seal up, distrain or freeze the property of the person subjected to execution possessed by a third party for the interests of the person subjected to execution;If the property is assigned to a third party for continued custody, the third party shall not deliver it to the person subjected to execution.\\N The people's court may seal up, distrain or freeze the property of the person subjected to execution possessed by a third party according to law for its own interests, and the third party may continue to possess and use the property, but shall not deliver it to the person subjected to execution.\\N (2020) Supreme Famin Shen No.6700  n (2020) Supreme Famin Shen No.5648  n (2021) No. 888 of the Civil Division of Yu 05  n (2022) No. 3288 of the Civil Division of Xiang 0725  n (2023) No. 2731 of the Civil Division of Yu 0231  n (2024) No. 959 of the Civil Division of Yun 01  n (2025) No. 9 of the New 40",
+        "references": []
       }
     }
   },
@@ -694,6 +1201,139 @@
           "《最高人民法院关于人民法院办理执行异议和复议案件若干问题的规定》"
         ],
         "conclusion": "误转款项能否排除执行，核心在于资金权属认定及案外人权利性质。货币的“占有即所有”规则具有普适性，案外人仅凭“误转”主张排除执行难获支持。企业和个人在交易中应重视账户合规管理，发生纠纷时及时寻求专业法律帮助，通过精准的法律策略维护权益。\n关注我们，获取更多执行异议与救济实务指南！\n（本文案例及观点供实务参考，具体案件需结合管辖法院规则分析。）"
+      },
+      "en": {
+        "title": "Case sharing: Can the execution be ruled out if an outsider wrongly transfers funds to the account of the person subjected to execution?",
+        "lead": "In the civil execution procedure, it is not uncommon for an outsider to transfer funds to the account of the person subjected to execution due to operational errors in the execution procedure.The focus of such disputes is: whether the \"wrongly transferred\" money belongs to the property of the person subjected to execution?Can an outsider rule out enforcement through the enforcement objection procedure?This article analyzes the legal rules and practical essentials of such cases in light of a successful collection enforcement case represented by our lawyers.",
+        "subtitle": "",
+        "meta": {
+          "date": "2024-06-10",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Brief introduction to the case: the payment for goods of 500000 yuan was wrongly transferred to the account of the person subjected to execution, and the objection of the outsider was rejected"
+          },
+          {
+            "type": "p",
+            "text": "In the case of a dispute over a sales contract between Mr. Wang and Mr. Shi, Mr. Shi failed to perform the payment obligation specified in the effective legal document, so Mr. Wang entrusted the lawyer of the firm to file an application for enforcement on his behalf."
+          },
+          {
+            "type": "p",
+            "text": "In the course of execution, the deposit account of a bank under the name of Shi was frozen by the court.The outsiders, Zhan and Chen, need to pay for the goods due to their business dealings with Shi Xiaomou, Shi's son. In January 2025, Zhan entrusted his wife, Chen, to transfer 500000 yuan to Shi Xiaomou's account. Therefore, Chen transferred 500000 yuan to Shi's account with a postscript of \"Ganoderm Powder\", intending to let Shi collect money on behalf of Shi Xiaomou.Due to the freezing of Shi's account, the funds cannot be transferred out, and the transaction is suspended.Zhan and Chen raised an objection to the execution to the court on the grounds of wrong transfer and requested the original route to refund 500000 yuan."
+          },
+          {
+            "type": "p",
+            "text": "Focus of dispute:"
+          },
+          {
+            "type": "h2",
+            "text": "Does the amount transferred by mistake still belong to the property of Shi?"
+          },
+          {
+            "type": "h2",
+            "text": "Can an outsider rule out enforcement on the grounds of\" wrongful transfer \"?"
+          },
+          {
+            "type": "h2",
+            "text": "Lawyers hit the nail on the head: from the ownership of currency to the rules of evidence, the three defenses build a strong line of defense for enforcement"
+          },
+          {
+            "type": "p",
+            "text": "The\" possession is ownership \"rule of money-the ownership of the money involved has been transferred and belongs to the enforceable property of Shi A of the person subjected to execution"
+          },
+          {
+            "type": "p",
+            "text": "According to Item (3) of Paragraph 1 of Article 25 of the Provisions of the Supreme People's Court on Several Issues Concerning the Handling of Cases of Objection to Execution and Reconsideration by People's Courts, the ownership of bank deposits shall be subject to the registered name of the account.As a kind of thing, currency follows the principle of \"possession is ownership\", and once transferred to the account of the person subjected to execution, it shall be regarded as its responsible property, which can be executed by the court according to law."
+          },
+          {
+            "type": "h2",
+            "text": "The burden of proof for the act of wrongful transfer - the evidence provided by the outsiders, Mr. and Mrs. Zhan and Mr. Chen, is insufficient to prove that the transfer is wrongful"
+          },
+          {
+            "type": "p",
+            "text": "Chen clearly knows that the transfer account is owned by Shi, and the bank account transaction records provided by him can only prove that there is a transfer, but cannot prove that it is a transfer by mistake. Chen Rongping, knowing that the payee is Shi Shengen but still chooses to transfer, claims that the transfer is a\" transfer by mistake \", which does not conform to the common sense, and the nature of collection is not specified in the postscript of the transfer,\" Ganoderm Powder \". Therefore, 500000 yuan involved in the case belongs to Shi, which is an enforceable property."
+          },
+          {
+            "type": "h2",
+            "text": "The core of the judgment of the court: Why can the claim of\" wrongful transfer \"not prevent the execution?"
+          },
+          {
+            "type": "p",
+            "text": "The court considers that Item 3 of Paragraph 1 of Article 25 of the Provisions of the Supreme People's Court on Several Issues Concerning the Handling of Cases of Objection to Execution and Reconsideration by People's Courts stipulates that\" If an outsider raises an objection to the execution of a bank deposit enforced by the people's court, the people's court shall judge whether the objector to execution is the obligee according to the account name registered by the financial institution. \"In this case, Shi A, the person subjected to execution, has an enforcement case that has not been completed, and the court's freezing of the deposit account of Shi A, the person subjected to execution, conforms to the provisions of law.For the payment of 500000 yuan remitted into the deposit account of Shi A, the person subjected to execution, as mentioned by the outsiders, Zhan and Chen, before the transfer, they know that the remitted account is the bank account under the name of the person subjected to execution, and the act does not belong to wrong remittance or wrong remittance. The court shall not support their claim that the payment belongs to them without legal basis.On this basis, the court rejected the objection request of outsiders Zhan and Chen."
+          },
+          {
+            "type": "p",
+            "text": "Execution effect: Eventually, all the 500000 yuan of payment for goods will be used for execution, and Mr WANG's creditor's rights will be realized in full!The case was closed in February 2025."
+          },
+          {
+            "type": "h2",
+            "text": "Practice Guide for Lawyers: How to Prevent the Risk of Mistransfer?How should we deal with objections to enforcement?"
+          },
+          {
+            "type": "h2",
+            "text": "Relief route for transfer of funds by mistake"
+          },
+          {
+            "type": "h2",
+            "text": "Execution of Objection Procedure"
+          },
+          {
+            "type": "p",
+            "text": "This procedure is only applicable to outsiders who enjoy real rights or special creditor's rights over the subject matter of execution. As the funds in this case have been mixed with other funds after entering the account of Shi A, they are not specific and cannot return the\" original object \"in fact, and have no right to claim the\" original object return \".Execution of ordinary claims (such as unjust enrichment in the case) cannot be excluded."
+          },
+          {
+            "type": "h2",
+            "text": "Claim of unjust enrichment in a separate action"
+          },
+          {
+            "type": "p",
+            "text": "According to the provisions of Article 14 of the Interpretation of the Supreme People's Court on Several Issues Concerning the Application of Enforcement Procedures, Zhan and Chen are unable to request the exclusion of compulsory execution on the basis of property rights on the grounds of claims for wrongful transfer of claims for unjust enrichment."
+          },
+          {
+            "type": "p",
+            "text": "An outsider may bring a suit against the person subjected to execution in another case to demand the return of money, but he shall be compensated equally with other creditors without priority."
+          },
+          {
+            "type": "h2",
+            "text": "Special circumstances break through the possibility of\" possession is ownership \""
+          },
+          {
+            "type": "p",
+            "text": "If the transfer by mistake meets the following conditions, the outsider may exclude the execution:"
+          },
+          {
+            "type": "h2",
+            "text": "Special accounts for special funds: such as special accounts for migrant workers' wages and deposit accounts, etc. The funds have specific purposes and are not confused;"
+          },
+          {
+            "type": "h2",
+            "text": "Account is specified: the money is not used after entering the account and is distinguished from other funds of the person subjected to execution;"
+          },
+          {
+            "type": "p",
+            "text": "Clear collection agreement: the outsider and the person subjected to execution sign a collection agreement, and the third party (the actual payee) confirms the fact of collection."
+          },
+          {
+            "type": "h2",
+            "text": "Risk prevention suggestions"
+          },
+          {
+            "type": "p",
+            "text": "Double confirmation before transfer: check the account name, account number and opening bank to avoid blind transfer only based on\" kinship \"or\" historical transaction \"."
+          },
+          {
+            "type": "p",
+            "text": "Remarks specify the purpose: If it is collected and paid on behalf of others, it shall indicate\" collect on behalf of XX \"in the postscript of the transfer, and keep written agreements, chat records and other evidence."
+          },
+          {
+            "type": "h2",
+            "text": "Timely take preservation measures: immediately report to the police and apply for account freezing after discovering the wrong transfer to prevent the funds from being deducted."
+          }
+        ],
+        "conclusion": "Whether the transfer of funds by mistake can exclude the execution lies in the determination of the ownership of funds and the nature of the rights of outsiders.The \"possession is ownership\" rule of currency is universal, and it is difficult for outsiders to support the exclusion of execution only by claiming \"wrongful transfer\".Enterprises and individuals should attach importance to account compliance management in transactions, seek professional legal assistance in a timely manner in case of disputes, and safeguard their rights and interests through accurate legal strategies.\\N Follow us for more practical guidelines on enforcement objections and remedies!\\N (The cases and viewpoints in this article are for practical reference, and the specific cases need to be analyzed in combination with the rules of the competent court.）",
+        "references": []
       }
     }
   },
@@ -858,6 +1498,163 @@
         ],
         "references": [],
         "conclusion": "执行分配是“法律规则”与“诉讼策略”的双重博弈。首封债权虽不直接等同于优先权，但通过合理运用查封顺序规则及地方司法政策，仍可显著提升受偿可能性。债权人需结合案件管辖地规则、债务人主体类型制定针对性策略，必要时建议委托专业律师介入，以最大化实现债权。\n关注我们，获取更多执行实务干货！\n（本文仅为实务要点提炼，具体案件需结合管辖法院规则制定策略。）"
+      },
+      "en": {
+        "title": "Interpretation of the rules for the distribution of priority to be repaid and the first creditor's right: How to\" rush \"to be repaid in the execution procedure?",
+        "lead": "In enforcement cases, when the debtor's property is insufficient to pay off all debts, the\" dispute over the order of repayment \"between creditors often becomes the key.How can the priority of repayment be realized?Does the initial creditor enjoy the \"first come, first served\" advantage?This article combines legal provisions and practical experience to clarify the underlying logic of enforcement distribution for you.",
+        "subtitle": "",
+        "meta": {
+          "date": "2024-07-18",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "The first creditor's right has the priority of repayment: the basic principle of law"
+          },
+          {
+            "type": "p",
+            "text": "According to the Civil Code, the Civil Procedure Law and relevant judicial interpretations, the priority of compensation is the right of specific creditors to be compensated in priority to other creditors or even to other property owners as stipulated by law.There is no clear provision for the appropriate distribution of the initial creditors.The order of repayment in the enforcement of an allocation generally follows the following rules:"
+          },
+          {
+            "type": "h2",
+            "text": "Statutory priority absolute priority"
+          },
+          {
+            "type": "p",
+            "text": "The statutory priorities stipulated in the Civil Code mainly include mortgage, pledge, lien, priority of construction project price, etc. In addition, according to different civil legal relations, there are ship liens, civil aircraft liens, priority of compensation for consumer housing, etc. We will only briefly introduce these priority rights stipulated in the Civil Code here."
+          },
+          {
+            "type": "h4",
+            "text": "Priority of Construction Project Price"
+          },
+          {
+            "type": "p",
+            "text": "According to Article 807 of the Civil Code, the contractor shall enjoy priority over the project discount and auction money."
+          },
+          {
+            "type": "h4",
+            "text": "Security interest (mortgage/pledge/lien)"
+          },
+          {
+            "type": "p",
+            "text": "According to the provisions of Articles 414 and 415 of the Civil Code, if there are multiple mortgages on the same property and all of them are registered, the order of repayment shall be determined according to the time of registration, and the registered ones shall have priority over the unregistered ones. If none of them is registered, they shall be compensated according to the proportion of creditor's rights;If both the mortgage right and the pledge right are established for the same property, the order of repayment shall be determined according to the time of registration and delivery."
+          },
+          {
+            "type": "p",
+            "text": "According to the provisions of Article 456 of the Civil Code, if there is both a mortgage, a pledge and a lien on the same property, the lienor shall have the priority to be repaid."
+          },
+          {
+            "type": "h2",
+            "text": "In principle, ordinary creditor's rights shall be paid in proportion or in the order of seizure"
+          },
+          {
+            "type": "p",
+            "text": "If the person subjected to execution is a natural person or other organization, and his property is insufficient to pay off all his debts, the ordinary creditor shall distribute it in proportion to his creditor's rights (according to the rules of participation in distribution)."
+          },
+          {
+            "type": "p",
+            "text": "If the person subjected to execution is an enterprise juridical person and has not entered the bankruptcy proceedings, the ordinary creditors shall be compensated in the order of seizure;If it enters the bankruptcy proceedings, it shall be distributed uniformly in accordance with the bankruptcy liquidation rules."
+          },
+          {
+            "type": "h2",
+            "text": "The\" advantages \"of the initial creditors: Can they have a bigger share?"
+          },
+          {
+            "type": "p",
+            "text": "The repayment status of the initial creditor (ordinary creditor) shall be discussed according to the circumstances:"
+          },
+          {
+            "type": "p",
+            "text": "Case 1: The person subjected to execution is a natural person/other organization - distributed in proportion"
+          },
+          {
+            "type": "p",
+            "text": "When the property is insufficient to pay off all the debts, the system of participation in distribution shall apply:"
+          },
+          {
+            "type": "h2",
+            "text": "The priority holder directly claims priority in compensation;(Article 506 of the Judicial Interpretation of the Civil Procedure Law)."
+          },
+          {
+            "type": "h2",
+            "text": "In principle, ordinary creditors shall be distributed in proportion to their creditor's rights (Article 508 of the Judicial Interpretation of the Civil Procedure Law)."
+          },
+          {
+            "type": "p",
+            "text": "Exceptions: In some areas, the initial creditor is allowed to be given an additional 10% -20%. Although the law does not expressly stipulate that the initial creditor's right may be paid in priority, the courts in many places allow the initial ordinary creditor to give an appropriate additional proportion in order to encourage creditors to actively search for property, and the specific rules are as follows:"
+          },
+          {
+            "type": "h4",
+            "text": "The\" reward \"is only for ordinary creditor's rights and shall not exceed the legal priority order;"
+          },
+          {
+            "type": "h4",
+            "text": "The specific proportion shall be subject to the provisions of the local court."
+          },
+          {
+            "type": "h4",
+            "text": "Proof of first contribution is required (such as evidence of finding property clues)."
+          },
+          {
+            "type": "p",
+            "text": "Case 2: The person subjected to execution is an enterprise juridical person - the first seal may\" counterattack \""
+          },
+          {
+            "type": "h2",
+            "text": "Not in bankruptcy proceedings: liquidation shall be made in the order of seizure (priority shall be given to the first seal)."
+          },
+          {
+            "type": "p",
+            "text": "According to Article 514 of the Judicial Interpretation of the Civil Procedure Law, if the property of the person subjected to execution has not entered the bankruptcy proceedings, the statutory priority creditor's rights shall still be given priority, but the ordinary creditor's rights shall be paid in the order of seizure, and the first creditor may occupy the first mover advantage."
+          },
+          {
+            "type": "h2",
+            "text": "Entering bankruptcy proceedings"
+          },
+          {
+            "type": "p",
+            "text": "According to Article 513 of the Judicial Interpretation of the Civil Procedure Law, if the person subjected to execution enters the bankruptcy proceedings, the execution court shall rule to terminate the execution of the person subjected to execution.According to Articles 109 and 110 of the Enterprise Bankruptcy Law, the obligee who has a security right over the specific property of the bankrupt may enjoy the priority of repayment with respect to the specific property, the first seal advantage disappears, and all other ordinary creditor's rights are paid off in proportion."
+          },
+          {
+            "type": "h2",
+            "text": "Suggestions for practical operation"
+          },
+          {
+            "type": "h2",
+            "text": "First envelope combined with multiple rules"
+          },
+          {
+            "type": "p",
+            "text": "In areas that support multiple distribution, property clues (such as bank accounts, real estate, equity, etc.) shall be searched in time through property preservation or implementation stage before implementation to seize the core assets of the debtor first;Strive to be the first creditor.Attention should be paid to giving priority to the application for sealing up property that is easy to realize, high in value and free from encumbrances, so as to avoid sealing up inefficient assets."
+          },
+          {
+            "type": "p",
+            "text": "The creditor of the first seal may provide proof of the time of seizure, records of the source of property clues (such as written materials for self-investigation, receipt of reward announcement), vouchers for preservation expenses, and written explanations to the enforcement court of the contribution of the first seal to the property investigation and control.The court applying for enforcement in a timely manner shall decide on the proportion of multiple points."
+          },
+          {
+            "type": "h2",
+            "text": "Avoiding the impact of insolvency proceedings:"
+          },
+          {
+            "type": "p",
+            "text": "If the debtor is insolvent, the first seal advantage may be broken by the bankruptcy proceedings, so dispose of the property and distribute it as soon as possible before the debtor or other creditors apply for bankruptcy of the debtor;If other creditors have applied for bankruptcy, the first creditor may also declare the creditor's rights in time and claim the first contribution, which may be considered by some bankruptcy administrators at their discretion."
+          },
+          {
+            "type": "h2",
+            "text": "Risk warning: Do not step on these minefields!"
+          },
+          {
+            "type": "p",
+            "text": "Sleeping on rights\": If the first creditor fails to claim the priority or apply for participation in the distribution in time, it shall be deemed to have waived its rights;"
+          },
+          {
+            "type": "p",
+            "text": "Clue of Misjudgment of Property\": If the property has been fully covered by other priorities, the first seal only increases the cost of the procedure when the value of the first seal property is insufficient, and the value of the property and the scope of priority need to be assessed in advance."
+          }
+        ],
+        "conclusion": "Distribution of execution is a dual game between\" legal rules \"and\" litigation strategies \".Although the first claim is not directly equivalent to the priority, the possibility of repayment can still be significantly enhanced through the rational use of the rules of seizure order and local judicial policies.Creditors need to formulate targeted strategies in combination with the rules of jurisdiction of the case and the types of debtors, and suggest entrusting professional lawyers to intervene when necessary to maximize the realization of creditor's rights.\\N Follow us for more executive dry goods!\\N (This article is only for the extraction of practical points, and specific cases need to be formulated in accordance with the rules of the competent court.）",
+        "references": []
       }
     }
   },
@@ -1003,6 +1800,135 @@
         ],
         "subtitle": "——从国内立法到国际条约及互惠原则的全面解析",
         "conclusion": "跨境执行是法律规则、司法互信与国际协作的综合博弈。企业应在争议发生前规划管辖条款，胜诉后结合目标国法律动态设计执行策略。专业律师团队在文件准备、互惠关系举证及程序应对中不可或缺。"
+      },
+      "en": {
+        "title": "Cross-border Enforcement of Chinese Judgments and Arbitral Awards: Legal Framework and Practical Guidelines",
+        "lead": "Cross-border enforcement is a comprehensive game of legal rules, judicial mutual trust and international cooperation.Enterprises should plan jurisdiction clauses before disputes occur, and design implementation strategies dynamically in light of the laws of the target country after winning the lawsuit.A team of professional lawyers is indispensable in the preparation of documents, the proof of reciprocity and procedural response.. ",
+        "subtitle": "- Comprehensive analysis from domestic legislation to international treaties and the principle of reciprocity",
+        "meta": {
+          "date": "2024-08-05",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h4",
+            "text": "Introduction"
+          },
+          {
+            "type": "p",
+            "text": "With the acceleration of global economic integration, the problem of\" victory in litigation and difficulty in enforcement \"in cross-border dispute settlement has become increasingly prominent.How can an effective judgment or arbitral award of a Chinese court be recognized and enforced abroad?Based on Chinese laws, international treaties and typical state practices, this article systematically combs the legal basis and operation path, and provides practical guidance for enterprises and legal practitioners."
+          },
+          {
+            "type": "h2",
+            "text": "Basis of domestic law"
+          },
+          {
+            "type": "h2",
+            "text": "Effective arbitral award"
+          },
+          {
+            "type": "p",
+            "text": "In accordance with the provisions of the second paragraph of Article 297 of the Civil Procedure Law, if an effective arbitral award made by the China Arbitration Commission needs to be enforced abroad, the parties may directly apply to the competent foreign court for recognition and enforcement."
+          },
+          {
+            "type": "h2",
+            "text": "Effective judgment: dual track implementation path"
+          },
+          {
+            "type": "p",
+            "text": "At present, judgments made by Chinese courts cannot be recognized and enforced in other countries by relying on international conventions. According to the first paragraph of Article 297 of the Civil Procedure Law, when an effective judgment of a Chinese court needs to be executed abroad, the parties concerned may apply through the following two channels:"
+          },
+          {
+            "type": "p",
+            "text": "1. Direct application: a party directly applies to a foreign court with jurisdiction for recognition and enforcement;"
+          },
+          {
+            "type": "p",
+            "text": "2. Request for assistance of the court: The people's court shall, in accordance with the provisions of the international treaties concluded or acceded to by the People's Republic of China, or in accordance with the principle of reciprocity, request the foreign court to recognize and enforce them."
+          },
+          {
+            "type": "h2",
+            "text": "International treaty framework: dual support of multilateral and bilateral"
+          },
+          {
+            "type": "h2",
+            "text": "Multilateral treaties"
+          },
+          {
+            "type": "h2",
+            "text": "Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York Convention 1958)"
+          },
+          {
+            "type": "p",
+            "text": "On December 2, 1986, China acceded to the Convention on the Recognition and Enforcement of Foreign Arbitral Awards adopted in New York in 1958 (hereinafter referred to as the\" New York Convention 1958 \"), which shall enter into force for China on April 22, 1987. The main contents are summarized as follows:"
+          },
+          {
+            "type": "h2",
+            "text": "Convention on the Recognition and Enforcement of Foreign Civil and Commercial Judgments (Hague Convention 2019)"
+          },
+          {
+            "type": "p",
+            "text": "On July 2, 2019, representatives of the 22nd Diplomatic Congress of the Hague Conference on Private International Law (HCCH) signed the Convention on the Recognition and Enforcement of Foreign Civil and Commercial Judgments. China has not acceded to the Convention, and the effective civil and commercial judgments made by Chinese courts cannot be applied for recognition and enforcement in the courts of the contracting States through the Convention.The main contents are summarized as follows:"
+          },
+          {
+            "type": "h2",
+            "text": "bilateral treaty"
+          },
+          {
+            "type": "p",
+            "text": "China and 39 countries have signed agreements on judicial assistance in civil and commercial matters, including 34 countries that explicitly include provisions on mutual enforcement of judgments. The general situation is summarized as follows:"
+          },
+          {
+            "type": "h2",
+            "text": "The principle of reciprocity: a breakthrough from\" fact \"to\" presumption \""
+          },
+          {
+            "type": "p",
+            "text": "China has not concluded bilateral judicial assistance agreements with the United States, Britain, Japan, South Korea and other countries with relatively close economic exchanges with China, including mutual recognition and enforcement of court judgments and rulings. In the absence of treaties, the principle of reciprocity is the core basis for enforcement.The parties concerned can only apply for and request the courts of these countries to recognize and enforce the effective judgments and rulings of the courts of our country on the basis of the principle of reciprocity.The principle of judicial courtesy or reciprocity is usually stipulated in the domestic laws of various countries, and relevant laws are formulated according to the judicial history and practice of various countries.China's judicial policies have been significantly relaxed in recent years:"
+          },
+          {
+            "type": "h4",
+            "text": "factual reciprocity"
+          },
+          {
+            "type": "p",
+            "text": "factual reciprocity means that the State to which the court making the request for recognition and enforcement of the judgment belongs has a precedent for recognition and enforcement of the judgment of the court of the requested State, and the requested State has also recognized and enforced the judgment of the court of that State in return."
+          },
+          {
+            "type": "p",
+            "text": "On July 22, 2009, the Federal District Court of California of the United States made a ruling to recognize and enforce the Civil Judgment No. 1 [2001] of the Higher People's Court of Hubei Province.Robinson subsequently filed an appeal, and on March 29, 2011, the United States Court of Appeals for the Ninth Circuit ruled to reject the appeal and uphold the original judgment, that is, to recognize and enforce the effective judgment of the Chinese court."
+          },
+          {
+            "type": "h4",
+            "text": "Legal reciprocity"
+          },
+          {
+            "type": "p",
+            "text": "Legal reciprocity means that both countries stipulate substantially the same conditions for recognition and enforcement of foreign court judgments and require reciprocal assurances in the form of domestic legislation."
+          },
+          {
+            "type": "p",
+            "text": "The Minutes of the National Symposium on Foreign-related Commercial Maritime Trials issued by the Supreme People's Court in 2022 establish the standard of\" legal reciprocity \". Paragraph 1 (1) of Article 44 stipulates that\" according to the law of the country where the court is located, the civil and commercial judgment made by the people's court may be recognized and enforced by the court of the country where the court is located; \"The determination of reciprocity no longer requires the relevant foreign court to recognize and enforce the civil and commercial judgment of the people's court in advance."
+          },
+          {
+            "type": "p",
+            "text": "The Supreme Court of Japan has pointed out that the\" existence of reciprocity \"stipulated in Article 118, paragraph 4, of the Japanese Civil Procedure Law means that\" there is no substantial difference between the requirements for recognition and enforcement of foreign judgments in the original trial country and those stipulated in the Japanese law, so that similar Japanese court judgments can also be valid in the original trial country \".The adoption of such a broad standard of reciprocity in Japan has promoted the establishment of a mutually beneficial relationship with the country making the judgment, and some Japanese scholars have accordingly suggested that the provisions on reciprocity be abolished in legislation."
+          },
+          {
+            "type": "h4",
+            "text": "presumed reciprocity"
+          },
+          {
+            "type": "p",
+            "text": "Presumptive reciprocity refers to the presumption of reciprocity between the two countries through such facts as mutual understanding or consensus reached by the courts of the two countries or diplomatic promise of reciprocity.In June 2017, the Nanning Declaration was adopted at the Second China ASEAN Judges' Meeting held by the Supreme People's Court.The statement emphasizes that \"the courts of the participating countries will... consider appropriate promotion of mutual recognition and enforcement of civil and commercial judgments. A country that has not yet concluded an international treaty on the recognition and enforcement of foreign civil and commercial judgments may presume that there is a reciprocity relationship with the other country to the extent permitted by its domestic law if the courts of the other country do not have a precedent of refusing to recognize and enforce their own civil and commercial judgments on the grounds of reciprocity in the judicial proceedings for the recognition and enforcement of the civil and commercial judgments of the other country.\" Thus, the application of the principle of reciprocity in judicial practice is advanced from the \"factual reciprocity\" standard to the \"presumed reciprocity\" standard, which is conducive to the relevant judicial assistance work between China and countries without a treaty basis."
+          },
+          {
+            "type": "p",
+            "text": "2024: Nanning Intermediate People's Court executes the Thai judgment with\" presumed reciprocity \"for the first time, releasing positive signals.However, in practice, some countries still require reciprocity of facts and need to prove the existence of enforcement precedents in the other party by individual cases."
+          }
+        ],
+        "conclusion": "Cross-border enforcement is a comprehensive game of legal rules, judicial mutual trust and international cooperation.Enterprises should plan jurisdiction clauses before disputes occur, and design implementation strategies dynamically in light of the laws of the target country after winning the lawsuit.A team of professional lawyers is indispensable in the preparation of documents, the proof of reciprocity and procedural response.",
+        "references": []
       }
     }
   },
@@ -1306,6 +2232,289 @@
         ],
         "subtitle": "——基于《纽约公约》及中国司法实践的路径解析",
         "conclusion": "中国法院近年来通过统一司法解释、扩大互惠认定范围，显著提升了外国仲裁裁决的执行效率。对于缔约国裁决，中国已形成成熟的审查流程；对于非公约国家，随着“一带一路”倡议推进，互惠原则的灵活适用将逐步破冰。企业跨境争议解决时，建议优先选择《1958年纽约公约》缔约国仲裁机构，并提前规划执行路径。"
+      },
+      "en": {
+        "title": "Practical Guidelines for the Recognition and Enforcement of Foreign Effective Arbitral Awards in China",
+        "lead": "In recent years, Chinese courts have significantly improved the efficiency of enforcement of foreign arbitral awards by unifying judicial interpretations and expanding the scope of reciprocity determination.China has developed a mature review process for the ruling of the contracting parties.. ",
+        "subtitle": "- Analysis of the path based on the New York Convention and China's judicial practice",
+        "meta": {
+          "date": "2024-09-12",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Parties to the New York Convention: direct application under international treaties"
+          },
+          {
+            "type": "h2",
+            "text": "Legal basis"
+          },
+          {
+            "type": "p",
+            "text": "China acceded to the Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York Convention 1958) in 1986, which entered into force for China as of April 22, 1987, and made two reservations:"
+          },
+          {
+            "type": "h2",
+            "text": "Reciprocal reservation: recognition and enforcement only of an award made in the territory of another Contracting State;"
+          },
+          {
+            "type": "p",
+            "text": "Commercial reservation: only applicable to contractual or non-contractual commercial disputes (such as contract disputes, tort compensation, investment disputes, etc.), excluding investment disputes between the host country and foreign investors."
+          },
+          {
+            "type": "h2",
+            "text": "Application Process"
+          },
+          {
+            "type": "h2",
+            "text": "The competent court: (Article 304 of the Civil Procedure Law of the People's Republic of China)"
+          },
+          {
+            "type": "p",
+            "text": "Territorial jurisdiction: (1) the court of the place where the person subjected to execution has his domicile;(2) The court of the place where the property of the person subjected to execution is located;(3) The court of the place where the applicant has his domicile;(4) Place of appropriate connection with the dispute adjudicated Court"
+          },
+          {
+            "type": "p",
+            "text": "Jurisdiction at different levels: intermediate people's courts"
+          },
+          {
+            "type": "h2",
+            "text": "Submittals"
+          },
+          {
+            "type": "h2",
+            "text": "The original or certified copy of the award;"
+          },
+          {
+            "type": "h2",
+            "text": "The original or certified copy of the arbitration clause or arbitration agreement in the deed;"
+          },
+          {
+            "type": "h2",
+            "text": "Chinese translation.The translation shall be authenticated by a public or sworn interpreter or diplomatic or consular officer."
+          },
+          {
+            "type": "h2",
+            "text": "Period of application for execution"
+          },
+          {
+            "type": "p",
+            "text": "The period of application for enforcement shall be two years.The provisions of the law on the suspension or interruption of the limitation of action shall apply to the suspension or interruption of the limitation of application for execution."
+          },
+          {
+            "type": "h2",
+            "text": "Arbitration preservation (Article 108 of the Minutes of the National Symposium on Foreign-related Commercial Maritime Trials by Courts)"
+          },
+          {
+            "type": "p",
+            "text": "If a party applies to the people's court for recognition and enforcement of a foreign arbitral award, and the people's court accepts the application, and the party applies for property preservation, the people's court may enforce it with reference to the provisions of the Civil Procedure Law and relevant judicial interpretations.The applicant shall provide guarantee, and if no guarantee is provided, the application shall be rejected by a ruling."
+          },
+          {
+            "type": "h2",
+            "text": "Review Criteria"
+          },
+          {
+            "type": "h2",
+            "text": "Examination as claimed by the respondent:"
+          },
+          {
+            "type": "p",
+            "text": "(1) The arbitration agreement is invalid due to the legal incapacity of the parties, or the agreement is invalid according to the agreed applicable law system, or the law of the country where the award is made is invalid according to the law of the country where the award is made without specifying the law;"
+          },
+          {
+            "type": "p",
+            "text": "(2) The respondent has not received appropriate notice of the appointment of an arbitrator or of the arbitration proceedings, or has failed to state its opinion for other reasons;"
+          },
+          {
+            "type": "p",
+            "text": "(3) If the award deals with matters that have not been agreed upon for arbitration, but the decision on the matters to be submitted for arbitration may be divided from the matters that have not been submitted for arbitration, the part of the award on the matters to be submitted for arbitration may be recognized and enforced;"
+          },
+          {
+            "type": "h3",
+            "text": "(4) The composition or procedure of the arbitration tribunal is inconsistent with the agreement of the parties or the law of the place of arbitration."
+          },
+          {
+            "type": "p",
+            "text": "(5) The award has not yet taken effect, or its enforcement has been revoked or suspended by the competent authority of the country where it is located or of the country on which the award is based."
+          },
+          {
+            "type": "h2",
+            "text": "Review ex officio:"
+          },
+          {
+            "type": "h3",
+            "text": "(1) The matter in dispute cannot be settled by arbitration in accordance with the law of that State;"
+          },
+          {
+            "type": "h3",
+            "text": "(2) The recognition or enforcement of an award is contrary to the public policy of our country."
+          },
+          {
+            "type": "p",
+            "text": "Article 108 of the Minutes of the National Symposium on Foreign-related Commercial Maritime Trial of Courts stipulates that if the effective ruling of the people's court has determined that the arbitration agreement between the parties is untenable, invalid, invalid or unenforceable, and the recognition and enforcement of the award will conflict with the effective ruling of the people's court, it shall be determined that it constitutes a violation of China's public policy."
+          },
+          {
+            "type": "p",
+            "text": "However, according to China's judicial practice of recognizing and enforcing foreign effective arbitral awards, China adopts a prudent attitude towards public policy defenses, and it is difficult to obtain support for such defenses. Currently, only in the case of (2008) Min Si Ta Zi No. 11, the Supreme People's Court held that under the circumstances where the relevant Chinese courts had ruled to preserve the property of the joint venture company and rendered a judgment in the lease contract dispute between Jinan Yongning Pharmaceutical Co., Ltd. and the joint venture company Jinan-Haimofam Pharmaceutical Co., Ltd., the Arbitration Court of the International Chamber of Commerce further adjudicated and ruled on the lease contract dispute between Jinan Yongning Pharmaceutical Co., Ltd. and the joint venture company Jinan-Haimofam Pharmaceutical Co., Ltd., which infringed upon China's judicial sovereignty and the judicial jurisdiction of Chinese courts. In accordance with the provisions of Article 5, paragraphs 1 (c) and 2 (b), of the 1958 New York Convention, it refused to recognize and enforce the arbitral award No. 13464/MS/JB/JEM of the Arbitration Court of the International Chamber of Commerce."
+          },
+          {
+            "type": "h2",
+            "text": "Review of the Inadmissibility to Recognition and Enforcement of Awards of Foreign Arbitral Institutions:"
+          },
+          {
+            "type": "p",
+            "text": "In accordance with the Notice of the Supreme People's Court on Issues Concerning the Handling of Foreign-related Arbitration and Foreign Arbitration Matters by People's Courts, if one party applies to the people's court for recognition and enforcement of the award of a foreign arbitration institution, if the people's court considers that the award of a foreign-related arbitration institution in China conforms to the circumstances of non-recognition and enforcement, it must report to the higher people's court under its jurisdiction for examination before the ruling is not enforced or the recognition and enforcement are refused;If the Higher People's Court agrees not to enforce or refuses to recognize and enforce, it shall submit its examination opinions to the Supreme People's Court.Only after the Supreme People's Court has given a reply may it rule not to enforce or refuse to recognize and enforce it."
+          },
+          {
+            "type": "h2",
+            "text": "Suspension of Enforcement and Guarantee"
+          },
+          {
+            "type": "p",
+            "text": "When the person against whom enforcement is sought has applied to the court of the country of arbitration for revocation or suspension of the award, the court accepting the application for enforcement may suspend enforcement and, at the request of the party against whom enforcement is sought, require the person against whom enforcement is sought to provide appropriate security."
+          },
+          {
+            "type": "h2",
+            "text": "Recognition and enforcement of arbitration by an interim arbitral tribunal - Standard determination of the place of arbitration"
+          },
+          {
+            "type": "p",
+            "text": "In accordance with the relevant provisions of the Interpretation of the Supreme People's Court on the Application of the Civil Procedure Law of the People's Republic of China (2022 Revision), the parties may directly apply for enforcement of an arbitral award made by a provisional arbitral tribunal outside the territory of the People's Republic of China to the intermediate people's court of the place where the person subjected to enforcement has his domicile or where his property is located. The specific rules shall refer to the relevant rules on the application for recognition and enforcement of foreign arbitral awards in Chinese courts."
+          },
+          {
+            "type": "p",
+            "text": "The arbitral award made by the provisional arbitral tribunal within the territory of the People's Republic of China does not belong to an arbitral award made\" within the territory of another contracting state \", and therefore cannot be recognized and enforced in accordance with the provisions of the 1958 New York Convention.As a matter of fact, this is due to the unclear criteria for determining the nationality of arbitral awards in China's domestic law, and the prominent emphasis on \"arbitration institutions\" in legislation, which is inconsistent with the criteria for determining the nationality of arbitral awards mainly based on \"arbitration place\" in international treaties and international arbitration practice.For this reason, Judge Gao Xiaoli of the Supreme People's Court tends to determine the nationality of an arbitral award in judicial practice according to the \"standard of the place of arbitration\", that is, in a case, it can be considered that the arbitral award made by a foreign arbitral institution within the territory of China is not a foreign arbitral award, but a foreign-related arbitral award of China, so as to avoid the above-mentioned contradictions in the application of law."
+          },
+          {
+            "type": "h2",
+            "text": "Model Case"
+          },
+          {
+            "type": "h2",
+            "text": "(2016) Liao 02 Xie Wai Ren No. 2 Case"
+          },
+          {
+            "type": "p",
+            "text": "If a dispute arises between Xinhe Maritime Company and Dalian Xinhe Company and Gao Desheng due to the Cooperation Agreement, the former shall apply for arbitration at the Singapore International Arbitration Center (SIAC) in accordance with the agreement and obtain support, and then apply to the Dalian Intermediate Court for recognition and enforcement of the award."
+          },
+          {
+            "type": "p",
+            "text": "The respondent raises several defenses.First, it claims that the arbitration agreement is invalid, saying that Gao Desheng did not know the arbitration clause when signing the agreement, and the two parties did not reach an agreement on the arbitration clause.Secondly, it is proposed that recognition and enforcement of rulings conflict with Chinese public policies, including violation of the principle of good faith, conflict with the Trademark Law and conflict with effective administrative rulings.Thirdly, it is pointed out that the arbitral award has unenforceable contents, and the trademark holder involved is Dalian Xinhe Company, but the award requires Gao Desheng himself to perform his obligations, and the subject of enforcement and the content of payment are not clear."
+          },
+          {
+            "type": "p",
+            "text": "Upon examination, the Dalian Intermediate People's Court holds that the Respondent does not deny the authenticity of the Cooperation Agreement and its signature and seal, that the agreement clearly stipulates the arbitration clause and the application of Singapore law, and that the validity of the arbitration clause shall be examined in accordance with Singapore law.The arbitration award has determined that the respondent has not provided important factual evidence to prove the invalidity of the agreement, and the respondent has not submitted new evidence in the case, so its claim is untenable."
+          },
+          {
+            "type": "p",
+            "text": "The violation of public policy stipulated in the New York Convention refers to a serious violation of the basic principles of Chinese law, and the case does not exist.As the chairman of the board of directors of the company, Gao Desheng shall exercise due diligence when signing the agreement, and his claim that he does not know that the arbitration clause is contrary to good faith.Moreover, Xinhe Maritime Company's application to the Trademark Office does not conflict with its application to the SIAC for arbitration. The arbitration award does not adjudicate on the acts of the Chinese trademark administrative organ and the legality and validity of the trademark involved in the case, and the recognition and enforcement of the award will not conflict with the Trademark Law and the effective administrative award, nor will it harm the fundamental social and public interests of China."
+          },
+          {
+            "type": "p",
+            "text": "Whether an award is enforceable in accordance with the relevant provisions does not fall within the circumstances of refusal of recognition under the New York Convention.Although the trademark involved in the case is registered in the name of Dalian Xinhe Company, as the legal representative, Gao Desheng has the obligation to cooperate in the handling of the trademark, and the subject and content of the award are clear and enforceable."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "（2015）裁字第49号",
+            "content": "Finally, the Dalian Intermediate People's Court determined that the reasons of the respondent do not constitute a refusal of recognition and enforcement under the New York Convention, and recognized the validity of the arbitral award No. 49 (2015) made by the SIAC and enforced it.The case reflects that when examining, recognizing and enforcing foreign arbitral awards, the Chinese court shall, in strict accordance with the provisions of the New York Convention and relevant laws, accurately judge the reasons for defense, and effectively safeguard the legitimate rights and interests of the parties and the effective enforcement of the arbitral award."
+          },
+          {
+            "type": "h2",
+            "text": "Case No. 0009 [2013] of the Supreme People's Court"
+          },
+          {
+            "type": "p",
+            "text": "The Claimant Allen Bow Company requests the Chinese Court to recognize and enforce the arbitral award made by the International Cotton Association (ICA) in respect of Contract No. 395080. The core of the dispute is whether the two parties have reached a valid arbitration agreement, especially whether the Respondent Ni Jiaxiang Company has signed a contract containing an arbitration clause through its agent Zhang Yongzhong.The court pointed out that whether an arbitration agreement is established is a prerequisite for the validity of the arbitration agreement, which falls within the scope of examination of Article 5, paragraph 1 (a), of the New York Convention."
+          },
+          {
+            "type": "p",
+            "text": "According to the English Law (Law of the Place of Arbitration), the formation of an arbitration agreement requires the express consent of both parties.In this case, the applicant failed to prove that Zhang Yongzhong has the right to sign a contract or reach an arbitration agreement on behalf of Ni Jiaxiang Company."
+          },
+          {
+            "type": "p",
+            "text": "The contract provided by the applicant is only signed by Zhang Yongzhong, but it is not stamped with the official seal of Ni Jiaxiang Company, and Zhang Yongzhong denies the authenticity of the signature.The court required the applicant to further prove the authenticity of the signature, but the applicant did not apply for handwriting appraisal, resulting in the failure to confirm the authenticity of the contract."
+          },
+          {
+            "type": "p",
+            "text": "Historical transactions show that all previous contracts of Nijiaxiang Company need to be signed and sealed, but the case is only signed by fax, which is inconsistent with the practice and aggravates the doubt on the arbitration agreement."
+          },
+          {
+            "type": "p",
+            "text": "Under the British Agency Law, an agent is required to have actual authority (express or implied) or apparent authority.The court held that the name card of Zhang Yongzhong showed the title of Ni Jiaxiang Company and the affiliated company at the same time, and the applicant did not verify his agency authority and did not require the affixing of official seal, so it could not prove that he had reasonable reasons to believe in the authorization of Zhang Yongzhong.Ni Jiaxiang Company clearly indicated that it would not ratify the signature of Zhang Yongzhong, which further weakened the validity of the arbitration agreement."
+          },
+          {
+            "type": "p",
+            "text": "Finally, the Wuxi Intermediate People's Court finally refused to recognize and enforce the arbitration agreement on the grounds that it was not established."
+          },
+          {
+            "type": "h2",
+            "text": "Parties to bilateral mutual legal assistance: supplementary application in accordance with the special rules of the treaty"
+          },
+          {
+            "type": "h2",
+            "text": "Legal basis"
+          },
+          {
+            "type": "p",
+            "text": "China has signed bilateral treaties on mutual legal assistance in civil and commercial matters with 39 countries. Except North Korea, all other countries are parties to the 1958 New York Convention. Most treaties directly refer to the application of the 1958 New York Convention, and some countries have agreed on independent rules in the treaties."
+          },
+          {
+            "type": "h2",
+            "text": "Application path"
+          },
+          {
+            "type": "h2",
+            "text": "Priority in the application of bilateral treaties: if the treaty has special provisions on the implementation procedure (such as more lenient review standards), priority shall be given to the application;"
+          },
+          {
+            "type": "h2",
+            "text": "Parallel with the Convention: if there are no special rules, they shall still be implemented in accordance with the New York Convention."
+          },
+          {
+            "type": "p",
+            "text": "The Treaty between the People's Republic of China and the Republic of Singapore on Judicial Assistance in Civil and Commercial Matters concluded between China and Singapore expressly includes arbitral awards in the scope of recognition, and mutual recognition and enforcement of arbitral awards made in the territory of the other party in accordance with the New York Convention 1958.To provide each other with information on the laws and judicial practice of the Contracting Parties in civil and commercial matters.At the same time, it is excluded that the Requested Party has exclusive jurisdiction over the cause of action or refuses to enforce on the grounds that its domestic law does not recognize its right of action.This system not only conforms to the practice of international commercial arbitration, but also strengthens the enforcement effect in the form of treaties."
+          },
+          {
+            "type": "h2",
+            "text": "Non-Convention countries: prudent promotion based on the principle of reciprocity"
+          },
+          {
+            "type": "h2",
+            "text": "Legal Framework"
+          },
+          {
+            "type": "p",
+            "text": "For countries that have not acceded to the 1958 New York Convention and do not have bilateral treaties (such as some African countries), the Chinese court shall examine the application for enforcement on the principle of reciprocity in accordance with Article 283 of the Civil Procedure Law."
+          },
+          {
+            "type": "h2",
+            "text": "Criteria for determining reciprocity"
+          },
+          {
+            "type": "p",
+            "text": "• Traditional\" factual reciprocity \": it is necessary to prove that the other country has recognized the Chinese award;"
+          },
+          {
+            "type": "p",
+            "text": "•New \"presumed reciprocity\": In recent years, the Supreme People's Court tends to adopt a lenient standard of determination. As long as there is no evidence proving that the other party has refused to recognize Chinese awards, reciprocity may be presumed to exist."
+          },
+          {
+            "type": "h2",
+            "text": "Practical difficulties"
+          },
+          {
+            "type": "h2",
+            "text": "Burden of proof: The applicant shall provide evidence that the laws or judicial practices of the other party's country support reciprocity;"
+          },
+          {
+            "type": "p",
+            "text": "Risk pre-judgment: Chinese courts have not yet seen public cases of enforcement of non-convention country awards on the basis of the principle of reciprocity, and the procedure cycle may be relatively long."
+          }
+        ],
+        "conclusion": "In recent years, Chinese courts have significantly improved the efficiency of enforcement of foreign arbitral awards by unifying judicial interpretations and expanding the scope of reciprocity determination.China has formed a mature review process for the ruling of the contracting parties;For non-convention countries, with the promotion of the Belt and Road Initiative, the flexible application of the principle of reciprocity will gradually break the ice.When settling cross-border disputes, enterprises are suggested to give priority to arbitration institutions in the States parties to the 1958 New York Convention and plan the implementation path in advance.",
+        "references": []
       }
     }
   },
@@ -1524,6 +2733,193 @@
           "(2022)京执监48号"
         ],
         "conclusion": "一人有限公司股东的股东是否应当承担连带责任，在不同地区、不同法院之间存在着较大的分歧和不确定性。这一问题的复杂性要求我们在面对相关法律事务时，必须保持审慎的态度，综合考虑各种因素，以维护自身或当事人的合法权益，同时也期待未来相关法律规定的进一步明确和完善，为司法实践提供更清晰明确的指引。"
+      },
+      "en": {
+        "title": "Should the shareholders of a one-person limited company bear joint and several liabilities?Different viewpoints and judgment ideas in judicial practice ",
+        "lead": "In the field of company law, whether the shareholders of a one-person limited company (the shareholders of a one-person limited company are also one-person limited companies) should bear joint and several liability for the debts of the company has always been a matter of great concern and controversy.This issue is not only related to the realization of the interests of creditors, but also affects the definition of the responsibilities of shareholders of companies and the stability of market trading order.This article will explore this issue in depth in light of relevant laws and regulations and judicial practice cases.",
+        "subtitle": "",
+        "meta": {
+          "date": "2024-10-20",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Legal provisions lay the foundation for liability"
+          },
+          {
+            "type": "p",
+            "text": "Article 23 of the Company Law of the People's Republic of China clearly stipulates that if the shareholders of a one-person company cannot prove the independence of the company's property, they shall be jointly and severally liable for the debts of the company, which provides a legal basis for investigating the liability of the shareholders of a one-person limited company.However, it does not mention whether \"shareholders of shareholders\" can be held accountable."
+          },
+          {
+            "type": "p",
+            "text": "Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution (2020 Amendment) further clarifies that a one-person limited liability company as the person subjected to execution has insufficient property to pay off the debts specified in the effective legal documents, and the shareholders cannot prove that the company's property is independent of their own property. If the applicant for execution applies for the alteration or addition of the shareholder as the person subjected to execution and assumes joint and several liability for the debts of the company, the people's court shall support it.These provisions constitute the basic legal framework for the joint and several liability of shareholders of one-person limited companies."
+          },
+          {
+            "type": "h2",
+            "text": "Significant differences in judicial views"
+          },
+          {
+            "type": "p",
+            "text": "The seminar on the\" Application of the Connection between the Old and the New Company Law \"jointly organized by the First Intermediate People's Court of Shanghai and the Shanghai Law Society in consultation with the Law Research Association of the Shanghai Municipal Law Society pointed out that if the problem is generalized to\" whether the creditor can investigate the liability of the shareholder for capital contribution \", the answer is no.The reason is that the capital contribution subscribed by the shareholders constitutes the liability property of the company, and the creditor's right of action to request the shareholder's capital contribution lies in the company. Allowing multi-level penetration will lead to the disorder of the legal relationship between the independent personality of the company and the shareholder's capital contribution.However, in judicial practice, the courts of all localities have different views on this issue."
+          },
+          {
+            "type": "h2",
+            "text": "Can the shareholders of the one-person limited company subject to execution and the shareholders of the shareholders be added one by one at the stage of execution"
+          },
+          {
+            "type": "h2",
+            "text": "Supreme Court position: insufficient legal basis, limited penetration level"
+          },
+          {
+            "type": "h4",
+            "text": "(2023) Case No. 25 of the Supreme People's Court,"
+          },
+          {
+            "type": "p",
+            "text": "In the case of a dispute over the execution of a construction contract between Company A and Company D, Company B and other construction projects, the applicant Company A applies to add the shareholders of Company B, Ma and C, as the persons to be executed in the case."
+          },
+          {
+            "type": "p",
+            "text": "The Court of the Supreme People's Court holds that the focus of the dispute in this case is whether the shareholder of the additional shareholder in the execution procedure can be the executed person.The Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties to Enforcement stipulate the circumstances of adding the person subjected to execution according to law, but after the relevant subject is added as the person subjected to execution, whether the above-mentioned subject can continue to add its shareholders as the person subjected to execution is not clearly stipulated.The addition of the person subjected to execution in the execution procedure shall be limited to the circumstances clearly stipulated by law, and the shareholder of the additional shareholder as the person subjected to execution lacks a clear legal basis.Moreover, the determination of substantive rights should be completed by trial procedures, and the addition of the person subjected to execution in the execution procedure belongs to the substantive obligation of the person subjected to additional execution determined without trial, which has expanded the effectiveness of the effective judgment itself. Appropriate expansion can improve efficiency, but it cannot be excessive expansion.The addition of the person subjected to execution in the execution procedure shall be limited to one additional addition, and the shareholder who cannot continuously add shareholders shall be the person subjected to execution."
+          },
+          {
+            "type": "h2",
+            "text": "Opinions of other courts: may be added"
+          },
+          {
+            "type": "p",
+            "text": "In the case of a dispute over a loan contract between the China Finance Company and the China Olympic Company of the Yingtan Partnership Enterprise, the People's Court of Changping District, Beijing Municipality has repeated its attitude on whether to add shareholders"
+          },
+          {
+            "type": "h4",
+            "text": "① Additional shareholders of one-person limited company - not supported"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2019)京0114执异86号",
+            "content": "(2019) Jing 0114 Zhiyi No.86 Execution Ruling does not support the applicant for execution on the grounds that the additional application of Yingtan Partnership lacks factual basis. Yingtan Partnership applies to add its shareholder Zhongsheng Company as the executed person of the case on the grounds that the executed person Zhong'ao Company is a one-person limited liability company."
+          },
+          {
+            "type": "h4",
+            "text": "② Additional shareholders of one-person limited company – support"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2019)京0114民初10881号",
+            "content": "In accordance with the provisions of Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution in the Judgment No. 10881 [2019] Jing 0114 of the Early Republic of China, a one-person limited liability company as the person subjected to execution has insufficient property to pay off the debts determined by the effective legal documents, and the shareholders are unable to prove that the company's property is independent of their own property. If the applicant for execution applies to change or add the shareholder as the person subjected to execution and bears joint and several liabilities for the debts of the company, the people's court shall support it.In this case, Sino-Ao Company is a limited liability company with only one juridical person shareholder, and Sino-sheng Company is its sole juridical person shareholder.The effective judgment determines that the Sino-Ao Company shall be jointly and severally liable for the debts determined in the Civil Judgment No. 11459 [2012] of the Changmin Chu Zi, and Sino-Ao Company shall be jointly and severally liable for the debts of the Sino-Ao Company.The court supported the claim of Yingtan Partnership for adding Zhongsheng Company as the person subjected to execution."
+          },
+          {
+            "type": "h4",
+            "text": "③ Additional shareholders of one-person limited company - not supported"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2020)京0114执异464号",
+            "content": "(2020) In the execution ruling No. 464 of Jing 0114, Yingtan Partnership applied to the court for adding Anhua Industrial Company (a shareholder of Zhongsheng Huaxia Company) as the person subjected to execution."
+          },
+          {
+            "type": "p",
+            "text": "The court considers that there are clear legal provisions on the additional parties in the execution procedure, and the principle of legality must be followed.In this case, Zhongsheng Huaxia Company, as a shareholder of Zhong'ao Qitian Company, the defendant in the Civil Judgment No. 11459 [2012] of Changmin Chu Zi, upon the application of Dianyingtan Partnership Enterprise, was adjudged to be the executed person in the loan contract dispute case through litigation, that is, the status of the executed person of Zhongsheng Huaxia Company was obtained through the additional procedure.Now, Yingtan Partnership Enterprise applies to this Court for adding Anhua Industrial Company, the shareholder of Zhongsheng Huaxia Company, as the person subjected to execution in the case, which in essence should be the defendant in the Civil Judgment No. 11459 [2012] of Changmin Chu Zi, the shareholder of Zhongsheng Huaxia Company, the shareholder of Zhong'ao Qitian Company, as the person subjected to execution, and the shareholder of the shareholder of the additional defendant as the person subjected to execution, without legal basis, so the court shall not support the additional request of Yingtan Partnership Enterprise."
+          },
+          {
+            "type": "p",
+            "text": "④ Shareholders of additional shareholders of one-person limited companies (shareholders of one-person limited companies are also one-person limited companies) - support"
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2021)京0114民初9426号",
+            "content": "(2021) Jing 0114 [Early Republic of China] No.9426, plaintiff Yingtan Partnership v. defendant Anhua Company, Zhongsheng Huaxia Company and Zhong'ao Qitian Company, in the first lawsuit of objection to execution, the court considers that Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution stipulates that\" If the property of a one-person limited liability company as the person subjected to execution is insufficient to pay off the debts determined by the effective legal documents, and the shareholder is unable to prove that the company's property is independent of his own property, the applicant for execution applies for changing or adding the shareholder as the person subjected to execution, and assumes joint and several liability for the debts of the company, the people's court shall support it \".In this case, Zhongsheng Huaxia Company is a limited liability company with only one juridical person shareholder, and Anhua Company is its only shareholder.The effective judgment decides that Zhongsheng Huaxia Company shall be jointly and severally liable for the debts determined in the civil judgment No. 11459 [2012] of the Changmin Chu Zi, and Anhua Company shall be jointly and severally liable for the debts of Zhongsheng Huaxia Company.The Court hereby supports the application of Yingtan Partnership Enterprise for adding Anhua Company as the executed person."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2022)粤01民终8731号",
+            "content": "(2022) The court of second instance in the case of Yue 01 Min Zhong 8731 holds that when the plaintiff and Tang Yun Company had a relationship involving creditor's rights and debts, Tang Yun Company was a one-person limited liability company wholly owned by a juridical person of Benzhenhang Company, which was a sole proprietorship enterprise of natural persons, and its sole shareholder was Yang Yuanchun.The audit report provided by Benzhenhang Company is insufficient to prove that the property of Benzhenhang Company and Tang Yun Company is independent of each other, so the plaintiff's application for adding Benzhenhang Company as the executed person conforms to the law.As Benzhenhang Company, as the person subjected to execution, has no other property available for execution, and Yang Yuanchun, in this case, admits that he has no evidence to prove that the property of Benzhenhang Company is independent of his personal property, so the plaintiff applies to add Yang Yuanchun as the person subjected to execution at the same time, which conforms to the provisions of Article 20 of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution, and the court supports it."
+          },
+          {
+            "type": "h2",
+            "text": "Can the shareholders of a one-person limited company and the shareholders of the shareholders be required to bear joint and several liabilities at the litigation stage"
+          },
+          {
+            "type": "viewpoint",
+            "title": "Viewpoint 1: Joint and several liability shall be borne",
+            "content": ""
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2020)粤01民终12207号",
+            "content": "(2020) Guangdong 01 Civil Division 12207 Case, Datang Company brought a lawsuit to the court of first instance to request: to order Suzhou Commerce Company to pay the arrears and interest to Datang Company;Order the Pacific Construction Company and the Pacific Group Company to bear joint and several liability for the above-mentioned claims of the Sushang Company;The court of first instance held that the Sushang Company is a one-person limited liability company, and the shareholder Pacific Construction Company cannot prove that the company's property is independent of the shareholder's own property, and shall be jointly and severally liable for the company's debts.Pacific Construction Company is also a one-person limited liability company. The shareholder Pacific Construction Company cannot prove that the company's property is independent of the shareholder's own property, and shall be jointly and severally liable for the company's debts.Datang requires the Pacific Construction Company and the Pacific Group Company to bear joint and several liability for the above-mentioned debts of the Sushang Company, which conforms to the provisions of the law and is supported by the court of first instance.The court of second instance upheld the original judgment."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2022)鲁1083民初96号",
+            "content": "(2022) Case No. 96 of the early Republic of China of Lu 1083, the plaintiff filed a claim: to request Weihai Shunfeng Rushan Business Department to compensate for the loss of goods and the loss of deposit;Require Weihai Shunfeng Shunyida Branch, Weihai Shunfeng Company, Shandong Shunfeng Company and Shunfeng Express Co., Ltd. to bear joint and several liability for the above debts.The court held that \"if the shareholders of a one-person limited liability company are unable to prove that the company's property is independent of the shareholders' own property, they shall be jointly and severally liable for the debts of the company.\" In this case, because the Weihai Shunfeng Rushan Business Department and the Weihai Shunfeng Shunyida Branch are branches established by the Weihai Shunfeng Company, they do not have the status of juridical persons, and their civil liabilities shall be borne by the Weihai Shunfeng Company;Shandong Shunfeng Company is a one-person shareholder of Weihai Shunfeng Company, and Shunfeng Express Co., Ltd. is a one-person shareholder of Shandong Shunfeng Company. None of them can provide proof that the company's property is independent of the shareholder's own property, and they shall be jointly and severally liable for the debts of Weihai Shunfeng Company."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2019)粤0113民初12036号",
+            "content": "In addition, the judgments No. 12036 (2019) Yue 0113 and No. 36246 (2021) Yue 2071 made by the Guangdong Court supported the plaintiff's claim that the shareholders of a one-person limited liability company and the shareholders of the shareholders shall bear joint and several liability."
+          },
+          {
+            "type": "viewpoint",
+            "title": "Viewpoint 2: There is no legal basis for joint and several liability",
+            "content": ""
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2021)苏0981民初6655号",
+            "content": "In the case of (2021) Su 0981 Min Chu No. 6655, in the dispute over decoration and construction contract between plaintiff Gold Mantis Company and defendants Hengguan Company, Evergrande Nanjing Company, and Evergrande Company, the court held that regarding whether Evergrande Nanjing Company and Evergrande Company should bear liability. Article 62 of the Company Law of the People's Republic of China stipulates that a one-person limited liability company shall prepare financial and accounting reports at the end of each fiscal year and shall be audited by an accounting firm. Article 63 stipulates that if a shareholder of a one-person limited liability company is unable to prove that the company's property is independent of the shareholder's own property, he shall be jointly and severally liable for the debts of the company. In this case, since Hengguan Company is a one-person limited company, its shareholder is Evergrande Nanjing Company, and Evergrande Nanjing Company fails to provide sufficient evidence to prove that the company's property is independent of its property, it shall be jointly and severally liable for the above-mentioned debts of Hengguan Company. Regarding Gold Mantis Company's request for Evergrande Company to bear joint and several liability. According to the provisions of paragraph 3 of Article 178 of the Civil Code of the People's Republic of China, joint and several liability shall be stipulated by law or agreed upon by the parties. There is no clear agreement in law on whether the sole proprietorship shareholders of a one-person limited company shall bear joint and several liability, nor has Merid provided evidence to prove that both parties have agreed on this, so the Court does not support it according to law."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2020)浙0127民初309号",
+            "content": "(2020) In the case No. 309 [2020] of the early Republic of China, the plaintiff Juyuan Company v. the defendant Shangya Company, Huapu Company and Aiwen Company over a dispute over a construction contract for a construction project, the court held that the defendant Shangya Company is a one-person company 100% controlled by the defendant Huapu Company, and there is no evidence to prove that the property of Shangya Company is independent of Huapu Company, so the defendant Huapu Company shall bear joint and several liability for repayment with Shangya Company.Defendant Ai Wen Company is a shareholder of Defendant Huapu Company, but not a shareholder of Shangya Company. The court shall not support the defendant's claim that Ai Wen Company should bear joint and several liability for repayment.The court of second instance upheld the original judgment."
+          },
+          {
+            "type": "h2",
+            "text": "Focus of Disputes and Practical Suggestions"
+          },
+          {
+            "type": "p",
+            "text": "From the above judicial practice, it can be seen that the focus of the dispute over whether the shareholders of a one-person limited company should bear joint and several liability mainly focuses on the following aspects"
+          },
+          {
+            "type": "p",
+            "text": "1. Interpretation of\" Debt Determined by Effective Legal Documents \": Some courts believe that the\" debt determined by effective legal documents \"in Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution shall be understood as the basic creditor's rights and debts confirmed by effective legal documents, and the interpretation shall not be expanded at will, otherwise the effect of effective judgments will be excessively expanded in the execution procedure."
+          },
+          {
+            "type": "p",
+            "text": "2. Whether it violates the legal relationship between the independent personality of the company and the capital contribution of shareholders: The view against multi-level penetration and additional shareholder liability emphasizes that the independent personality of the company and the limited liability of shareholders are the basic principles of the Company Law. If serial additions are allowed easily, the legal relationship between the independent personality of the company and the capital contribution of shareholders will be thrown into confusion, affecting the stability and predictability of market transactions."
+          },
+          {
+            "type": "p",
+            "text": "3. Difficulty in determining the distribution of the burden of proof and the confusion of property: shareholders are required to prove that the company's property is independent of their own property, which may be difficult for shareholders to prove.In the case of multi-layered one-person companies, shareholders at all levels need to bear the corresponding burden of proof, otherwise they will face the risk of joint and several liability, which also increases the complexity of identification in judicial practice to a certain extent."
+          },
+          {
+            "type": "h2",
+            "text": "Practical suggestions"
+          },
+          {
+            "type": "p",
+            "text": "For creditors: If the debtor is a single-person company with a multi-layered structure, and the shareholders at all levels are unable to prove that the company's property is independent of their own property, they may try to list the shareholders at all levels as defendants at one time in the litigation stage, requiring them to bear joint and several liability, and actively collect relevant evidence, such as the company's financial statements and capital transaction records, to prove that there are signs of property confusion between the company and shareholders."
+          },
+          {
+            "type": "p",
+            "text": "For investors: When establishing a one-person company or a multi-level holding structure, the financial management and capital operation of the company shall be strictly standardized, so as to ensure that the company's property is independent of the property of individuals or other shareholders, and complete financial vouchers, audit reports and other evidence shall be retained to avoid being investigated for joint and several liability by creditors in case of debt disputes."
+          }
+        ],
+        "conclusion": "Whether the shareholders of a one-person limited company shall bear joint and several liability or not, there are great differences and uncertainties among different regions and courts.The complexity of this issue requires us to maintain a prudent attitude and comprehensively consider various factors when facing relevant legal affairs in order to safeguard the legitimate rights and interests of ourselves or the parties concerned, and at the same time, we look forward to the further clarification and improvement of relevant legal provisions in the future to provide clearer and clearer guidance for judicial practice.",
+        "references": []
       }
     }
   },
@@ -1715,6 +3111,173 @@
           "(2019)苏民终1528号"
         ],
         "conclusion": "新《公司法》的横向穿透规则为债权人提供了强大的法律武器。在复杂的商业环境中，债权人应充分了解并运用这一规则，积极收集证据，通过合法的诉讼程序维护自身权益。同时，公司及其股东也应严格遵守法律法规，保持公司人格独立，避免陷入不必要的法律风险。若您在相关方面遇到法律问题，欢迎随时联系我们的律所，我们将竭诚为您提供专业的法律服务。"
+      },
+      "en": {
+        "title": "The new Company Law\" horizontal penetration \": a powerful weapon to protect the rights and interests of creditors",
+        "lead": "Article 23 of the new Company Law specifies for the first time the rule of\" horizontal personality denial \"(that is, horizontal penetration), which stipulates that if a number of companies controlled by shareholders abuse the independent status of juridical persons to evade their debts, they shall be jointly and severally liable for the debts of any company.This rule fills the gap in the old law and puts forward new requirements for creditor protection and enterprise compliance.This article combines legislative evolution, core elements, typical cases and practical difficulties to provide operational guidance for enterprises and creditors.",
+        "subtitle": "",
+        "meta": {
+          "date": "2024-11-08",
+          "author": "Qingsong Law Firm"
+        },
+        "blocks": [
+          {
+            "type": "h4",
+            "text": "I. The core meaning of the horizontal penetration rule"
+          },
+          {
+            "type": "p",
+            "text": "Article 23 of the new Company Law clearly stipulates that if a shareholder abuses the independent status of a company as a juridical person and the limited liability of a shareholder by using two or more companies under his control to evade debts and seriously damages the interests of creditors of the company, each company shall be jointly and severally liable for the debts of any company.This means that when shareholders evade their debts by manipulating multiple companies, creditors have the right to require these affiliated companies to jointly assume debt liability, which breaks through the restrictions of independent personality and limited liability of companies in the past and realizes the effective protection of creditors."
+          },
+          {
+            "type": "p",
+            "text": "The horizontal penetration rule essentially contains two kinds of situations: the vertical denial of juridical personality and the reverse denial of juridical personality.By uncovering the veil of the company, the shareholders behind it shall bear joint and several liability, and then uncovering the veil of shareholders, so that other companies controlled by shareholders shall bear joint and several liability to the creditors of shareholders.Although the Company Law does not specify it, based on the logic of the \"triangular puncture\" rule, the creditor of the controlling shareholder may require the controlling shareholder and the multiple companies under its control to bear joint and several liability as a whole under specific circumstances."
+          },
+          {
+            "type": "h4",
+            "text": "II. Key elements for the application of the horizontal penetration rule"
+          },
+          {
+            "type": "h3",
+            "text": "(1) Main elements"
+          },
+          {
+            "type": "p",
+            "text": "The plaintiff is usually a creditor of the company, while the defendant is two or more companies controlled by the same shareholder.The controlling subjects here include not only the obvious shareholders, but also the anonymous shareholders and the actual controllers.From the perspective of purpose interpretation, the horizontal personality denial system aims to prevent the independence of corporate personality and the abuse of limited liability, and to include anonymous shareholders and actual controllers in the scope of control subjects, which is more conducive to protecting the interests of creditors and will not cause unforeseeable adverse effects on other shareholders."
+          },
+          {
+            "type": "h3",
+            "text": "(2) Elements of conduct"
+          },
+          {
+            "type": "p",
+            "text": "The control subject needs to use the company under its control to commit abuse, which mainly includes two types of circumstances: confusion of personality, excessive domination and control.In the horizontal denial of personality, if the control behavior exceeds the reasonable scope and constitutes excessive domination and control, the horizontal affiliated companies shall bear joint and several liabilities;If the control act is within a reasonable range, it is necessary to examine whether it forms a confusion of personality, and if it does, it shall bear joint and several liability."
+          },
+          {
+            "type": "h4",
+            "text": "1. Personality confusion"
+          },
+          {
+            "type": "p",
+            "text": "To determine whether there is any confusion between the corporate personality and the shareholder personality, the most fundamental criterion is whether the company has independent will and independent interests, and the most important performance is whether the financial or property of the company is mixed with the financial or property of the shareholders, and whether the property of the company is independent.In case of any of the following circumstances, it may be recognized as financial or property confusion: (1) The shareholders allocate the company's funds or property free of charge at will without making financial records;(2) Shareholders use the company's funds to repay the debts of individual shareholders or allocate funds to affiliated companies without making financial records;(3) The company's account books are not separated from the shareholders' account books;(4) The shareholders' own profits are not differentiated from the profits of the company, resulting in unclear interests of both parties;(5) The company's property shall be recorded in the name of the shareholder and shall be possessed and used by the shareholder."
+          },
+          {
+            "type": "p",
+            "text": "Under the circumstances of financial or property confusion, the following confusion often occurs at the same time: confusion of corporate business and shareholder business;The employees of the company are confused with the employees of shareholders, especially the financial personnel;The domicile of a company is confused with that of a shareholder.When the people's court hears such cases, the key is to see whether it constitutes financial or property confusion, and does not require confusion in other aspects at the same time. The confusion in other aspects is often only the reinforcement of financial or property confusion."
+          },
+          {
+            "type": "p",
+            "text": "(2020) In the Supreme People's Court Case No. 1084, the Supreme People's Court held that there was an affiliated relationship between Yinyan Company and Bavarian.If the personnel, business and property of an affiliated company are crossed or confused, resulting in the inability to distinguish their respective property and the loss of independent personality, it constitutes a confusion of personality.If the personality of an affiliated company is mixed and the interests of creditors are seriously damaged, the affiliated companies shall bear joint and several liabilities for external debts among themselves.In the first instance, the company recognized the fact that Yinyan Company collected part of the equity transfer funds on its behalf, and said \"unclear\" when answering the court of first instance's inquiry about \"how to deal with the financial situation\", and Yinyan Company did not submit evidence to prove that it has a contractual basis for collecting the relevant equity transfer funds on behalf of the company.Besides, Yinyan and Bavarian have not provided evidence to prove whether part of the money collected has been returned to Bavarian.As there is a transfer of interests without a contractual basis between the two companies, resulting in unclear property boundaries and financial confusion between the two companies, the court of first instance has ruled that it is not improper for Yinyan Company to bear joint and several liability for the debts of the company."
+          },
+          {
+            "type": "p",
+            "text": "In the case of (2021) Supreme People's Court Min Zai No. 342, the court of second instance held that Jinyuan Trading Company, Huiye Trading Company, and Yongxing Instrument Factory appeared to be independent from each other on the surface, but all three companies (or factories) were controlled by Sun Heping or his immediate family members. Sun Heping or his immediate family members, as the controlling shareholders or actual controllers, controlled the three companies (or factories), abused their control rights, resulting in unclear property boundaries among the three companies (or factories), mutual transfer of interests, loss of independent personality, and becoming tools for evading debts, seriously damaging the interests of the creditors of Jinyuan Trading Company. Therefore, the judgment of first instance, on the grounds that Jinyuan Trading Company, the former Jinyuan Trading Company, Huiye Trading Company, and others had mixed personality and property, did not support the claims of Huiye Trading Company and Yongxing Instrument Factory to exclude the execution of the part of compensation for the demolition and relocation of collective land use rights and temporary buildings involved in the case, which had corresponding factual and legal basis. The judgment of second instance was wrong to modify the original judgment, and the Supreme People's Court corrected it."
+          },
+          {
+            "type": "h4",
+            "text": "2. Excessive Domination and Control"
+          },
+          {
+            "type": "p",
+            "text": "Once a company is abused by a shareholder, it will no longer have independent will and independent interests, and its independent personality will be reduced to props. If it still abides by the independent personality of the company, it will seriously damage the interests of the creditors of the company, and the company's personality should be denied at this time.Where multiple affiliated companies are controlled by the same person, husband and wife, mother and child or family, when determining whether the corporate personality should be negatived, the focus should be on whether there is any abuse of control.The following circumstances can generally be recognized as abuse of control: a subsidiary controlled by the same shareholder transfers benefits to other subsidiaries;When an affiliated company conducts transactions with other companies, the gains shall belong to one party of the affiliated company, but the losses shall be borne by the other party of the affiliated company;Withdraw the company's funds or dissolve the company first, and then set up another company with the original equipment, place, personnel and the same business purpose, so as to evade the debts of the original company."
+          },
+          {
+            "type": "case",
+            "badge": "参考案例",
+            "caseId": "(2019)苏民终1528号",
+            "content": "In the case of (2019) Su Min Zhong No. 1528, regarding whether Guofa Energy Conservation Company, Guofa Logistics Company, Guo Liucheng, and Guofa China Enterprise Company had mixed personalities, and whether they should bear joint and several liability for the repayment of the debts involved in the case owed by Guofa China Enterprise Company to Guodian Photovoltaic Company, the court held that after trial, the court made clear determinations on the relationship and liability bearing among Guofa Energy Conservation Company, Guofa Logistics Company, Guo Liucheng, and Guofa China Enterprise Company. The specific results are as follows:"
+          },
+          {
+            "type": "p",
+            "text": "①It is determined that Guofa Energy Conservation Company, Guofa Logistics Company, and Guofa China Enterprise Company have mixed personalities and shall bear joint and several liability for repayment."
+          },
+          {
+            "type": "p",
+            "text": "There is confusion or cross-talk among Guofa Energy Conservation Company, Guofa Logistics Company and Guofa China Enterprise Company in terms of domicile, contact information, senior managers and business scope.According to the industrial and commercial information, recruitment information and annual report provided by Guodian Photovoltaic Company, the three companies are all located in Xicheng District, Beijing, with the same contact number, and the e-mail address of Guofa Logistics Company and Guofa Huaqi Company is the same.At the same time, Guo Liucheng, Han Xia and Wang Xueguan hold cross-posts in the three companies, and the business scope of the three companies involves machinery, electrical appliances and other related businesses.Although the relevant subject raises an objection, the court shall not accept its claim because it fails to provide valid evidence to prove it."
+          },
+          {
+            "type": "p",
+            "text": "From the details of the five bank accounts of the Sino-foreign Development China Enterprise Company transferred by the court of first instance, it can be proved that there is financial confusion among the three companies.During 2011-2018, there was a large amount of capital exchanges between the three companies, and most of the purposes of funds were not clearly marked;The project collection and financial subsidies of Sino-foreign Enterprises are frequently and in large amount transferred out to Sino-foreign Energy Conservation Company and Sino-foreign Logistics Company;The funds transferred from the State Development Energy Conservation Company and the State Development Logistics Company to the State Development China Enterprise Company are basically equal to the daily operating expenses of the State Development China Enterprise Company.Guofa Energy Conservation Company, Guofa Logistics Company and Guo Liucheng refused to provide financial books to cooperate with the judicial audit, nor did they provide other rebuttal evidence. The court of first instance accepted the verification opinions of Guodian Photovoltaic Company on bank flow, and found that the financial confusion of the three companies was not improper.In the second instance, the relevant subject only denied the financial confusion on the grounds that the bank flow cannot fully reflect the flow of funds, and the court did not recognize it."
+          },
+          {
+            "type": "p",
+            "text": "②It is determined that Guo Liucheng, as the actual controller, excessively dominated and controlled the companies, and shall bear joint and several liability for repayment: According to the facts ascertained in the first instance, Guo Liucheng, through the equity control chain, i.e., holding 97.83% of the equity of Guofa Logistics Company, Guofa Logistics Company holding 99.69% of the equity of Guofa Energy Conservation Company, and Guofa Energy Conservation Company holding 93.75% of the equity of Guofa China Enterprise Company, was able to actually control and dominate Guofa Energy Conservation Company and Guofa China Enterprise Company, and at the same time served as a personal shareholder of both companies and held senior management positions. In accordance with the provisions of paragraph 1 of Article 108 of the Interpretation of the Supreme People's Court on the Application of the Civil Procedure Law of the People's Republic of China, it is highly probable that Guo Liucheng is the actual controller of the three companies. Guofa Energy Conservation Company, Guofa Logistics Company, and Guo Liucheng appealed to deny but failed to provide rebuttal evidence, and shall bear adverse consequences. Guo Liucheng, as the actual controller, excessively dominated and controlled the companies, resulting in unclear property boundaries, financial confusion, and loss of independent personality among the three companies, leading to Guofa China Enterprise Company's inability to pay off the large debts owed to Guodian Photovoltaic Company, which seriously damaged the interests of the company's creditors. Therefore, he shall bear joint and several liability for the company's debts."
+          },
+          {
+            "type": "p",
+            "text": "Therefore, the Court considers that the appeal requests of Guofa Energy Conservation Company, Guofa Logistics Company and Guo Liucheng lack factual and legal basis and shall not be supported.If the facts are clearly ascertained and the law is correctly applied in the judgment of first instance, the appeal shall be rejected and the original judgment shall be upheld.The application for retrial submitted by Guofa Energy Conservation and Environmental Protection Development Group Co., Ltd. to the Supreme People's Court was also rejected."
+          },
+          {
+            "type": "h3",
+            "text": "(3) Subjective elements"
+          },
+          {
+            "type": "p",
+            "text": "The shareholder has the intention to evade the debt.This element is usually judged in combination with the act of control and the act of abuse. In practice, under the condition of meeting other elements, the proof of this element can generally be completed without the creditor providing additional evidence."
+          },
+          {
+            "type": "h3",
+            "text": "(4) Consequence elements"
+          },
+          {
+            "type": "p",
+            "text": "The interests of the creditors of the company must be seriously damaged.The judgment standard is usually that the debtor is unable to pay off the due debts.If the creditor can prove that there is abuse, it can generally be presumed that the result requirement is met, and there is no need to prove that the debtor is insolvent.Moreover, the result element is not based on the premise that it cannot be remedied in other ways, and creditors have the right to choose to directly apply the horizontal penetration rule to safeguard their own rights and interests."
+          },
+          {
+            "type": "h4",
+            "text": "III. Key Points for Creditors to Safeguard Their Rights"
+          },
+          {
+            "type": "h3",
+            "text": "(1) burden of proof"
+          },
+          {
+            "type": "p",
+            "text": "When the horizontal penetration rule is applied, the creditor shall bear the burden of proof, and shall prove that the facts of abuse, evasion of debts and serious damage to the interests of creditors are established.However, due to the concealment of abuse, it is difficult for creditors to provide evidence in practice.For this, the creditor may reduce the difficulty of proof by means of \"preliminary evidence standard+application to the court for obtaining evidence\".For example, if the creditor provides preliminary evidence such as recruitment information and copies of business licenses issued by affiliated companies to prove that there is a possibility of confusion of personnel and business between companies, the court may, in accordance with the principles of fairness and good faith, require the company or shareholders to further prove that there is no abuse, otherwise the facts to be proved will be established."
+          },
+          {
+            "type": "h3",
+            "text": "(2) Litigation procedure"
+          },
+          {
+            "type": "h4",
+            "text": "1. Litigation status"
+          },
+          {
+            "type": "p",
+            "text": "The creditor shall determine the defendant and the third party according to whether the debt has been confirmed by an effective legal document.If the debt has been confirmed, and the creditor files a separate lawsuit of corporate personality denial, the listed shareholder shall be the defendant and the company shall be the third party;If the debt is not confirmed, and the creditor brings a lawsuit on the debt between him and the company, he also brings a lawsuit on the denial of corporate personality, requiring the shareholders to bear the responsibility, the company and the shareholders shall be listed as co-defendants;"
+          },
+          {
+            "type": "p",
+            "text": "If the debts between the creditor and the company have not been confirmed by effective legal documents, and the creditor directly brings a lawsuit of corporate personality denial, requiring the shareholder to be liable for the debts, the people's court shall explain to the creditor and add the company as a co-defendant.If the creditor refuses to increase the amount, it shall rule to dismiss the lawsuit."
+          },
+          {
+            "type": "h4",
+            "text": "2. Court of Jurisdiction"
+          },
+          {
+            "type": "p",
+            "text": "If the creditor sues the debtor company and the relevant subjects at the same time, the competent court shall be determined according to the nature of the basic creditor's rights and debts relationship;If the creditor brings a separate lawsuit after obtaining the effective judgment on the confirmation of the creditor's rights of the debtor company, it shall be under the jurisdiction of the people's court of the place where the infringement is committed or where the defendant has its domicile, and the court of the place where the debtor company has its domicile usually has jurisdiction."
+          },
+          {
+            "type": "h4",
+            "text": "3. Limitation of action"
+          },
+          {
+            "type": "p",
+            "text": "If the lawsuit is filed at the same time, the limitation of action shall be determined according to the basic creditor's rights and debts relationship;If another lawsuit is filed, the provisions on limitation of action for general infringement shall apply, which shall be calculated for three years from the date when the creditor knows or should know the damage to the rights and the obligor."
+          },
+          {
+            "type": "h3",
+            "text": "(3) Execution stage"
+          },
+          {
+            "type": "p",
+            "text": "According to the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution, the additional parties shall strictly follow the statutory principle, that is, the parties to the alteration and addition of execution shall be strictly limited to the circumstances clearly stipulated by laws and judicial interpretations.The subject confusion, personality confusion and property confusion do not belong to the legal situation of adding the person subjected to execution stipulated by laws and judicial interpretations.The denial of juridical personality cannot directly add the relevant subject liability at the implementation stage, and the lawsuit of corporate personality denial is the necessary procedure for investigating the liability of shareholders or affiliated companies.Only when the legal conditions are met, such as the division and merger of the enterprise, can the execution court change or add the person subjected to execution according to law."
+          }
+        ],
+        "conclusion": "The horizontal penetration rule of the new Company Law provides a strong legal weapon for creditors.In a complex business environment, creditors should fully understand and apply this rule, actively collect evidence, and safeguard their rights and interests through legal litigation procedures.At the same time, the company and its shareholders should also strictly abide by laws and regulations, maintain the independence of the company's personality, and avoid falling into unnecessary legal risks.If you encounter legal problems in this respect, you are welcome to contact our law firm at any time, and we will wholeheartedly provide you with professional legal services.",
+        "references": []
       }
     }
   }

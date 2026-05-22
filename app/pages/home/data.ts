@@ -1,45 +1,34 @@
 import type { Locale } from '~/composables/useLocale'
 import articlesJson from '../article/articles.json'
 
+// 执业领域名称映射（中→英），与 practices.json 的 translations.en.name 保持一致
+const practiceAreaTitleMap: Record<string, string> = {
+  '涉外法律咨询': 'Legal Advisory Services on Foreign Related Matters',
+  '商事争议解决': 'Dispute Resolution (Litigation and Arbitration)',
+  '强制执行': 'Enforcement',
+  '体育专项法律服务': 'Sports Related Legal Service',
+  '债务重组及不良资产处置': 'Debt Restructuring and Disposal of Non-performing Assets',
+  '税法服务': 'Tax Legal Services',
+}
+
 // 执业领域轮播数据（手动配置，方便一一对应图片与内容）
-export const serviceCarouselItems = [
-  {
-    image: '/avif/1.avif',
-    category: 'FOREIGN INVESTMENT & M&A',
-    title: '涉外法律咨询',
-    link: '/practice-areas/涉外法律咨询',
-  },
-  {
-    image: '/about/image1/8.jpg',
-    category: 'COMMERCIAL DISPUTE RESOLUTION',
-    title: '商事争议解决',
-    link: '/practice-areas/商事争议解决',
-  },
-  {
-    image: '/pic/home/practice_page/wz.png',
-    category: 'JUDGMENT ENFORCEMENT',
-    title: '强制执行',
-    link: '/practice-areas/强制执行',
-  },
-  {
-    image: '/pic/home/practice_page/pe.jpg',
-    category: 'SPORTS & ENTERTAINMENT LAW',
-    title: '体育专项法律服务',
-    link: '/practice-areas/体育专项法律服务',
-  },
-  {
-    image: '/about/image1/11.jpg',
-    category: 'DEBT RESTRUCTURING',
-    title: '债务重组及不良资产处置',
-    link: '/practice-areas/债务重组及不良资产处置',
-  },
-  {
-    image: '/about/image1/12.jpg',
-    category: 'TAX SERVICES',
-    title: '税法服务',
-    link: '/practice-areas/税法服务',
-  },
-]
+export function getServiceCarouselItems(locale: Locale) {
+  const isZh = locale === 'zh'
+  const items = [
+    { image: '/avif/1.avif', category: 'FOREIGN INVESTMENT & M&A', titleZh: '涉外法律咨询', titleEn: 'Legal Advisory Services on Foreign Related Matters', link: '/practice-areas/涉外法律咨询' },
+    { image: '/about/image1/8.jpg', category: 'COMMERCIAL DISPUTE RESOLUTION', titleZh: '商事争议解决', titleEn: 'Dispute Resolution (Litigation and Arbitration)', link: '/practice-areas/商事争议解决' },
+    { image: '/pic/home/practice_page/wz.png', category: 'JUDGMENT ENFORCEMENT', titleZh: '强制执行', titleEn: 'Enforcement', link: '/practice-areas/强制执行' },
+    { image: '/pic/home/practice_page/pe.jpg', category: 'SPORTS & ENTERTAINMENT LAW', titleZh: '体育专项法律服务', titleEn: 'Sports Related Legal Service', link: '/practice-areas/体育专项法律服务' },
+    { image: '/about/image1/11.jpg', category: 'DEBT RESTRUCTURING', titleZh: '债务重组及不良资产处置', titleEn: 'Debt Restructuring and Disposal of Non-performing Assets', link: '/practice-areas/债务重组及不良资产处置' },
+    { image: '/about/image1/12.jpg', category: 'TAX SERVICES', titleZh: '税法服务', titleEn: 'Tax Legal Services', link: '/practice-areas/税法服务' },
+  ]
+  return items.map(item => ({
+    image: item.image,
+    category: item.category,
+    title: isZh ? item.titleZh : item.titleEn,
+    link: item.link,
+  }))
+}
 
 export function getHomeData(locale: Locale) {
   const isZh = locale === 'zh'
@@ -121,10 +110,10 @@ export function getHomeData(locale: Locale) {
         id: '2011-2018',
         label: '2011 – 2018',
         events: [
-          { year: '2012', description: isZh ? '青颂涉外法律咨询业务取得突破性进展，服务网络扩展至欧洲与亚太地区。' : 'QingSong\'s foreign-related legal consulting achieved breakthrough growth, extending to Europe and Asia-Pacific.' },
+          { year: '2012', description: isZh ? '青颂涉外法律咨询业务取得突破性进展，服务网络扩展至欧洲与亚太地区。' : "QingSong's foreign-related legal consulting achieved breakthrough growth, extending to Europe and Asia-Pacific." },
           { year: '2014', description: isZh ? '青颂在争议解决领域树立行业口碑，成为众多企业信赖的法律合作伙伴。' : 'QingSong built a strong reputation in dispute resolution, becoming a trusted partner for enterprises.' },
           { year: '2016', description: isZh ? '青颂体育法律服务团队成立，为赛事运营与体育机构提供专业法律支持。' : 'QingSong established its Sports Law team, providing professional legal support for sports events and institutions.' },
-          { year: '2018', description: isZh ? '青颂执行领域法律服务形成特色优势，帮助客户有效实现胜诉权益。' : 'QingSong\'s enforcement practice developed distinctive strengths, helping clients realize judgment rights.' },
+          { year: '2018', description: isZh ? '青颂执行领域法律服务形成特色优势，帮助客户有效实现胜诉权益。' : "QingSong's enforcement practice developed distinctive strengths, helping clients realize judgment rights." },
         ],
       },
       {
@@ -133,8 +122,8 @@ export function getHomeData(locale: Locale) {
         events: [
           { year: '2020', description: isZh ? '青颂深化公司化运营，完善专业分工与协作机制，服务品质再上新台阶。' : 'QingSong deepened corporate operations, refining professional division of labor and collaboration.' },
           { year: '2022', description: isZh ? '青颂与全球 10 多个国家律师事务所建立紧密合作关系，国际化程度大幅提升。' : 'QingSong established close partnerships with law firms in 10+ countries, significantly enhancing international reach.' },
-          { year: '2024', description: isZh ? '青颂成立 20 周年，专业律师团队扩充至 20 名，服务能力全面跃升。' : 'QingSong celebrated its 20th anniversary, expanding its team to 20 attorneys.' },
-          { year: '2025', description: isZh ? '青颂践行 ESG 理念，将社会责任融入律所发展战略，推动可持续发展。' : 'QingSong practices ESG principles, integrating social responsibility into its development strategy.' },
+          { year: '2024', description: isZh ? '青颂成立 20 周年，专业律师团队扩充至 20 名，服务能力全面跃升。' : "QingSong celebrated its 20th anniversary, expanding its team to 20 attorneys." },
+          { year: '2025', description: isZh ? '青颂践行 ESG 理念，将社会责任融入律所发展战略，推动可持续发展。' : "QingSong practices ESG principles, integrating social responsibility into its development strategy." },
         ],
       },
     ],
@@ -158,15 +147,18 @@ export function getHomeData(locale: Locale) {
 // 首页优势卡片 - 取自真实文章（前3篇）
 const articleImages = ['/article/12.jpg', '/article/16.jpg', '/about/image1/7.jpg']
 
-export const advantageCards = articlesJson.slice(0, 3).map((article: any, idx: number) => {
-  const tr = article.translations?.zh || article
-  const lead = tr.lead || ''
-  const desc = lead.length > 80 ? lead.slice(0, 80) + '…' : lead
-  return {
-    id: article.slug,
-    title: tr.title || article.slug,
-    description: desc,
-    image: articleImages[idx % articleImages.length],
-    link: `/article/${article.slug}`,
-  }
-})
+export function getAdvantageCards(locale: Locale) {
+  const isZh = locale === 'zh'
+  return articlesJson.slice(0, 3).map((article: any, idx: number) => {
+    const tr = article.translations?.[locale] || article.translations?.zh || article
+    const lead = tr.lead || ''
+    const desc = lead.length > 80 ? lead.slice(0, 80) + '…' : lead
+    return {
+      id: article.slug,
+      title: tr.title || article.slug,
+      description: desc,
+      image: articleImages[idx % articleImages.length],
+      link: `/article/${article.slug}`,
+    }
+  })
+}

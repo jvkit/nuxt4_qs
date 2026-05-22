@@ -7,9 +7,11 @@
  */
 
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
+import { useLocale } from '~/composables/useLocale'
 import type { Article, ArticleBlock } from '~/pages/article/data'
 
 const props = defineProps<{ article: Article }>()
+const { t } = useLocale()
 
 /* ---------- TOC ---------- */
 const tocHeadings = computed(() => {
@@ -167,13 +169,13 @@ function isLawTitle(block: ArticleBlock) {
 
       <!-- Conclusion -->
       <section v-if="article.conclusion" class="art-conclusion">
-        <h2>结语</h2>
+        <h2>{{ t('article.conclusion') }}</h2>
         <p>{{ article.conclusion }}</p>
       </section>
 
       <!-- References -->
       <section v-if="article.references.length" class="art-references">
-        <h3>参考资料</h3>
+        <h3>{{ t('article.references') }}</h3>
         <ol>
           <li v-for="(ref, i) in article.references" :key="i">{{ ref }}</li>
         </ol>

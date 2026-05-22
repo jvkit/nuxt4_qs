@@ -3,8 +3,8 @@ definePageMeta({ layout: 'plain' })
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useLocale } from '~/composables/useLocale'
 import {
-  serviceCarouselItems,
-  advantageCards,
+  getServiceCarouselItems,
+  getAdvantageCards,
   getHomeData,
 } from './home/data'
 
@@ -90,7 +90,8 @@ const on_key = (e: KeyboardEvent) => {
    核心服务轮播 (Peek Carousel)
    ================================ */
 const active_service_index = ref(0)
-const service_len = () => serviceCarouselItems.length
+const serviceCarouselItems = computed(() => getServiceCarouselItems(locale.value))
+const service_len = () => serviceCarouselItems.value.length
 
 const service_slide_class = (i: number) => {
   const diff = (i - active_service_index.value + service_len()) % service_len()
@@ -111,7 +112,7 @@ const handle_service_click = (i: number) => {
   if (cls === 'next') next_service()
   else if (cls === 'prev') prev_service()
   else if (cls === 'active') {
-    const item = serviceCarouselItems[i]
+    const item = serviceCarouselItems.value[i]
     if (item?.link) window.open(item.link, '_self')
   }
 }
@@ -268,7 +269,7 @@ onUnmounted(() => {
     <section class="advantages-section">
       <div class="qs-container advantages-inner">
         <NuxtLink
-          v-for="card in advantageCards"
+          v-for="card in getAdvantageCards(locale)"
           :key="card.id"
           :to="card.link"
           class="advantage-card"

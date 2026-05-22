@@ -99,7 +99,7 @@ function submitTopSearch() {
   <header class="navHeader" :class="{ isTop }" @mouseleave="close()">
     <div class="qs-container navInner">
       <NuxtLink class="brand" to="/" aria-label="返回首页">
-        <span class="brandMark">青颂</span>
+        <span class="brandMark">{{ t('nav.brand') }}</span>
       </NuxtLink>
 
       <!-- 汉堡按钮 -->
@@ -114,25 +114,6 @@ function submitTopSearch() {
         <span />
         <span />
       </button>
-
-      <!-- 语言切换 -->
-      <div class="langSwitch">
-        <button
-          class="langBtn"
-          :class="{ active: locale === 'zh' }"
-          @click="setLocale('zh')"
-        >
-          {{ t('lang.zh') }}
-        </button>
-        <span class="langDivider">|</span>
-        <button
-          class="langBtn"
-          :class="{ active: locale === 'en' }"
-          @click="setLocale('en')"
-        >
-          {{ t('lang.en') }}
-        </button>
-      </div>
 
       <!-- 移动端遮罩 -->
       <div class="navBackdrop" :class="{ isOpen: mobileOpen }" @click="closeMobile" />
@@ -196,19 +177,28 @@ function submitTopSearch() {
               <MegaMenu :item="item" />
             </div>
           </li>
-        </ul>
 
-        <div class="topSearch">
-          <input
-            v-model="topSearch"
-            type="text"
-            :placeholder="t('nav.search')"
-            class="topSearchInput"
-            autocomplete="off"
-            autocapitalize="off"
-            @keyup.enter="submitTopSearch"
-          />
-        </div>
+          <!-- 语言切换 — 放在关于我们右侧 -->
+          <li class="navItem langSwitchItem">
+            <div class="langSwitch">
+              <button
+                class="langBtn"
+                :class="{ active: locale === 'zh' }"
+                @click="setLocale('zh')"
+              >
+                {{ t('lang.zh') }}
+              </button>
+              <span class="langDivider">|</span>
+              <button
+                class="langBtn"
+                :class="{ active: locale === 'en' }"
+                @click="setLocale('en')"
+              >
+                {{ t('lang.en') }}
+              </button>
+            </div>
+          </li>
+        </ul>
       </nav>
     </div>
   </header>
@@ -321,10 +311,10 @@ function submitTopSearch() {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 10px;
+  padding: 10px 12px;
   border-radius: 10px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 14px;
+  font-size: 16px;
   white-space: nowrap;
   text-decoration: none;
   background: transparent;
@@ -361,50 +351,43 @@ function submitTopSearch() {
 .navItem.isOpen .menuWrap {
   display: block;
 }
-.topSearch {
-  width: 260px;
-}
-.topSearchInput {
-  width: 100%;
-  padding: 8px 14px;
-  background: rgba(255, 255, 255, 0.08);
-  border: none;
-  border-radius: 12px;
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 14px;
-  outline: none;
-}
-.topSearchInput::placeholder {
-  color: rgba(255, 255, 255, 0.55);
-}
-
 /* 语言切换 */
+.langSwitchItem {
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
 .langSwitch {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-left: auto;
+  gap: 8px;
 }
 .langBtn {
   background: transparent;
-  border: none;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
-  padding: 4px 6px;
-  border-radius: 4px;
-  transition: color 0.2s, background 0.2s;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  min-width: 36px;
+  text-align: center;
 }
 .langBtn:hover {
-  color: rgba(255, 255, 255, 0.85);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.08);
 }
 .langBtn.active {
   color: #fff;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.45);
 }
 .langDivider {
   color: rgba(255, 255, 255, 0.25);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* ====== 移动端 (< 992px) ====== */
@@ -412,6 +395,14 @@ function submitTopSearch() {
   .burger {
     display: inline-flex;
     z-index: 100;
+  }
+  .langSwitchItem {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
   .langSwitch {
     margin-left: 0;

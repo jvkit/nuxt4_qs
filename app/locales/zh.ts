@@ -1,5 +1,6 @@
 export const zh = {
   nav: {
+    brand: '青颂',
     attorneys: '专业人员',
     practiceAreas: '专业领域',
     news: '消息',
@@ -185,6 +186,8 @@ export const zh = {
     noResult: '没有找到相关文章',
     detailNotFound: '文章不存在或已被删除',
     detailBack: '返回文章列表',
+    conclusion: '结语',
+    references: '参考资料',
   },
   common: {
     backToTop: '↑',

@@ -72,7 +72,7 @@ defineExpose({ refresh })
       <h4 v-if="group.title" class="megaColTitle">{{ group.title }}</h4>
       <ul class="megaList">
         <li v-for="link in group.links" :key="link.href">
-          <NuxtLink :to="link.href">{{ link.label }}</NuxtLink>
+          <NuxtLink :to="link.href">{{ translateLabel(link.label, link.i18nKey) }}</NuxtLink>
         </li>
       </ul>
     </div>

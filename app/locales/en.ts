@@ -1,5 +1,6 @@
 export const en = {
   nav: {
+    brand: 'QingSolve partner',
     attorneys: 'Attorneys',
     practiceAreas: 'Practice Areas',
     news: 'News & Events',
@@ -9,7 +10,9 @@ export const en = {
     aiSupport: 'AI Support',
     aboutUs: 'About Us',
     search: 'Search',
+    
   },
+
   hero: {
     slide1Title: 'Pursuit of Excellence',
     slide1Subtitle: 'Driven by Your Business Objectives',
@@ -185,6 +188,8 @@ export const en = {
     noResult: 'No articles found',
     detailNotFound: 'Article not found or has been removed',
     detailBack: 'Back to Articles',
+    conclusion: 'Conclusion',
+    references: 'References',
   },
   common: {
     backToTop: '↑',

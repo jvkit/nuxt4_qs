@@ -390,6 +390,7 @@ useSchemaOrg(() =>
   font-size: 15px;
   line-height: 1.8;
   color: var(--qs-color-text);
+  text-align: justify;
 }
 
 .detail-section__list {
