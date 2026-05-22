@@ -1,30 +1,30 @@
 {
   "attorney": {
-    "image": "/head/abs/1.jpg",
+    "image": "/images/shared/hero/abs/1.jpg",
     "height": "40vh"
   },
   "attorney-id": {
-    "image": "/head/abs/2.jpg",
+    "image": "/images/shared/hero/abs/2.jpg",
     "height": "42vh"
   },
   "article": {
-    "image": "/head/abs/3.jpg",
+    "image": "/images/shared/hero/abs/3.jpg",
     "height": "45vh"
   },
   "article-slug": {
-    "image": "/head/abs/4.jpg",
+    "image": "/images/shared/hero/abs/4.jpg",
     "height": "30vh"
   },
   "practice-areas": {
-    "image": "/head/abs/5.jpg",
+    "image": "/images/shared/hero/abs/5.jpg",
     "height": "30vh"
   },
   "practice-areas-slug": {
-    "image": "/head/abs/6.jpg",
+    "image": "/images/shared/hero/abs/6.jpg",
     "height": "30vh"
   },
   "test": {
-    "image": "/head/abs/7.jpg",
+    "image": "/images/shared/hero/abs/7.jpg",
     "height": "500vh"
   }
 }

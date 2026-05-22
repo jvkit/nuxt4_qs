@@ -1,0 +1,557 @@
+{
+  "attorneys": [
+    {
+      "id": 18,
+      "name": "张乔羽",
+      "title": "合伙人",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "商事争议解决"
+        },
+        {
+          "name": "执行"
+        },
+        {
+          "name": "涉外法律咨询"
+        },
+        {
+          "name": "体育仲裁"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/zqy.jpg",
+      "email": "zhangqiaoyu@qs-legal.com",
+      "phone": "",
+      "bio": "张乔羽律师是青颂的创始合伙人，主要执业领域为商事争议解决、执行、涉外法律咨询及体育仲裁。",
+      "featured": false,
+      "sort_order": 1,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.893176+00:00",
+      "updated_at": "2026-05-09T05:48:14.878899+00:00",
+      "profile": {
+        "resume": "张乔羽律师是青颂的创始合伙人，主要执业领域为商事争议解决、执行、涉外法律咨询及体育仲裁。张律师曾代表国内外客户处理了大量的境内外仲裁、强制执行案件，涉及公司股权转让、中外合资合作、国际和国内贸易、职业运动员合同、技术服务合同、建设工程、信用证等众多领域。\r\n\r\n张律师代理过多起知名案件，在涉外仲裁领域，曾代理山西老字号水塔醋业处理其与法国威立雅集团之间3.5亿元股权回购纠纷仲裁案；在执行领域，曾代理包括意大利某冶金设备有限公司对伊朗新经济银行跨境执行案在内的众多巨额执行案件；在体育仲裁方面，曾代理中国男篮球员周琦处理其与原CBA篮球俱乐部新疆广汇之间的球员合同体育仲裁案。\r\n\r\n张律师在2024年荣获全球法律评级机构Legal One颁发的客户信赖律师（Blue Ribbon）争议解决15强律师的荣誉称号。同时，张律师加入北京律协国际贸易委员会、中国法学会体育法学研究会，并担任北京多元调解发展促进会-北京青颂金融纠纷调解中心负责人。",
+        "representative_cases": "- 代表中国国家篮球队周琦先生与新疆广汇篮球俱乐部转会纠纷仲裁案\r\n- 代表北京泰跃投资公司与山西某公司涉及1.2亿元股权投资纠纷案\r\n- 代表利欧集团股份有限公司（股票代码：002131）及其关联公司处理其与众多合作方之间的纠纷案\r\n- 代表山西水塔醋业股份有限公司与法国威立雅公司涉及3.6亿元股权回购纠纷案\r\n- 代表中化二建集团与中基建设发展有限公司（BVI公司）涉及1.89亿元跨境执行案\r\n- 代表天诺财富与山西永泰集团涉及2亿元投资纠纷执行案\r\n- 代表意大利某冶金设备有限公司与伊朗新经济银行涉及400万欧元执行案\r\n- 代表意大利某冶金设备有限公司与西王特钢有限公司涉及3500万元执行案\r\n- 代表山东康堃公司与山西长源集团公司涉及3500万元贸易纠纷执行案\r\n- 代表正元地理信息股份有限公司（股票代码：688509）与山东某地方政府纠纷执行案\r\n- 代表美国NBA现役球员李凯尔（Kyle Anderson）的中方经纪公司提供球员归化法律服务\r\n- 代表中国女子篮球运动员李梦处理加盟美国WNBA华盛顿神秘队的法律合同事务\r\n- 代表中国男篮球员王哲林处理转会加盟上海久事篮球俱乐部的法律合同事务\r\n- 担任中国知名体育公司北京东方启明星集团总法律顾问处理投融资、政府谈判、公司合规等法律事务",
+        "education": "- 2008-2012 华南理工大学 学士学位\r\n- 2013-2014 英国伯明翰大学 硕士学位",
+        "qualifications": "- 中国大陆执业律师\r\n- 中国篮球协会经纪人",
+        "work_experience": "- 北京德和衡律师事务所，2016-2021\r\n- 北京青颂律师事务所，2021-至今",
+        "awards": "**奖项**\r\n\r\n- Legal One客户信赖律师（Blue Ribbon）争议解决15强律师（中国大陆），2024\r\n\r\n**社会职务**\r\n\r\n- 北京律协国际贸易委员会委员\r\n- 中国法学会体育法学研究会委员\r\n- 北京多元调解发展促进会-北京青颂金融纠纷调解中心负责人",
+        "other": ""
+      },
+      "name_en": "Gary Zhang",
+      "title_en": "Partner",
+      "office_en": "Beijing",
+      "bio_en": "Gary Zhang is a founding partner of QingSolve, specializing in commercial dispute resolution, enforcement, foreign-related legal advice and sports arbitration.",
+      "profile_en": {
+        "resume": "Gary Zhang is a founding partner of QingSolve, specializing in commercial dispute resolution, enforcement, foreign-related legal advice and sports arbitration. He has represented a large number of domestic and foreign clients in arbitration and enforcement cases, involving various fields such as company equity transfer, Sino-foreign joint ventures, international and domestic trade, professional athlete contracts, technical service contracts, construction projects, letters of credit, etc.\n\nGary has represented many well-known companies in handling disputes or enforcement cases, such as the case of Shanxi time-honored brand Shuita Vinegar (a RMB 350 million equity repurchase dispute arbitration case against French Veolia Group); the cross-border enforcement case representing big European metallurgical equipment company of EUR 4 million; arbitration case relating to athlete transfer dispute representing basketball player Zhou Qi, etc..\n\nGary was awarded the honorary title of Top 15 Customer Trusted Lawyer (Blue Ribbon) for Dispute Resolution by Legal One (a global legal rating agency) in 2024. He has joined the International Trade Committee of the Beijing Bar Association and the Sports Law Research Association of the China Law Society and also serves as the head of the Beijing Association for the Promotion of Diversified Mediation Development (also known as Beijing QingSolve Financial Dispute Mediation Center).",
+        "representative_cases": "- Representing Mr. Zhou Qi of Chinese National Basketball team in handling arbitration case against Xinjiang Guanghui Basketball Club for the athlete transfer dispute\n- Representing Beijing Taiyue Investment Company in litigation against a company in Shanxi Province for equity investment disputes, the disputing amount being RMB 120 million\n- Representing LEO Group (Chinese listing company) and its affiliated companies in resolving various commercial contracts disputes\n- Representing Shanxi Shuita Vinegar Industry Co., Ltd. in a equity repurchase dispute with French company Veolia with disputing amount of RMB 360 million\n- Representing China National Chemical Second Construction Group handling the cross-board enforcement of RMB 189 million\n- Representing Tiannuo Wealth handling the enforcement against Shanxi Yongtai Group with enforcement amount of RMB 200 million relating to investment dispute\n- Representing a big European metallurgical equipment company handling enforcement case relating to EUR 4 million at an Iranian bank\n- Representing a big European metallurgical equipment company handling enforcement of RMB 35 million against Xiwang Special Steel Co., Ltd.\n- Representing Shandong Kangkun Company handling enforcement of RMB 35 million against Shanxi Changyuan Group Company\n- Representing Zhengyuan Geographic Information Co., Ltd. (Chinese listing company) handling enforcement against Shandong local government\n- Representing NBA player Kyle Anderson's Chinese brokerage company providing legal services for player naturalization\n- Representing Chinese Women's basketball player Li Meng in handing the legal contract matter for her international transfer to join WNBA's Washington Mystics Club\n- Representing Chinese Men's basketball player Wang Zhelin in handing the legal contract matter for his transfer to join Shanghai Sharks Basketball Club\n- Serving as General Legal Counsel for Beijing East Star Group, a leading Chinese sports company, responsible for investment advice, government negotiations and corporate compliance advice",
+        "education": "- 2008-2012 South China University of Technology, Bachelor's Degree\n- 2013-2014 University of Birmingham, Master's Degree",
+        "qualifications": "- Licensed Attorney in Mainland China\n- China Basketball Association Agent",
+        "work_experience": "- Beijing DHH Law Firm, 2016-2021\n- Beijing QingSolve Law Firm, 2021-Present",
+        "awards": "**Awards**\n\n- Legal One Customer Trusted Lawyer (Blue Ribbon) Top 15 for Dispute Resolution (Mainland China), 2024\n\n**Social Positions**\n\n- Member of International Trade Committee, Beijing Bar Association\n- Member of Sports Law Research Association, China Law Society\n- Head of Beijing Association for the Promotion of Diversified Mediation Development (Beijing QingSolve Financial Dispute Mediation Center)",
+        "other": ""
+      }
+    },
+    {
+      "id": 19,
+      "name": "陈宇华",
+      "title": "合伙人",
+      "office": "上海",
+      "practice_areas": [
+        {
+          "name": "涉外法律咨询"
+        },
+        {
+          "name": "劳动人事"
+        },
+        {
+          "name": "公司治理"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/cyh.jpg",
+      "email": "Amy.Chen@qs-legal.com",
+      "phone": "",
+      "bio": "陈律师是青颂的合伙人，同时是青颂涉外法律咨询服务的负责人。加入青颂之前，陈律师曾就职于欧洲的西盟斯律师联盟以及意大利顶尖律师事务所凯明迪律师事务所。近二十年来，陈律师一直深耕于涉外法律咨询服务领域，在为外国客户提供服务方面积累了丰富的经验（尤其是在劳动领域）。陈律师还是各类商业项目的优秀协调者。",
+      "featured": false,
+      "sort_order": 2,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.899693+00:00",
+      "updated_at": "2026-05-09T05:48:31.284925+00:00",
+      "profile": {
+        "resume": "陈律师是青颂的合伙人，同时是青颂涉外法律咨询服务的负责人。\r\n\r\n加入青颂之前，陈律师曾就职于欧洲的西盟斯律师联盟以及意大利顶尖律师事务所凯明迪律师事务所。近二十年来，陈律师一直深耕于涉外法律咨询服务领域，在为外国客户提供服务方面积累了丰富的经验（尤其是在劳动领域）。陈律师还是各类商业项目的优秀协调者。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Amy Chen",
+      "title_en": "Partner",
+      "office_en": "Shanghai",
+      "bio_en": "Amy Chen is a partner of QingSolve and in charge of foreign related legal advice services. She has worked for the European CMS Law Alliance and Chiomenti Legal Studio (a top law firm in Italy) before joining QingSolve and has been deeply involved in foreign related legal advisory services for nearly 20 years and has cumulated extensive experience in serving foreign clients (especially in the area of labor). She is also an excellent coordinator for various commercial projects.",
+      "profile_en": {
+        "resume": "Amy Chen is a partner of QingSolve and in charge of foreign related legal advice services.\n\nShe has worked for the European CMS Law Alliance and Chiomenti Legal Studio (a top law firm in Italy) before joining QingSolve and has been deeply involved in foreign related legal advisory services for nearly 20 years and has cumulated extensive experience in serving foreign clients (especially in the area of labor). She is also an excellent coordinator for various commercial projects.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 20,
+      "name": "Gianluca D'Agnolo",
+      "title": "顾问",
+      "office": "罗马",
+      "practice_areas": [
+        {
+          "name": "跨境交易"
+        },
+        {
+          "name": "并购"
+        },
+        {
+          "name": "合资合作"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/g.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "Gianluca D'Agnolo律师拥有超过30年的法律经验，代表和协助企业客户参与各类商业交易以及投资活动，尤其是意大利与中国两国之间的跨国交易。",
+      "featured": false,
+      "sort_order": 3,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.904328+00:00",
+      "updated_at": "2026-05-09T05:49:09.676199+00:00",
+      "profile": {
+        "resume": "Gianluca D'Agnolo律师拥有超过30年的法律经验，代表和协助企业客户参与各类商业交易（经销、代理、特许经营及许可协议等）以及投资活动（并购、合资企业设立及其他合作形式），尤其是意大利与中国两国之间的跨国交易。Gianluca拥有超过30年在国际顶尖或意大利顶级律师事务所的工作经验，专注于处理中意跨境业务。他能使用英语、意大利语、法语及基础中文进行工作。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "- 2025-至今 北京青颂律师事务所的顾问\r\n- 2006-2025 意大利凯明迪律师事务所（先后任职于北京代表处首席代表、上海代表处首席代表和罗马总部顾问）\r\n- 2004-2006 LCA律师事务所（先后任职于北京代表处、上海代表处和米兰总部）\r\n- 1997-2004 英国富而德律师事务所（先后任职于米兰办公室、北京代表处和香港办公室）\r\n- 1995-1997 意大利Carnelutti律师事务所\r\n- 1994-1995 意法联合律师事务所Felici律师事务所",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Gianluca D'Agnolo",
+      "title_en": "Consultant",
+      "office_en": "Rome",
+      "bio_en": "Attorney Gianluca D'Agnolo has over 30 years of legal experience, representing and assisting corporate clients in various commercial transactions and investment activities, especially cross-border transactions between Italy and China.",
+      "profile_en": {
+        "resume": "Attorney Gianluca D'Agnolo has over 30 years of legal experience, representing and assisting corporate clients in various commercial transactions (distribution, agency, franchise and licensing agreements, etc.) and investment activities (M&A, joint venture establishment and other forms of cooperation), especially cross-border transactions between Italy and China. Gianluca has over 30 years of experience working in top international or top Italian law firms, specializing in handling Italy-China cross-border business. He can work in English, Italian, French and basic Chinese.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "- 2025-Present Consultant at Beijing QingSolve Law Firm\n- 2006-2025 Chiomenti Law Firm ( successively served as Chief Representative of Beijing Office, Chief Representative of Shanghai Office and Consultant of Rome Headquarters)\n- 2004-2006 LCA Law Firm ( successively served in Beijing Office, Shanghai Office and Milan Headquarters)\n- 1997-2004 Freshfields Bruckhaus Deringer ( successively served in Milan Office, Beijing Office and Hong Kong Office)\n- 1995-1997 Carnelutti Law Firm, Italy\n- 1994-1995 Italian-French Joint Law Firm Felici Law Firm",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 21,
+      "name": "陈琛",
+      "title": "合伙人",
+      "office": "墨尔本",
+      "practice_areas": [
+        {
+          "name": "私募股权"
+        },
+        {
+          "name": "国际仲裁"
+        },
+        {
+          "name": "公司治理"
+        },
+        {
+          "name": "GDPR合规"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/cc.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "陈律师获得悉尼科技大学法学博士学位，持有中国执业律师资格证和澳大利亚律师资格。陈律师专注于私募股权、国际仲裁、公司治理法律服务，也擅长处理GDPR合规法律业务、澳大利亚投资法律咨询。",
+      "featured": false,
+      "sort_order": 4,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.910406+00:00",
+      "updated_at": "2026-05-09T05:48:38.932879+00:00",
+      "profile": {
+        "resume": "陈律师获得悉尼科技大学法学博士学位，持有中国执业律师资格证和澳大利亚律师资格。陈律师专注于私募股权、国际仲裁、公司治理法律服务，也擅长处理GDPR合规法律业务、澳大利亚投资法律咨询（行业涉及航空、汽车、房地产、食品、医疗科技等）。陈律师曾代表国内外客户处理众多重大诉讼案件和非讼项目。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Chen Chen",
+      "title_en": "Partner",
+      "office_en": "Melbourne",
+      "bio_en": "Lawyer Chen obtained a Ph.D degree in law from the University of Technology, Sydney and holds both the practicing license in both China and Australia. He is specialized in private equity, international arbitration and general corporate governance and operation legal advice and GDPR compliance, as well as Australian investment legal advice and support.",
+      "profile_en": {
+        "resume": "Lawyer Chen obtained a Ph.D degree in law from the University of Technology, Sydney and holds both the practicing license in both China and Australia. He is specialized in private equity, international arbitration and general corporate governance and operation legal advice and GDPR compliance, as well as Australian investment legal advice and support (industries involving aviation, automotive, real estate, food, medical technology, etc.). Lawyer Chen has represented numerous major litigation cases and involved in numerous non-litigation projects for domestic and foreign clients.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 22,
+      "name": "袁瑞祥",
+      "title": "合伙人",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "公司治理"
+        },
+        {
+          "name": "商事争议解决"
+        },
+        {
+          "name": "强制执行"
+        },
+        {
+          "name": "投融资"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/yrx.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "袁律师是青颂的高级律师。袁律师擅长公司治理和运营中的法律咨询、商事争议解决诉讼、强制执行与资产处置、投融资领域的法律事务。",
+      "featured": false,
+      "sort_order": 5,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.915462+00:00",
+      "updated_at": "2026-05-08T06:43:45.915462+00:00",
+      "profile": {
+        "resume": "袁律师是青颂的高级律师。袁律师擅长公司治理和运营中的法律咨询（劳资纠纷、股权争议、控制权争夺等）、商事争议解决诉讼、强制执行与资产处置、投融资领域的法律事务，具有多年的实操经验和深刻理解。执业以来，尤其擅长从实现委托人商业利益和需求的角度就疑难复杂法律问题和监管合规事项提出可操作的整体解决方案。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Rui Xiang Yuan",
+      "title_en": "Partner",
+      "office_en": "Beijing",
+      "bio_en": "Lawyer Yuan is a senior lawyer of QingSolve. Lawyer Yuan is specialized in legal advice relating to corporate governance and operation, commercial dispute resolution, enforcement and asset disposal, and investment and financing.",
+      "profile_en": {
+        "resume": "Lawyer Yuan is a senior lawyer of QingSolve. Lawyer Yuan is specialized in legal advice relating to corporate governance and operation (labour disputes, equity disputes, control disputes, etc.) and investment and financing, commercial dispute resolution, enforcement and asset disposal, with many years of experience and profound understanding. He is particularly adept at proposing pragmatic and actionable overall solutions to complex legal issues and regulatory compliance issues from the perspective of realizing the client's commercial interests and needs.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 23,
+      "name": "刘杨",
+      "title": "合伙人",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "商事争议解决"
+        },
+        {
+          "name": "行政诉讼"
+        },
+        {
+          "name": "刑事辩护"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/ly.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "刘律师是青颂的合伙人，曾长期任职于央企总法律顾问，有丰富的企业治理法务实务经验，刘律师曾代理多起重大商事争议及行政诉讼案件。",
+      "featured": false,
+      "sort_order": 6,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.918986+00:00",
+      "updated_at": "2026-05-09T05:48:50.365109+00:00",
+      "profile": {
+        "resume": "刘律师是青颂的合伙人，曾长期任职于央企总法律顾问，有丰富的企业治理法务实务经验，刘律师曾代理多起重大商事争议及行政诉讼案件，最大限度的维护了当事人合法权益。同时，刘律师在刑事犯罪领域有深厚的法律实务经验，成功为多名嫌疑人/被告人作无罪、罪轻、撤销案件的刑事辩护。工作严谨，服务专业，是其一贯秉承的执业理念。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Yang Liu",
+      "title_en": "Partner",
+      "office_en": "Beijing",
+      "bio_en": "Lawyer Liu is one of the founding partners of QingSolve. He was the general legal counsel of a central enterprise for many years and has extensive experience in corporate governance legal practice.",
+      "profile_en": {
+        "resume": "Lawyer Liu is one of the founding partners of QingSolve. He was the general legal counsel of a central enterprise for many years and has extensive experience in corporate governance legal practice. Lawyer Liu has represented numerous big commercial disputes and administrative litigation cases, where he had maximized the protection of the legitimate rights and interests of the clients involved. Lawyer Liu has profound legal experience in the field of criminal offenses and has successfully defended many suspects/defendants for innocence, light charges and revocation of criminal case. Rigorousness in work and professionalism in service have always been the practicing philosophy adhered to by him.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 24,
+      "name": "郑伊",
+      "title": "顾问律师/助理教授",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "税法服务"
+        },
+        {
+          "name": "国际税务"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/zy.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "郑律师是青颂的国际税法资深顾问，持有中国执业律师资格。郑律师获得美国圣路易斯华盛顿大学国际税法博士学位，并自2020年至今在中国政法大学民商经济法学院任助理教授。",
+      "featured": false,
+      "sort_order": 7,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.923521+00:00",
+      "updated_at": "2026-05-08T06:43:45.923521+00:00",
+      "profile": {
+        "resume": "郑律师是青颂的国际税法资深顾问，持有中国执业律师资格。郑律师获得美国圣路易斯华盛顿大学国际税法博士学位，并自2020年至今在中国政法大学民商经济法学院任助理教授。郑律师作为中国杰出的国际税法专家人才，同时担任国务院关税税则委员会专家咨询委员会委员和全国税政人才库专家。",
+        "representative_cases": "",
+        "education": "- 2014.8—2017.5 美国圣路易斯华盛顿大学法学院，国际税法法学博士（JSD）\n- 2013.8—2014.5 美国圣路易斯华盛顿大学法学院，知识产权法法学硕士（LLM in Intellectual Property）\n- 2009.9—2013.6 中山大学法学院，法学学士",
+        "qualifications": "- 中国大陆执业律师",
+        "work_experience": "",
+        "awards": "- 第八届国务院关税税则委员会专家咨询委员会委员\n- 全国税政人才库专家",
+        "other": "**代表性科研成果**\n\n**专著：**\n《美国联邦税务法院估价判例》，经济科学出版社，2020\n\n**合著：**\nInternational Business Law: Selected essays, University of Minho Research Center for Justice and Governance Press, 2018.\n\n**论文：**\n1. 《论网络平台的涉税信息披露义务》，《税务研究》2021年第10期\n2. 《When \"One Belt and One Road\" Initiate meet BEPS: Reforming the China's foreign tax credit rules in the new era》，《Frontiers of Law in China》, 2020年第2期\n3. 《美国关税税率决定机制中行政与立法的权力分配》，《政法论丛》2019年第2期\n4. 《税收法律中无形资产的定义问题研究》，《国际税收》2019年第1期\n5. 《Reforming Foreign Tax Credit System in China with a Liberal Approach: A study of Foreign Tax Credit and Related Rules of International Taxation on Residents' Foreign Source Income》, Washington University School of Law Dissertations. 29，2017\n\n**科研项目：**\n国家社会科学基金（2024）、广东省社会科学基金（2018）、广东省涉外高端人才计划（2019）、财政部\"世界主要国家关税制度研究\"（2019）、中国政法大学青年创新项目（2020）"
+      },
+      "name_en": "Yi Zheng",
+      "title_en": "Consultant Attorney / Assistant Professor",
+      "office_en": "Beijing",
+      "bio_en": "Lawyer Zheng is a senior international tax law consultant of QingSolve, and holds the practicing lawyer qualification in China. She has obtained a Doctor of Philosophy in International Tax Law from Washington University in St. Louis, the United States, and has served as an assistant professor at the School of Civil, Commercial and Economic Law of China University of Political Science and Law since 2020.",
+      "profile_en": {
+        "resume": "Lawyer Zheng is a senior international tax law consultant of QingSolve, and holds the practicing lawyer qualification in China. She has obtained a Doctor of Philosophy in International Tax Law from Washington University in St. Louis, the United States, and has served as an assistant professor at the School of Civil, Commercial and Economic Law of China University of Political Science and Law since 2020. As an outstanding international tax law expert in China, she also serves as an expert in the National Tax Policy Talent Pool and a member of the Expert Advisory Committee of the Tariff Commission of the State Council.",
+        "representative_cases": "",
+        "education": "- Aug 2014 – May 2017 Washington University School of Law, JSD in International Tax Law\n- Aug 2013 – May 2014 Washington University School of Law, LLM in Intellectual Property\n- Sep 2009 – Jun 2013 Sun Yat-sen University School of Law, LLB",
+        "qualifications": "- Licensed Attorney in Mainland China",
+        "work_experience": "",
+        "awards": "- Member of Expert Advisory Committee, 8th Tariff Commission of the State Council\n- Expert in National Tax Policy Talent Pool",
+        "other": "**Representative Research Achievements**\n\n**Monographs:**\n\"Valuation Cases of the U.S. Federal Tax Court\", Economic Science Press, 2020\n\n**Co-authored Works:**\nInternational Business Law: Selected essays, University of Minho Research Center for Justice and Governance Press, 2018.\n\n**Papers:**\n1. \"On the Tax-related Information Disclosure Obligations of Online Platforms\", Taxation Research, Issue 10, 2021\n2. \"When One Belt and One Road Initiative meet BEPS: Reforming the China's foreign tax credit rules in the new era\", Frontiers of Law in China, Issue 2, 2020\n3. \"The Distribution of Executive and Legislative Power in the U.S. Tariff Rate Determination Mechanism\", Journal of Political Science and Law, Issue 2, 2019\n4. \"Research on the Definition of Intangible Assets in Tax Law\", International Taxation, Issue 1, 2019\n5. \"Reforming Foreign Tax Credit System in China with a Liberal Approach: A study of Foreign Tax Credit and Related Rules of International Taxation on Residents' Foreign Source Income\", Washington University School of Law Dissertations. 29, 2017\n\n**Research Projects:**\nNational Social Science Foundation (2024), Guangdong Provincial Social Science Foundation (2018), Guangdong Provincial Foreign-related High-end Talent Program (2019), Ministry of Finance \"Research on Tariff Systems of Major Countries in the World\" (2019), China University of Political Science and Law Youth Innovation Project (2020)"
+      }
+    },
+    {
+      "id": 25,
+      "name": "刘潮",
+      "title": "资深律师",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "强制执行"
+        },
+        {
+          "name": "执行异议"
+        },
+        {
+          "name": "资产处置"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/lc.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "刘律师是青颂的高级律师，执业前曾就职于腾讯、大型国企、法院等机构，在众多领域拥有丰富的社会工作经验。",
+      "featured": false,
+      "sort_order": 8,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.929808+00:00",
+      "updated_at": "2026-05-08T06:43:45.929808+00:00",
+      "profile": {
+        "resume": "刘律师是青颂的高级律师，执业前曾就职于腾讯、大型国企、法院等机构，在众多领域拥有丰富的社会工作经验。执业期间，先后参与、代理了众多各类执行案件，对于强制执行案件拥有丰富的经验和独到的见解，已快速成长为执行团队的中流砥柱。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Chao Liu",
+      "title_en": "Senior Attorney",
+      "office_en": "Beijing",
+      "bio_en": "Lawyer Liu is a senior lawyer at QingSolve. He has working experience with big companies such as Tencent and large state-owned enterprises and court before joining QingSolve.",
+      "profile_en": {
+        "resume": "Lawyer Liu is a senior lawyer at QingSolve. He has the working experience with big companies such as Tencent and large state-owned enterprises and court before joining QingSolve and has cumulated extensive working experience in various fields. In QingSolve, he has represented clients in participating numerous types of enforcement cases, having extensive experience and unique insights in enforcement cases, and has rapidly grown into the backbone of the enforcement team.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 26,
+      "name": "鲁静",
+      "title": "资深律师",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "强制执行"
+        },
+        {
+          "name": "民商事争议"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/lj.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "鲁静律师是青颂的执业律师，曾就职于最高人民检察院，拥有丰富的司法工作经验，现在专注于执行案件领域。",
+      "featured": false,
+      "sort_order": 9,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.933844+00:00",
+      "updated_at": "2026-05-08T06:43:45.933844+00:00",
+      "profile": {
+        "resume": "鲁静律师是青颂的执业律师，曾就职于最高人民检察院，拥有丰富的司法工作经验，现在专注于执行案件领域，参与、代理多起民商事案件，为多家企业提供法律顾问服务并取得良好法律效果，办理近百起执行案件，具有较为丰富的诉讼、执行案件办理经验。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Jing Lu",
+      "title_en": "Senior Attorney",
+      "office_en": "Beijing",
+      "bio_en": "Lawyer Lu is a practicing lawyer of QingSolve who worked at the Supreme People's Procuratorate before joining QingSolve and has extensive judicial work experience. She now is specialized in enforcement.",
+      "profile_en": {
+        "resume": "Lawyer Lu is a practicing lawyer of QingSolve who worked at the Supreme People's Procuratorate before joining QingSolve and has extensive judicial work experience. She now is specialized in enforcement. She has participated in and represented numerous civil and commercial cases and provided legal advisory services to numerous enterprises, with good outcomes. She has handled nearly 100 enforcement cases and has extensive experience in litigation and enforcement.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    },
+    {
+      "id": 27,
+      "name": "孙喜娟",
+      "title": "资深律师",
+      "office": "北京",
+      "practice_areas": [
+        {
+          "name": "民商事争议解决"
+        },
+        {
+          "name": "强制执行"
+        },
+        {
+          "name": "公司治理"
+        }
+      ],
+      "image_url": "",
+      "avatar": "/images/attorney/avatars/sxj.jpg",
+      "email": "",
+      "phone": "",
+      "bio": "孙喜娟律师是青颂的执业律师，曾就职于最高人民法院，拥有丰富的实务审判经验。她专注于民商事争议解决和执行案件。",
+      "featured": false,
+      "sort_order": 10,
+      "is_active": true,
+      "created_at": "2026-05-08T06:43:45.937387+00:00",
+      "updated_at": "2026-05-08T06:43:45.937387+00:00",
+      "profile": {
+        "resume": "孙喜娟律师是青颂的执业律师，曾就职于最高人民法院，拥有丰富的实务审判经验。她专注于民商事争议解决和执行案件，以及公司治理和运营的法律咨询，承办近百起民商事、执行案件，协助企业起草、修改审核上千份合同、公司函件等文件，多次协助客户有效解决争议，拥有丰富的办案经验。",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      },
+      "name_en": "Xi Juan Sun",
+      "title_en": "Senior Attorney",
+      "office_en": "Beijing",
+      "bio_en": "Lawyer Sun is a practicing lawyer of QingSolve who worked at the Supreme People's Court before joining QingSolve and has extensive practical trial experience. She is specialized in civil and commercial disputes resolution and enforcement.",
+      "profile_en": {
+        "resume": "Lawyer Sun is a practicing lawyer of QingSolve who worked at the Supreme People's Court before joining QingSolve and has extensive practical trial experience. She is specialized in civil and commercial disputes resolution and enforcement, as well as providing legal advice on corporate governance and operations. She has handled nearly a hundred civil and commercial dispute and enforcement cases, assisted numerous companies in drafting, modifying, and reviewing thousands of contracts, company letters and other documents and has assisted clients in effectively resolving disputes for many times. She has extensive experience in handling cases.",
+        "representative_cases": "",
+        "education": "",
+        "qualifications": "",
+        "work_experience": "",
+        "awards": "",
+        "other": ""
+      }
+    }
+  ],
+  "offices": [
+    "上海",
+    "北京",
+    "墨尔本",
+    "罗马"
+  ],
+  "practice_areas": [
+    "GDPR合规",
+    "体育仲裁",
+    "公司治理",
+    "刑事辩护",
+    "劳动人事",
+    "合资合作",
+    "商事争议解决",
+    "国际仲裁",
+    "国际税务",
+    "并购",
+    "强制执行",
+    "执行",
+    "执行异议",
+    "投融资",
+    "民商事争议",
+    "民商事争议解决",
+    "涉外法律咨询",
+    "私募股权",
+    "税法服务",
+    "行政诉讼",
+    "资产处置",
+    "跨境交易"
+  ],
+  "offices_en": [
+    "Shanghai",
+    "Beijing",
+    "Melbourne",
+    "Rome"
+  ],
+  "practice_areas_en": [
+    "GDPR Compliance",
+    "Sports Arbitration",
+    "Corporate Governance",
+    "Criminal Defense",
+    "Labour & Employment",
+    "Joint Ventures",
+    "Dispute Resolution",
+    "International Arbitration",
+    "International Tax",
+    "M&A",
+    "Enforcement",
+    "Enforcement",
+    "Enforcement Objection",
+    "Investment & Financing",
+    "Civil & Commercial Disputes",
+    "Civil & Commercial Dispute Resolution",
+    "Foreign-related Legal Advisory",
+    "Private Equity",
+    "Tax Services",
+    "Administrative Litigation",
+    "Asset Disposal",
+    "Cross-border Transactions"
+  ]
+}

@@ -27,7 +27,7 @@ useSeoMeta({
   description: 'Legal practice articles written by the professional team of QingSolve Law Firm, covering commercial dispute resolution, foreign-related law, and more.',
   ogTitle: () => t.value('article.pageTitle') + ' - QingSolve Law Firm',
   ogDescription: 'Legal practice articles written by the professional team of QingSolve Law Firm.',
-  ogImage: 'https://qs-legal.com/head/4.png',
+  ogImage: 'https://qs-legal.com/images/shared/hero/4.png',
   ogUrl: 'https://qs-legal.com/article',
   twitterCard: 'summary_large_image',
 })

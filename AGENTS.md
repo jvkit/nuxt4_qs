@@ -191,9 +191,66 @@ public/                   # 静态资源（图片、视频）
 
 ---
 
+## SEO / 百度收录
+
+### 站点信息
+
+| 项目 | 值 |
+|---|---|
+| 验证站点 | `https://www.qs-legal.com` |
+| 百度推送 Token | `fLk2pXS57bUCs0lj` |
+| 推送 API | `http://data.zz.baidu.com/urls?site=https://www.qs-legal.com&token=fLk2pXS57bUCs0lj` |
+| Sitemap 地址 | `https://www.qs-legal.com/sitemap.xml` |
+
+### 配额规则
+
+- **新站默认配额**：`10 条 URL / 天`（主动推送 + 手动提交共享配额）
+- **重置时间**：自然日 0 点
+- **超额返回**：`{ error: 400, message: "over quota" }`
+- **配额提升**：需通过百度搜索资源平台「反馈中心」申请，或站点质量提升后自动增加
+
+### 已推送 URL 记录
+
+**2026-05-22（第 1 天，10 条已用完）**：
+1. `https://www.qs-legal.com/`
+2. `https://www.qs-legal.com/aboutus`
+3. `https://www.qs-legal.com/attorney`
+4. `https://www.qs-legal.com/article`
+5. `https://www.qs-legal.com/practice-areas`
+6. `https://www.qs-legal.com/article/article-001`
+7. `https://www.qs-legal.com/article/article-002`
+8. `https://www.qs-legal.com/article/article-003`
+9. `https://www.qs-legal.com/article/article-004`
+10. `https://www.qs-legal.com/article/article-005`
+
+**待推送（还剩 10 条）**：
+- `article-006` ~ `article-009`（4 条）
+- 执业领域详情页 6 个（6 条）
+
+### 关键经验
+
+1. **sitemap 提交配额也是 0**：新站 sitemap 提交额度默认归零，需通过「反馈中心 → 配额申请问卷」恢复
+2. **百度蜘蛛 DNS 缓存问题**：新站/换 IP 后，百度抓取诊断可能报 "DNS无法解析IP"，此时公网 DNS 是正常的。解决方法是：提交 robots / sitemap 触发刷新，或等 2-5 天自动恢复
+3. **robots 里的 sitemap URL 域名要和验证站点一致**：当前验证的是 `www.qs-legal.com`，robots 和 `site.url` 也应统一为带 www 的域名
+4. **推送成功 ≠ 立即收录**：API 返回 `success` 只是进入队列，实际收录需等百度蜘蛛抓取 + 索引更新，新站通常 3-7 天
+
+### 工具脚本
+
+```bash
+# 生成 sitemap
+node scripts/generate-sitemap.js
+
+# 主动推送（全部 URL）
+node scripts/submit-to-baidu.cjs
+```
+
+---
+
 ## 待办 / 已知问题
 
 - [ ] API 层：律师列表/详情页使用 `$fetch` 调用 DRF，需确认后端 API 端点可用性
 - [ ] attorney 详情页的 `render_markdown` 目前是简单 fallback，后续可接入 `markdown-it`
 - [ ] 搜索功能待接入（当前 404 页面有搜索框但仅做导航）
 - [ ] `about/me/` 隐藏路由本次不涉及
+- [ ] 文章内容英文翻译：`articles.json` 中 `translations.en.blocks` 目前为空数组（占位 TODO）
+- [ ] 执业领域双语：轮播 title/link 仍为中文，详情页内容双语尚未接入 `useContent`

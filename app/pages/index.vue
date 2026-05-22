@@ -25,7 +25,7 @@ useSeoMeta({
   ogDescription: () => locale.value === 'zh'
     ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
     : 'Founded in 2004, QingSong Law Firm is a corporate boutique firm specializing in foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogImage: 'https://qs-legal.com/about/about_us/heading.png',
+  ogImage: 'https://qs-legal.com/images/aboutus/heading.png',
   ogUrl: 'https://qs-legal.com/',
   twitterCard: 'summary_large_image',
 })
@@ -44,10 +44,10 @@ interface Slide {
 }
 
 const slides = computed<Slide[]>(() => [
-  { id: 1, image: '/about/image1/5.jpg', title: t.value('hero.slide1Title'), subtitle: t.value('hero.slide1Subtitle') },
-  { id: 2, image: '/pic_best/buiding.png', title: t.value('hero.slide2Title'), subtitle: t.value('hero.slide2Subtitle') },
-  { id: 3, image: '/about/image1/1.jpg', title: t.value('hero.slide3Title'), subtitle: t.value('hero.slide3Subtitle') },
-  { id: 4, image: '/pic_best/2.png', title: t.value('hero.slide4Title'), subtitle: t.value('hero.slide4Subtitle') },
+  { id: 1, image: '/images/home/hero/5.jpg', title: t.value('hero.slide1Title'), subtitle: t.value('hero.slide1Subtitle') },
+  { id: 2, image: '/images/home/hero/buiding.png', title: t.value('hero.slide2Title'), subtitle: t.value('hero.slide2Subtitle') },
+  { id: 3, image: '/images/home/hero/1.jpg', title: t.value('hero.slide3Title'), subtitle: t.value('hero.slide3Subtitle') },
+  { id: 4, image: '/images/home/hero/2.png', title: t.value('hero.slide4Title'), subtitle: t.value('hero.slide4Subtitle') },
 ])
 
 const active_index = ref(0)

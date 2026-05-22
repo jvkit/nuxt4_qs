@@ -18,7 +18,7 @@ useSeoMeta({
   description: 'QingSolve Law Firm focuses on commercial legal services, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogTitle: () => t.value('practiceAreas.pageTitle') + ' - QingSolve Law Firm',
   ogDescription: 'QingSolve Law Firm focuses on commercial legal services, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogImage: 'https://qs-legal.com/head/7.png',
+  ogImage: 'https://qs-legal.com/images/shared/hero/7.png',
   ogUrl: 'https://qs-legal.com/practice-areas',
   twitterCard: 'summary_large_image',
 })

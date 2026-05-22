@@ -110,7 +110,7 @@ async function fetchData() {
       attorneys: Lawyer[]
       offices: string[]
       practice_areas: string[]
-    }>('/attorneys/data.json')
+    }>('/data/attorneys.json')
     lawyers.value = res.attorneys
     officeOptionsFromApi.value = res.offices
     practiceAreaOptionsFromApi.value = res.practice_areas
@@ -151,7 +151,7 @@ useSeoMeta({
   description: 'QingSolve Law Firm professional attorney team, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogTitle: () => t.value('attorney.pageTitle') + ' - QingSolve Law Firm',
   ogDescription: 'QingSolve Law Firm professional attorney team, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogImage: 'https://qs-legal.com/head/1.png',
+  ogImage: 'https://qs-legal.com/images/shared/hero/1.png',
   ogUrl: 'https://qs-legal.com/attorney',
   twitterCard: 'summary_large_image',
 })

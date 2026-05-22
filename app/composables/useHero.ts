@@ -11,7 +11,7 @@ export function useHero() {
   const defaultHero = {
     show: true,
     height: '55vh',
-    image: '/attorneys/attorney-header.png',
+    image: '/images/attorney/attorney-header.png',
   }
 
   const hero = computed(() => {

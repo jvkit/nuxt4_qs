@@ -18,7 +18,7 @@ useSeoMeta({
   description: () => article.value?.lead ? article.value.lead.slice(0, 160) : 'QingSolve Law Firm article',
   ogTitle: () => article.value?.title ? article.value.title + ' - QingSolve Law Firm' : 'Article Detail',
   ogDescription: () => article.value?.lead ? article.value.lead.slice(0, 160) : 'QingSolve Law Firm article',
-  ogImage: 'https://qs-legal.com/head/5.png',
+  ogImage: 'https://qs-legal.com/images/shared/hero/5.png',
   ogUrl: () => 'https://qs-legal.com/article/' + route.params.slug,
   twitterCard: 'summary_large_image',
 })
@@ -35,7 +35,7 @@ useSchemaOrg(() =>
           },
           datePublished: article.value.meta?.date,
           dateModified: article.value.meta?.date,
-          image: 'https://qs-legal.com/head/5.png',
+          image: 'https://qs-legal.com/images/shared/hero/5.png',
           publisher: {
             '@type': 'Organization',
             name: locale.value === 'zh' ? '北京青颂律师事务所' : 'Beijing QingSolve Law Firm',

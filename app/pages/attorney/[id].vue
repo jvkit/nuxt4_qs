@@ -71,7 +71,7 @@ async function fetchLawyer() {
   try {
     const res = await $fetch<{
       attorneys: LawyerDetail[]
-    }>('/attorneys/data.json')
+    }>('/data/attorneys.json')
     lawyer.value = res.attorneys.find((a) => a.id === id) || null
     if (!lawyer.value) {
       errorMsg.value = t('attorney.detailNotFound')
@@ -101,7 +101,7 @@ useSeoMeta({
   description: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : 'QingSolve Law Firm attorney details',
   ogTitle: () => lawyer.value?.name ? lawyer.value.name + ' - QingSolve Law Firm' : 'Attorney Detail',
   ogDescription: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : 'QingSolve Law Firm attorney details',
-  ogImage: () => lawyer.value?.avatar ? 'https://qs-legal.com' + lawyer.value.avatar : 'https://qs-legal.com/head/2.png',
+  ogImage: () => lawyer.value?.avatar ? 'https://qs-legal.com' + lawyer.value.avatar : 'https://qs-legal.com/images/shared/hero/2.png',
   ogUrl: () => 'https://qs-legal.com/attorney/' + route.params.id,
   twitterCard: 'summary_large_image',
 })

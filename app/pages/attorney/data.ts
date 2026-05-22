@@ -2,7 +2,7 @@
  * data.ts
  * ============
  * 律师数据类型定义
- * 数据由前端静态 JSON 提供 (/attorneys/data.json)
+ * 数据由前端静态 JSON 提供 (/data/attorneys.json)
  */
 
 /** 律师专业领域 */

@@ -5,7 +5,7 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  image: '/attorneys/attorney-header.png',
+  image: '/images/attorney/attorney-header.png',
   height: '55vh',
 })
 </script>

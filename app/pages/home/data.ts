@@ -15,12 +15,12 @@ const practiceAreaTitleMap: Record<string, string> = {
 export function getServiceCarouselItems(locale: Locale) {
   const isZh = locale === 'zh'
   const items = [
-    { image: '/avif/1.avif', category: 'FOREIGN INVESTMENT & M&A', titleZh: '涉外法律咨询', titleEn: 'Legal Advisory Services on Foreign Related Matters', link: '/practice-areas/涉外法律咨询' },
-    { image: '/about/image1/8.jpg', category: 'COMMERCIAL DISPUTE RESOLUTION', titleZh: '商事争议解决', titleEn: 'Dispute Resolution (Litigation and Arbitration)', link: '/practice-areas/商事争议解决' },
-    { image: '/pic/home/practice_page/wz.png', category: 'JUDGMENT ENFORCEMENT', titleZh: '强制执行', titleEn: 'Enforcement', link: '/practice-areas/强制执行' },
-    { image: '/pic/home/practice_page/pe.jpg', category: 'SPORTS & ENTERTAINMENT LAW', titleZh: '体育专项法律服务', titleEn: 'Sports Related Legal Service', link: '/practice-areas/体育专项法律服务' },
-    { image: '/about/image1/11.jpg', category: 'DEBT RESTRUCTURING', titleZh: '债务重组及不良资产处置', titleEn: 'Debt Restructuring and Disposal of Non-performing Assets', link: '/practice-areas/债务重组及不良资产处置' },
-    { image: '/about/image1/12.jpg', category: 'TAX SERVICES', titleZh: '税法服务', titleEn: 'Tax Legal Services', link: '/practice-areas/税法服务' },
+    { image: '/images/home/services/foreign-investment.avif', category: 'FOREIGN INVESTMENT & M&A', titleZh: '涉外法律咨询', titleEn: 'Legal Advisory Services on Foreign Related Matters', link: '/practice-areas/涉外法律咨询' },
+    { image: '/images/home/services/8.jpg', category: 'COMMERCIAL DISPUTE RESOLUTION', titleZh: '商事争议解决', titleEn: 'Dispute Resolution (Litigation and Arbitration)', link: '/practice-areas/商事争议解决' },
+    { image: '/images/home/services/wz.png', category: 'JUDGMENT ENFORCEMENT', titleZh: '强制执行', titleEn: 'Enforcement', link: '/practice-areas/强制执行' },
+    { image: '/images/home/services/pe.jpg', category: 'SPORTS & ENTERTAINMENT LAW', titleZh: '体育专项法律服务', titleEn: 'Sports Related Legal Service', link: '/practice-areas/体育专项法律服务' },
+    { image: '/images/home/services/11.jpg', category: 'DEBT RESTRUCTURING', titleZh: '债务重组及不良资产处置', titleEn: 'Debt Restructuring and Disposal of Non-performing Assets', link: '/practice-areas/债务重组及不良资产处置' },
+    { image: '/images/home/services/12.jpg', category: 'TAX SERVICES', titleZh: '税法服务', titleEn: 'Tax Legal Services', link: '/practice-areas/税法服务' },
   ]
   return items.map(item => ({
     image: item.image,
@@ -145,7 +145,7 @@ export function getHomeData(locale: Locale) {
 }
 
 // 首页优势卡片 - 取自真实文章（前3篇）
-const articleImages = ['/article/12.jpg', '/article/16.jpg', '/about/image1/7.jpg']
+const articleImages = ['/images/article/covers/12.jpg', '/images/article/covers/16.jpg', '/images/home/advantages/7.jpg']
 
 export function getAdvantageCards(locale: Locale) {
   const isZh = locale === 'zh'

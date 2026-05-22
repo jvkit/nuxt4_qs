@@ -37,3 +37,6 @@ lerna-debug.log*
 
 # OS
 Thumbs.db
+
+# 百度推送本地记录
+scripts/.submitted-urls.json

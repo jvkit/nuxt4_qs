@@ -31,7 +31,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/about/about_us/heading.png');
+  background-image: url('/images/aboutus/heading.png');
   background-size: cover;
   background-position: center;
 }

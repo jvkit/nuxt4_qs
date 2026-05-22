@@ -65,7 +65,7 @@ useSeoMeta({
   description: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : 'QingSolve Law Firm practice area details',
   ogTitle: () => practice.value?.name ? practice.value.name + ' - QingSolve Law Firm' : 'Practice Area Detail',
   ogDescription: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : 'QingSolve Law Firm practice area details',
-  ogImage: 'https://qs-legal.com/head/7.png',
+  ogImage: 'https://qs-legal.com/images/shared/hero/7.png',
   ogUrl: () => 'https://qs-legal.com/practice-areas/' + route.params.slug,
   twitterCard: 'summary_large_image',
 })
