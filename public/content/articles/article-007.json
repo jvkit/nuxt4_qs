@@ -1,0 +1,586 @@
+{
+  "id": 7,
+  "slug": "article-007",
+  "tags": [],
+  "date": "2024-09-12",
+  "translations": {
+    "zh": {
+      "title": "外国生效仲裁裁决在中国的承认与执行实务指南",
+      "lead": "中国法院近年来通过统一司法解释、扩大互惠认定范围，显著提升了外国仲裁裁决的执行效率。对于缔约国裁决，中国已形成成熟的审查流程...",
+      "meta": {
+        "date": "2024-09-12",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "《纽约公约》缔约国：依国际条约直接申请"
+        },
+        {
+          "type": "h2",
+          "text": "法律依据"
+        },
+        {
+          "type": "p",
+          "text": "中国于1986年加入《承认及执行外国仲裁裁决公约》（《1958年纽约公约》），该公约自1987年4月22日起对中国生效，并作出两项保留："
+        },
+        {
+          "type": "h2",
+          "text": "互惠保留：仅承认和执行在另一缔约国领土内作出的裁决；"
+        },
+        {
+          "type": "p",
+          "text": "商事保留：仅适用于契约性或非契约性商事争议（如合同纠纷、侵权赔偿、投资争议等），排除东道国与外国投资者间的投资争端。"
+        },
+        {
+          "type": "h2",
+          "text": "申请流程"
+        },
+        {
+          "type": "h2",
+          "text": "管辖法院：（《中华人民共和国民事诉讼法》第三百零四条）"
+        },
+        {
+          "type": "p",
+          "text": "地域管辖：（1）被执行人住所地法院；（2）被执行人财产所在地法院；（3）申请人住所地法院；（4）与裁决的纠纷有适当联系的地点法院"
+        },
+        {
+          "type": "p",
+          "text": "级别管辖：中级人民法院"
+        },
+        {
+          "type": "h2",
+          "text": "提交材料"
+        },
+        {
+          "type": "h2",
+          "text": "裁决书正本或经认证的副本；"
+        },
+        {
+          "type": "h2",
+          "text": "契约中的仲裁条款或仲裁协议的正本或经认证的副本；"
+        },
+        {
+          "type": "h2",
+          "text": "中文译本。译本应由公设或宣誓之翻译员或外交或领事人员认证之。"
+        },
+        {
+          "type": "h2",
+          "text": "申请执行期间"
+        },
+        {
+          "type": "p",
+          "text": "申请执行的期间为二年。申请执行时效的中止、中断，适用法律有关诉讼时效中止、中断的规定。"
+        },
+        {
+          "type": "h2",
+          "text": "仲裁保全（《全国法院涉外商事海事审判工作座谈会会议纪要》第一百零八条）"
+        },
+        {
+          "type": "p",
+          "text": "当事人向人民法院申请承认和执行外国仲裁裁决，人民法院受理申请后，当事人申请财产保全的，人民法院可以参照民事诉讼法及相关司法解释的规定执行。申请人应当提供担保，不提供担保的，裁定驳回申请。"
+        },
+        {
+          "type": "h2",
+          "text": "审查标准"
+        },
+        {
+          "type": "h2",
+          "text": "依被申请人主张审查："
+        },
+        {
+          "type": "p",
+          "text": "（1）当事人因法律无行为能力导致仲裁协议无效，或协议依约定的准据法系属无效，或未指明以何法律为准时，依裁决地所在国法律系属无效者；"
+        },
+        {
+          "type": "p",
+          "text": "（2）被申请人未收到指派仲裁员或仲裁程序的适当通知，或因其他原因未能陈述意见；"
+        },
+        {
+          "type": "p",
+          "text": "（3）裁决处理了未约定仲裁的事项，但交付仲裁事项之决定可与未交付仲裁之事项划分时，裁决中关于交付仲裁事项之决定部分得予承认及执行；"
+        },
+        {
+          "type": "h3",
+          "text": "（4）仲裁庭组成或程序不符合当事人约定或仲裁地法律。"
+        },
+        {
+          "type": "p",
+          "text": "（5）裁决尚未生效，或被地所在国或裁决所依据法律之国家之主管机关撤销或停止执行者。"
+        },
+        {
+          "type": "h2",
+          "text": "依职权审查："
+        },
+        {
+          "type": "h3",
+          "text": "（1）依该国法律，争议事项系不能以仲裁解决者；"
+        },
+        {
+          "type": "h3",
+          "text": "（2）承认或执行裁决有违我国公共政策者。"
+        },
+        {
+          "type": "p",
+          "text": "《全国法院涉外商事海事审判工作座谈会会议纪要》第一百零八条规定，人民法院生效裁定已经认定当事人之间的仲裁协议不成立、无效、失效或者不可执行，承认和执行该裁决将与人民法院生效裁定相冲突的，应当认定构成规定的违反我国公共政策的情形。"
+        },
+        {
+          "type": "p",
+          "text": "不过，根据我国承认与执行外国生效仲裁裁决的司法实践来看，我国对公共政策抗辩持审慎态度，该抗辩理由获得支持的难度较大，目前，仅在（2008）民四他字第11号案中，最高人民法院认为在中国有关法院就济南永宁制药股份有限公司与合资公司济南——海慕法姆制药有限公司之间的租赁合同纠纷裁定对合资公司的财产进行保全并作出判决的情况下，国际商会仲裁院再对济南永宁制药股份有限公司与合资公司济南——海慕法姆制药有限公司之间的租赁合同纠纷进行审理并裁决，侵犯了中国的司法主权和中国法院的司法管辖权。依据《1958年纽约公约》第五条第一款（丙）项和第二款（乙）项之规定，拒绝承认和执行国际商会仲裁院第13464/MS/JB/JEM号仲裁裁决。"
+        },
+        {
+          "type": "h2",
+          "text": "不予承认与执行外国仲裁机构的裁决的层报审查："
+        },
+        {
+          "type": "p",
+          "text": "根据《最高人民法院关于人民法院处理与涉外仲裁及外国仲裁事项有关问题的通知》凡一方当事人向人民法院申请承认和执行外国仲裁机构的裁决，如果人民法院认为我国涉外仲裁机构裁决符合不予承认与执行的情形的，在裁定不予执行或者拒绝承认和执行之前，必须报请本辖区所属高级人民法院进行审查；如果高级人民法院同意不予执行或者拒绝承认和执行，应将其审查意见报最高人民法院。待最高人民法院答复后，方可裁定不予执行或者拒绝承认和执行。"
+        },
+        {
+          "type": "h2",
+          "text": "暂缓执行与担保"
+        },
+        {
+          "type": "p",
+          "text": "当被申请执行人已向仲裁地国法院申请撤销或中止裁决时，受理执行申请的法院可暂缓执行，并可依申请执行方的请求，要求被申请执行人提供适当担保。"
+        },
+        {
+          "type": "h2",
+          "text": "临时仲裁庭仲裁的承认与执行问题——仲裁地标准认定"
+        },
+        {
+          "type": "p",
+          "text": "根据《最高人民法院关于适用<中华人民共和国民事诉讼法>的解释》（2022修正）的相关规定，临时仲裁庭在中华人民共和国领域外作出的仲裁裁决，当事人可以直接向被执行人住所地或者其财产所在地的中级人民法院申请执行，具体规则参照外国仲裁裁决在我国法院申请承认与执行的相关规则。"
+        },
+        {
+          "type": "p",
+          "text": "而临时仲裁庭在中华人民共和国领域内作出的仲裁裁决，并不属于“在另一缔约国领土内”做出的仲裁裁决，因此无法适用《1958年纽约公约》的规定，予以承认和执行。事实上，这是由于中国国内法上对仲裁裁决国籍的认定标准不明确，且立法上突出强调“仲裁机构”，而与国际条约和国际仲裁实践中主要依“仲裁地”作为认定仲裁裁决国籍的标准不一致造成的。对此，最高人民法院的高晓力法官倾向于在司法实践中依据“仲裁地标准”认定仲裁裁决的国籍，即在个案中可以认为外国仲裁机构在中国境内作出的仲裁裁决不是外国仲裁裁决，而是中国的涉外仲裁裁决，进而避免上述适用法律的矛盾。"
+        },
+        {
+          "type": "h2",
+          "text": "典型案例"
+        },
+        {
+          "type": "h2",
+          "text": "（2016）辽02协外认2号案"
+        },
+        {
+          "type": "p",
+          "text": "新和海事公司与大连新和公司、高德胜因《合作协议》起纠纷，前者依约在新加坡国际仲裁中心（SIAC）申请仲裁并获支持，而后向大连中院申请承认与执行该裁决。"
+        },
+        {
+          "type": "p",
+          "text": "被申请人提出多项抗辩理由。其一，主张仲裁协议无效，称高德胜签订协议时不知晓仲裁条款，双方就仲裁条款未达成合意。其二，提出承认和执行裁决与中国公共政策抵触，包括违背诚实信用原则、与《商标法》冲突以及与已生效行政裁决书相悖。其三，指出仲裁裁决有不可执行内容，涉案商标持有人是大连新和公司，裁决却要求高德胜个人也履行义务，且被执行主体和给付内容不明确。"
+        },
+        {
+          "type": "p",
+          "text": "大连中院经审查认为，被申请人不否认《合作协议》及签字盖章真实性，协议明确约定仲裁条款及适用新加坡法律，对仲裁条款效力审查应依新加坡法律。仲裁裁决中已认定被申请人未提供证明协议无效的重要事实证据，被申请人在本案中也未提交新证据，故其主张不成立。"
+        },
+        {
+          "type": "p",
+          "text": "《纽约公约》规定的违反公共政策指严重违反中国法律基本原则等情形，本案并不存在。高德胜作为公司董事长，签订协议时应尽审慎注意义务，其主张不知晓仲裁条款有悖诚实信用。且新和海事公司向商标局申请与向 SIAC 申请仲裁不冲突，仲裁裁决未对中国商标行政管理机关行为及涉案商标合法性、有效性作出裁判，承认和执行该裁决不会与《商标法》及已生效行政裁决书相悖，也不损害中国根本社会公共利益。"
+        },
+        {
+          "type": "p",
+          "text": "依相关规定，裁决是否具有可执行性不属于《纽约公约》规定的拒绝承认情形。涉案商标虽登记在大连新和公司名下，但高德胜作为法定代表人在商标处理上有配合义务，裁决被执行主体、给付内容明确，具有可执行性。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2015）裁字第49号",
+          "content": "最终，大连中院认定被申请人理由均不构成《纽约公约》规定的拒绝承认及执行情形，对SIAC作出的（2015）裁字第49号仲裁裁决承认其效力并予以执行 。该案例体现出中国法院在审查承认和执行外国仲裁裁决时，严格依据《纽约公约》及相关法律规定，准确判断各项抗辩理由，切实保障当事人合法权益与仲裁裁决的有效执行。"
+        },
+        {
+          "type": "h2",
+          "text": "（2013）锡商外仲审字第0009号案"
+        },
+        {
+          "type": "p",
+          "text": "申请人艾伦宝公司请求中国法院承认与执行国际棉花协会（ICA）就395080号合同作出的仲裁裁决，争议核心在于双方是否达成有效的仲裁协议，尤其是被申请人倪家巷公司是否通过代理人张永忠签署了包含仲裁条款的合同。法院指出，仲裁协议是否成立是仲裁协议效力的前提，属于《纽约公约》第五条第一款（甲）项的审查范围。"
+        },
+        {
+          "type": "p",
+          "text": "根据英国法（仲裁地法律），仲裁协议成立需双方明确合意。本案中，申请人未能证明张永忠有权代表倪家巷公司签署合同或达成仲裁合意。"
+        },
+        {
+          "type": "p",
+          "text": "申请人提供的合同仅有张永忠签字，但未加盖倪家巷公司公章，且张永忠否认签字真实性。法院要求申请人进一步举证签字真实性，但申请人未申请笔迹鉴定，导致合同真实性无法确认。"
+        },
+        {
+          "type": "p",
+          "text": "历史交易显示，倪家巷公司过往合同均需签字并加盖公章，而本案仅以传真形式签署，与惯例不符，加重了对仲裁合意的怀疑。"
+        },
+        {
+          "type": "p",
+          "text": "根据英国代理法，代理人需有实际授权（明示或默示）或表面授权。法院认为，张永忠名片同时显示倪家巷公司与关联公司抬头，申请人未核实其代理权限，且未要求加盖公章，无法证明其有合理理由相信张永忠的授权。倪家巷公司明确表示不追认张永忠的签字行为，进一步削弱了仲裁协议的有效性。"
+        },
+        {
+          "type": "p",
+          "text": "最终，无锡市中级人民法院最终以仲裁协议未成立为由拒绝承认与执行。"
+        },
+        {
+          "type": "h2",
+          "text": "双边司法协助缔约国：依条约特殊规则补充适用"
+        },
+        {
+          "type": "h2",
+          "text": "法律基础"
+        },
+        {
+          "type": "p",
+          "text": "中国与39个国家签署了双边民商事司法协助条约，除朝鲜外，其他国家均为《1958年纽约公约》缔约国，多数条约直接指向适用《1958年纽约公约》，也有国家在条约中约定独立规则。"
+        },
+        {
+          "type": "h2",
+          "text": "申请路径"
+        },
+        {
+          "type": "h2",
+          "text": "优先适用双边条约：若条约对执行程序有特殊规定（如更宽松的审查标准），优先适用；"
+        },
+        {
+          "type": "h2",
+          "text": "与公约并行：若无特殊规则，仍按《纽约公约》执行。"
+        },
+        {
+          "type": "p",
+          "text": "中国与新加坡签订的《中华人民共和国和新加坡共和国关于民事和商事司法协助的条约》中明确将仲裁裁决纳入承认范围，根据《1958年纽约公约》相互承认与执行在对方境内作出的仲裁裁决。相互提供缔约双方有关民事和商事的法律及民事和商事诉讼方面司法实践的资料。同时排除被请求方对诉讼事由拥有专属管辖权或其国内法不承认对此具有诉讼权为由拒绝执行。这种制度衔接既符合国际商事仲裁惯例，又通过条约形式强化了执行效力。"
+        },
+        {
+          "type": "h2",
+          "text": "非公约国家：基于互惠原则审慎推进"
+        },
+        {
+          "type": "h2",
+          "text": "法律框架"
+        },
+        {
+          "type": "p",
+          "text": "对于未加入《1958年纽约公约》且无双边条约的国家（如部分非洲国家），中国法院依据《民事诉讼法》第283条，按互惠原则审查执行申请。"
+        },
+        {
+          "type": "h2",
+          "text": "互惠认定标准"
+        },
+        {
+          "type": "p",
+          "text": "•传统“事实互惠”：需证明对方国家曾承认中国裁决；"
+        },
+        {
+          "type": "p",
+          "text": "•新型“推定互惠”：最高人民法院近年倾向于宽松认定，只要无证据证明对方拒绝中国裁决，即可推定互惠存在"
+        },
+        {
+          "type": "h2",
+          "text": "实务难点"
+        },
+        {
+          "type": "h2",
+          "text": "举证责任：申请人需提供对方国家法律或司法实践支持互惠的证据；"
+        },
+        {
+          "type": "p",
+          "text": "风险预判：中国法院尚未出现依据互惠原则执行非公约国家裁决的公开案例，程序周期可能较长。"
+        }
+      ],
+      "references": [
+        "《全国法院涉外商事海事审判工作座谈会会议纪要》",
+        "《最高人民法院关于审理仲裁司法审查案件若干问题的规定》",
+        "《最高人民法院关于执行我国加入的<承认及执行外国仲裁裁决公约>的通知》",
+        "《最高人民法院关于适用<中华人民共和国民事诉讼法>的解释》（2022修正）",
+        "《最高人民法院关于人民法院处理与涉外仲裁及外国仲裁事项有关问题的通知》（2008修订）",
+        "（2016）辽02协外认2号案",
+        "（2008）民四他字第11号案",
+        "（2013）锡商外仲审字第0009号案",
+        "（2018）苏01协外认8号",
+        "高晓力：《谈中国法院承认和执行外国仲裁裁决的积极实践》，来源《法律适用》",
+        "复旦大学：“一带一路”国家法律研究所《“一带一路”投资的国际法律规则研究》"
+      ],
+      "subtitle": "——基于《纽约公约》及中国司法实践的路径解析",
+      "conclusion": "中国法院近年来通过统一司法解释、扩大互惠认定范围，显著提升了外国仲裁裁决的执行效率。对于缔约国裁决，中国已形成成熟的审查流程；对于非公约国家，随着“一带一路”倡议推进，互惠原则的灵活适用将逐步破冰。企业跨境争议解决时，建议优先选择《1958年纽约公约》缔约国仲裁机构，并提前规划执行路径。"
+    },
+    "en": {
+      "title": "Practical Guidelines for the Recognition and Enforcement of Foreign Effective Arbitral Awards in China",
+      "lead": "In recent years, Chinese courts have significantly improved the efficiency of enforcement of foreign arbitral awards by unifying judicial interpretations and expanding the scope of reciprocity determination.China has developed a mature review process for the ruling of the contracting parties.. ",
+      "subtitle": "- Analysis of the path based on the New York Convention and China's judicial practice",
+      "meta": {
+        "date": "2024-09-12",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "Parties to the New York Convention: direct application under international treaties"
+        },
+        {
+          "type": "h2",
+          "text": "Legal basis"
+        },
+        {
+          "type": "p",
+          "text": "China acceded to the Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York Convention 1958) in 1986, which entered into force for China as of April 22, 1987, and made two reservations:"
+        },
+        {
+          "type": "h2",
+          "text": "Reciprocal reservation: recognition and enforcement only of an award made in the territory of another Contracting State;"
+        },
+        {
+          "type": "p",
+          "text": "Commercial reservation: only applicable to contractual or non-contractual commercial disputes (such as contract disputes, tort compensation, investment disputes, etc.), excluding investment disputes between the host country and foreign investors."
+        },
+        {
+          "type": "h2",
+          "text": "Application Process"
+        },
+        {
+          "type": "h2",
+          "text": "The competent court: (Article 304 of the Civil Procedure Law of the People's Republic of China)"
+        },
+        {
+          "type": "p",
+          "text": "Territorial jurisdiction: (1) the court of the place where the person subjected to execution has his domicile;(2) The court of the place where the property of the person subjected to execution is located;(3) The court of the place where the applicant has his domicile;(4) Place of appropriate connection with the dispute adjudicated Court"
+        },
+        {
+          "type": "p",
+          "text": "Jurisdiction at different levels: intermediate people's courts"
+        },
+        {
+          "type": "h2",
+          "text": "Submittals"
+        },
+        {
+          "type": "h2",
+          "text": "The original or certified copy of the award;"
+        },
+        {
+          "type": "h2",
+          "text": "The original or certified copy of the arbitration clause or arbitration agreement in the deed;"
+        },
+        {
+          "type": "h2",
+          "text": "Chinese translation.The translation shall be authenticated by a public or sworn interpreter or diplomatic or consular officer."
+        },
+        {
+          "type": "h2",
+          "text": "Period of application for execution"
+        },
+        {
+          "type": "p",
+          "text": "The period of application for enforcement shall be two years.The provisions of the law on the suspension or interruption of the limitation of action shall apply to the suspension or interruption of the limitation of application for execution."
+        },
+        {
+          "type": "h2",
+          "text": "Arbitration preservation (Article 108 of the Minutes of the National Symposium on Foreign-related Commercial Maritime Trials by Courts)"
+        },
+        {
+          "type": "p",
+          "text": "If a party applies to the people's court for recognition and enforcement of a foreign arbitral award, and the people's court accepts the application, and the party applies for property preservation, the people's court may enforce it with reference to the provisions of the Civil Procedure Law and relevant judicial interpretations.The applicant shall provide guarantee, and if no guarantee is provided, the application shall be rejected by a ruling."
+        },
+        {
+          "type": "h2",
+          "text": "Review Criteria"
+        },
+        {
+          "type": "h2",
+          "text": "Examination as claimed by the respondent:"
+        },
+        {
+          "type": "p",
+          "text": "(1) The arbitration agreement is invalid due to the legal incapacity of the parties, or the agreement is invalid according to the agreed applicable law system, or the law of the country where the award is made is invalid according to the law of the country where the award is made without specifying the law;"
+        },
+        {
+          "type": "p",
+          "text": "(2) The respondent has not received appropriate notice of the appointment of an arbitrator or of the arbitration proceedings, or has failed to state its opinion for other reasons;"
+        },
+        {
+          "type": "p",
+          "text": "(3) If the award deals with matters that have not been agreed upon for arbitration, but the decision on the matters to be submitted for arbitration may be divided from the matters that have not been submitted for arbitration, the part of the award on the matters to be submitted for arbitration may be recognized and enforced;"
+        },
+        {
+          "type": "h3",
+          "text": "(4) The composition or procedure of the arbitration tribunal is inconsistent with the agreement of the parties or the law of the place of arbitration."
+        },
+        {
+          "type": "p",
+          "text": "(5) The award has not yet taken effect, or its enforcement has been revoked or suspended by the competent authority of the country where it is located or of the country on which the award is based."
+        },
+        {
+          "type": "h2",
+          "text": "Review ex officio:"
+        },
+        {
+          "type": "h3",
+          "text": "(1) The matter in dispute cannot be settled by arbitration in accordance with the law of that State;"
+        },
+        {
+          "type": "h3",
+          "text": "(2) The recognition or enforcement of an award is contrary to the public policy of our country."
+        },
+        {
+          "type": "p",
+          "text": "Article 108 of the Minutes of the National Symposium on Foreign-related Commercial Maritime Trial of Courts stipulates that if the effective ruling of the people's court has determined that the arbitration agreement between the parties is untenable, invalid, invalid or unenforceable, and the recognition and enforcement of the award will conflict with the effective ruling of the people's court, it shall be determined that it constitutes a violation of China's public policy."
+        },
+        {
+          "type": "p",
+          "text": "However, according to China's judicial practice of recognizing and enforcing foreign effective arbitral awards, China adopts a prudent attitude towards public policy defenses, and it is difficult to obtain support for such defenses. Currently, only in the case of (2008) Min Si Ta Zi No. 11, the Supreme People's Court held that under the circumstances where the relevant Chinese courts had ruled to preserve the property of the joint venture company and rendered a judgment in the lease contract dispute between Jinan Yongning Pharmaceutical Co., Ltd. and the joint venture company Jinan-Haimofam Pharmaceutical Co., Ltd., the Arbitration Court of the International Chamber of Commerce further adjudicated and ruled on the lease contract dispute between Jinan Yongning Pharmaceutical Co., Ltd. and the joint venture company Jinan-Haimofam Pharmaceutical Co., Ltd., which infringed upon China's judicial sovereignty and the judicial jurisdiction of Chinese courts. In accordance with the provisions of Article 5, paragraphs 1 (c) and 2 (b), of the 1958 New York Convention, it refused to recognize and enforce the arbitral award No. 13464/MS/JB/JEM of the Arbitration Court of the International Chamber of Commerce."
+        },
+        {
+          "type": "h2",
+          "text": "Review of the Inadmissibility to Recognition and Enforcement of Awards of Foreign Arbitral Institutions:"
+        },
+        {
+          "type": "p",
+          "text": "In accordance with the Notice of the Supreme People's Court on Issues Concerning the Handling of Foreign-related Arbitration and Foreign Arbitration Matters by People's Courts, if one party applies to the people's court for recognition and enforcement of the award of a foreign arbitration institution, if the people's court considers that the award of a foreign-related arbitration institution in China conforms to the circumstances of non-recognition and enforcement, it must report to the higher people's court under its jurisdiction for examination before the ruling is not enforced or the recognition and enforcement are refused;If the Higher People's Court agrees not to enforce or refuses to recognize and enforce, it shall submit its examination opinions to the Supreme People's Court.Only after the Supreme People's Court has given a reply may it rule not to enforce or refuse to recognize and enforce it."
+        },
+        {
+          "type": "h2",
+          "text": "Suspension of Enforcement and Guarantee"
+        },
+        {
+          "type": "p",
+          "text": "When the person against whom enforcement is sought has applied to the court of the country of arbitration for revocation or suspension of the award, the court accepting the application for enforcement may suspend enforcement and, at the request of the party against whom enforcement is sought, require the person against whom enforcement is sought to provide appropriate security."
+        },
+        {
+          "type": "h2",
+          "text": "Recognition and enforcement of arbitration by an interim arbitral tribunal - Standard determination of the place of arbitration"
+        },
+        {
+          "type": "p",
+          "text": "In accordance with the relevant provisions of the Interpretation of the Supreme People's Court on the Application of the Civil Procedure Law of the People's Republic of China (2022 Revision), the parties may directly apply for enforcement of an arbitral award made by a provisional arbitral tribunal outside the territory of the People's Republic of China to the intermediate people's court of the place where the person subjected to enforcement has his domicile or where his property is located. The specific rules shall refer to the relevant rules on the application for recognition and enforcement of foreign arbitral awards in Chinese courts."
+        },
+        {
+          "type": "p",
+          "text": "The arbitral award made by the provisional arbitral tribunal within the territory of the People's Republic of China does not belong to an arbitral award made\" within the territory of another contracting state \", and therefore cannot be recognized and enforced in accordance with the provisions of the 1958 New York Convention.As a matter of fact, this is due to the unclear criteria for determining the nationality of arbitral awards in China's domestic law, and the prominent emphasis on \"arbitration institutions\" in legislation, which is inconsistent with the criteria for determining the nationality of arbitral awards mainly based on \"arbitration place\" in international treaties and international arbitration practice.For this reason, Judge Gao Xiaoli of the Supreme People's Court tends to determine the nationality of an arbitral award in judicial practice according to the \"standard of the place of arbitration\", that is, in a case, it can be considered that the arbitral award made by a foreign arbitral institution within the territory of China is not a foreign arbitral award, but a foreign-related arbitral award of China, so as to avoid the above-mentioned contradictions in the application of law."
+        },
+        {
+          "type": "h2",
+          "text": "Model Case"
+        },
+        {
+          "type": "h2",
+          "text": "(2016) Liao 02 Xie Wai Ren No. 2 Case"
+        },
+        {
+          "type": "p",
+          "text": "If a dispute arises between Xinhe Maritime Company and Dalian Xinhe Company and Gao Desheng due to the Cooperation Agreement, the former shall apply for arbitration at the Singapore International Arbitration Center (SIAC) in accordance with the agreement and obtain support, and then apply to the Dalian Intermediate Court for recognition and enforcement of the award."
+        },
+        {
+          "type": "p",
+          "text": "The respondent raises several defenses.First, it claims that the arbitration agreement is invalid, saying that Gao Desheng did not know the arbitration clause when signing the agreement, and the two parties did not reach an agreement on the arbitration clause.Secondly, it is proposed that recognition and enforcement of rulings conflict with Chinese public policies, including violation of the principle of good faith, conflict with the Trademark Law and conflict with effective administrative rulings.Thirdly, it is pointed out that the arbitral award has unenforceable contents, and the trademark holder involved is Dalian Xinhe Company, but the award requires Gao Desheng himself to perform his obligations, and the subject of enforcement and the content of payment are not clear."
+        },
+        {
+          "type": "p",
+          "text": "Upon examination, the Dalian Intermediate People's Court holds that the Respondent does not deny the authenticity of the Cooperation Agreement and its signature and seal, that the agreement clearly stipulates the arbitration clause and the application of Singapore law, and that the validity of the arbitration clause shall be examined in accordance with Singapore law.The arbitration award has determined that the respondent has not provided important factual evidence to prove the invalidity of the agreement, and the respondent has not submitted new evidence in the case, so its claim is untenable."
+        },
+        {
+          "type": "p",
+          "text": "The violation of public policy stipulated in the New York Convention refers to a serious violation of the basic principles of Chinese law, and the case does not exist.As the chairman of the board of directors of the company, Gao Desheng shall exercise due diligence when signing the agreement, and his claim that he does not know that the arbitration clause is contrary to good faith.Moreover, Xinhe Maritime Company's application to the Trademark Office does not conflict with its application to the SIAC for arbitration. The arbitration award does not adjudicate on the acts of the Chinese trademark administrative organ and the legality and validity of the trademark involved in the case, and the recognition and enforcement of the award will not conflict with the Trademark Law and the effective administrative award, nor will it harm the fundamental social and public interests of China."
+        },
+        {
+          "type": "p",
+          "text": "Whether an award is enforceable in accordance with the relevant provisions does not fall within the circumstances of refusal of recognition under the New York Convention.Although the trademark involved in the case is registered in the name of Dalian Xinhe Company, as the legal representative, Gao Desheng has the obligation to cooperate in the handling of the trademark, and the subject and content of the award are clear and enforceable."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2015）裁字第49号",
+          "content": "Finally, the Dalian Intermediate People's Court determined that the reasons of the respondent do not constitute a refusal of recognition and enforcement under the New York Convention, and recognized the validity of the arbitral award No. 49 (2015) made by the SIAC and enforced it.The case reflects that when examining, recognizing and enforcing foreign arbitral awards, the Chinese court shall, in strict accordance with the provisions of the New York Convention and relevant laws, accurately judge the reasons for defense, and effectively safeguard the legitimate rights and interests of the parties and the effective enforcement of the arbitral award."
+        },
+        {
+          "type": "h2",
+          "text": "Case No. 0009 [2013] of the Supreme People's Court"
+        },
+        {
+          "type": "p",
+          "text": "The Claimant Allen Bow Company requests the Chinese Court to recognize and enforce the arbitral award made by the International Cotton Association (ICA) in respect of Contract No. 395080. The core of the dispute is whether the two parties have reached a valid arbitration agreement, especially whether the Respondent Ni Jiaxiang Company has signed a contract containing an arbitration clause through its agent Zhang Yongzhong.The court pointed out that whether an arbitration agreement is established is a prerequisite for the validity of the arbitration agreement, which falls within the scope of examination of Article 5, paragraph 1 (a), of the New York Convention."
+        },
+        {
+          "type": "p",
+          "text": "According to the English Law (Law of the Place of Arbitration), the formation of an arbitration agreement requires the express consent of both parties.In this case, the applicant failed to prove that Zhang Yongzhong has the right to sign a contract or reach an arbitration agreement on behalf of Ni Jiaxiang Company."
+        },
+        {
+          "type": "p",
+          "text": "The contract provided by the applicant is only signed by Zhang Yongzhong, but it is not stamped with the official seal of Ni Jiaxiang Company, and Zhang Yongzhong denies the authenticity of the signature.The court required the applicant to further prove the authenticity of the signature, but the applicant did not apply for handwriting appraisal, resulting in the failure to confirm the authenticity of the contract."
+        },
+        {
+          "type": "p",
+          "text": "Historical transactions show that all previous contracts of Nijiaxiang Company need to be signed and sealed, but the case is only signed by fax, which is inconsistent with the practice and aggravates the doubt on the arbitration agreement."
+        },
+        {
+          "type": "p",
+          "text": "Under the British Agency Law, an agent is required to have actual authority (express or implied) or apparent authority.The court held that the name card of Zhang Yongzhong showed the title of Ni Jiaxiang Company and the affiliated company at the same time, and the applicant did not verify his agency authority and did not require the affixing of official seal, so it could not prove that he had reasonable reasons to believe in the authorization of Zhang Yongzhong.Ni Jiaxiang Company clearly indicated that it would not ratify the signature of Zhang Yongzhong, which further weakened the validity of the arbitration agreement."
+        },
+        {
+          "type": "p",
+          "text": "Finally, the Wuxi Intermediate People's Court finally refused to recognize and enforce the arbitration agreement on the grounds that it was not established."
+        },
+        {
+          "type": "h2",
+          "text": "Parties to bilateral mutual legal assistance: supplementary application in accordance with the special rules of the treaty"
+        },
+        {
+          "type": "h2",
+          "text": "Legal basis"
+        },
+        {
+          "type": "p",
+          "text": "China has signed bilateral treaties on mutual legal assistance in civil and commercial matters with 39 countries. Except North Korea, all other countries are parties to the 1958 New York Convention. Most treaties directly refer to the application of the 1958 New York Convention, and some countries have agreed on independent rules in the treaties."
+        },
+        {
+          "type": "h2",
+          "text": "Application path"
+        },
+        {
+          "type": "h2",
+          "text": "Priority in the application of bilateral treaties: if the treaty has special provisions on the implementation procedure (such as more lenient review standards), priority shall be given to the application;"
+        },
+        {
+          "type": "h2",
+          "text": "Parallel with the Convention: if there are no special rules, they shall still be implemented in accordance with the New York Convention."
+        },
+        {
+          "type": "p",
+          "text": "The Treaty between the People's Republic of China and the Republic of Singapore on Judicial Assistance in Civil and Commercial Matters concluded between China and Singapore expressly includes arbitral awards in the scope of recognition, and mutual recognition and enforcement of arbitral awards made in the territory of the other party in accordance with the New York Convention 1958.To provide each other with information on the laws and judicial practice of the Contracting Parties in civil and commercial matters.At the same time, it is excluded that the Requested Party has exclusive jurisdiction over the cause of action or refuses to enforce on the grounds that its domestic law does not recognize its right of action.This system not only conforms to the practice of international commercial arbitration, but also strengthens the enforcement effect in the form of treaties."
+        },
+        {
+          "type": "h2",
+          "text": "Non-Convention countries: prudent promotion based on the principle of reciprocity"
+        },
+        {
+          "type": "h2",
+          "text": "Legal Framework"
+        },
+        {
+          "type": "p",
+          "text": "For countries that have not acceded to the 1958 New York Convention and do not have bilateral treaties (such as some African countries), the Chinese court shall examine the application for enforcement on the principle of reciprocity in accordance with Article 283 of the Civil Procedure Law."
+        },
+        {
+          "type": "h2",
+          "text": "Criteria for determining reciprocity"
+        },
+        {
+          "type": "p",
+          "text": "• Traditional\" factual reciprocity \": it is necessary to prove that the other country has recognized the Chinese award;"
+        },
+        {
+          "type": "p",
+          "text": "•New \"presumed reciprocity\": In recent years, the Supreme People's Court tends to adopt a lenient standard of determination. As long as there is no evidence proving that the other party has refused to recognize Chinese awards, reciprocity may be presumed to exist."
+        },
+        {
+          "type": "h2",
+          "text": "Practical difficulties"
+        },
+        {
+          "type": "h2",
+          "text": "Burden of proof: The applicant shall provide evidence that the laws or judicial practices of the other party's country support reciprocity;"
+        },
+        {
+          "type": "p",
+          "text": "Risk pre-judgment: Chinese courts have not yet seen public cases of enforcement of non-convention country awards on the basis of the principle of reciprocity, and the procedure cycle may be relatively long."
+        }
+      ],
+      "conclusion": "In recent years, Chinese courts have significantly improved the efficiency of enforcement of foreign arbitral awards by unifying judicial interpretations and expanding the scope of reciprocity determination.China has formed a mature review process for the ruling of the contracting parties;For non-convention countries, with the promotion of the Belt and Road Initiative, the flexible application of the principle of reciprocity will gradually break the ice.When settling cross-border disputes, enterprises are suggested to give priority to arbitration institutions in the States parties to the 1958 New York Convention and plan the implementation path in advance.",
+      "references": []
+    }
+  }
+}

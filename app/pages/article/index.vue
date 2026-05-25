@@ -1,14 +1,18 @@
 <script setup lang="ts">
 // 统一使用 default layout，Hero 背景由 config 控制
 import { ref, computed } from 'vue'
-import { articlesRaw } from './data'
 import type { ArticleRaw } from './data'
 import { useContent } from '~/composables/useContent'
 import { useLocale } from '~/composables/useLocale'
 
 const { t } = useLocale()
-const articles = useContent(articlesRaw as ArticleRaw[])
+
+// 运行时从 API 获取文章列表
+const { data: articlesRaw } = await useFetch<ArticleRaw[]>('/api/articles')
+const articles = useContent(articlesRaw.value || [])
 const search = ref('')
+const pageSize = 6
+const currentPage = ref(1)
 
 const filtered = computed(() => {
   if (!search.value.trim()) return articles.value
@@ -17,6 +21,13 @@ const filtered = computed(() => {
     a.title.toLowerCase().includes(q) || a.lead.toLowerCase().includes(q),
   )
 })
+
+const paged = computed(() => {
+  const start = (currentPage.value - 1) * pageSize
+  return filtered.value.slice(start, start + pageSize)
+})
+
+const totalPages = computed(() => Math.ceil(filtered.value.length / pageSize))
 
 function goDetail(slug: string) {
   navigateTo(`/article/${slug}`)
@@ -27,8 +38,8 @@ useSeoMeta({
   description: 'Legal practice articles written by the professional team of QingSolve Law Firm, covering commercial dispute resolution, foreign-related law, and more.',
   ogTitle: () => t.value('article.pageTitle') + ' - QingSolve Law Firm',
   ogDescription: 'Legal practice articles written by the professional team of QingSolve Law Firm.',
-  ogImage: 'https://qs-legal.com/images/shared/hero/4.png',
-  ogUrl: 'https://qs-legal.com/article',
+  ogImage: 'https://www.qs-legal.com/images/shared/hero/4.png',
+  ogUrl: 'https://www.qs-legal.com/article',
   twitterCard: 'summary_large_image',
 })
 </script>
@@ -55,7 +66,7 @@ useSeoMeta({
 
       <div class="article-cards">
         <article
-          v-for="article in filtered"
+          v-for="article in paged"
           :key="article.id"
           class="article-card"
           @click="goDetail(article.slug)"
@@ -69,6 +80,19 @@ useSeoMeta({
         </article>
       </div>
 
+      <!-- 分页 -->
+      <div v-if="totalPages > 1" class="pagination">
+        <button
+          v-for="p in totalPages"
+          :key="p"
+          class="page-btn"
+          :class="{ active: currentPage === p }"
+          @click="currentPage = p"
+        >
+          {{ p }}
+        </button>
+      </div>
+
       <p v-if="!filtered.length" class="article-list__empty">{{ t('article.noResult') }}</p>
     </div>
   </section>
@@ -80,5 +104,25 @@ useSeoMeta({
 <style scoped>
 .article-page {
   position: relative;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 32px;
+}
+.page-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #2a3f38;
+  background: #0f1c18;
+  color: #8ba89d;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.page-btn.active {
+  background: #3a9b7f;
+  color: #fff;
+  border-color: #3a9b7f;
 }
 </style>

@@ -1,0 +1,49 @@
+{
+  "id": 25,
+  "name": "刘潮",
+  "title": "资深律师",
+  "office": "北京",
+  "practice_areas": [
+    {
+      "name": "强制执行"
+    },
+    {
+      "name": "执行异议"
+    },
+    {
+      "name": "资产处置"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/lc.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "刘律师是青颂的高级律师，执业前曾就职于腾讯、大型国企、法院等机构，在众多领域拥有丰富的社会工作经验。",
+  "featured": false,
+  "sort_order": 8,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.929808+00:00",
+  "updated_at": "2026-05-08T06:43:45.929808+00:00",
+  "profile": {
+    "resume": "刘律师是青颂的高级律师，执业前曾就职于腾讯、大型国企、法院等机构，在众多领域拥有丰富的社会工作经验。执业期间，先后参与、代理了众多各类执行案件，对于强制执行案件拥有丰富的经验和独到的见解，已快速成长为执行团队的中流砥柱。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Chao Liu",
+  "title_en": "Senior Attorney",
+  "office_en": "Beijing",
+  "bio_en": "Lawyer Liu is a senior lawyer at QingSolve. He has working experience with big companies such as Tencent and large state-owned enterprises and court before joining QingSolve.",
+  "profile_en": {
+    "resume": "Lawyer Liu is a senior lawyer at QingSolve. He has the working experience with big companies such as Tencent and large state-owned enterprises and court before joining QingSolve and has cumulated extensive working experience in various fields. In QingSolve, he has represented clients in participating numerous types of enforcement cases, having extensive experience and unique insights in enforcement cases, and has rapidly grown into the backbone of the enforcement team.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  }
+}

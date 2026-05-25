@@ -1,0 +1,52 @@
+{
+  "id": 18,
+  "name": "张乔羽",
+  "title": "合伙人",
+  "office": "北京",
+  "practice_areas": [
+    {
+      "name": "商事争议解决"
+    },
+    {
+      "name": "执行"
+    },
+    {
+      "name": "涉外法律咨询"
+    },
+    {
+      "name": "体育仲裁"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/zqy.jpg",
+  "email": "zhangqiaoyu@qs-legal.com",
+  "phone": "",
+  "bio": "张乔羽律师是青颂的创始合伙人，主要执业领域为商事争议解决、执行、涉外法律咨询及体育仲裁。",
+  "featured": false,
+  "sort_order": 1,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.893176+00:00",
+  "updated_at": "2026-05-09T05:48:14.878899+00:00",
+  "profile": {
+    "resume": "张乔羽律师是青颂的创始合伙人，主要执业领域为商事争议解决、执行、涉外法律咨询及体育仲裁。张律师曾代表国内外客户处理了大量的境内外仲裁、强制执行案件，涉及公司股权转让、中外合资合作、国际和国内贸易、职业运动员合同、技术服务合同、建设工程、信用证等众多领域。\r\n\r\n张律师代理过多起知名案件，在涉外仲裁领域，曾代理山西老字号水塔醋业处理其与法国威立雅集团之间3.5亿元股权回购纠纷仲裁案；在执行领域，曾代理包括意大利某冶金设备有限公司对伊朗新经济银行跨境执行案在内的众多巨额执行案件；在体育仲裁方面，曾代理中国男篮球员周琦处理其与原CBA篮球俱乐部新疆广汇之间的球员合同体育仲裁案。\r\n\r\n张律师在2024年荣获全球法律评级机构Legal One颁发的客户信赖律师（Blue Ribbon）争议解决15强律师的荣誉称号。同时，张律师加入北京律协国际贸易委员会、中国法学会体育法学研究会，并担任北京多元调解发展促进会-北京青颂金融纠纷调解中心负责人。",
+    "representative_cases": "- 代表中国国家篮球队周琦先生与新疆广汇篮球俱乐部转会纠纷仲裁案\r\n- 代表北京泰跃投资公司与山西某公司涉及1.2亿元股权投资纠纷案\r\n- 代表利欧集团股份有限公司（股票代码：002131）及其关联公司处理其与众多合作方之间的纠纷案\r\n- 代表山西水塔醋业股份有限公司与法国威立雅公司涉及3.6亿元股权回购纠纷案\r\n- 代表中化二建集团与中基建设发展有限公司（BVI公司）涉及1.89亿元跨境执行案\r\n- 代表天诺财富与山西永泰集团涉及2亿元投资纠纷执行案\r\n- 代表意大利某冶金设备有限公司与伊朗新经济银行涉及400万欧元执行案\r\n- 代表意大利某冶金设备有限公司与西王特钢有限公司涉及3500万元执行案\r\n- 代表山东康堃公司与山西长源集团公司涉及3500万元贸易纠纷执行案\r\n- 代表正元地理信息股份有限公司（股票代码：688509）与山东某地方政府纠纷执行案\r\n- 代表美国NBA现役球员李凯尔（Kyle Anderson）的中方经纪公司提供球员归化法律服务\r\n- 代表中国女子篮球运动员李梦处理加盟美国WNBA华盛顿神秘队的法律合同事务\r\n- 代表中国男篮球员王哲林处理转会加盟上海久事篮球俱乐部的法律合同事务\r\n- 担任中国知名体育公司北京东方启明星集团总法律顾问处理投融资、政府谈判、公司合规等法律事务",
+    "education": "- 2008-2012 华南理工大学 学士学位\r\n- 2013-2014 英国伯明翰大学 硕士学位",
+    "qualifications": "- 中国大陆执业律师\r\n- 中国篮球协会经纪人",
+    "work_experience": "- 北京德和衡律师事务所，2016-2021\r\n- 北京青颂律师事务所，2021-至今",
+    "awards": "**奖项**\r\n\r\n- Legal One客户信赖律师（Blue Ribbon）争议解决15强律师（中国大陆），2024\r\n\r\n**社会职务**\r\n\r\n- 北京律协国际贸易委员会委员\r\n- 中国法学会体育法学研究会委员\r\n- 北京多元调解发展促进会-北京青颂金融纠纷调解中心负责人",
+    "other": ""
+  },
+  "name_en": "Gary Zhang",
+  "title_en": "Partner",
+  "office_en": "Beijing",
+  "bio_en": "Gary Zhang is a founding partner of QingSolve, specializing in commercial dispute resolution, enforcement, foreign-related legal advice and sports arbitration.",
+  "profile_en": {
+    "resume": "Gary Zhang is a founding partner of QingSolve, specializing in commercial dispute resolution, enforcement, foreign-related legal advice and sports arbitration. He has represented a large number of domestic and foreign clients in arbitration and enforcement cases, involving various fields such as company equity transfer, Sino-foreign joint ventures, international and domestic trade, professional athlete contracts, technical service contracts, construction projects, letters of credit, etc.\n\nGary has represented many well-known companies in handling disputes or enforcement cases, such as the case of Shanxi time-honored brand Shuita Vinegar (a RMB 350 million equity repurchase dispute arbitration case against French Veolia Group); the cross-border enforcement case representing big European metallurgical equipment company of EUR 4 million; arbitration case relating to athlete transfer dispute representing basketball player Zhou Qi, etc..\n\nGary was awarded the honorary title of Top 15 Customer Trusted Lawyer (Blue Ribbon) for Dispute Resolution by Legal One (a global legal rating agency) in 2024. He has joined the International Trade Committee of the Beijing Bar Association and the Sports Law Research Association of the China Law Society and also serves as the head of the Beijing Association for the Promotion of Diversified Mediation Development (also known as Beijing QingSolve Financial Dispute Mediation Center).",
+    "representative_cases": "- Representing Mr. Zhou Qi of Chinese National Basketball team in handling arbitration case against Xinjiang Guanghui Basketball Club for the athlete transfer dispute\n- Representing Beijing Taiyue Investment Company in litigation against a company in Shanxi Province for equity investment disputes, the disputing amount being RMB 120 million\n- Representing LEO Group (Chinese listing company) and its affiliated companies in resolving various commercial contracts disputes\n- Representing Shanxi Shuita Vinegar Industry Co., Ltd. in a equity repurchase dispute with French company Veolia with disputing amount of RMB 360 million\n- Representing China National Chemical Second Construction Group handling the cross-board enforcement of RMB 189 million\n- Representing Tiannuo Wealth handling the enforcement against Shanxi Yongtai Group with enforcement amount of RMB 200 million relating to investment dispute\n- Representing a big European metallurgical equipment company handling enforcement case relating to EUR 4 million at an Iranian bank\n- Representing a big European metallurgical equipment company handling enforcement of RMB 35 million against Xiwang Special Steel Co., Ltd.\n- Representing Shandong Kangkun Company handling enforcement of RMB 35 million against Shanxi Changyuan Group Company\n- Representing Zhengyuan Geographic Information Co., Ltd. (Chinese listing company) handling enforcement against Shandong local government\n- Representing NBA player Kyle Anderson's Chinese brokerage company providing legal services for player naturalization\n- Representing Chinese Women's basketball player Li Meng in handing the legal contract matter for her international transfer to join WNBA's Washington Mystics Club\n- Representing Chinese Men's basketball player Wang Zhelin in handing the legal contract matter for his transfer to join Shanghai Sharks Basketball Club\n- Serving as General Legal Counsel for Beijing East Star Group, a leading Chinese sports company, responsible for investment advice, government negotiations and corporate compliance advice",
+    "education": "- 2008-2012 South China University of Technology, Bachelor's Degree\n- 2013-2014 University of Birmingham, Master's Degree",
+    "qualifications": "- Licensed Attorney in Mainland China\n- China Basketball Association Agent",
+    "work_experience": "- Beijing DHH Law Firm, 2016-2021\n- Beijing QingSolve Law Firm, 2021-Present",
+    "awards": "**Awards**\n\n- Legal One Customer Trusted Lawyer (Blue Ribbon) Top 15 for Dispute Resolution (Mainland China), 2024\n\n**Social Positions**\n\n- Member of International Trade Committee, Beijing Bar Association\n- Member of Sports Law Research Association, China Law Society\n- Head of Beijing Association for the Promotion of Diversified Mediation Development (Beijing QingSolve Financial Dispute Mediation Center)",
+    "other": ""
+  }
+}

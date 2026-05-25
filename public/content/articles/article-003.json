@@ -1,0 +1,357 @@
+{
+  "id": 3,
+  "slug": "article-003",
+  "tags": [],
+  "date": "2024-05-22",
+  "translations": {
+    "zh": {
+      "title": "房产登记隐匿执行实务解析：穿透代持面纱的四大场景与法律路径",
+      "lead": "房产登记在他人名下绝非“避债保险箱”！债权人只需抓住出资来源、实际控制、债务时间线三大核心，配合法律工具的灵活运用，即可通过法律程序否定登记外观主义效力，让隐匿财产无所遁形...",
+      "meta": {
+        "date": "2024-05-22",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "引言"
+        },
+        {
+          "type": "p",
+          "text": "在民事执行程序中，有的被执行人为逃避债务，将实际由自己出资购买房产登记在配偶、子女甚至其他第三人名下，导致法院执行时“无财产可供执行”——这一现象屡见不鲜。但房产登记≠真实权属！本文结合《民法典》及司法解释，以司法判例为支撑，拆解“借名隐匿财产”的四大场景与破解之道，为债权人提供穿透式执行方案。"
+        },
+        {
+          "type": "h2",
+          "text": "四大隐匿场景与破解路径"
+        },
+        {
+          "type": "p",
+          "text": "场景1：房产登记在配偶名下——代位析产分割共有物＆撤销不当处分"
+        },
+        {
+          "type": "p",
+          "text": "对于被执行人将其房产或者属于夫妻共同财产的房产通过离婚协议等方式分割，登记在配偶名下的财产是否可以被直接执行呢？"
+        },
+        {
+          "type": "p",
+          "text": "若该财产虽被登记在配偶名下，但有直接证据证明是夫妻共同财产，依据《最高人民法院关于人民法院民事执行中查封、扣押、冻结财产的规定》第十二条，法院可直接查封共有房产，并及时通知共有人，共有人可以协议分割财产，也可以提起共有人析产之诉，若共有人怠于分割财产导致债权人权益受损的，债权人可直接提起债权人代为析产之诉。"
+        },
+        {
+          "type": "p",
+          "text": "若配偶主张个人财产，债权人可代位提起析产诉讼，确认债务人所占财产份额。若被执行人通过离婚协议无偿转让财产的，债权人可提起撤销权之诉"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2024)云01民终959号",
+          "content": "在(2024)云01民终959号案中，法院认为，在债务产生后，债务人通过案涉《离婚协议书》无偿处分案涉房屋的行为已经影响债权人的债权实现，该约定严重削弱了债务人的清偿能力,故于法院支持了撤销案涉《离婚协议书》第五条“财产分割”第2款的诉讼请求。"
+        },
+        {
+          "type": "p",
+          "text": "场景2：房产登记在第三人名下——撤销权之诉"
+        },
+        {
+          "type": "p",
+          "text": "如果被执行人签约负债之时，具有较高的清偿能力，债权人基于被执行人较佳的商誉情况，才决定与被执行人进行交易，但是，债权债务产生之后，被执行人将财产赠与、或者以不合理低价转让给他人，会导致其清偿能力下降，该无偿赠与行为损害了债权人利益，因此，债权人可以起诉撤销该赠与或转让行为。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2021)豫05民终888号",
+          "content": "在(2021)豫05民终888号案中在，债务人在债务发生后以明显不合理的低价将诉争房屋转让给第三人，损害了债权人利益的实现，故法院支持了债权人要求撤销被告与第三人签订的《房屋买卖协议》，并确认涉案房产为债务人所有的主张。"
+        },
+        {
+          "type": "p",
+          "text": "但是相反，如果被执行人签约之前，早已经将财产赠与他人，由于在签订负债合同之时，债权人考察了对方（即被执行人）的商誉情况后，仍然决定发生商务往来，这属于债权人未尽审慎注意义务，应自行承担交易风险，不得撤销被执行人的赠与行为。"
+        },
+        {
+          "type": "p",
+          "text": "场景3：房产登记在未成年子女名下——确认之诉认定为家庭共同财产"
+        },
+        {
+          "type": "h2",
+          "text": "首先，一般来说，未成年子女无收入，购房款一般来源于父母。"
+        },
+        {
+          "type": "p",
+          "text": "云阳县人民法院认为根据《民法典》第五百九十五条规定，“买卖合同是出卖人转移标的物的所有权于买受人，买受人支付价款的合同”，根据购房合同及有关付款收据等证据判断，实际支付了购买标的物价款的，应是买卖合同的实际买受人。"
+        },
+        {
+          "type": "p",
+          "text": "如果购房款由子女支付，则审查该子女有无实际购买能力。未成年子女没有独立的经济来源，基本没有购买能力，则应该重点讨论该未成年子女名下财产的性质。未成年子女作为家庭的一员，其名下财产无论来源于夫妻任何一方，一般都属于家庭共有的财产。但是也不排除部分未成年子女的确享有属于个人的财产，从保护债权人的合法权益，维护交易安全的角度，这一类财产无疑应当认定属于未成年子女所有，法院在办理执行案件时不应将该类财产列为执行的范围，亦不得对其采取冻结、查封等强制措施。"
+        },
+        {
+          "type": "p",
+          "text": "其次，虽然房屋系登记在未成年子女名下，但房屋大多都由家庭成员长期共同居住，由父母管理房产，应当视为家庭共同财产。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2022）湘0725民初3288号",
+          "content": "在（2022）湘0725民初3288号案例中，法院将房屋现有使用现状作为判断房屋实际权属的依据之一。"
+        },
+        {
+          "type": "p",
+          "text": "最后房产登记时间与债务形成时间的前后是审查债务人是否恶意的一个重要因素，也是债权人行使撤销权的一个重要依据。"
+        },
+        {
+          "type": "p",
+          "text": "若房产登记在债务之后，根据《民法典》第一百五十四条的规定：“行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。”可直接推定恶意转移；申请执行人可要通过债权人撤销之诉撤销赠与使前述房屋回归被执行人所有，然后再执行前述房屋。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2022）湘0725民初3288号",
+          "content": "若房产登记在债务发生之前，（2020）最高法民申6800号民事裁定认为，被执行人出资购买登记在未成年子女名下的房屋是家庭共有财产，被执行人所有的份额，可以被执行。湖南省桃源县人民法院在在（2022）湘0725民初3288号案中，认为在无充分证据证明债务人夫妻在购房时真实意思是将房屋赠予其未成年女儿；另其未成年女儿亦未提供证据证明其对案涉房屋进行了投入或贡献的情况下，法院结合案涉房屋实际出资、现有使用现状、社会现状等实际情况，同时从平衡债权人、债务人双方利益的角度考量，认定该房屋系债务人夫妻的的夫妻共同财产。"
+        },
+        {
+          "type": "p",
+          "text": "场景4：房产登记在成年子女名下——确认之诉认定为家庭共同财产"
+        },
+        {
+          "type": "p",
+          "text": "成年子女需自证购房能力，否则仍可能被认定代持！购房款是否来源于债务人是判断房屋实际权属的一个重要依据，对于成年子女而言应该重点审查其工资收入水平和涉案财产是否呈正相关关系，如大额转账、债务形成前财产状况等。"
+        },
+        {
+          "type": "p",
+          "text": "(2020)最高法民申5648号案中，最高人民法院认为，被执行人子女购房时不具相应能力支付购房款，案涉房屋的款项系被执行人支付。但被执行人子女购买案涉房屋的时间，债权人与被执行人之间的债权债务并未发生，不能证明被执行人为子女购房系恶意逃避债务行为。案涉房屋为债务人夫妇出资购买，购买房屋时其成年女儿没有经济能力购买近百万元价值的房屋，案涉房屋的实际出资人不是权利登记人，因此，法院将案涉房屋认定为是债务人夫妇与其成年女儿的家庭共有财产，被执行人所有的份额，可以被执行。"
+        },
+        {
+          "type": "h2",
+          "text": "律师办案工具箱：执行程序全流程指引"
+        },
+        {
+          "type": "h2",
+          "text": "财产线索挖掘与证据链构建"
+        },
+        {
+          "type": "p",
+          "text": "申请调查令：调取债务人及关联人银行流水、购房合同、房产登记信息、物业记录；找出购房款出资凭证与实际占有使用证明。"
+        },
+        {
+          "type": "h2",
+          "text": "穿透资金流向：根据债务人财产报告，重点核查债务形成前后的异常转账。"
+        },
+        {
+          "type": "h2",
+          "text": "诉讼策略选择"
+        },
+        {
+          "type": "h2",
+          "text": "撤销权之诉：针对无偿转让、恶意转移"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2023）渝0231民初2731号",
+          "content": "在（2023）渝0231民初2731号案中，债务人试图通过签署《离婚协议书》无偿处分案涉房屋，严重损害了债权人的合法权益，法院支持了债权人要求撤销债务人通过离婚协议的约定的诉讼请求。"
+        },
+        {
+          "type": "h2",
+          "text": "代位析产诉讼：针对夫妻、家庭共有财产，且债务人怠于分割财产"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2024)陕0111民初5035号",
+          "content": "在(2024)陕0111民初5035号案、(2025)云01民终518号案中，相关债权处于法院的强制执行中，并且债务人除与案外人共有财产外，无其他可供执行的财产，法院已查封、扣押、冻结该共有财产并通知共有人，被执行人、其他共有人既不协议分割共有财产亦不提起析产诉讼，对法院的强制执行和申请执行人的债权实现构成了妨碍，法院支持了债权人要求对共有财产进行析产的诉讼请求，维护债权人的合法权益。"
+        },
+        {
+          "type": "h2",
+          "text": "活用“拒执罪”施压：对恶意转移情节严重者，追究刑责"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2025）新40刑终9号",
+          "content": "（2025）新40刑终9号案中，法院认为，被告人陈某甲为了逃避责任，在收到法院追加其为被执行人通知后，明知其房产有银行贷款未还清，财产不足以向申请执行人杨某乙清偿债务，仍出售房产，并要求购买人将出售款以现金方式支付给其儿子，转移、隐匿财产逃避法院执行的主观故意明显，致使人民法院生效的裁定无法执行，属于情节严重，已构成拒不执行判决、裁定罪，应依法惩处。"
+        },
+        {
+          "type": "h2",
+          "text": "执行衔接措施"
+        },
+        {
+          "type": "p",
+          "text": "根据《最高人民法院关于人民法院民事执行中查封、扣押、冻结财产的规定》第十三条第一、二款的规定同步申请查封第三人名下房产，防止变卖；以生效判决直接申请执行，避免程序空转。"
+        }
+      ],
+      "references": [],
+      "conclusion": "房产登记在他人名下绝非“避债保险箱”！债权人只需抓住出资来源、实际控制、债务时间线三大核心，配合法律工具的灵活运用，即可通过法律程序否定登记外观主义效力，让隐匿财产无所遁形！\n（文中案例当事人均为化名，如需个案咨询请联系专业执行律师）\n——专注执行领域10年，我们让判决落地有声——\n参考资料：\n《中华人民共和国民法典》\n第一百五十四条 行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。\n第三百零三条　共有人约定不得分割共有的不动产或者动产，以维持共有关系的，应当按照约定，但是共有人有重大理由需要分割的，可以请求分割；没有约定或者约定不明确的，按份共有人可以随时请求分割，共同共有人在共有的基础丧失或者有重大理由需要分割时可以请求分割。因分割造成其他共有人损害的，应当给予赔偿。\n第五百三十八条 债务人以放弃其债权、放弃债权担保、无偿转让财产等方式无偿处分财产权益，或者恶意延长其到期债权的履行期限，影响债权人的债权实现的，债权人可以请求人民法院撤销债务人的行为。\n第五百四十一条 撤销权自债权人知道或者应当知道撤销事由之日起一年内行使。自债务人的行为发生之日起五年内没有行使撤销权的，该撤销权消灭。\n《中华人民共和国刑法》\n第三百一十三条　【拒不执行判决、裁定罪】对人民法院的判决、裁定有能力执行而拒不执行，情节严重的，处三年以下有期徒刑、拘役或者罚金；情节特别严重的，处三年以上七年以下有期徒刑，并处罚金。\n《最高人民法院关于人民法院民事执行中查封、扣押、冻结财产的规定》\n第十二条 对被执行人与其他人共有的财产，人民法院可以查封、扣押、冻结，并及时通知共有人。\n共有人协议分割共有财产，并经债权人认可的，人民法院可以认定有效。查封、扣押、冻结的效力及于协议分割后被执行人享有份额内的财产；对其他共有人享有份额内的财产的查封、扣押、冻结，人民法院应当裁定予以解除。\n共有人提起析产诉讼或者申请执行人代位提起析产诉讼的，人民法院应当准许。诉讼期间中止对该财产的执行。\n第十三条第一、二款 对第三人为被执行人的利益占有的被执行人的财产，人民法院可以查封、扣押、冻结；该财产被指定给第三人继续保管的，第三人不得将其交付给被执行人。\n对第三人为自己的利益依法占有的被执行人的财产，人民法院可以查封、扣押、冻结，第三人可以继续占有和使用该财产，但不得将其交付给被执行人。\n（2020）最高法民申6800号\n（2020）最高法民申5648号\n（2021）豫05民终888号\n（2022）湘0725民初3288号\n（2023）渝0231民初2731号\n（2024）云01民终959号\n（2025）新40刑终9号"
+    },
+    "en": {
+      "title": "Interpretation of the Implementation Practice of Real Estate Registration and Concealment: Four Scenes and Legal Paths to Pierce the Veil",
+      "lead": "Real estate registered in the name of others is definitely not a\" debt avoidance safe \"!Creditors only need to grasp the three cores of the source of capital contribution, actual control and debt time line, and cooperate with the flexible use of legal tools, they can negate the effect of registration facade through legal procedures, so that hidden property has no hiding place.. ",
+      "subtitle": "",
+      "meta": {
+        "date": "2024-05-22",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "In the civil execution procedure, some persons subjected to execution, in order to evade their debts, register the purchase of real estate actually funded by themselves in the name of their spouses, children or even other third parties, resulting in\" no property available for execution \"when the court executes it - a common phenomenon.However, the real estate registration is not equal to the real ownership!This article, based on the Civil Code and judicial interpretations and supported by judicial precedents, dismantles the four scenarios of \"concealing property by name\" and the ways to solve them, so as to provide creditors with a penetrating execution plan."
+        },
+        {
+          "type": "h2",
+          "text": "Four Hidden Scenes and Cracking Paths"
+        },
+        {
+          "type": "p",
+          "text": "Scenario 1: Real Estate Registered in Spouse's Name – Subdivision of Common Property by Subrogation&Cancellation of Improper Punishment"
+        },
+        {
+          "type": "p",
+          "text": "Can the property registered in the name of the spouse be directly executed if the person subjected to execution divides his or her real estate or the real estate belonging to the common property of the husband and wife by means of divorce agreement?"
+        },
+        {
+          "type": "p",
+          "text": "If the property is registered in the name of the spouse, but there is direct evidence to prove that it is the joint property of the husband and wife, according to Article 12 of the Provisions of the Supreme People's Court on Sealing up, Seizure and Freezing Property in Civil Execution by the People's Court, the court may directly seal up the jointly owned property and notify the co-owners in a timely manner. The co-owners may agree to divide the property or bring a lawsuit against the co-owners for property division. If the co-owners are lazy in dividing the property and cause damage to the rights and interests of the creditors, the creditors may directly bring a lawsuit against the creditors for property division on their behalf."
+        },
+        {
+          "type": "p",
+          "text": "If the spouse claims personal property, the creditor may bring a lawsuit of property division by subrogation to confirm the debtor's share of property.If the person subjected to execution transfers his property free of charge through a divorce agreement, the creditor may bring an action for cancellation right"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2024)云01民终959号",
+          "content": "In case No. 959 [2024] of Yun01 Civil Division, the court held that after the debt was incurred, the debtor's gratuitous disposal of the house involved in the case through the divorce agreement had affected the realization of the creditor's rights, and the agreement seriously weakened the debtor's ability to pay off, so the court supported the claim to revoke the case involving the second paragraph of Article 5\" Property Division \"of the Divorce Agreement."
+        },
+        {
+          "type": "p",
+          "text": "Scene 2: Real Estate Registered in the Name of a Third Person – Revocation Action"
+        },
+        {
+          "type": "p",
+          "text": "If the person subjected to execution has a high solvency at the time of signing the contract for debts, the creditor decides to trade with the person subjected to execution only on the basis of the better goodwill of the person subjected to execution. However, after the creditor's rights and debts are incurred, if the person subjected to execution donates property or transfers it to others at an unreasonable low price, his solvency will be reduced, and the gratuitous donation will damage the interests of the creditor. Therefore, the creditor may bring a lawsuit to revoke the donation or transfer."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2021)豫05民终888号",
+          "content": "In the case of (2021) Yu 05 Min Zhong No.888, the debtor transferred the house in dispute to a third party at an obviously unreasonable low price after the debt occurred, thus harming the realization of the interests of the creditor, so the court supported the creditor's claim to revoke the House Sale Agreement signed by the defendant and the third party, and confirmed that the real estate involved in the case was owned by the debtor."
+        },
+        {
+          "type": "p",
+          "text": "However, conversely, if the person subjected to execution had already donated property to others before signing the contract, and at the time of entering into the debt contract, the creditor had examined the other party's (i.e., the person subjected to execution's) goodwill and still decided to conduct business, this constitutes the creditor's failure to exercise due diligence, and the creditor should bear the transaction risk itself and may not revoke the gift of the person subjected to execution."
+        },
+        {
+          "type": "p",
+          "text": "Scene 3: Real estate registered in the name of minor children - confirmation action is recognized as family common property"
+        },
+        {
+          "type": "h2",
+          "text": "First of all, generally speaking, minor children have no income and the purchase money generally comes from their parents."
+        },
+        {
+          "type": "p",
+          "text": "The People's Court of Yunyang County considers that according to Article 595 of the Civil Code,\" a sales contract is a contract whereby the seller transfers the ownership of the subject matter to the buyer and the buyer pays the price \". According to the purchase contract and relevant payment receipts and other evidence, if the price of the purchase subject matter is actually paid, it shall be the actual buyer of the sales contract."
+        },
+        {
+          "type": "p",
+          "text": "If the purchase price is paid by the child, examine whether the child has the actual purchasing power.If a minor child has no independent source of income and basically has no purchasing power, the nature of the property under the minor child's name should be emphasized.As a member of the family, the property under the name of a minor child, regardless of whether it comes from either party of the husband and wife, generally belongs to the common property of the family.However, it does not rule out that some minor children do enjoy personal property. From the perspective of protecting the legitimate rights and interests of creditors and safeguarding the safety of transactions, such property should undoubtedly be recognized as owned by minor children, and the court shall not list such property as the scope of execution when handling enforcement cases, nor shall it take compulsory measures such as freezing and sealing up."
+        },
+        {
+          "type": "p",
+          "text": "Secondly, although the house is registered under the name of the minor child, most of the houses are shared by family members for a long time, and the real estate managed by the parents shall be regarded as the common property of the family."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2022）湘0725民初3288号",
+          "content": "In the case No. 3288 [2022] of the early Republic of China of Xiang 0725, the court took the existing use status of the house as one of the bases for judging the actual ownership of the house."
+        },
+        {
+          "type": "p",
+          "text": "The time of final real estate registration and the time before and after the formation of the debt is an important factor in examining whether the debtor is malicious, and also an important basis for the creditor to exercise the right of revocation."
+        },
+        {
+          "type": "p",
+          "text": "If the real estate is registered after the debt, according to the provisions of Article 154 of the Civil Code:\" A civil juristic act of malicious collusion between the actor and the counterpart that damages the legitimate rights and interests of others is invalid. \"Malicious transfer may be directly presumed;The applicant for execution may revoke the gift through the creditor's action for revocation to make the above-mentioned house return to the owner of the executed person, and then execute the above-mentioned house."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2022）湘0725民初3288号",
+          "content": "If the real estate is registered before the debt occurs, the Civil Ruling No. (2020) of the Supreme People's Court holds that the house registered in the name of the minor child purchased by the person subjected to execution is the common property of the family, and the shares owned by the person subjected to execution may be executed.The People's Court of Taoyuan County, Hunan Province, in Case No. 3288 [2022] of the early Republic of China, held that there was no sufficient evidence to prove that the debtor's husband and wife really meant to donate the house to their minor daughter when purchasing the house;In addition, if his minor daughter has not provided evidence to prove that he has invested or contributed to the house involved in the case, the court shall determine that the house is the joint property of the debtor's husband and wife from the perspective of balancing the interests of both creditors and debtors in light of the actual investment, existing use status and social status of the house involved in the case."
+        },
+        {
+          "type": "p",
+          "text": "Scene 4: Real estate is registered in the name of an adult child - the action for confirmation is recognized as the common property of the family"
+        },
+        {
+          "type": "p",
+          "text": "Adult children need to prove their ability to purchase houses by themselves, otherwise they may still be recognized as holding on their behalf!Whether the purchase money comes from the debtor is an important basis for judging the actual ownership of the house. For adult children, we should focus on examining whether their wage income level is positively related to the property involved, such as large transfer and property status before the formation of debts."
+        },
+        {
+          "type": "p",
+          "text": "(2020) In the Supreme People's Court Case No. 5648, the Supreme People's Court held that the children of the person subjected to execution did not have the corresponding ability to pay the purchase price when purchasing the house, and the money involved in the case was paid by the person subjected to execution.However, when the children of the person subjected to execution purchased the house involved in the case, the creditor's rights and debts between the creditor and the person subjected to execution did not occur, and it cannot be proved that the purchase of a house for the children of the person subjected to execution was a malicious evasion of debts.The house involved in the case is purchased by the debtor's husband and wife, and his adult daughter has no financial ability to purchase a house with a value of nearly one million yuan when purchasing the house. The actual investor of the house involved in the case is not the right registrant. Therefore, the court determines that the house involved in the case is the common property of the debtor's husband and wife and their adult daughter's family, and the shares owned by the person subjected to execution may be executed."
+        },
+        {
+          "type": "h2",
+          "text": "Lawyers' Case Handling Tool Box: Guidelines for the Whole Process of Enforcement Procedures"
+        },
+        {
+          "type": "h2",
+          "text": "Property clues mining and evidence chain construction"
+        },
+        {
+          "type": "p",
+          "text": "Application for investigation order: obtain the bank flow, house purchase contract, real estate registration information and property records of the debtor and related parties;Find out the certificate of capital contribution for the purchase price and the certificate of actual possession and use."
+        },
+        {
+          "type": "h2",
+          "text": "Through the flow of funds: According to the debtor's property report, focus on the verification of abnormal transfers before and after the formation of debts."
+        },
+        {
+          "type": "h2",
+          "text": "Litigation Strategy Selection"
+        },
+        {
+          "type": "h2",
+          "text": "Revocation right action: against gratuitous transfer or malicious transfer"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2023）渝0231民初2731号",
+          "content": "In Case No. 2731 [2023] of the Early Republic of China, the debtor attempted to dispose of the house involved in the case free of charge by signing the Divorce Agreement, which seriously damaged the legitimate rights and interests of the creditor, and the court supported the creditor's claim to revoke the debtor's agreement through the divorce agreement."
+        },
+        {
+          "type": "h2",
+          "text": "Subrogation of property division litigation: against the common property of husband, wife and family, and the debtor is negligent in dividing the property"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2024)陕0111民初5035号",
+          "content": "In the (2024) Shaan 0111 Early Republic of China Case No. 5035 and (2025) Yun 01 Civil End Case No. 518, the relevant creditor's rights are in the compulsory execution of the court, and the debtor has no other property available for execution except for the property shared with an outsider. The court has sealed up, seized or frozen the common property and notified the co-owners. The person subjected to execution and other co-owners neither agree to divide the common property nor bring a lawsuit for property division, which hinders the compulsory execution of the court and the realization of the creditor's rights of the applicant for execution. The court supports the creditor's claim for property division, and safeguards the legitimate rights and interests of the creditor."
+        },
+        {
+          "type": "h2",
+          "text": "Use the\" crime of refusing to execute \"flexibly to exert pressure: those whose malicious transfer is serious shall be investigated for criminal responsibility"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "（2025）新40刑终9号",
+          "content": "In the case of (2025) Xin 40 Xing Zhong No. 9, the court held that the defendant Chen Moujia, in order to evade responsibility, after receiving the notice from the court adding him as the person subjected to execution, knowing that his real estate had unpaid bank loans and that his property was insufficient to pay off the debts to the applicant for execution Yang Mouyi, still sold the real estate and required the purchaser to pay the sale proceeds in cash to his son. The subjective intention to transfer and conceal property to evade court execution was obvious, resulting in the effective ruling of the people's court being unenforceable, which constitutes a serious circumstance and has constituted the crime of refusing to execute judgments and rulings, and should be punished according to law."
+        },
+        {
+          "type": "h2",
+          "text": "Implementation of interface measures"
+        },
+        {
+          "type": "p",
+          "text": "In accordance with the provisions of the first and second paragraphs of Article 13 of the Provisions of the Supreme People's Court on Sealing up, Seizure and Freezing Property in Civil Execution by People's Courts, the real estate under the name of a third party shall be applied for sealing up synchronously to prevent sale;To apply for execution directly with an effective judgment to avoid idling of the procedure."
+        }
+      ],
+      "conclusion": "Real estate registered in the name of others is definitely not a\" safe for avoiding debts \"!Creditors only need to grasp the three cores of the source of capital contribution, actual control and debt time line, and cooperate with the flexible use of legal tools, they can negate the validity of registration facade through legal procedures, so that hidden property has nothing to hide!\\N (All parties to the case in the text are pseudonyms, please contact a professional enforcement lawyer if you need case consultation)  n-We have been focusing on the field of enforcement for 10 years, and we have made the judgment sound -  nReference:  n Civil Code of the People's Republic of China  n Article 154 Civil juristic acts in which the actor and the counterpart collude maliciously and damage the legitimate rights and interests of others are invalid.\\N Article 303 Where the co-owners agree not to divide a commonly owned realty or chattel in order to maintain the relationship of co-ownership, the agreement shall be followed, provided that if the co-owners have major reasons to divide the realty or chattel, they may request the division;If there is no agreement or the agreement is not clear, the co-owners by shares may request the division at any time, and the co-owners may request the division when the common basis is lost or there are major reasons for the division.If the division causes damage to other co-owners, compensation shall be made.\\N Article 538 Where a debtor disposes of its property rights and interests free of charge by waiving its creditor's rights, waiving the guarantee of its creditor's rights, or transferring its property free of charge, or maliciously extends the time limit for the performance of its due creditor's rights, thus affecting the realization of the creditor's rights, the creditor may request the people's court to revoke the debtor's act.\\N Article 541 The obligee's cancellation right shall be exercised within one year from the date on which the obligee knows or should know the cause for cancellation.If the debtor fails to exercise the right of cancellation within five years from the date of occurrence of the debtor's act, the right of cancellation shall be extinguished.\\N Criminal Law of the People's Republic of China  n Article 313 [Crime of Refusing to Execute Judgments or Orders] Whoever refuses to execute a judgment or order of a people's court when he has the ability to do so, if the circumstances are serious, shall be sentenced to fixed-term imprisonment of not more than three years, criminal detention or a fine;If the circumstances are especially serious, he shall be sentenced to fixed-term imprisonment of not less than three years but not more than seven years and shall also be fined.\\N Provisions of the Supreme People's Court on Sealing up, Seizure and Freezing of Property in Civil Execution by People's Courts  n Article 12 The people's court may seal up, seize or freeze the property jointly owned by the person subjected to execution and other persons, and notify the co-owners in a timely manner.\\N If the co-owners divide the common property by agreement and are approved by the creditors, the people's court may determine it to be valid.The effect of sealing up, distraining or freezing shall extend to the property within the share enjoyed by the person subjected to execution after the division of the agreement;The people's court shall rule to terminate the seizure, seizure or freezing of the property within the share enjoyed by other co-owners.\\N If a co-owner brings a lawsuit for division of property or an applicant for execution brings a lawsuit for division of property by subrogation, the people's court shall grant permission.Execution of the property shall be suspended during the proceedings.\\N Article 13 The people's court may seal up, distrain or freeze the property of the person subjected to execution possessed by a third party for the interests of the person subjected to execution;If the property is assigned to a third party for continued custody, the third party shall not deliver it to the person subjected to execution.\\N The people's court may seal up, distrain or freeze the property of the person subjected to execution possessed by a third party according to law for its own interests, and the third party may continue to possess and use the property, but shall not deliver it to the person subjected to execution.\\N (2020) Supreme Famin Shen No.6700  n (2020) Supreme Famin Shen No.5648  n (2021) No. 888 of the Civil Division of Yu 05  n (2022) No. 3288 of the Civil Division of Xiang 0725  n (2023) No. 2731 of the Civil Division of Yu 0231  n (2024) No. 959 of the Civil Division of Yun 01  n (2025) No. 9 of the New 40",
+      "references": []
+    }
+  }
+}

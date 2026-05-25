@@ -1,0 +1,49 @@
+{
+  "id": 27,
+  "name": "孙喜娟",
+  "title": "资深律师",
+  "office": "北京",
+  "practice_areas": [
+    {
+      "name": "民商事争议解决"
+    },
+    {
+      "name": "强制执行"
+    },
+    {
+      "name": "公司治理"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/sxj.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "孙喜娟律师是青颂的执业律师，曾就职于最高人民法院，拥有丰富的实务审判经验。她专注于民商事争议解决和执行案件。",
+  "featured": false,
+  "sort_order": 10,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.937387+00:00",
+  "updated_at": "2026-05-08T06:43:45.937387+00:00",
+  "profile": {
+    "resume": "孙喜娟律师是青颂的执业律师，曾就职于最高人民法院，拥有丰富的实务审判经验。她专注于民商事争议解决和执行案件，以及公司治理和运营的法律咨询，承办近百起民商事、执行案件，协助企业起草、修改审核上千份合同、公司函件等文件，多次协助客户有效解决争议，拥有丰富的办案经验。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Xi Juan Sun",
+  "title_en": "Senior Attorney",
+  "office_en": "Beijing",
+  "bio_en": "Lawyer Sun is a practicing lawyer of QingSolve who worked at the Supreme People's Court before joining QingSolve and has extensive practical trial experience. She is specialized in civil and commercial disputes resolution and enforcement.",
+  "profile_en": {
+    "resume": "Lawyer Sun is a practicing lawyer of QingSolve who worked at the Supreme People's Court before joining QingSolve and has extensive practical trial experience. She is specialized in civil and commercial disputes resolution and enforcement, as well as providing legal advice on corporate governance and operations. She has handled nearly a hundred civil and commercial dispute and enforcement cases, assisted numerous companies in drafting, modifying, and reviewing thousands of contracts, company letters and other documents and has assisted clients in effectively resolving disputes for many times. She has extensive experience in handling cases.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  }
+}

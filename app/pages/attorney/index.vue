@@ -106,14 +106,17 @@ async function fetchData() {
   loading.value = true
   errorMsg.value = ''
   try {
-    const res = await $fetch<{
-      attorneys: Lawyer[]
-      offices: string[]
-      practice_areas: string[]
-    }>('/data/attorneys.json')
-    lawyers.value = res.attorneys
-    officeOptionsFromApi.value = res.offices
-    practiceAreaOptionsFromApi.value = res.practice_areas
+    const res = await $fetch<Lawyer[]>('/api/attorneys')
+    lawyers.value = res
+    // 提取办公室和领域选项
+    const offices = new Set<string>()
+    const areas = new Set<string>()
+    res.forEach((l) => {
+      offices.add(l.office)
+      l.practice_areas.forEach((a) => areas.add(a.name))
+    })
+    officeOptionsFromApi.value = Array.from(offices)
+    practiceAreaOptionsFromApi.value = Array.from(areas)
   } catch (e) {
     errorMsg.value = t('attorney.loadError')
     console.error(e)
@@ -151,8 +154,8 @@ useSeoMeta({
   description: 'QingSolve Law Firm professional attorney team, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogTitle: () => t.value('attorney.pageTitle') + ' - QingSolve Law Firm',
   ogDescription: 'QingSolve Law Firm professional attorney team, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogImage: 'https://qs-legal.com/images/shared/hero/1.png',
-  ogUrl: 'https://qs-legal.com/attorney',
+  ogImage: 'https://www.qs-legal.com/images/shared/hero/1.png',
+  ogUrl: 'https://www.qs-legal.com/attorney',
   twitterCard: 'summary_large_image',
 })
 </script>

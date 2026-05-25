@@ -25,8 +25,8 @@ useSeoMeta({
   ogDescription: () => locale.value === 'zh'
     ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
     : 'Founded in 2004, QingSong Law Firm is a corporate boutique firm specializing in foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogImage: 'https://qs-legal.com/images/aboutus/heading.png',
-  ogUrl: 'https://qs-legal.com/',
+  ogImage: 'https://www.qs-legal.com/images/aboutus/heading.png',
+  ogUrl: 'https://www.qs-legal.com/',
   twitterCard: 'summary_large_image',
 })
 

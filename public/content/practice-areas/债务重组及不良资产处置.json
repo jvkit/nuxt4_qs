@@ -1,0 +1,33 @@
+{
+  "slug": "债务重组及不良资产处置",
+  "translations": {
+    "zh": {
+      "name": "债务重组及不良资产处置",
+      "overview": [
+        "债务重组及不良资产处置是我们的核心业务之一，我们的团队具备运用诸多领域知识解决问题的综合能力，有能力为处于困境的企业、各类投资人以及债权人提供多方面的专业服务，旨在通过设计重整方案，优化解决策略，在谈判、诉讼、执行等方面最大限度地维护客户的核心利益与诉求。"
+      ],
+      "cases": [],
+      "services": [
+        "代表困境企业实施债务重组",
+        "代表投资人参与困境企业债务重组",
+        "代表收购方进行尽职调查",
+        "不良资产投资法律服务",
+        "不良资产处置法律服务（企业债转股、债务重组、资产出售、租赁、资产置换、破产清偿）"
+      ]
+    },
+    "en": {
+      "name": "Debt Restructuring and Disposal of Non-performing Assets",
+      "overview": [
+        "Debt restructuring and disposal of non-performing assets are one of our core businesses. Our team has the comprehensive ability to apply knowledge from various fields to solve problems and is capable of providing professional services to distressed enterprises, various investors and creditors. Our goal is to design restructuring plans, optimize resolution strategies and maximize the protection of our clients' core interests and demands during negotiation, litigation, enforcement and proceedings."
+      ],
+      "cases": [],
+      "services": [
+        "Implementing Debt Restructuring on Behalf of Distressed Enterprises",
+        "Representing Investors in Debt Restructuring of Distressed Enterprises",
+        "Conduct Due Diligence on Behalf of the Acquirer",
+        "Advice for Non-performing Asset Investment",
+        "Advice and Assistance for Disposal of Non-performing Assets (Corporate Debt to Equity Swaps, Debt Restructuring, Asset Sales, Leasing, Asset Swaps, Bankruptcy)"
+      ]
+    }
+  }
+}

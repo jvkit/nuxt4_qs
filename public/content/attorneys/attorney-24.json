@@ -1,0 +1,46 @@
+{
+  "id": 24,
+  "name": "郑伊",
+  "title": "顾问律师/助理教授",
+  "office": "北京",
+  "practice_areas": [
+    {
+      "name": "税法服务"
+    },
+    {
+      "name": "国际税务"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/zy.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "郑律师是青颂的国际税法资深顾问，持有中国执业律师资格。郑律师获得美国圣路易斯华盛顿大学国际税法博士学位，并自2020年至今在中国政法大学民商经济法学院任助理教授。",
+  "featured": false,
+  "sort_order": 7,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.923521+00:00",
+  "updated_at": "2026-05-08T06:43:45.923521+00:00",
+  "profile": {
+    "resume": "郑律师是青颂的国际税法资深顾问，持有中国执业律师资格。郑律师获得美国圣路易斯华盛顿大学国际税法博士学位，并自2020年至今在中国政法大学民商经济法学院任助理教授。郑律师作为中国杰出的国际税法专家人才，同时担任国务院关税税则委员会专家咨询委员会委员和全国税政人才库专家。",
+    "representative_cases": "",
+    "education": "- 2014.8—2017.5 美国圣路易斯华盛顿大学法学院，国际税法法学博士（JSD）\n- 2013.8—2014.5 美国圣路易斯华盛顿大学法学院，知识产权法法学硕士（LLM in Intellectual Property）\n- 2009.9—2013.6 中山大学法学院，法学学士",
+    "qualifications": "- 中国大陆执业律师",
+    "work_experience": "",
+    "awards": "- 第八届国务院关税税则委员会专家咨询委员会委员\n- 全国税政人才库专家",
+    "other": "**代表性科研成果**\n\n**专著：**\n《美国联邦税务法院估价判例》，经济科学出版社，2020\n\n**合著：**\nInternational Business Law: Selected essays, University of Minho Research Center for Justice and Governance Press, 2018.\n\n**论文：**\n1. 《论网络平台的涉税信息披露义务》，《税务研究》2021年第10期\n2. 《When \"One Belt and One Road\" Initiate meet BEPS: Reforming the China's foreign tax credit rules in the new era》，《Frontiers of Law in China》, 2020年第2期\n3. 《美国关税税率决定机制中行政与立法的权力分配》，《政法论丛》2019年第2期\n4. 《税收法律中无形资产的定义问题研究》，《国际税收》2019年第1期\n5. 《Reforming Foreign Tax Credit System in China with a Liberal Approach: A study of Foreign Tax Credit and Related Rules of International Taxation on Residents' Foreign Source Income》, Washington University School of Law Dissertations. 29，2017\n\n**科研项目：**\n国家社会科学基金（2024）、广东省社会科学基金（2018）、广东省涉外高端人才计划（2019）、财政部\"世界主要国家关税制度研究\"（2019）、中国政法大学青年创新项目（2020）"
+  },
+  "name_en": "Yi Zheng",
+  "title_en": "Consultant Attorney / Assistant Professor",
+  "office_en": "Beijing",
+  "bio_en": "Lawyer Zheng is a senior international tax law consultant of QingSolve, and holds the practicing lawyer qualification in China. She has obtained a Doctor of Philosophy in International Tax Law from Washington University in St. Louis, the United States, and has served as an assistant professor at the School of Civil, Commercial and Economic Law of China University of Political Science and Law since 2020.",
+  "profile_en": {
+    "resume": "Lawyer Zheng is a senior international tax law consultant of QingSolve, and holds the practicing lawyer qualification in China. She has obtained a Doctor of Philosophy in International Tax Law from Washington University in St. Louis, the United States, and has served as an assistant professor at the School of Civil, Commercial and Economic Law of China University of Political Science and Law since 2020. As an outstanding international tax law expert in China, she also serves as an expert in the National Tax Policy Talent Pool and a member of the Expert Advisory Committee of the Tariff Commission of the State Council.",
+    "representative_cases": "",
+    "education": "- Aug 2014 – May 2017 Washington University School of Law, JSD in International Tax Law\n- Aug 2013 – May 2014 Washington University School of Law, LLM in Intellectual Property\n- Sep 2009 – Jun 2013 Sun Yat-sen University School of Law, LLB",
+    "qualifications": "- Licensed Attorney in Mainland China",
+    "work_experience": "",
+    "awards": "- Member of Expert Advisory Committee, 8th Tariff Commission of the State Council\n- Expert in National Tax Policy Talent Pool",
+    "other": "**Representative Research Achievements**\n\n**Monographs:**\n\"Valuation Cases of the U.S. Federal Tax Court\", Economic Science Press, 2020\n\n**Co-authored Works:**\nInternational Business Law: Selected essays, University of Minho Research Center for Justice and Governance Press, 2018.\n\n**Papers:**\n1. \"On the Tax-related Information Disclosure Obligations of Online Platforms\", Taxation Research, Issue 10, 2021\n2. \"When One Belt and One Road Initiative meet BEPS: Reforming the China's foreign tax credit rules in the new era\", Frontiers of Law in China, Issue 2, 2020\n3. \"The Distribution of Executive and Legislative Power in the U.S. Tariff Rate Determination Mechanism\", Journal of Political Science and Law, Issue 2, 2019\n4. \"Research on the Definition of Intangible Assets in Tax Law\", International Taxation, Issue 1, 2019\n5. \"Reforming Foreign Tax Credit System in China with a Liberal Approach: A study of Foreign Tax Credit and Related Rules of International Taxation on Residents' Foreign Source Income\", Washington University School of Law Dissertations. 29, 2017\n\n**Research Projects:**\nNational Social Science Foundation (2024), Guangdong Provincial Social Science Foundation (2018), Guangdong Provincial Foreign-related High-end Talent Program (2019), Ministry of Finance \"Research on Tariff Systems of Major Countries in the World\" (2019), China University of Political Science and Law Youth Innovation Project (2020)"
+  }
+}

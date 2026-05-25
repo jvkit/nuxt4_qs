@@ -1,0 +1,33 @@
+{
+  "slug": "税法服务",
+  "translations": {
+    "zh": {
+      "name": "税法服务",
+      "overview": [
+        "青颂提供外商投资有关的税务规划和支持服务，尤其擅长处理复杂的跨境事项，如与跨国投资和交易相关的税务咨询、筹划和各类税收争议解决。我们税法团队的牵头人是顶尖的国际税法专家，对境外投资、跨境业务具有深厚的学术研究能力和丰富的实务经验。"
+      ],
+      "cases": [],
+      "services": [
+        "跨境税务筹划和架构",
+        "反避税和税收协定相关服务",
+        "公司日常税务咨询",
+        "外籍高管税法服务",
+        "公司日常税务合规服务"
+      ]
+    },
+    "en": {
+      "name": "Tax Legal Services",
+      "overview": [
+        "Qingsolve provides tax planning and support services related to foreign investment, and it particularly excels in handling complex cross-border matters. These include tax consultation, planning for cross-border investments and transactions, as well as the resolution of various tax disputes. The leader of our tax law team is a top international tax law expert, who has profound academic research capabilities and extensive practical experience in overseas investment and cross-border business."
+      ],
+      "cases": [],
+      "services": [
+        "Cross-border Tax Planning and Structuring",
+        "Related Services on Anti-tax Avoidance and Tax Treaties",
+        "Daily Tax Consultation for Companies",
+        "Tax Law Services for Foreign Executives",
+        "Daily Tax Compliance Services for Companies"
+      ]
+    }
+  }
+}

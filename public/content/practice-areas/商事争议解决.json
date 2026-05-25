@@ -1,0 +1,43 @@
+{
+  "slug": "商事争议解决",
+  "translations": {
+    "zh": {
+      "name": "商事争议解决",
+      "overview": [
+        "青颂的商事争议解决团队在代理客户处理各类商事诉讼及仲裁案件上具有丰富的实务经验。团队律师不仅具有丰富的实战经验和娴熟的法律技术，同时还有着不懈的钻研精神，有能力协助客户梳理复杂的案件案件的事实，也能严谨而精确地进行法律分析，并在此基础上提出创造性的争议解决方案。"
+      ],
+      "cases": [
+        "代表中国国家篮球队周琦先生与新疆广汇篮球俱乐部转会纠纷仲裁案；",
+        "代表北京泰跃投资公司与山西某公司涉及1.2亿元股权投资纠纷案",
+        "代表山西水塔醋业股份有限公司与法国威立雅公司涉及3.6亿元股权回购纠纷案；",
+        "代表利欧集团股份有限公司（股票代码：002131）及其关联公司处理其与众多合作方之间的纠纷案；"
+      ],
+      "services": [
+        "公司纠纷",
+        "商业合同纠纷",
+        "房地产与建筑纠纷",
+        "行政纠纷",
+        "证券、银行、基金、金融纠纷"
+      ]
+    },
+    "en": {
+      "name": "Dispute Resolution (Litigation and Arbitration)",
+      "overview": [
+        "QingSolve's dispute resolution team has extensive experiences in handling various types of commercial litigation and arbitration cases. The team lawyers not only have extensive experiences and adequate legal skills, but also have a persistent spirit of delving deep, capable of assisting clients in sorting out the facts of complicated cases and conducting rigorous and accurate legal analysis and, based on such, proposing creative dispute resolution solutions."
+      ],
+      "cases": [
+        "Representing Mr. Zhou Qi of Chinese National Basketball team in handling arbitration case against Xinjiang Guanghui Basketball Club for the athlete transfer dispute;",
+        "Representing Beijing Taiyue Investment Company in litigation against a company in Shanxi Province for equity investment disputes, the disputing amount being RMB 120 million;",
+        "Representing Shanxi Shuita Vinegar Industry Co., Ltd. in a equity repurchase dispute with French company Veolia with disputing amount of RMB 360 million;",
+        "Representing LEO Group (Chinese listing company) and its affiliated companies in resolving various commercial contracts disputes."
+      ],
+      "services": [
+        "Corporate Investment and Operation Disputes",
+        "Commercial Contracts Disputes",
+        "Real Estate and Construction Disputes",
+        "Administrative Law Disputes",
+        "Securities, Banking, Funds and Financial Disputes"
+      ]
+    }
+  }
+}

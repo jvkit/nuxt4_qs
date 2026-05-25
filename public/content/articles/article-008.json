@@ -1,0 +1,405 @@
+{
+  "id": 8,
+  "slug": "article-008",
+  "tags": [],
+  "date": "2024-10-20",
+  "translations": {
+    "zh": {
+      "title": "一人有限公司股东的股东是否应当承担连带责任？司法实践中的不同观点与裁判思路",
+      "lead": "在公司法领域，一人有限公司股东的股东（一人有限公司的股东也是一人有限公司）是否应当对公司债务承担连带责任，一直是备受关注且存在争议的法律问题。这一问题不仅关系到债权人的利益实现，也影响着公司股东责任的界定以及市场交易秩序的稳定。本文将结合相关法律法规及司法实践案例，深入探讨这一问题。",
+      "meta": {
+        "date": "2024-10-20",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "法律规定奠定责任基础"
+        },
+        {
+          "type": "p",
+          "text": "《中华人民共和国公司法》第二十三条明确规定，明确一人公司股东若不能证明公司财产独立，需对公司债务承担连带责任，这为追究一人有限公司股东的责任提供了法律依据。但未提及能否追究“股东的股东”责任。"
+        },
+        {
+          "type": "p",
+          "text": "《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》（2020修正）第20条进一步明确，作为被执行人的一人有限责任公司，财产不足以清偿生效法律文书确定的债务，股东不能证明公司财产独立于自己的财产，申请执行人申请变更、追加该股东为被执行人，对公司债务承担连带责任的，人民法院应予支持。这些规定构建了一人有限公司股东连带责任的基本法律框架。"
+        },
+        {
+          "type": "h2",
+          "text": "司法观点分歧显著"
+        },
+        {
+          "type": "p",
+          "text": "上海一中院与上海市法学会商法学研究会联合举办的“新旧公司法衔接适用问题”研讨会指出，若将问题一般化为“债权人能否追究股东的股东的出资责任”，答案是否定的。其理由在于，股东认缴的出资构成公司的责任财产，债权人请求股东出资的诉权在公司，允许多层穿透会导致公司的独立人格与股东出资法律关系失序。然而，在司法实践中，各地法院对此问题的观点并不统一。"
+        },
+        {
+          "type": "h2",
+          "text": "在执行阶段是否能够逐一追加被执行人一人有限公司的股东、股东的股东"
+        },
+        {
+          "type": "h2",
+          "text": "最高院立场：法律依据不足，穿透层级受限"
+        },
+        {
+          "type": "h4",
+          "text": "(2023)最高法执监25号案中，"
+        },
+        {
+          "type": "p",
+          "text": "泰安中院在执行甲公司与丁公司、泰乙公司等建设工程合同纠纷一案中，申请执行人甲公司申请追加乙公司的股东马某、丙公司为本案被执行人。"
+        },
+        {
+          "type": "p",
+          "text": "最高人民法院院认为，本案的争议焦点为执行程序中能否追加股东的股东为被执行人。《最高人民法院关于执行变更、追加当事人若干问题的规定》规定了依法追加被执行人的情形，但相关主体被追加为被执行人后，能否再以上述主体为被执行人继续追加其股东为被执行人并未明确规定。执行程序中追加被执行人应当以法律明确规定的情形为限，追加股东的股东为被执行人缺乏明确的法律依据。而且，确定实体权利应由审判程序完成，在执行程序中追加被执行人属于不经审判确定了被追加执行人的实体义务，本身已经扩张了生效裁判的效力，适度的扩张可以提升效率，但不能过度扩张。在执行程序中追加被执行人应仅限于一次追加，不能连续追加股东的股东为被执行人。"
+        },
+        {
+          "type": "h2",
+          "text": "其他法院观点：可以追加"
+        },
+        {
+          "type": "p",
+          "text": "鹰潭合伙企业中财公司、中奥公司借款合同纠纷一案中，北京市昌平区人民法院对是否追加股东态度反复"
+        },
+        {
+          "type": "h4",
+          "text": "①追加一人有限公司的股东——不支持"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)京0114执异86号",
+          "content": "(2019)京0114执异86号执行裁定以鹰潭合伙企业的追加申请缺乏事实依据为由不予支持申请执行人鹰潭合伙企业以被执行人中奥公司为一人有限责任公司为由，申请追加其股东中晟公司为本案的被执行人。"
+        },
+        {
+          "type": "h4",
+          "text": "②追加一人有限公司的股东——支持"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)京0114民初10881号",
+          "content": "在(2019)京0114民初10881号判决中根据《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》第二十条规定，作为被执行人的一人有限责任公司，财产不足以清偿生效法律文书确定的债务，股东不能证明公司财产独立于自己的财产，申请执行人申请变更、追加该股东为被执行人，对公司债务承担连带责任的，人民法院应予支持。本案中，中奥公司系只有一个法人股东的有限责任公司，中晟公司系其独资法人股东。已经生效的判决书判决中奥公司对（2012）昌民初字第11459号民事判决书中确定的债务承担连带清偿责任，中晟公司应该就中奥公司的该项债务承担连带责任。法院支持了鹰潭合伙企业申请追加中晟公司为被执行人的诉讼请求。"
+        },
+        {
+          "type": "h4",
+          "text": "③追加一人有限公司股东的股东——不支持"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2020)京0114执异464号",
+          "content": "(2020)京0114执异464号执行裁定中，鹰潭合伙企业向法院院申请追加安华实业公司（中晟华夏公司的股东）为被执行人。"
+        },
+        {
+          "type": "p",
+          "text": "法院认为，执行程序中对追加当事人有明确的法律规定，必须遵循事由法定的原则。本案中，中晟华夏公司作为（2012）昌民初字第11459号民事判决书的被告中奥启天公司的股东，经点鹰潭合伙企业申请，通过诉讼被判决追加为借款合同纠纷案件的被执行人，即中晟华夏公司的被执行人地位系通过追加程序而取得。现鹰潭合伙企业向本院申请追加中晟华夏公司的股东安华实业公司为该案被执行人，其本质应属追加（2012）昌民初字第11459号民事判决书的被告中奥启天公司的股东中晟华夏公司的股东为被执行人，而追加被告的股东的股东作为被执行人，没有法律依据，故对于鹰潭合伙企业的追加请求，法院不予支持。"
+        },
+        {
+          "type": "p",
+          "text": "④追加一人有限公司的股东的股东（一人有限公司的股东也是一人有限公司）——支持"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2021)京0114民初9426号",
+          "content": "(2021)京0114民初9426号原告鹰潭合伙企业诉被告安华公司、中晟华厦公司、中奥启天公司执行异议之诉一中，法院认为，《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》第二十条规定“作为被执行人的一人有限责任公司，财产不足以清偿生效法律文书确定的债务，股东不能证明公司财产独立于自己的财产，申请执行人申请变更、追加该股东为被执行人，对公司债务承担连带责任的，人民法院应予支持”。本案中，中晟华夏公司系只有一个法人股东的有限责任公司，安华公司系其唯一股东。已经生效的判决书判决中晟华夏公司对（2012）昌民初字第11459号民事判决书中确定的债务承担连带清偿责任，安华公司应该就中晟华夏公司的该项债务承担连带责任。现点鹰潭合伙企业申请追加安华公司为被执行人，本院予以支持。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2022)粤01民终8731号",
+          "content": "(2022)粤01民终8731号案中二审法院认为，原告与唐鋆公司发生案涉债权债务关系时，唐鋆公司为本真行公司法人独资的一人有限责任公司，本真行公司是自然人独资企业，其唯一股东为羊远春。本真行公司提供的审计报告不足以证明本真行公司、唐鋆公司的财产相互独立，故原告申请追加本真行公司为被执行人符合法律规定。由于本真行公司作为被执行人亦无其他可供执行的财产，羊远春在本案中则自认其无证据证实本真行公司财产独立于其个人财产，故原告申请同时追加羊远春为被执行人，符合《最高人民法院关于民事执行中变更、追加当事人若干问题》第二十条的规定，法院予以支持。"
+        },
+        {
+          "type": "h2",
+          "text": "诉讼阶段是否能够要求一人有限公司的股东、股东的股东一同承担连带责任"
+        },
+        {
+          "type": "viewpoint",
+          "title": "观点一：应当承担连带责任",
+          "content": ""
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2020)粤01民终12207号",
+          "content": "(2020)粤01民终12207号案中，大唐公司向一审法院起诉请求：判令苏商公司向大唐公司支付欠付货款及利息；判令太平洋建设公司、太平洋集团公司对苏商公司上述诉讼请求承担连带责任；一审法院认为，苏商公司为一人有限责任公司，股东太平洋建设公司不能证明公司财产独立于股东自己的财产，应当对公司债务承担连带责任。太平洋建设公司亦为一人有限责任公司，股东太平洋建设公司不能证明公司财产独立于股东自己的财产，应当对公司债务承担连带责任。大唐公司要求太平洋建设公司、太平洋集团公司对苏商公司的上述债务承担连带清偿责任，符合法律规定，一审法院予以支持。二审法院维持原判。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2022)鲁1083民初96号",
+          "content": "(2022)鲁1083民初96号案中，原告提出诉讼请求：要求威海顺丰乳山营业部赔偿货物损失、保证金损失；要求威海顺丰顺意达分公司、威海顺丰公司、山东顺丰公司、顺丰速运有限公司对上述债务承担连带清偿责任。法院认为，“一人有限责任公司的股东不能证明公司财产独立于股东自己的财产的，应当对公司债务承担连带责任。”本案中，因威海顺丰乳山营业部、威海顺丰顺意达分公司系威海顺丰公司设立的分公司，不具有法人资格，其民事责任由威海顺丰公司承担；山东顺丰公司系威海顺丰公司的一人股东、顺丰速运有限公司系山东顺丰公司的一人股东，其均不能提供证明公司财产独立于股东自己的财产，应当对威海顺丰公司的债务承担连带责任。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)粤0113民初12036号",
+          "content": "另外，广东法院做出的(2019)粤0113民初12036号、(2021)粤2071民初36246号判决均支持了原告要求一人有限责任公司的股东和股东的股东承担连带责任的诉讼请求。"
+        },
+        {
+          "type": "viewpoint",
+          "title": "观点二：承担连带责任于法无据",
+          "content": ""
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2021)苏0981民初6655号",
+          "content": "(2021)苏0981民初6655号案中，原告金螳螂公司与被告恒冠公司、恒大南京公司、恒大公司装饰装修合同纠纷一案，法院认为，关于恒大南京公司、恒大公司是否承担责任的问题。《中华人民共和国公司法》第六十二条规定，一人有限责任公司应当在每一会计年度终了时编制财务会计报告，并经会计师事务所审计。第六十三条规定，一人有限责任公司的股东不能证明公司财产独立于股东自己的财产的，应当对公司债务承担连带责任。本案中，因恒冠公司系一人有限公司，其股东为恒大南京公司，恒大南京公司未能提供充分证据证明公司财产独立于其财产的，应当对恒冠公司的上述债务承担连带责任。关于金螳螂公司要求恒大公司承担连带责任的请求。根据《中华人民共和国民法典》第一百七十八条第三款规定，连带责任由法律规定或者当事人约定，对于一人有限公司的独资股东的独资股东应否承担连带责任并无法律明确约定，美瑞德公司亦未举证证明双方对此有约定，故本院依法不予支持。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2020)浙0127民初309号",
+          "content": "(2020)浙0127民初309号案中，原告钜元公司诉被告尚雅公司、华普公司、艾雯公司建设工程施工合同纠纷一案，法院认为，被告尚雅公司系由被告华普公司100%控股的一人公司，无证据证明尚雅公司财产独立于华普公司，故被告华普公司应与尚雅公司承担连带清偿责任。被告艾雯公司是被告华普公司一人股东，但并非尚雅公司的股东，对被告要求艾雯公司承担连带清偿责任的诉讼请求，法院不予支持。二审法院维持原判。"
+        },
+        {
+          "type": "h2",
+          "text": "争议焦点与实务建议"
+        },
+        {
+          "type": "p",
+          "text": "从上述司法实践可以看出，一人有限公司股东的股东是否应当承担连带责任的争议焦点主要集中在以下几个方面"
+        },
+        {
+          "type": "p",
+          "text": "1.“生效法律文书确定的债务”的解读：部分法院认为《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》第二十条中的“生效法律文书确定的债务”应理解为经生效法律文书确认的基础债权债务，不能随意扩大解释，否则会导致执行程序中过度扩张生效裁判的效力。"
+        },
+        {
+          "type": "p",
+          "text": "2.是否违背公司独立人格与股东出资法律关系：反对多层穿透追加股东责任的观点强调，公司的独立人格和股东的有限责任是公司法的基本原则，若轻易允许连环追加，会使公司的独立人格与股东出资法律关系陷入混乱，影响市场交易的稳定性和可预期性。"
+        },
+        {
+          "type": "p",
+          "text": "3.举证责任的分配与财产混同的认定难度：要求股东证明公司财产独立于自己的财产，这对于股东来说可能存在一定的举证难度。而在多层一人公司的情况下，各层级股东都需要承担相应的举证责任，否则将面临承担连带责任的风险，这也在一定程度上增加了司法实践中的认定复杂性。"
+        },
+        {
+          "type": "h2",
+          "text": "实务建议"
+        },
+        {
+          "type": "p",
+          "text": "对于债权人：如果遇到债务人是多层架构的一人公司，且各层级股东无法证明公司财产与自己财产独立的情况，可以尝试在诉讼阶段一次性将各层级股东列为被告，要求其承担连带责任，同时积极收集相关证据，如公司的财务报表、资金往来记录等，以证明公司与股东之间存在财产混同的迹象。"
+        },
+        {
+          "type": "p",
+          "text": "对于投资人：在设立一人公司或多层级控股架构时，要严格规范公司的财务管理和资金运作，确保公司财产与个人或其他股东财产相互独立，保留好完整的财务凭证和审计报告等证据，以避免在出现债务纠纷时被债权人追究连带责任。"
+        }
+      ],
+      "references": [
+        "《中华人民共和国公司法》",
+        "《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》（2020修正）",
+        "(2023)最高法执监25号",
+        "(2021)最高法民申6402号",
+        "(2024)琼0107民初4599号",
+        "(2022)粤01民终8731号",
+        "(2022)鲁1083民初96号",
+        "(2021)苏0981民初6655号",
+        "(2021)粤2071民初36246号",
+        "(2020)粤1971民初29782号",
+        "(2020)京民终386号",
+        "(2020)浙0127民初309号",
+        "(2020)粤01民终12207号",
+        "(2020)浙01民终5192号",
+        "(2019)粤0113民初12036号",
+        "(2016)京01执复75号",
+        "(2019)京0114民初10881号",
+        "(2019)京0114执异86号",
+        "(2020)京0114执异464号",
+        "(2021)京0114民初9426号",
+        "(2021)京0114执异1000号",
+        "(2022)京01执复25号",
+        "(2022)京执监48号"
+      ],
+      "conclusion": "一人有限公司股东的股东是否应当承担连带责任，在不同地区、不同法院之间存在着较大的分歧和不确定性。这一问题的复杂性要求我们在面对相关法律事务时，必须保持审慎的态度，综合考虑各种因素，以维护自身或当事人的合法权益，同时也期待未来相关法律规定的进一步明确和完善，为司法实践提供更清晰明确的指引。"
+    },
+    "en": {
+      "title": "Should the shareholders of a one-person limited company bear joint and several liabilities?Different viewpoints and judgment ideas in judicial practice ",
+      "lead": "In the field of company law, whether the shareholders of a one-person limited company (the shareholders of a one-person limited company are also one-person limited companies) should bear joint and several liability for the debts of the company has always been a matter of great concern and controversy.This issue is not only related to the realization of the interests of creditors, but also affects the definition of the responsibilities of shareholders of companies and the stability of market trading order.This article will explore this issue in depth in light of relevant laws and regulations and judicial practice cases.",
+      "subtitle": "",
+      "meta": {
+        "date": "2024-10-20",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "Legal provisions lay the foundation for liability"
+        },
+        {
+          "type": "p",
+          "text": "Article 23 of the Company Law of the People's Republic of China clearly stipulates that if the shareholders of a one-person company cannot prove the independence of the company's property, they shall be jointly and severally liable for the debts of the company, which provides a legal basis for investigating the liability of the shareholders of a one-person limited company.However, it does not mention whether \"shareholders of shareholders\" can be held accountable."
+        },
+        {
+          "type": "p",
+          "text": "Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution (2020 Amendment) further clarifies that a one-person limited liability company as the person subjected to execution has insufficient property to pay off the debts specified in the effective legal documents, and the shareholders cannot prove that the company's property is independent of their own property. If the applicant for execution applies for the alteration or addition of the shareholder as the person subjected to execution and assumes joint and several liability for the debts of the company, the people's court shall support it.These provisions constitute the basic legal framework for the joint and several liability of shareholders of one-person limited companies."
+        },
+        {
+          "type": "h2",
+          "text": "Significant differences in judicial views"
+        },
+        {
+          "type": "p",
+          "text": "The seminar on the\" Application of the Connection between the Old and the New Company Law \"jointly organized by the First Intermediate People's Court of Shanghai and the Shanghai Law Society in consultation with the Law Research Association of the Shanghai Municipal Law Society pointed out that if the problem is generalized to\" whether the creditor can investigate the liability of the shareholder for capital contribution \", the answer is no.The reason is that the capital contribution subscribed by the shareholders constitutes the liability property of the company, and the creditor's right of action to request the shareholder's capital contribution lies in the company. Allowing multi-level penetration will lead to the disorder of the legal relationship between the independent personality of the company and the shareholder's capital contribution.However, in judicial practice, the courts of all localities have different views on this issue."
+        },
+        {
+          "type": "h2",
+          "text": "Can the shareholders of the one-person limited company subject to execution and the shareholders of the shareholders be added one by one at the stage of execution"
+        },
+        {
+          "type": "h2",
+          "text": "Supreme Court position: insufficient legal basis, limited penetration level"
+        },
+        {
+          "type": "h4",
+          "text": "(2023) Case No. 25 of the Supreme People's Court,"
+        },
+        {
+          "type": "p",
+          "text": "In the case of a dispute over the execution of a construction contract between Company A and Company D, Company B and other construction projects, the applicant Company A applies to add the shareholders of Company B, Ma and C, as the persons to be executed in the case."
+        },
+        {
+          "type": "p",
+          "text": "The Court of the Supreme People's Court holds that the focus of the dispute in this case is whether the shareholder of the additional shareholder in the execution procedure can be the executed person.The Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties to Enforcement stipulate the circumstances of adding the person subjected to execution according to law, but after the relevant subject is added as the person subjected to execution, whether the above-mentioned subject can continue to add its shareholders as the person subjected to execution is not clearly stipulated.The addition of the person subjected to execution in the execution procedure shall be limited to the circumstances clearly stipulated by law, and the shareholder of the additional shareholder as the person subjected to execution lacks a clear legal basis.Moreover, the determination of substantive rights should be completed by trial procedures, and the addition of the person subjected to execution in the execution procedure belongs to the substantive obligation of the person subjected to additional execution determined without trial, which has expanded the effectiveness of the effective judgment itself. Appropriate expansion can improve efficiency, but it cannot be excessive expansion.The addition of the person subjected to execution in the execution procedure shall be limited to one additional addition, and the shareholder who cannot continuously add shareholders shall be the person subjected to execution."
+        },
+        {
+          "type": "h2",
+          "text": "Opinions of other courts: may be added"
+        },
+        {
+          "type": "p",
+          "text": "In the case of a dispute over a loan contract between the China Finance Company and the China Olympic Company of the Yingtan Partnership Enterprise, the People's Court of Changping District, Beijing Municipality has repeated its attitude on whether to add shareholders"
+        },
+        {
+          "type": "h4",
+          "text": "① Additional shareholders of one-person limited company - not supported"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)京0114执异86号",
+          "content": "(2019) Jing 0114 Zhiyi No.86 Execution Ruling does not support the applicant for execution on the grounds that the additional application of Yingtan Partnership lacks factual basis. Yingtan Partnership applies to add its shareholder Zhongsheng Company as the executed person of the case on the grounds that the executed person Zhong'ao Company is a one-person limited liability company."
+        },
+        {
+          "type": "h4",
+          "text": "② Additional shareholders of one-person limited company – support"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)京0114民初10881号",
+          "content": "In accordance with the provisions of Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution in the Judgment No. 10881 [2019] Jing 0114 of the Early Republic of China, a one-person limited liability company as the person subjected to execution has insufficient property to pay off the debts determined by the effective legal documents, and the shareholders are unable to prove that the company's property is independent of their own property. If the applicant for execution applies to change or add the shareholder as the person subjected to execution and bears joint and several liabilities for the debts of the company, the people's court shall support it.In this case, Sino-Ao Company is a limited liability company with only one juridical person shareholder, and Sino-sheng Company is its sole juridical person shareholder.The effective judgment determines that the Sino-Ao Company shall be jointly and severally liable for the debts determined in the Civil Judgment No. 11459 [2012] of the Changmin Chu Zi, and Sino-Ao Company shall be jointly and severally liable for the debts of the Sino-Ao Company.The court supported the claim of Yingtan Partnership for adding Zhongsheng Company as the person subjected to execution."
+        },
+        {
+          "type": "h4",
+          "text": "③ Additional shareholders of one-person limited company - not supported"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2020)京0114执异464号",
+          "content": "(2020) In the execution ruling No. 464 of Jing 0114, Yingtan Partnership applied to the court for adding Anhua Industrial Company (a shareholder of Zhongsheng Huaxia Company) as the person subjected to execution."
+        },
+        {
+          "type": "p",
+          "text": "The court considers that there are clear legal provisions on the additional parties in the execution procedure, and the principle of legality must be followed.In this case, Zhongsheng Huaxia Company, as a shareholder of Zhong'ao Qitian Company, the defendant in the Civil Judgment No. 11459 [2012] of Changmin Chu Zi, upon the application of Dianyingtan Partnership Enterprise, was adjudged to be the executed person in the loan contract dispute case through litigation, that is, the status of the executed person of Zhongsheng Huaxia Company was obtained through the additional procedure.Now, Yingtan Partnership Enterprise applies to this Court for adding Anhua Industrial Company, the shareholder of Zhongsheng Huaxia Company, as the person subjected to execution in the case, which in essence should be the defendant in the Civil Judgment No. 11459 [2012] of Changmin Chu Zi, the shareholder of Zhongsheng Huaxia Company, the shareholder of Zhong'ao Qitian Company, as the person subjected to execution, and the shareholder of the shareholder of the additional defendant as the person subjected to execution, without legal basis, so the court shall not support the additional request of Yingtan Partnership Enterprise."
+        },
+        {
+          "type": "p",
+          "text": "④ Shareholders of additional shareholders of one-person limited companies (shareholders of one-person limited companies are also one-person limited companies) - support"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2021)京0114民初9426号",
+          "content": "(2021) Jing 0114 [Early Republic of China] No.9426, plaintiff Yingtan Partnership v. defendant Anhua Company, Zhongsheng Huaxia Company and Zhong'ao Qitian Company, in the first lawsuit of objection to execution, the court considers that Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution stipulates that\" If the property of a one-person limited liability company as the person subjected to execution is insufficient to pay off the debts determined by the effective legal documents, and the shareholder is unable to prove that the company's property is independent of his own property, the applicant for execution applies for changing or adding the shareholder as the person subjected to execution, and assumes joint and several liability for the debts of the company, the people's court shall support it \".In this case, Zhongsheng Huaxia Company is a limited liability company with only one juridical person shareholder, and Anhua Company is its only shareholder.The effective judgment decides that Zhongsheng Huaxia Company shall be jointly and severally liable for the debts determined in the civil judgment No. 11459 [2012] of the Changmin Chu Zi, and Anhua Company shall be jointly and severally liable for the debts of Zhongsheng Huaxia Company.The Court hereby supports the application of Yingtan Partnership Enterprise for adding Anhua Company as the executed person."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2022)粤01民终8731号",
+          "content": "(2022) The court of second instance in the case of Yue 01 Min Zhong 8731 holds that when the plaintiff and Tang Yun Company had a relationship involving creditor's rights and debts, Tang Yun Company was a one-person limited liability company wholly owned by a juridical person of Benzhenhang Company, which was a sole proprietorship enterprise of natural persons, and its sole shareholder was Yang Yuanchun.The audit report provided by Benzhenhang Company is insufficient to prove that the property of Benzhenhang Company and Tang Yun Company is independent of each other, so the plaintiff's application for adding Benzhenhang Company as the executed person conforms to the law.As Benzhenhang Company, as the person subjected to execution, has no other property available for execution, and Yang Yuanchun, in this case, admits that he has no evidence to prove that the property of Benzhenhang Company is independent of his personal property, so the plaintiff applies to add Yang Yuanchun as the person subjected to execution at the same time, which conforms to the provisions of Article 20 of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution, and the court supports it."
+        },
+        {
+          "type": "h2",
+          "text": "Can the shareholders of a one-person limited company and the shareholders of the shareholders be required to bear joint and several liabilities at the litigation stage"
+        },
+        {
+          "type": "viewpoint",
+          "title": "Viewpoint 1: Joint and several liability shall be borne",
+          "content": ""
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2020)粤01民终12207号",
+          "content": "(2020) Guangdong 01 Civil Division 12207 Case, Datang Company brought a lawsuit to the court of first instance to request: to order Suzhou Commerce Company to pay the arrears and interest to Datang Company;Order the Pacific Construction Company and the Pacific Group Company to bear joint and several liability for the above-mentioned claims of the Sushang Company;The court of first instance held that the Sushang Company is a one-person limited liability company, and the shareholder Pacific Construction Company cannot prove that the company's property is independent of the shareholder's own property, and shall be jointly and severally liable for the company's debts.Pacific Construction Company is also a one-person limited liability company. The shareholder Pacific Construction Company cannot prove that the company's property is independent of the shareholder's own property, and shall be jointly and severally liable for the company's debts.Datang requires the Pacific Construction Company and the Pacific Group Company to bear joint and several liability for the above-mentioned debts of the Sushang Company, which conforms to the provisions of the law and is supported by the court of first instance.The court of second instance upheld the original judgment."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2022)鲁1083民初96号",
+          "content": "(2022) Case No. 96 of the early Republic of China of Lu 1083, the plaintiff filed a claim: to request Weihai Shunfeng Rushan Business Department to compensate for the loss of goods and the loss of deposit;Require Weihai Shunfeng Shunyida Branch, Weihai Shunfeng Company, Shandong Shunfeng Company and Shunfeng Express Co., Ltd. to bear joint and several liability for the above debts.The court held that \"if the shareholders of a one-person limited liability company are unable to prove that the company's property is independent of the shareholders' own property, they shall be jointly and severally liable for the debts of the company.\" In this case, because the Weihai Shunfeng Rushan Business Department and the Weihai Shunfeng Shunyida Branch are branches established by the Weihai Shunfeng Company, they do not have the status of juridical persons, and their civil liabilities shall be borne by the Weihai Shunfeng Company;Shandong Shunfeng Company is a one-person shareholder of Weihai Shunfeng Company, and Shunfeng Express Co., Ltd. is a one-person shareholder of Shandong Shunfeng Company. None of them can provide proof that the company's property is independent of the shareholder's own property, and they shall be jointly and severally liable for the debts of Weihai Shunfeng Company."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)粤0113民初12036号",
+          "content": "In addition, the judgments No. 12036 (2019) Yue 0113 and No. 36246 (2021) Yue 2071 made by the Guangdong Court supported the plaintiff's claim that the shareholders of a one-person limited liability company and the shareholders of the shareholders shall bear joint and several liability."
+        },
+        {
+          "type": "viewpoint",
+          "title": "Viewpoint 2: There is no legal basis for joint and several liability",
+          "content": ""
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2021)苏0981民初6655号",
+          "content": "In the case of (2021) Su 0981 Min Chu No. 6655, in the dispute over decoration and construction contract between plaintiff Gold Mantis Company and defendants Hengguan Company, Evergrande Nanjing Company, and Evergrande Company, the court held that regarding whether Evergrande Nanjing Company and Evergrande Company should bear liability. Article 62 of the Company Law of the People's Republic of China stipulates that a one-person limited liability company shall prepare financial and accounting reports at the end of each fiscal year and shall be audited by an accounting firm. Article 63 stipulates that if a shareholder of a one-person limited liability company is unable to prove that the company's property is independent of the shareholder's own property, he shall be jointly and severally liable for the debts of the company. In this case, since Hengguan Company is a one-person limited company, its shareholder is Evergrande Nanjing Company, and Evergrande Nanjing Company fails to provide sufficient evidence to prove that the company's property is independent of its property, it shall be jointly and severally liable for the above-mentioned debts of Hengguan Company. Regarding Gold Mantis Company's request for Evergrande Company to bear joint and several liability. According to the provisions of paragraph 3 of Article 178 of the Civil Code of the People's Republic of China, joint and several liability shall be stipulated by law or agreed upon by the parties. There is no clear agreement in law on whether the sole proprietorship shareholders of a one-person limited company shall bear joint and several liability, nor has Merid provided evidence to prove that both parties have agreed on this, so the Court does not support it according to law."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2020)浙0127民初309号",
+          "content": "(2020) In the case No. 309 [2020] of the early Republic of China, the plaintiff Juyuan Company v. the defendant Shangya Company, Huapu Company and Aiwen Company over a dispute over a construction contract for a construction project, the court held that the defendant Shangya Company is a one-person company 100% controlled by the defendant Huapu Company, and there is no evidence to prove that the property of Shangya Company is independent of Huapu Company, so the defendant Huapu Company shall bear joint and several liability for repayment with Shangya Company.Defendant Ai Wen Company is a shareholder of Defendant Huapu Company, but not a shareholder of Shangya Company. The court shall not support the defendant's claim that Ai Wen Company should bear joint and several liability for repayment.The court of second instance upheld the original judgment."
+        },
+        {
+          "type": "h2",
+          "text": "Focus of Disputes and Practical Suggestions"
+        },
+        {
+          "type": "p",
+          "text": "From the above judicial practice, it can be seen that the focus of the dispute over whether the shareholders of a one-person limited company should bear joint and several liability mainly focuses on the following aspects"
+        },
+        {
+          "type": "p",
+          "text": "1. Interpretation of\" Debt Determined by Effective Legal Documents \": Some courts believe that the\" debt determined by effective legal documents \"in Article 20 of the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution shall be understood as the basic creditor's rights and debts confirmed by effective legal documents, and the interpretation shall not be expanded at will, otherwise the effect of effective judgments will be excessively expanded in the execution procedure."
+        },
+        {
+          "type": "p",
+          "text": "2. Whether it violates the legal relationship between the independent personality of the company and the capital contribution of shareholders: The view against multi-level penetration and additional shareholder liability emphasizes that the independent personality of the company and the limited liability of shareholders are the basic principles of the Company Law. If serial additions are allowed easily, the legal relationship between the independent personality of the company and the capital contribution of shareholders will be thrown into confusion, affecting the stability and predictability of market transactions."
+        },
+        {
+          "type": "p",
+          "text": "3. Difficulty in determining the distribution of the burden of proof and the confusion of property: shareholders are required to prove that the company's property is independent of their own property, which may be difficult for shareholders to prove.In the case of multi-layered one-person companies, shareholders at all levels need to bear the corresponding burden of proof, otherwise they will face the risk of joint and several liability, which also increases the complexity of identification in judicial practice to a certain extent."
+        },
+        {
+          "type": "h2",
+          "text": "Practical suggestions"
+        },
+        {
+          "type": "p",
+          "text": "For creditors: If the debtor is a single-person company with a multi-layered structure, and the shareholders at all levels are unable to prove that the company's property is independent of their own property, they may try to list the shareholders at all levels as defendants at one time in the litigation stage, requiring them to bear joint and several liability, and actively collect relevant evidence, such as the company's financial statements and capital transaction records, to prove that there are signs of property confusion between the company and shareholders."
+        },
+        {
+          "type": "p",
+          "text": "For investors: When establishing a one-person company or a multi-level holding structure, the financial management and capital operation of the company shall be strictly standardized, so as to ensure that the company's property is independent of the property of individuals or other shareholders, and complete financial vouchers, audit reports and other evidence shall be retained to avoid being investigated for joint and several liability by creditors in case of debt disputes."
+        }
+      ],
+      "conclusion": "Whether the shareholders of a one-person limited company shall bear joint and several liability or not, there are great differences and uncertainties among different regions and courts.The complexity of this issue requires us to maintain a prudent attitude and comprehensively consider various factors when facing relevant legal affairs in order to safeguard the legitimate rights and interests of ourselves or the parties concerned, and at the same time, we look forward to the further clarification and improvement of relevant legal provisions in the future to provide clearer and clearer guidance for judicial practice.",
+      "references": []
+    }
+  }
+}

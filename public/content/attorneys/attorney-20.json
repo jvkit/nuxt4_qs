@@ -1,0 +1,49 @@
+{
+  "id": 20,
+  "name": "Gianluca D'Agnolo",
+  "title": "顾问",
+  "office": "罗马",
+  "practice_areas": [
+    {
+      "name": "跨境交易"
+    },
+    {
+      "name": "并购"
+    },
+    {
+      "name": "合资合作"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/g.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "Gianluca D'Agnolo律师拥有超过30年的法律经验，代表和协助企业客户参与各类商业交易以及投资活动，尤其是意大利与中国两国之间的跨国交易。",
+  "featured": false,
+  "sort_order": 3,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.904328+00:00",
+  "updated_at": "2026-05-09T05:49:09.676199+00:00",
+  "profile": {
+    "resume": "Gianluca D'Agnolo律师拥有超过30年的法律经验，代表和协助企业客户参与各类商业交易（经销、代理、特许经营及许可协议等）以及投资活动（并购、合资企业设立及其他合作形式），尤其是意大利与中国两国之间的跨国交易。Gianluca拥有超过30年在国际顶尖或意大利顶级律师事务所的工作经验，专注于处理中意跨境业务。他能使用英语、意大利语、法语及基础中文进行工作。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "- 2025-至今 北京青颂律师事务所的顾问\r\n- 2006-2025 意大利凯明迪律师事务所（先后任职于北京代表处首席代表、上海代表处首席代表和罗马总部顾问）\r\n- 2004-2006 LCA律师事务所（先后任职于北京代表处、上海代表处和米兰总部）\r\n- 1997-2004 英国富而德律师事务所（先后任职于米兰办公室、北京代表处和香港办公室）\r\n- 1995-1997 意大利Carnelutti律师事务所\r\n- 1994-1995 意法联合律师事务所Felici律师事务所",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Gianluca D'Agnolo",
+  "title_en": "Consultant",
+  "office_en": "Rome",
+  "bio_en": "Attorney Gianluca D'Agnolo has over 30 years of legal experience, representing and assisting corporate clients in various commercial transactions and investment activities, especially cross-border transactions between Italy and China.",
+  "profile_en": {
+    "resume": "Attorney Gianluca D'Agnolo has over 30 years of legal experience, representing and assisting corporate clients in various commercial transactions (distribution, agency, franchise and licensing agreements, etc.) and investment activities (M&A, joint venture establishment and other forms of cooperation), especially cross-border transactions between Italy and China. Gianluca has over 30 years of experience working in top international or top Italian law firms, specializing in handling Italy-China cross-border business. He can work in English, Italian, French and basic Chinese.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "- 2025-Present Consultant at Beijing QingSolve Law Firm\n- 2006-2025 Chiomenti Law Firm ( successively served as Chief Representative of Beijing Office, Chief Representative of Shanghai Office and Consultant of Rome Headquarters)\n- 2004-2006 LCA Law Firm ( successively served in Beijing Office, Shanghai Office and Milan Headquarters)\n- 1997-2004 Freshfields Bruckhaus Deringer ( successively served in Milan Office, Beijing Office and Hong Kong Office)\n- 1995-1997 Carnelutti Law Firm, Italy\n- 1994-1995 Italian-French Joint Law Firm Felici Law Firm",
+    "awards": "",
+    "other": ""
+  }
+}

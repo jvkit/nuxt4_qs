@@ -1,0 +1,47 @@
+{
+  "slug": "体育专项法律服务",
+  "translations": {
+    "zh": {
+      "name": "体育专项法律服务",
+      "overview": [
+        "作为中国体育法律服务的先行者，青颂自2012年即深度布局体育产业法律版图，构建起覆盖全产业链的专业服务体系。团队以\"法律+体育\"的跨界思维，在职业体育、商业赛事、运动员权益等细分领域形成行业标杆地位。我们为体育行业内的诸多知名企业、运动员和经纪公司提供专业且具有前瞻性的法律服务，包括但不限于体育品牌、互联网新媒体、体育培训、体育经纪、体育赛事和运动员权益保护等方面。青颂始终秉持\"让规则成就体育梦想\"的理念，以法律为支点，助力客户撬动体育产业新价值。"
+      ],
+      "cases": [
+        "代表前美国NBA火箭队球员周琦处理回归中国CBA职业联赛的法律事务及体育仲裁；",
+        "代表中国女子篮球运动员李梦处理加盟美国WNBA华盛顿神秘队的法律合同事务；",
+        "协助美国NBA现役球员李凯尔（Kyle Anderson）国籍归化的法律操作；",
+        "代表中国男篮球员王哲林处理转会加盟上海久事篮球俱乐部的法律合同事务；",
+        "担任中国知名体育公司北京东方启明星集团总法律顾问处理投融资、政府谈判、公司合规等法律事务；和",
+        "担任美国知名运动护具品牌迈克达威（Mc.David）中国区总代理法律顾问；"
+      ],
+      "services": [
+        "体育听证及仲裁法律服务",
+        "赛事运营法律风控",
+        "体育产业资本运作",
+        "体育经纪法律服务",
+        "职业体育俱乐部合规服务"
+      ]
+    },
+    "en": {
+      "name": "Sports Related Legal Service",
+      "overview": [
+        "As a pioneer sports legal services provider in China, QingSolve has been deeply embedded in the legal landscape of the sports industry since 2012, having built a professional service system covering the entire sports industry chain. With a \"law+sports\" cross-industry approach, the team has established benchmark positions across specialized fields covering professional sports, commercial events and athlete rights protection. We provide professional and forward-looking legal services to numerous renowned enterprises, athletes and agencies in the sports sector, such as sports branding, internet new media, sports training, athlete representation, sports events and athlete rights protection. Upholding the philosophy of \"Empowering Sports Dreams Through Rules\", QingSolve leverages legal expertise to help clients unlock new value in the sports industry."
+      ],
+      "cases": [
+        "Representing former NBA Houston Rockets player Zhou Qi in legal affairs related to his return to China's CBA league and sports arbitration;",
+        "Representing Chinese Women's basketball player Li Meng in handing the legal contract matter for her international transfer to join WNBA's Washington Mystics Club;",
+        "Assisting NBA player Kyle Anderson in legal procedures for naturalization in China;",
+        "Representing Chinese Men's basketball player Wang Zhelin in handing the legal contract matter for his transfer to join Shanghai Sharks Basketball Club.",
+        "Serving as General Legal Counsel for Beijing East Star Group, a leading Chinese sports company, responsible for investment advice, government negotiations and corporate compliance advice;",
+        "Serving as General Legal Counsel for McDavid, a renowned American sports protective gear brand, in its China operations."
+      ],
+      "services": [
+        "Sports Hearing and Arbitration",
+        "Event Operation Legal Risk Control",
+        "Sports Related Investment",
+        "Sports Agency",
+        "Professional Sports Club Compliance"
+      ]
+    }
+  }
+}

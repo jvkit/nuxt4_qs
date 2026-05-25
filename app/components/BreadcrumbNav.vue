@@ -18,7 +18,7 @@ useSchemaOrg(() =>
             position: index + 1,
             name: item.label,
             item: item.href
-              ? 'https://qs-legal.com' + item.href
+              ? 'https://www.qs-legal.com' + item.href
               : undefined,
           })),
         }),

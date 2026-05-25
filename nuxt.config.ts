@@ -1,14 +1,26 @@
 import { createResolver } from '@nuxt/kit'
-import articlesData from './app/pages/article/articles.json'
+import { readdirSync, readFileSync } from 'fs'
+import { join } from 'path'
 
 const resolver = createResolver(import.meta.url)
 
-// 从 articles.json 生成文章详情页 URL
-const articleUrls = (articlesData as any[]).map((a) => ({
-  loc: `/article/${a.slug}`,
-  lastmod: a.meta?.date || new Date().toISOString().split('T')[0],
-  priority: 0.7 as const,
-}))
+// 从 public/content/articles 目录生成文章详情页 URL
+function getArticleUrls() {
+  const contentDir = join(process.cwd(), 'public', 'content', 'articles')
+  const files = readdirSync(contentDir).filter((f) => f.endsWith('.json'))
+
+  return files.map((file) => {
+    const content = readFileSync(join(contentDir, file), 'utf-8')
+    const article = JSON.parse(content)
+    return {
+      loc: `/article/${article.slug}`,
+      lastmod: article.date || new Date().toISOString().split('T')[0],
+      priority: 0.7 as const,
+    }
+  })
+}
+
+const articleUrls = getArticleUrls()
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
@@ -30,7 +42,7 @@ export default defineNuxtConfig({
 
 
   site: {
-    url: 'https://qs-legal.com',
+    url: 'https://www.qs-legal.com',
     name: '北京青颂律师事务所',
     description: '青颂律师事务所 - 专业商事争议解决法律服务',
     defaultLocale: 'zh-CN',
@@ -39,22 +51,38 @@ export default defineNuxtConfig({
   sitemap: {
     exclude: ['/test'],
     urls: async () => {
-      // 静态文章 URL
+      // 文章 URL
       const urls = [...articleUrls]
 
-      // 尝试从后端获取律师列表，生成律师详情页 URL
+      // 执业领域 URL
+      const paDir = join(process.cwd(), 'public', 'content', 'practice-areas')
       try {
-        const lawyers = await $fetch<any[]>('http://localhost:8000/api/firm/attorneys/')
-        lawyers.forEach((l) => {
+        const paFiles = readdirSync(paDir).filter((f) => f.endsWith('.json'))
+        paFiles.forEach((f) => {
+          const content = readFileSync(join(paDir, f), 'utf-8')
+          const pa = JSON.parse(content)
           urls.push({
-            loc: `/attorney/${l.id}`,
+            loc: `/practice-areas/${pa.slug}`,
             lastmod: new Date().toISOString().split('T')[0],
             priority: 0.7 as const,
           })
         })
-      } catch {
-        // 后端未启动时静默忽略
-      }
+      } catch {}
+
+      // 律师 URL
+      const attDir = join(process.cwd(), 'public', 'content', 'attorneys')
+      try {
+        const attFiles = readdirSync(attDir).filter((f) => f.endsWith('.json'))
+        attFiles.forEach((f) => {
+          const content = readFileSync(join(attDir, f), 'utf-8')
+          const att = JSON.parse(content)
+          urls.push({
+            loc: `/attorney/${att.id}`,
+            lastmod: new Date().toISOString().split('T')[0],
+            priority: 0.7 as const,
+          })
+        })
+      } catch {}
 
       return urls
     },
@@ -73,8 +101,8 @@ export default defineNuxtConfig({
     identity: {
       type: 'Organization',
       name: '北京青颂律师事务所',
-      url: 'https://qs-legal.com',
-      logo: 'https://qs-legal.com/favicon.ico',
+      url: 'https://www.qs-legal.com',
+      logo: 'https://www.qs-legal.com/favicon.ico',
     },
   },
 
@@ -107,7 +135,7 @@ export default defineNuxtConfig({
 
   nitro: {
     routeRules: {
-      '/api/**': { proxy: 'http://localhost:8000/api/**' },
+      '/api/**': { cors: true },
       '/images/**': { headers: { 'cache-control': 'public,max-age=31536000,immutable' } },
       '/data/**': { headers: { 'cache-control': 'public,max-age=31536000,immutable' } },
     },

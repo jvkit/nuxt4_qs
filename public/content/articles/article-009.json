@@ -1,0 +1,358 @@
+{
+  "id": 9,
+  "slug": "article-009",
+  "tags": [],
+  "date": "2024-11-08",
+  "translations": {
+    "zh": {
+      "title": "新《公司法》“横向穿透”：守护债权人权益的有力武器",
+      "lead": "新《公司法》第23条首次明确“横向人格否认”规则（即横向穿透），规定股东控制的多家公司若滥用法人独立地位逃避债务，需对任一公司债务承担连带责任。这一规则填补了旧法空白，对债权人保护和企业合规提出新要求。本文结合立法演变、核心要件、典型案例及实务难点，为企业与债权人提供操作指引。",
+      "meta": {
+        "date": "2024-11-08",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "一、横向穿透规则的核心要义"
+        },
+        {
+          "type": "p",
+          "text": "新《公司法》第二十三条明确规定，股东利用其控制的两个以上公司实施滥用公司法人独立地位和股东有限责任行为，逃避债务，严重损害公司债权人利益的，各公司应当对任一公司的债务承担连带责任。这意味着，当股东通过操控多个公司来逃避债务时，债权人有权要求这些关联公司共同承担债务责任，突破了以往公司独立人格和有限责任的限制，实现了对债权人的有力保护。"
+        },
+        {
+          "type": "p",
+          "text": "横向穿透规则实质上蕴含着纵向法人人格否认和反向法人人格否认的两种情形。通过揭开公司面棉纱使其背后的股东承担连带责任，然后揭开股东的面纱，使股东控制的其他公司对股东的债权人承担连带责任。虽然公司法未明确规定，但基于“三角刺破”规则的逻辑，控制股东的债权人在特定情况下，可要求控制股东及其控制的多家公司作为一个责任整体承担连带责任。"
+        },
+        {
+          "type": "h4",
+          "text": "二、适用横向穿透规则的关键要件"
+        },
+        {
+          "type": "h3",
+          "text": "（一）主体要件"
+        },
+        {
+          "type": "p",
+          "text": "原告通常为公司债权人，而被告则是同一股东控制的两个以上公司。这里的控制主体不仅包括显名股东，还涵盖隐名股东和实际控制人。从目的解释来看，横向人格否认制度旨在防止公司人格独立和有限责任被滥用，将隐名股东和实际控制人纳入控制主体范围，更有利于保护债权人利益，且不会对其他股东造成不可预见的不利影响。"
+        },
+        {
+          "type": "h3",
+          "text": "（二）行为要件"
+        },
+        {
+          "type": "p",
+          "text": "控制主体需利用其控制的公司实施滥用行为，主要包括人格混同、过度支配与控制两类情形。在横向人格否认中，若控制行为超出合理范围，构成过度支配与控制，各横向关联公司应承担连带责任；若控制行为在合理范围内，则需考察是否形成人格混同，若形成则承担连带责任。"
+        },
+        {
+          "type": "h4",
+          "text": "1.人格混同"
+        },
+        {
+          "type": "p",
+          "text": "认定公司人格与股东人格是否存在混同，最根本的判断标准是公司是否具有独立意志和独立利益，最主要的表现是公司的财务或者财产与股东的财务或者财产是否混同，公司的财产是否独立。出现以下情形之一的，可以认定为财务或者财产混同：（1）股东随意无偿调拨公司资金或者财产，不作财务记载的；（2）股东用公司的资金偿还股东个人的债务，或者调拨资金到关联公司，不作财务记载的；（3）公司账簿与股东账簿不分；（4）股东自身收益与公司盈利不加区分，致使双方利益不清；（5）公司的财产记载于股东名下，由股东占有、使用。"
+        },
+        {
+          "type": "p",
+          "text": "在出现财务或者财产混同的情况下，往往同时出现以下混同：公司业务和股东业务混同；公司员工与股东员工混同，特别是财务人员混同；公司住所与股东住所混同。人民法院在审理这类案件时，关键要看是否构成财务或者财产混同，而不要求同时具备其他方面的混同，其他方面的混同往往只是财务混同或者财产混同的补强。"
+        },
+        {
+          "type": "p",
+          "text": "(2020)最高法民终1084号案中，最高院认为，银燕公司、百富勤公司之间具有关联关系。关联公司的人员、业务、财产等方面交叉或混同，导致各自财产无法区分，丧失独立人格的，构成人格混同。关联公司人格混同，严重损害债权人利益的，关联公司相互之间应对外部债务承担连带责任。百富勤公司在一审中认可银燕公司代其收取部分股权转让款的事实，并在回答一审法院询问“财务如何处理”时称“不清楚”，银燕公司也未提交证据证明其代百富勤公司收取相关股权转让款具有合同依据。且银燕公司、百富勤公司对于代收的部分款项，是否已经返还给百富勤公司等事实均未提供证据予以证实。因百富勤公司、银燕公司之间存在没有合同依据的利益输送，导致两家公司财产边界不清、财务混同，一审法院判决银燕公司应对百富勤公司债务承担连带责任并无不当。"
+        },
+        {
+          "type": "p",
+          "text": "(2021)最高法民再342号案中，二审法院认为金元贸易公司与汇业贸易公司、永兴仪器厂表面上彼此独立，但三公司（或厂）均受孙和平或其直系亲属控制，孙和平或其直系亲属作为控股股东或实际控制人控制三公司（或厂），滥用控制权使三公司（或厂）财产边界不清，利益相互输送，丧失人格独立性，成为逃避债务的工具，严重损害金元贸易公司债权人的利益。由此，一审判决以金元贸易公司、原金元贸易公司、汇业贸易公司等存在人格、财产混同为由，未支持汇业贸易公司、永兴仪器厂对案涉集体土地使用权及临时建筑的拆迁补偿部分排除执行的诉求，有相应的事实和法律依据，二审判决予以改判有误，最高人民法院予以纠正。"
+        },
+        {
+          "type": "h4",
+          "text": "2.过度支配与控制"
+        },
+        {
+          "type": "p",
+          "text": "公司一旦被某一股东滥用控制权，就不再具有独立意志和独立利益，其独立人格就会沦为道具，如仍然恪守公司独立人格，就会严重损害公司债权人利益，此时应当否认公司人格。在多个关联公司由同一人、夫妻、母子或者家族控制的场合，在认定是否应当否定公司人格时，重点就要考察是否存在滥用控制行为的情形。以下情形，一般可以认定为滥用控制行为：同一股东控制的子公司向其他子公司输送利益；关联公司与其他公司进行交易，收益归关联公司一方，损失却由关联公司另一方承担；先抽逃公司资金或解散公司，再以原设备、场所、人员及相同经营目的另设公司，从而逃避原公司债务。"
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)苏民终1528号",
+          "content": "(2019)苏民终1528号案中，关于国发节能公司、国发后勤公司、郭留成与国发华企公司是否人格混同，是否应对国发华企公司对国电光伏公司的案涉债务承担连带清偿责任的问题，法院认为法院经审理，对国发节能公司、国发后勤公司、郭留成与国发华企公司之间的关系及责任承担作出明确认定，具体结果如下："
+        },
+        {
+          "type": "p",
+          "text": "①认定国发节能公司、国发后勤公司与国发华企公司人格混同，需承担连带清偿责任"
+        },
+        {
+          "type": "p",
+          "text": "国发节能公司、国发后勤公司、国发华企公司在住所地、联系方式、高管人员、业务范围等方面存在混同或交叉。国电光伏公司提供的工商信息、招聘信息、年度报告显示，三公司住所地均位于北京市西城区 ，联系电话相同，国发后勤公司与国发华企公司的电子邮箱一致。同时，郭留成、韩霞、王学光等在三家公司交叉任职，且三公司经营范围均涉及机械、电器等相关业务。相关主体虽提出异议，但因未能提供有效证据证明，法院对其主张不予采信。"
+        },
+        {
+          "type": "p",
+          "text": "从一审法院调取的国发华企公司五个银行账户往来明细来看，能证明三公司存在财务混同。2011-2018年期间，三公司之间存在大量资金往来，多数资金用途标注不明；国发华企公司的项目回款和财政补贴频繁、大额转出给国发节能公司、国发后勤公司；国发节能公司、国发后勤公司向国发华企公司转入的资金与国发华企公司的日常经营支出基本持平。国发节能公司、国发后勤公司、郭留成拒绝提供财务账册配合司法审计，也未提供其他反驳证据，一审法院采信国电光伏公司对银行流水的核查意见，认定三公司财务混同并无不当。二审中，相关主体仅以银行流水不能完整反映资金流向为由否定财务混同，法院不予认可。"
+        },
+        {
+          "type": "p",
+          "text": "②认定郭留成作为实际控制人过度支配与控制公司，需承担连带清偿责任：根据一审查明事实，郭留成通过股权控制链条，即持有国发后勤公司97.83%的股权，国发后勤公司持有国发节能公司99.69%的股权，国发节能公司持有国发华企公司93.75%的股权，能够实际控制、支配国发节能公司、国发华企公司，且其同时为两公司个人股东并担任公司高管人员。依据《最高人民法院关于适用〈中华人民共和国民事诉讼法〉的解释》第一百零八条第一款规定，郭留成系三公司实际控制人具有高度可能性。国发节能公司、国发后勤公司、郭留成上诉否认但未提供反驳证据，应承担不利后果。郭留成作为实际控制人，对公司过度支配与控制，致使三公司财产边界不清、财务混同，丧失人格独立性，导致国发华企公司无法清偿欠付国电光伏公司的大额债务，严重损害了公司债权人利益，因此应对公司债务承担连带责任。"
+        },
+        {
+          "type": "p",
+          "text": "因此，法院认为国发节能公司、国发后勤公司、郭留成的上诉请求缺乏事实和法律依据，不予支持。一审判决认定事实清楚，适用法律正确，予以维持，即驳回上诉，维持原判。国发节能环保发展集团有限公司向最高人民法院提出的再审申请也被驳回。"
+        },
+        {
+          "type": "h3",
+          "text": "（三）主观要件"
+        },
+        {
+          "type": "p",
+          "text": "股东存在逃避债务的故意。这一要件通常结合控制行为和滥用行为进行判断，实践中，在满足其他要件的情况下，一般可完成对该要件的证明，无需债权人另行举证。"
+        },
+        {
+          "type": "h3",
+          "text": "（四）结果要件"
+        },
+        {
+          "type": "p",
+          "text": "必须严重损害公司债权人利益。判断标准通常为债务人不能清偿到期债务。若债权人能证明存在滥用行为，一般可推定满足结果要件，无需证明债务人无偿债能力。而且，结果要件不以其他方式无法救济为前提，债权人有权选择直接适用横向穿透规则来维护自身权益。"
+        },
+        {
+          "type": "h4",
+          "text": "三、债权人维权的关键要点"
+        },
+        {
+          "type": "h3",
+          "text": "（一）证明责任"
+        },
+        {
+          "type": "p",
+          "text": "在适用横向穿透规则时，债权人承担证明责任，需证明滥用行为、逃避债务以及严重损害债权人利益等要件事实成立。然而，由于滥用行为具有隐蔽性，实践中债权人举证存在困难。对此，债权人可采用“初步证据标准+申请法院调取证据”的方式降低证明难度。例如，债权人提供关联公司发布的招聘信息、营业执照复印件等初步证据，证明公司之间存在人员、业务混同的可能性，法院可根据公平原则和诚实信用原则，要求公司或股东进一步证明不存在滥用行为，否则将认定待证事实成立。"
+        },
+        {
+          "type": "h3",
+          "text": "（二）诉讼程序"
+        },
+        {
+          "type": "h4",
+          "text": "1.诉讼地位"
+        },
+        {
+          "type": "p",
+          "text": "债权人应根据债务是否已由生效法律文书确认，来确定被告和第三人。若债务已确认，债权人另行提起公司人格否认诉讼时，列股东为被告，公司为第三人；若债务未确认，债权人就其与公司之间的债务提起诉讼的同时，一并提起公司人格否认诉讼，要求股东承担责任的，列公司和股东为共同被告；"
+        },
+        {
+          "type": "p",
+          "text": "债权人与公司之间的债务尚未经生效法律文书确认，债权人直接提起公司人格否认诉讼，要求股东对债务承担责任的，人民法院应当向债权人释明，追加公司为共同被告。债权人拒绝追加的，裁定驳回起诉。"
+        },
+        {
+          "type": "h4",
+          "text": "2.管辖法院"
+        },
+        {
+          "type": "p",
+          "text": "若债权人同时起诉债务人公司和相关主体，根据基础债权债务关系的性质确定管辖法院；若债权人在取得对债务人公司的债权确认生效判决后另行起诉，则由侵权行为地或者被告住所地人民法院管辖，债务人公司住所地法院通常具有管辖权。"
+        },
+        {
+          "type": "h4",
+          "text": "3.诉讼时效"
+        },
+        {
+          "type": "p",
+          "text": "若同时起诉，按基础债权债务关系确定诉讼时效；若另行起诉，则适用一般侵权关于诉讼时效的规定，从债权人知道或应当知道权利受损及义务人之日起计算三年。"
+        },
+        {
+          "type": "h3",
+          "text": "（三）执行阶段"
+        },
+        {
+          "type": "p",
+          "text": "根据《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》，追加当事人应严格遵循法定原则，即变更、追加执行当事人应当严格限定于法律、司法解释明确规定的情形。主体混同、人格混同、财产混同不属于法律、司法解释规定的追加被执行人的法定情形。法人人格否认不能在执行阶段直接追加相关主体责任，公司人格否认诉讼是追究股东或关联公司责任的必经程序。只有符合法定条件，如企业发生分立、合并等情况，执行法院才能依法变更、追加被执行人。"
+        }
+      ],
+      "references": [
+        "《中华人民共和国公司法》",
+        "最高人民法院关于适用《中华人民共和国公司法》若干问题的规定（二）（2020修正）",
+        "《关于适用<中华人民共和国民事诉讼法>的解释（2022修正）》",
+        "《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》",
+        "《全国法院民商事审判工作会议纪要》",
+        "最高人民法院指导案例第15号",
+        "最高人民法院指导案例第68号",
+        "(2022)最高法执监26号",
+        "(2021)最高法执监387号",
+        "(2021)最高法民再342号",
+        "(2020)最高法民终503号",
+        "(2020)最高法民终1084号",
+        "(2020)最高法民申5116号",
+        "(2020)最高法民申1106号",
+        "(2019)最高法民终20号",
+        "(2019)苏民终1528号"
+      ],
+      "conclusion": "新《公司法》的横向穿透规则为债权人提供了强大的法律武器。在复杂的商业环境中，债权人应充分了解并运用这一规则，积极收集证据，通过合法的诉讼程序维护自身权益。同时，公司及其股东也应严格遵守法律法规，保持公司人格独立，避免陷入不必要的法律风险。若您在相关方面遇到法律问题，欢迎随时联系我们的律所，我们将竭诚为您提供专业的法律服务。"
+    },
+    "en": {
+      "title": "The new Company Law\" horizontal penetration \": a powerful weapon to protect the rights and interests of creditors",
+      "lead": "Article 23 of the new Company Law specifies for the first time the rule of\" horizontal personality denial \"(that is, horizontal penetration), which stipulates that if a number of companies controlled by shareholders abuse the independent status of juridical persons to evade their debts, they shall be jointly and severally liable for the debts of any company.This rule fills the gap in the old law and puts forward new requirements for creditor protection and enterprise compliance.This article combines legislative evolution, core elements, typical cases and practical difficulties to provide operational guidance for enterprises and creditors.",
+      "subtitle": "",
+      "meta": {
+        "date": "2024-11-08",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "I. The core meaning of the horizontal penetration rule"
+        },
+        {
+          "type": "p",
+          "text": "Article 23 of the new Company Law clearly stipulates that if a shareholder abuses the independent status of a company as a juridical person and the limited liability of a shareholder by using two or more companies under his control to evade debts and seriously damages the interests of creditors of the company, each company shall be jointly and severally liable for the debts of any company.This means that when shareholders evade their debts by manipulating multiple companies, creditors have the right to require these affiliated companies to jointly assume debt liability, which breaks through the restrictions of independent personality and limited liability of companies in the past and realizes the effective protection of creditors."
+        },
+        {
+          "type": "p",
+          "text": "The horizontal penetration rule essentially contains two kinds of situations: the vertical denial of juridical personality and the reverse denial of juridical personality.By uncovering the veil of the company, the shareholders behind it shall bear joint and several liability, and then uncovering the veil of shareholders, so that other companies controlled by shareholders shall bear joint and several liability to the creditors of shareholders.Although the Company Law does not specify it, based on the logic of the \"triangular puncture\" rule, the creditor of the controlling shareholder may require the controlling shareholder and the multiple companies under its control to bear joint and several liability as a whole under specific circumstances."
+        },
+        {
+          "type": "h4",
+          "text": "II. Key elements for the application of the horizontal penetration rule"
+        },
+        {
+          "type": "h3",
+          "text": "(1) Main elements"
+        },
+        {
+          "type": "p",
+          "text": "The plaintiff is usually a creditor of the company, while the defendant is two or more companies controlled by the same shareholder.The controlling subjects here include not only the obvious shareholders, but also the anonymous shareholders and the actual controllers.From the perspective of purpose interpretation, the horizontal personality denial system aims to prevent the independence of corporate personality and the abuse of limited liability, and to include anonymous shareholders and actual controllers in the scope of control subjects, which is more conducive to protecting the interests of creditors and will not cause unforeseeable adverse effects on other shareholders."
+        },
+        {
+          "type": "h3",
+          "text": "(2) Elements of conduct"
+        },
+        {
+          "type": "p",
+          "text": "The control subject needs to use the company under its control to commit abuse, which mainly includes two types of circumstances: confusion of personality, excessive domination and control.In the horizontal denial of personality, if the control behavior exceeds the reasonable scope and constitutes excessive domination and control, the horizontal affiliated companies shall bear joint and several liabilities;If the control act is within a reasonable range, it is necessary to examine whether it forms a confusion of personality, and if it does, it shall bear joint and several liability."
+        },
+        {
+          "type": "h4",
+          "text": "1. Personality confusion"
+        },
+        {
+          "type": "p",
+          "text": "To determine whether there is any confusion between the corporate personality and the shareholder personality, the most fundamental criterion is whether the company has independent will and independent interests, and the most important performance is whether the financial or property of the company is mixed with the financial or property of the shareholders, and whether the property of the company is independent.In case of any of the following circumstances, it may be recognized as financial or property confusion: (1) The shareholders allocate the company's funds or property free of charge at will without making financial records;(2) Shareholders use the company's funds to repay the debts of individual shareholders or allocate funds to affiliated companies without making financial records;(3) The company's account books are not separated from the shareholders' account books;(4) The shareholders' own profits are not differentiated from the profits of the company, resulting in unclear interests of both parties;(5) The company's property shall be recorded in the name of the shareholder and shall be possessed and used by the shareholder."
+        },
+        {
+          "type": "p",
+          "text": "Under the circumstances of financial or property confusion, the following confusion often occurs at the same time: confusion of corporate business and shareholder business;The employees of the company are confused with the employees of shareholders, especially the financial personnel;The domicile of a company is confused with that of a shareholder.When the people's court hears such cases, the key is to see whether it constitutes financial or property confusion, and does not require confusion in other aspects at the same time. The confusion in other aspects is often only the reinforcement of financial or property confusion."
+        },
+        {
+          "type": "p",
+          "text": "(2020) In the Supreme People's Court Case No. 1084, the Supreme People's Court held that there was an affiliated relationship between Yinyan Company and Bavarian.If the personnel, business and property of an affiliated company are crossed or confused, resulting in the inability to distinguish their respective property and the loss of independent personality, it constitutes a confusion of personality.If the personality of an affiliated company is mixed and the interests of creditors are seriously damaged, the affiliated companies shall bear joint and several liabilities for external debts among themselves.In the first instance, the company recognized the fact that Yinyan Company collected part of the equity transfer funds on its behalf, and said \"unclear\" when answering the court of first instance's inquiry about \"how to deal with the financial situation\", and Yinyan Company did not submit evidence to prove that it has a contractual basis for collecting the relevant equity transfer funds on behalf of the company.Besides, Yinyan and Bavarian have not provided evidence to prove whether part of the money collected has been returned to Bavarian.As there is a transfer of interests without a contractual basis between the two companies, resulting in unclear property boundaries and financial confusion between the two companies, the court of first instance has ruled that it is not improper for Yinyan Company to bear joint and several liability for the debts of the company."
+        },
+        {
+          "type": "p",
+          "text": "In the case of (2021) Supreme People's Court Min Zai No. 342, the court of second instance held that Jinyuan Trading Company, Huiye Trading Company, and Yongxing Instrument Factory appeared to be independent from each other on the surface, but all three companies (or factories) were controlled by Sun Heping or his immediate family members. Sun Heping or his immediate family members, as the controlling shareholders or actual controllers, controlled the three companies (or factories), abused their control rights, resulting in unclear property boundaries among the three companies (or factories), mutual transfer of interests, loss of independent personality, and becoming tools for evading debts, seriously damaging the interests of the creditors of Jinyuan Trading Company. Therefore, the judgment of first instance, on the grounds that Jinyuan Trading Company, the former Jinyuan Trading Company, Huiye Trading Company, and others had mixed personality and property, did not support the claims of Huiye Trading Company and Yongxing Instrument Factory to exclude the execution of the part of compensation for the demolition and relocation of collective land use rights and temporary buildings involved in the case, which had corresponding factual and legal basis. The judgment of second instance was wrong to modify the original judgment, and the Supreme People's Court corrected it."
+        },
+        {
+          "type": "h4",
+          "text": "2. Excessive Domination and Control"
+        },
+        {
+          "type": "p",
+          "text": "Once a company is abused by a shareholder, it will no longer have independent will and independent interests, and its independent personality will be reduced to props. If it still abides by the independent personality of the company, it will seriously damage the interests of the creditors of the company, and the company's personality should be denied at this time.Where multiple affiliated companies are controlled by the same person, husband and wife, mother and child or family, when determining whether the corporate personality should be negatived, the focus should be on whether there is any abuse of control.The following circumstances can generally be recognized as abuse of control: a subsidiary controlled by the same shareholder transfers benefits to other subsidiaries;When an affiliated company conducts transactions with other companies, the gains shall belong to one party of the affiliated company, but the losses shall be borne by the other party of the affiliated company;Withdraw the company's funds or dissolve the company first, and then set up another company with the original equipment, place, personnel and the same business purpose, so as to evade the debts of the original company."
+        },
+        {
+          "type": "case",
+          "badge": "参考案例",
+          "caseId": "(2019)苏民终1528号",
+          "content": "In the case of (2019) Su Min Zhong No. 1528, regarding whether Guofa Energy Conservation Company, Guofa Logistics Company, Guo Liucheng, and Guofa China Enterprise Company had mixed personalities, and whether they should bear joint and several liability for the repayment of the debts involved in the case owed by Guofa China Enterprise Company to Guodian Photovoltaic Company, the court held that after trial, the court made clear determinations on the relationship and liability bearing among Guofa Energy Conservation Company, Guofa Logistics Company, Guo Liucheng, and Guofa China Enterprise Company. The specific results are as follows:"
+        },
+        {
+          "type": "p",
+          "text": "①It is determined that Guofa Energy Conservation Company, Guofa Logistics Company, and Guofa China Enterprise Company have mixed personalities and shall bear joint and several liability for repayment."
+        },
+        {
+          "type": "p",
+          "text": "There is confusion or cross-talk among Guofa Energy Conservation Company, Guofa Logistics Company and Guofa China Enterprise Company in terms of domicile, contact information, senior managers and business scope.According to the industrial and commercial information, recruitment information and annual report provided by Guodian Photovoltaic Company, the three companies are all located in Xicheng District, Beijing, with the same contact number, and the e-mail address of Guofa Logistics Company and Guofa Huaqi Company is the same.At the same time, Guo Liucheng, Han Xia and Wang Xueguan hold cross-posts in the three companies, and the business scope of the three companies involves machinery, electrical appliances and other related businesses.Although the relevant subject raises an objection, the court shall not accept its claim because it fails to provide valid evidence to prove it."
+        },
+        {
+          "type": "p",
+          "text": "From the details of the five bank accounts of the Sino-foreign Development China Enterprise Company transferred by the court of first instance, it can be proved that there is financial confusion among the three companies.During 2011-2018, there was a large amount of capital exchanges between the three companies, and most of the purposes of funds were not clearly marked;The project collection and financial subsidies of Sino-foreign Enterprises are frequently and in large amount transferred out to Sino-foreign Energy Conservation Company and Sino-foreign Logistics Company;The funds transferred from the State Development Energy Conservation Company and the State Development Logistics Company to the State Development China Enterprise Company are basically equal to the daily operating expenses of the State Development China Enterprise Company.Guofa Energy Conservation Company, Guofa Logistics Company and Guo Liucheng refused to provide financial books to cooperate with the judicial audit, nor did they provide other rebuttal evidence. The court of first instance accepted the verification opinions of Guodian Photovoltaic Company on bank flow, and found that the financial confusion of the three companies was not improper.In the second instance, the relevant subject only denied the financial confusion on the grounds that the bank flow cannot fully reflect the flow of funds, and the court did not recognize it."
+        },
+        {
+          "type": "p",
+          "text": "②It is determined that Guo Liucheng, as the actual controller, excessively dominated and controlled the companies, and shall bear joint and several liability for repayment: According to the facts ascertained in the first instance, Guo Liucheng, through the equity control chain, i.e., holding 97.83% of the equity of Guofa Logistics Company, Guofa Logistics Company holding 99.69% of the equity of Guofa Energy Conservation Company, and Guofa Energy Conservation Company holding 93.75% of the equity of Guofa China Enterprise Company, was able to actually control and dominate Guofa Energy Conservation Company and Guofa China Enterprise Company, and at the same time served as a personal shareholder of both companies and held senior management positions. In accordance with the provisions of paragraph 1 of Article 108 of the Interpretation of the Supreme People's Court on the Application of the Civil Procedure Law of the People's Republic of China, it is highly probable that Guo Liucheng is the actual controller of the three companies. Guofa Energy Conservation Company, Guofa Logistics Company, and Guo Liucheng appealed to deny but failed to provide rebuttal evidence, and shall bear adverse consequences. Guo Liucheng, as the actual controller, excessively dominated and controlled the companies, resulting in unclear property boundaries, financial confusion, and loss of independent personality among the three companies, leading to Guofa China Enterprise Company's inability to pay off the large debts owed to Guodian Photovoltaic Company, which seriously damaged the interests of the company's creditors. Therefore, he shall bear joint and several liability for the company's debts."
+        },
+        {
+          "type": "p",
+          "text": "Therefore, the Court considers that the appeal requests of Guofa Energy Conservation Company, Guofa Logistics Company and Guo Liucheng lack factual and legal basis and shall not be supported.If the facts are clearly ascertained and the law is correctly applied in the judgment of first instance, the appeal shall be rejected and the original judgment shall be upheld.The application for retrial submitted by Guofa Energy Conservation and Environmental Protection Development Group Co., Ltd. to the Supreme People's Court was also rejected."
+        },
+        {
+          "type": "h3",
+          "text": "(3) Subjective elements"
+        },
+        {
+          "type": "p",
+          "text": "The shareholder has the intention to evade the debt.This element is usually judged in combination with the act of control and the act of abuse. In practice, under the condition of meeting other elements, the proof of this element can generally be completed without the creditor providing additional evidence."
+        },
+        {
+          "type": "h3",
+          "text": "(4) Consequence elements"
+        },
+        {
+          "type": "p",
+          "text": "The interests of the creditors of the company must be seriously damaged.The judgment standard is usually that the debtor is unable to pay off the due debts.If the creditor can prove that there is abuse, it can generally be presumed that the result requirement is met, and there is no need to prove that the debtor is insolvent.Moreover, the result element is not based on the premise that it cannot be remedied in other ways, and creditors have the right to choose to directly apply the horizontal penetration rule to safeguard their own rights and interests."
+        },
+        {
+          "type": "h4",
+          "text": "III. Key Points for Creditors to Safeguard Their Rights"
+        },
+        {
+          "type": "h3",
+          "text": "(1) burden of proof"
+        },
+        {
+          "type": "p",
+          "text": "When the horizontal penetration rule is applied, the creditor shall bear the burden of proof, and shall prove that the facts of abuse, evasion of debts and serious damage to the interests of creditors are established.However, due to the concealment of abuse, it is difficult for creditors to provide evidence in practice.For this, the creditor may reduce the difficulty of proof by means of \"preliminary evidence standard+application to the court for obtaining evidence\".For example, if the creditor provides preliminary evidence such as recruitment information and copies of business licenses issued by affiliated companies to prove that there is a possibility of confusion of personnel and business between companies, the court may, in accordance with the principles of fairness and good faith, require the company or shareholders to further prove that there is no abuse, otherwise the facts to be proved will be established."
+        },
+        {
+          "type": "h3",
+          "text": "(2) Litigation procedure"
+        },
+        {
+          "type": "h4",
+          "text": "1. Litigation status"
+        },
+        {
+          "type": "p",
+          "text": "The creditor shall determine the defendant and the third party according to whether the debt has been confirmed by an effective legal document.If the debt has been confirmed, and the creditor files a separate lawsuit of corporate personality denial, the listed shareholder shall be the defendant and the company shall be the third party;If the debt is not confirmed, and the creditor brings a lawsuit on the debt between him and the company, he also brings a lawsuit on the denial of corporate personality, requiring the shareholders to bear the responsibility, the company and the shareholders shall be listed as co-defendants;"
+        },
+        {
+          "type": "p",
+          "text": "If the debts between the creditor and the company have not been confirmed by effective legal documents, and the creditor directly brings a lawsuit of corporate personality denial, requiring the shareholder to be liable for the debts, the people's court shall explain to the creditor and add the company as a co-defendant.If the creditor refuses to increase the amount, it shall rule to dismiss the lawsuit."
+        },
+        {
+          "type": "h4",
+          "text": "2. Court of Jurisdiction"
+        },
+        {
+          "type": "p",
+          "text": "If the creditor sues the debtor company and the relevant subjects at the same time, the competent court shall be determined according to the nature of the basic creditor's rights and debts relationship;If the creditor brings a separate lawsuit after obtaining the effective judgment on the confirmation of the creditor's rights of the debtor company, it shall be under the jurisdiction of the people's court of the place where the infringement is committed or where the defendant has its domicile, and the court of the place where the debtor company has its domicile usually has jurisdiction."
+        },
+        {
+          "type": "h4",
+          "text": "3. Limitation of action"
+        },
+        {
+          "type": "p",
+          "text": "If the lawsuit is filed at the same time, the limitation of action shall be determined according to the basic creditor's rights and debts relationship;If another lawsuit is filed, the provisions on limitation of action for general infringement shall apply, which shall be calculated for three years from the date when the creditor knows or should know the damage to the rights and the obligor."
+        },
+        {
+          "type": "h3",
+          "text": "(3) Execution stage"
+        },
+        {
+          "type": "p",
+          "text": "According to the Provisions of the Supreme People's Court on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution, the additional parties shall strictly follow the statutory principle, that is, the parties to the alteration and addition of execution shall be strictly limited to the circumstances clearly stipulated by laws and judicial interpretations.The subject confusion, personality confusion and property confusion do not belong to the legal situation of adding the person subjected to execution stipulated by laws and judicial interpretations.The denial of juridical personality cannot directly add the relevant subject liability at the implementation stage, and the lawsuit of corporate personality denial is the necessary procedure for investigating the liability of shareholders or affiliated companies.Only when the legal conditions are met, such as the division and merger of the enterprise, can the execution court change or add the person subjected to execution according to law."
+        }
+      ],
+      "conclusion": "The horizontal penetration rule of the new Company Law provides a strong legal weapon for creditors.In a complex business environment, creditors should fully understand and apply this rule, actively collect evidence, and safeguard their rights and interests through legal litigation procedures.At the same time, the company and its shareholders should also strictly abide by laws and regulations, maintain the independence of the company's personality, and avoid falling into unnecessary legal risks.If you encounter legal problems in this respect, you are welcome to contact our law firm at any time, and we will wholeheartedly provide you with professional legal services.",
+      "references": []
+    }
+  }
+}

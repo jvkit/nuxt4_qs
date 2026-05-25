@@ -1,0 +1,46 @@
+{
+  "id": 26,
+  "name": "鲁静",
+  "title": "资深律师",
+  "office": "北京",
+  "practice_areas": [
+    {
+      "name": "强制执行"
+    },
+    {
+      "name": "民商事争议"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/lj.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "鲁静律师是青颂的执业律师，曾就职于最高人民检察院，拥有丰富的司法工作经验，现在专注于执行案件领域。",
+  "featured": false,
+  "sort_order": 9,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.933844+00:00",
+  "updated_at": "2026-05-08T06:43:45.933844+00:00",
+  "profile": {
+    "resume": "鲁静律师是青颂的执业律师，曾就职于最高人民检察院，拥有丰富的司法工作经验，现在专注于执行案件领域，参与、代理多起民商事案件，为多家企业提供法律顾问服务并取得良好法律效果，办理近百起执行案件，具有较为丰富的诉讼、执行案件办理经验。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Jing Lu",
+  "title_en": "Senior Attorney",
+  "office_en": "Beijing",
+  "bio_en": "Lawyer Lu is a practicing lawyer of QingSolve who worked at the Supreme People's Procuratorate before joining QingSolve and has extensive judicial work experience. She now is specialized in enforcement.",
+  "profile_en": {
+    "resume": "Lawyer Lu is a practicing lawyer of QingSolve who worked at the Supreme People's Procuratorate before joining QingSolve and has extensive judicial work experience. She now is specialized in enforcement. She has participated in and represented numerous civil and commercial cases and provided legal advisory services to numerous enterprises, with good outcomes. She has handled nearly 100 enforcement cases and has extensive experience in litigation and enforcement.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  }
+}

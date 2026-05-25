@@ -1,0 +1,49 @@
+{
+  "id": 19,
+  "name": "陈宇华",
+  "title": "合伙人",
+  "office": "上海",
+  "practice_areas": [
+    {
+      "name": "涉外法律咨询"
+    },
+    {
+      "name": "劳动人事"
+    },
+    {
+      "name": "公司治理"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/cyh.jpg",
+  "email": "Amy.Chen@qs-legal.com",
+  "phone": "",
+  "bio": "陈律师是青颂的合伙人，同时是青颂涉外法律咨询服务的负责人。加入青颂之前，陈律师曾就职于欧洲的西盟斯律师联盟以及意大利顶尖律师事务所凯明迪律师事务所。近二十年来，陈律师一直深耕于涉外法律咨询服务领域，在为外国客户提供服务方面积累了丰富的经验（尤其是在劳动领域）。陈律师还是各类商业项目的优秀协调者。",
+  "featured": false,
+  "sort_order": 2,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.899693+00:00",
+  "updated_at": "2026-05-09T05:48:31.284925+00:00",
+  "profile": {
+    "resume": "陈律师是青颂的合伙人，同时是青颂涉外法律咨询服务的负责人。\r\n\r\n加入青颂之前，陈律师曾就职于欧洲的西盟斯律师联盟以及意大利顶尖律师事务所凯明迪律师事务所。近二十年来，陈律师一直深耕于涉外法律咨询服务领域，在为外国客户提供服务方面积累了丰富的经验（尤其是在劳动领域）。陈律师还是各类商业项目的优秀协调者。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Amy Chen",
+  "title_en": "Partner",
+  "office_en": "Shanghai",
+  "bio_en": "Amy Chen is a partner of QingSolve and in charge of foreign related legal advice services. She has worked for the European CMS Law Alliance and Chiomenti Legal Studio (a top law firm in Italy) before joining QingSolve and has been deeply involved in foreign related legal advisory services for nearly 20 years and has cumulated extensive experience in serving foreign clients (especially in the area of labor). She is also an excellent coordinator for various commercial projects.",
+  "profile_en": {
+    "resume": "Amy Chen is a partner of QingSolve and in charge of foreign related legal advice services.\n\nShe has worked for the European CMS Law Alliance and Chiomenti Legal Studio (a top law firm in Italy) before joining QingSolve and has been deeply involved in foreign related legal advisory services for nearly 20 years and has cumulated extensive experience in serving foreign clients (especially in the area of labor). She is also an excellent coordinator for various commercial projects.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  }
+}

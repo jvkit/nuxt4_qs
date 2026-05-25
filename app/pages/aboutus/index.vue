@@ -14,8 +14,8 @@ useSeoMeta({
   ogDescription: () => locale.value === 'zh'
     ? '北京青颂律师事务所成立于2004年，是一家公司化运营的精品律师事务所，专注涉外法律咨询、争议解决、执行领域及体育法律服务。'
     : 'Beijing QingSolve Partners was established in 2004. It is a boutique law firm providing comprehensive legal services.',
-  ogImage: 'https://qs-legal.com/images/aboutus/heading.png',
-  ogUrl: 'https://qs-legal.com/aboutus',
+  ogImage: 'https://www.qs-legal.com/images/aboutus/heading.png',
+  ogUrl: 'https://www.qs-legal.com/aboutus',
   twitterCard: 'summary_large_image',
 })
 

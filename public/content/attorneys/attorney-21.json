@@ -1,0 +1,52 @@
+{
+  "id": 21,
+  "name": "陈琛",
+  "title": "合伙人",
+  "office": "墨尔本",
+  "practice_areas": [
+    {
+      "name": "私募股权"
+    },
+    {
+      "name": "国际仲裁"
+    },
+    {
+      "name": "公司治理"
+    },
+    {
+      "name": "GDPR合规"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/cc.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "陈律师获得悉尼科技大学法学博士学位，持有中国执业律师资格证和澳大利亚律师资格。陈律师专注于私募股权、国际仲裁、公司治理法律服务，也擅长处理GDPR合规法律业务、澳大利亚投资法律咨询。",
+  "featured": false,
+  "sort_order": 4,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.910406+00:00",
+  "updated_at": "2026-05-09T05:48:38.932879+00:00",
+  "profile": {
+    "resume": "陈律师获得悉尼科技大学法学博士学位，持有中国执业律师资格证和澳大利亚律师资格。陈律师专注于私募股权、国际仲裁、公司治理法律服务，也擅长处理GDPR合规法律业务、澳大利亚投资法律咨询（行业涉及航空、汽车、房地产、食品、医疗科技等）。陈律师曾代表国内外客户处理众多重大诉讼案件和非讼项目。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Chen Chen",
+  "title_en": "Partner",
+  "office_en": "Melbourne",
+  "bio_en": "Lawyer Chen obtained a Ph.D degree in law from the University of Technology, Sydney and holds both the practicing license in both China and Australia. He is specialized in private equity, international arbitration and general corporate governance and operation legal advice and GDPR compliance, as well as Australian investment legal advice and support.",
+  "profile_en": {
+    "resume": "Lawyer Chen obtained a Ph.D degree in law from the University of Technology, Sydney and holds both the practicing license in both China and Australia. He is specialized in private equity, international arbitration and general corporate governance and operation legal advice and GDPR compliance, as well as Australian investment legal advice and support (industries involving aviation, automotive, real estate, food, medical technology, etc.). Lawyer Chen has represented numerous major litigation cases and involved in numerous non-litigation projects for domestic and foreign clients.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  }
+}

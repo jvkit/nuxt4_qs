@@ -1,13 +1,14 @@
 <script setup lang="ts">
 // 统一使用 default layout，Hero 背景由 config 控制
 import { computed } from 'vue'
-import { practicesRaw } from './data'
 import type { PracticeRaw } from './data'
 import { useContent } from '~/composables/useContent'
 import { useLocale } from '~/composables/useLocale'
 
 const { t } = useLocale()
-const practices = useContent(practicesRaw as PracticeRaw[])
+
+const { data: practicesRaw } = await useFetch<PracticeRaw[]>('/api/practice-areas')
+const practices = useContent(practicesRaw.value || [])
 
 function goDetail(slug: string) {
   navigateTo('/practice-areas/' + slug)
@@ -18,8 +19,8 @@ useSeoMeta({
   description: 'QingSolve Law Firm focuses on commercial legal services, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
   ogTitle: () => t.value('practiceAreas.pageTitle') + ' - QingSolve Law Firm',
   ogDescription: 'QingSolve Law Firm focuses on commercial legal services, covering foreign-related legal consulting, dispute resolution, enforcement, and sports law.',
-  ogImage: 'https://qs-legal.com/images/shared/hero/7.png',
-  ogUrl: 'https://qs-legal.com/practice-areas',
+  ogImage: 'https://www.qs-legal.com/images/shared/hero/7.png',
+  ogUrl: 'https://www.qs-legal.com/practice-areas',
   twitterCard: 'summary_large_image',
 })
 </script>

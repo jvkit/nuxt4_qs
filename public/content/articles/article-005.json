@@ -1,0 +1,321 @@
+{
+  "id": 5,
+  "slug": "article-005",
+  "tags": [],
+  "date": "2024-07-18",
+  "translations": {
+    "zh": {
+      "title": "优先受偿权与首封债权分配规则解析：执行程序中如何“抢跑”受偿？",
+      "lead": "在执行案件中，当债务人财产不足以清偿全部债务时，债权人之间的“受偿顺序之争”往往成为关键。优先受偿权如何实现？首封债权人是否享有“先到先得”的优势？本文结合法律规定与实务经验，为您厘清执行分配的底层逻辑。",
+      "meta": {
+        "date": "2024-07-18",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "首封债权≠优先受偿权：法律基本原则"
+        },
+        {
+          "type": "p",
+          "text": "根据《民法典》、《民事诉讼法》及相关司法解释，优先受偿权是法律规定的特定债权人优先于其他债权人甚至优先于其他物权人受偿的权利。首封债权人适当多分配尚无明文规定。执行分配中的受偿顺位通常遵循以下规则："
+        },
+        {
+          "type": "h2",
+          "text": "法定优先权绝对优先"
+        },
+        {
+          "type": "p",
+          "text": "《民法典》规定的法定的优先权主要有抵押权、质权、留置权、建设工程价款优先全等，此外，根据不同的民事法律关系还有船舶优先权、民用航空器优先权、消费性购房优先受偿权等等，我们在此处只简单介绍民法典规定的这几种优先受偿权。"
+        },
+        {
+          "type": "h4",
+          "text": "建设工程价款优先权"
+        },
+        {
+          "type": "p",
+          "text": "根据《民法典》第八百零七条规定，承包人对工程折价、拍卖款享有优先权。"
+        },
+        {
+          "type": "h4",
+          "text": "担保物权（抵押权/质权/留置权）"
+        },
+        {
+          "type": "p",
+          "text": "根据《民法典》第四百一十四条、四百一十五条规定，同一财产上有多个抵押权，都登记的，按登记的时间先后确定清偿顺序，登记的优先于未登记的，都未登记的，按债权比例受偿；同一财产既设立抵押权又设立质权的，按照登记、交付的时间先后确定清偿顺序。"
+        },
+        {
+          "type": "p",
+          "text": "根据《民法典》第四百五十六条规定，同一财产上既有抵押权、质权，又有留置权的，留置权人优先受偿。"
+        },
+        {
+          "type": "h2",
+          "text": "普通债权原则上按比例或查封顺序受偿"
+        },
+        {
+          "type": "p",
+          "text": "若被执行人为自然人或其他组织，其财产不足清偿全部债务时，普通债权人按债权比例分配（根据参与分配规则）。"
+        },
+        {
+          "type": "p",
+          "text": "被执行人为企业法人，若未进入破产程序，普通债权人按查封先后顺序受偿；若进入破产程序，则按破产清算规则统一分配。"
+        },
+        {
+          "type": "h2",
+          "text": "首封债权人的“优势”：能否多分一杯羹？"
+        },
+        {
+          "type": "p",
+          "text": "首封债权人（普通债权人）的受偿地位需分情形讨论："
+        },
+        {
+          "type": "p",
+          "text": "情形1：被执行人为自然人/其他组织——按比例分配"
+        },
+        {
+          "type": "p",
+          "text": "财产不足清偿全部债务时，适用参与分配制度："
+        },
+        {
+          "type": "h2",
+          "text": "优先权人直接主张优先受偿；（《民诉法司法解释》第五百零六条）。"
+        },
+        {
+          "type": "h2",
+          "text": "普通债权人原则上按债权比例分配（《民诉法司法解释》第五百零八条）。"
+        },
+        {
+          "type": "p",
+          "text": "例外：部分地区允许首封债权人多分10%-20%，尽管法律未明文规定首封债权可优先受偿，但多地法院为鼓励债权人积极查找财产，允许首封普通债权人适当多分一定比例，具体规则如下："
+        },
+        {
+          "type": "h4",
+          "text": "该“奖励”仅针对普通债权，不得突破法定优先权顺位；"
+        },
+        {
+          "type": "h4",
+          "text": "具体比例以当地法院规定为准。"
+        },
+        {
+          "type": "h4",
+          "text": "需提供首封贡献证明（如查找财产线索的证据）。"
+        },
+        {
+          "type": "p",
+          "text": "情形2：被执行人为企业法人——首封可能“逆袭”"
+        },
+        {
+          "type": "h2",
+          "text": "未进入破产程序：按查封顺序清偿（首封优先）。"
+        },
+        {
+          "type": "p",
+          "text": "依据《民诉法司法解释》第五百一十四条，若被执行人财产未进入破产程序，法定的优先受偿债权仍然优先，但普通债权按查封先后顺序受偿，此时首封债权人可以占据先发优势。"
+        },
+        {
+          "type": "h2",
+          "text": "进入破产程序"
+        },
+        {
+          "type": "p",
+          "text": "依据《民诉法司法解释》第五百一十三条，若被执行人进入破产程序，执行法院应当裁定终结对该被执行人的执行。根据《企业破产法》第一百零九条和第一百一十条，对破产人的特定财产享有担保权的权利人可就该特定财产享有优先受偿权，首封优势消失，其他所有普通债权按比例清偿。"
+        },
+        {
+          "type": "h2",
+          "text": "实务操作建议"
+        },
+        {
+          "type": "h2",
+          "text": "首封与多分规则并用"
+        },
+        {
+          "type": "p",
+          "text": "在支持多分的地区，执行前通过财产保全或执行阶段及时查找财产线索（如银行账户、房产、股权等），抢先查封债务人核心资产；争取成为首封债权人。需要注意优先申请查封易变现、价值高无权利负担的财产，避免查封低效资产。"
+        },
+        {
+          "type": "p",
+          "text": "首封债权人人可通过提供查封时间证明、财产线索来源记录（如自行调查的书面材料、悬赏公告回执）、保全费用凭证、向执行法院书面说明首封行为对财产查控的贡献等。及时申请执行法院酌定多分比例。"
+        },
+        {
+          "type": "h2",
+          "text": "规避破产程序冲击："
+        },
+        {
+          "type": "p",
+          "text": "若债务人资不抵债，首封优势可能被破产程序打破，因此在债务人或其他债权人申请债务人破产前，尽快处置财产并分配；若其他债权人已申请破产，首封债权人也可及时申报债权并主张首封贡献，部分破产管理人可能酌情考虑。"
+        },
+        {
+          "type": "h2",
+          "text": "风险警示：这些雷区千万别踩！"
+        },
+        {
+          "type": "p",
+          "text": "“躺在权利上睡觉”：若首封债权人未及时主张优先权或申请参与分配，视为放弃权利；"
+        },
+        {
+          "type": "p",
+          "text": "“误判财产线索”： 若财产已被其他优先权完全覆盖，首封财产价值不足时首封仅增加程序成本，需提前评估财产价值与优先权范围。"
+        }
+      ],
+      "references": [],
+      "conclusion": "执行分配是“法律规则”与“诉讼策略”的双重博弈。首封债权虽不直接等同于优先权，但通过合理运用查封顺序规则及地方司法政策，仍可显著提升受偿可能性。债权人需结合案件管辖地规则、债务人主体类型制定针对性策略，必要时建议委托专业律师介入，以最大化实现债权。\n关注我们，获取更多执行实务干货！\n（本文仅为实务要点提炼，具体案件需结合管辖法院规则制定策略。）"
+    },
+    "en": {
+      "title": "Interpretation of the rules for the distribution of priority to be repaid and the first creditor's right: How to\" rush \"to be repaid in the execution procedure?",
+      "lead": "In enforcement cases, when the debtor's property is insufficient to pay off all debts, the\" dispute over the order of repayment \"between creditors often becomes the key.How can the priority of repayment be realized?Does the initial creditor enjoy the \"first come, first served\" advantage?This article combines legal provisions and practical experience to clarify the underlying logic of enforcement distribution for you.",
+      "subtitle": "",
+      "meta": {
+        "date": "2024-07-18",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "The first creditor's right has the priority of repayment: the basic principle of law"
+        },
+        {
+          "type": "p",
+          "text": "According to the Civil Code, the Civil Procedure Law and relevant judicial interpretations, the priority of compensation is the right of specific creditors to be compensated in priority to other creditors or even to other property owners as stipulated by law.There is no clear provision for the appropriate distribution of the initial creditors.The order of repayment in the enforcement of an allocation generally follows the following rules:"
+        },
+        {
+          "type": "h2",
+          "text": "Statutory priority absolute priority"
+        },
+        {
+          "type": "p",
+          "text": "The statutory priorities stipulated in the Civil Code mainly include mortgage, pledge, lien, priority of construction project price, etc. In addition, according to different civil legal relations, there are ship liens, civil aircraft liens, priority of compensation for consumer housing, etc. We will only briefly introduce these priority rights stipulated in the Civil Code here."
+        },
+        {
+          "type": "h4",
+          "text": "Priority of Construction Project Price"
+        },
+        {
+          "type": "p",
+          "text": "According to Article 807 of the Civil Code, the contractor shall enjoy priority over the project discount and auction money."
+        },
+        {
+          "type": "h4",
+          "text": "Security interest (mortgage/pledge/lien)"
+        },
+        {
+          "type": "p",
+          "text": "According to the provisions of Articles 414 and 415 of the Civil Code, if there are multiple mortgages on the same property and all of them are registered, the order of repayment shall be determined according to the time of registration, and the registered ones shall have priority over the unregistered ones. If none of them is registered, they shall be compensated according to the proportion of creditor's rights;If both the mortgage right and the pledge right are established for the same property, the order of repayment shall be determined according to the time of registration and delivery."
+        },
+        {
+          "type": "p",
+          "text": "According to the provisions of Article 456 of the Civil Code, if there is both a mortgage, a pledge and a lien on the same property, the lienor shall have the priority to be repaid."
+        },
+        {
+          "type": "h2",
+          "text": "In principle, ordinary creditor's rights shall be paid in proportion or in the order of seizure"
+        },
+        {
+          "type": "p",
+          "text": "If the person subjected to execution is a natural person or other organization, and his property is insufficient to pay off all his debts, the ordinary creditor shall distribute it in proportion to his creditor's rights (according to the rules of participation in distribution)."
+        },
+        {
+          "type": "p",
+          "text": "If the person subjected to execution is an enterprise juridical person and has not entered the bankruptcy proceedings, the ordinary creditors shall be compensated in the order of seizure;If it enters the bankruptcy proceedings, it shall be distributed uniformly in accordance with the bankruptcy liquidation rules."
+        },
+        {
+          "type": "h2",
+          "text": "The\" advantages \"of the initial creditors: Can they have a bigger share?"
+        },
+        {
+          "type": "p",
+          "text": "The repayment status of the initial creditor (ordinary creditor) shall be discussed according to the circumstances:"
+        },
+        {
+          "type": "p",
+          "text": "Case 1: The person subjected to execution is a natural person/other organization - distributed in proportion"
+        },
+        {
+          "type": "p",
+          "text": "When the property is insufficient to pay off all the debts, the system of participation in distribution shall apply:"
+        },
+        {
+          "type": "h2",
+          "text": "The priority holder directly claims priority in compensation;(Article 506 of the Judicial Interpretation of the Civil Procedure Law)."
+        },
+        {
+          "type": "h2",
+          "text": "In principle, ordinary creditors shall be distributed in proportion to their creditor's rights (Article 508 of the Judicial Interpretation of the Civil Procedure Law)."
+        },
+        {
+          "type": "p",
+          "text": "Exceptions: In some areas, the initial creditor is allowed to be given an additional 10% -20%. Although the law does not expressly stipulate that the initial creditor's right may be paid in priority, the courts in many places allow the initial ordinary creditor to give an appropriate additional proportion in order to encourage creditors to actively search for property, and the specific rules are as follows:"
+        },
+        {
+          "type": "h4",
+          "text": "The\" reward \"is only for ordinary creditor's rights and shall not exceed the legal priority order;"
+        },
+        {
+          "type": "h4",
+          "text": "The specific proportion shall be subject to the provisions of the local court."
+        },
+        {
+          "type": "h4",
+          "text": "Proof of first contribution is required (such as evidence of finding property clues)."
+        },
+        {
+          "type": "p",
+          "text": "Case 2: The person subjected to execution is an enterprise juridical person - the first seal may\" counterattack \""
+        },
+        {
+          "type": "h2",
+          "text": "Not in bankruptcy proceedings: liquidation shall be made in the order of seizure (priority shall be given to the first seal)."
+        },
+        {
+          "type": "p",
+          "text": "According to Article 514 of the Judicial Interpretation of the Civil Procedure Law, if the property of the person subjected to execution has not entered the bankruptcy proceedings, the statutory priority creditor's rights shall still be given priority, but the ordinary creditor's rights shall be paid in the order of seizure, and the first creditor may occupy the first mover advantage."
+        },
+        {
+          "type": "h2",
+          "text": "Entering bankruptcy proceedings"
+        },
+        {
+          "type": "p",
+          "text": "According to Article 513 of the Judicial Interpretation of the Civil Procedure Law, if the person subjected to execution enters the bankruptcy proceedings, the execution court shall rule to terminate the execution of the person subjected to execution.According to Articles 109 and 110 of the Enterprise Bankruptcy Law, the obligee who has a security right over the specific property of the bankrupt may enjoy the priority of repayment with respect to the specific property, the first seal advantage disappears, and all other ordinary creditor's rights are paid off in proportion."
+        },
+        {
+          "type": "h2",
+          "text": "Suggestions for practical operation"
+        },
+        {
+          "type": "h2",
+          "text": "First envelope combined with multiple rules"
+        },
+        {
+          "type": "p",
+          "text": "In areas that support multiple distribution, property clues (such as bank accounts, real estate, equity, etc.) shall be searched in time through property preservation or implementation stage before implementation to seize the core assets of the debtor first;Strive to be the first creditor.Attention should be paid to giving priority to the application for sealing up property that is easy to realize, high in value and free from encumbrances, so as to avoid sealing up inefficient assets."
+        },
+        {
+          "type": "p",
+          "text": "The creditor of the first seal may provide proof of the time of seizure, records of the source of property clues (such as written materials for self-investigation, receipt of reward announcement), vouchers for preservation expenses, and written explanations to the enforcement court of the contribution of the first seal to the property investigation and control.The court applying for enforcement in a timely manner shall decide on the proportion of multiple points."
+        },
+        {
+          "type": "h2",
+          "text": "Avoiding the impact of insolvency proceedings:"
+        },
+        {
+          "type": "p",
+          "text": "If the debtor is insolvent, the first seal advantage may be broken by the bankruptcy proceedings, so dispose of the property and distribute it as soon as possible before the debtor or other creditors apply for bankruptcy of the debtor;If other creditors have applied for bankruptcy, the first creditor may also declare the creditor's rights in time and claim the first contribution, which may be considered by some bankruptcy administrators at their discretion."
+        },
+        {
+          "type": "h2",
+          "text": "Risk warning: Do not step on these minefields!"
+        },
+        {
+          "type": "p",
+          "text": "Sleeping on rights\": If the first creditor fails to claim the priority or apply for participation in the distribution in time, it shall be deemed to have waived its rights;"
+        },
+        {
+          "type": "p",
+          "text": "Clue of Misjudgment of Property\": If the property has been fully covered by other priorities, the first seal only increases the cost of the procedure when the value of the first seal property is insufficient, and the value of the property and the scope of priority need to be assessed in advance."
+        }
+      ],
+      "conclusion": "Distribution of execution is a dual game between\" legal rules \"and\" litigation strategies \".Although the first claim is not directly equivalent to the priority, the possibility of repayment can still be significantly enhanced through the rational use of the rules of seizure order and local judicial policies.Creditors need to formulate targeted strategies in combination with the rules of jurisdiction of the case and the types of debtors, and suggest entrusting professional lawyers to intervene when necessary to maximize the realization of creditor's rights.\\N Follow us for more executive dry goods!\\N (This article is only for the extraction of practical points, and specific cases need to be formulated in accordance with the rules of the competent court.）",
+      "references": []
+    }
+  }
+}

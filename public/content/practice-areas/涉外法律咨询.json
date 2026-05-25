@@ -1,0 +1,53 @@
+{
+  "slug": "涉外法律咨询",
+  "translations": {
+    "zh": {
+      "name": "涉外法律咨询",
+      "overview": [
+        "青颂的涉外法律团队拥有资深的律师，具有近20年的服务欧洲各国和中国国内的各行业企业的涉外法律咨询服务经验，能够针对客户的问题和需求提供高效而定制化的咨询服务。具体服务领域涉及公司法、外商投资、并购、国内和跨境商事合同和劳动等。此外，青颂与外部专业团队合作，提供知识产权和项目融资方面的法律咨询服务。",
+        "青颂团队律师可以独立用中、英文语言提供咨询服务。此外，在团队意大利顾问的协助下，青颂团队也可以用意大利语言提供咨询服务。"
+      ],
+      "cases": [
+        "长期为各行业境外公司提供日常运营支持（包括500强欧洲能源公司）提供日常法律咨询，涉及的服务如：商标和商标侵权事物的处理和咨询、商务合同审阅、劳动事项咨询、公司各项变更手续的办理；协助客户处理运营过程中的合规事宜等；",
+        "协助境外投资方处理外商独资企业在中国境内设立的各项事务，涉及的服务如：代表客户与目的地地方政府关于优惠政策的协商、谈判事宜，审阅相关优惠待遇的协议；审阅租赁协议；审阅装修和厂房建设协议；办理设立手续；起草劳动合同等；",
+        "协助制造业公司跨省市迁移：涉及的服务如：协助办理迁移相关手续；协助客户处理劳动问题；",
+        "协助境外公司（行业涉及食品、零售业、贸易和制造业）在中国市场的并购，涉及的服务如：目标公司尽职调查并制作相关报告；起草并购相关的各类法律文件，并协助客户参与谈判；协助客户交割；协助客户办理相关变更手续等；",
+        "协助境外化工公司处理中国合资公司的撤资事宜；",
+        "协助境外投资方处理与中方股东之间就合资公司运营和股权的争议事项；",
+        "为各行业外商投资公司和境内投资公司提供劳动方面咨询并协助处理相关事宜，涉及的服务如：起草各类劳动相关合同（劳动合同、劳务合同、解除协议、规章制度、警告函等）；代表客户与员工进行解除谈判；代表投资方参与并购导致的集体性劳动事件的处理；代表客户在清算过程中处理劳动事宜；协助客户处理员工的违法违规（犯罪）行为等；和协助投资方处理清算中的劳动问题。"
+      ],
+      "services": [
+        "跨境投资及并购",
+        "公司治理及合规",
+        "劳动人事法律咨询",
+        "市场准入",
+        "合资和战略合作",
+        "知识产权保护"
+      ]
+    },
+    "en": {
+      "name": "Legal Advisory Services on Foreign Related Matters",
+      "overview": [
+        "QingSolve's foreign-related legal advisory team has senior lawyers with nearly 20 years of experience in providing legal advisory services to clients of various industries coming from abroad. They are able to provide efficient and customized advisory services based on clients' issues and needs. The specific service areas cover, among others, company law, foreign investment, mergers and acquisitions, domestic and cross-border commercial contracts and labour. In addition, QingSolve collaborates with external professional teams to enable it to provide legal advisory services on intellectual property and project financing.",
+        "QingSolve lawyers can independently provide legal advisory services in both Chinese and English languages. In addition, with the assistance of Italian consultants in the team, QingSolve team can also provide services in Italian language."
+      ],
+      "cases": [
+        "Long-term provision of daily operational support for foreign companies in various industries (including Fortune 500 European energy companies), providing daily legal advisory services such as: handling and advice on trademark and trademark infringement matters, reviewing commercial contracts, advice and assistance on labor matters, handling various company changing formalities, assisting clients in handling compliance matters during their operation, etc.;",
+        "Assisting foreign investors in handling various affairs related to the establishment of wholly foreign-owned enterprises in China, providing services such as: representing clients in negotiations with local governments on preferential treatment policies and reviewing relevant preferential treatment agreements, reviewing lease agreements; reviewing the decoration and factory construction agreements; handling establishment procedures; drafting labour contracts, etc.;",
+        "Assisting manufacturing companies in relocating across provinces and cities, providing services such as: assisting in handling relocation related procedures, assisting clients in handling labour issues;",
+        "Assisting foreign companies (in industries such as food, retail, trade and manufacturing) in mergers and acquisitions in China, providing services such as due diligence on the target company and draft of relevant report, drafting various legal documents related to mergers and acquisitions and assisting clients in participating in negotiations, assisting clients in closing; assisting clients in handling relevant changing procedures, etc.;",
+        "Assisting foreign chemical company in handling the divestment in its Chinese joint ventures;",
+        "Assisting foreign investors in resolving disputes with Chinese shareholders regarding the operation and equity of the joint venture company;",
+        "Advising on labour relating matters and assisting in handling labour related matters for foreign-invested and domestic companies in various industries, including drafting various labour related contracts (labour contracts, service contracts, termination agreements, internal rules and regulations, warning letters, etc.), representing clients in negotiations with employees for termination, representing investors in handling collective labour disputes resulting from M&A, representing clients in handling labour matters during the liquidation; assisting clients in dealing with employees' illegal and irregular (criminal) behaviors, assisting investors in handling labour matters during liquidation."
+      ],
+      "services": [
+        "Cross-border Investment/M&A",
+        "Corporate Operation and Compliance",
+        "Labour Consult",
+        "Market Entry",
+        "Joint Venture & Strategy Cooperation",
+        "Intellectual Property"
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": 15,
+  "slug": "bul",
+  "date": "2024-01-01",
+  "tags": [],
+  "translations": {
+    "zh": {
+      "title": "因： fetchArticles 之前用 $fetch 在 onMounted 里客户端调用，有时候请求发不出去。现在改成在 <script setup> 顶层用 use",
+      "subtitle": "",
+      "lead": "Fetch，SSR 阶段就把文章列表取好了，登录后直接显示，刷新也用 refresh() 重新拉取。",
+      "meta": {
+        "date": "2024-01-01",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "验证： 测试确认 admin 页面 SSR 源码中已包含全部 9 篇文章，没有\"暂无文章\"提示了。"
+        },
+        {
+          "type": "p",
+          "text": "──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
+        },
+        {
+          "type": "h4",
+          "text": "重新 npm run build 部署即可。"
+        },
+        {
+          "type": "h4",
+          "text": "✨ 所以现在只要上传文章就自动的给加到前端是吗？"
+        },
+        {
+          "type": "p",
+          "text": "• 用户确认一下：上传 Word 文件后，文章是否会自动显示在前端。"
+        },
+        {
+          "type": "p",
+          "text": "答案是是的，因为："
+        },
+        {
+          "type": "list-item",
+          "text": "1. Word 文件通过 server/api/admin/upload.post.ts 转换为 JSON"
+        },
+        {
+          "type": "list-item",
+          "text": "2. JSON 文件写入 public/content/articles/"
+        },
+        {
+          "type": "list-item",
+          "text": "3. 前端页面通过 /api/articles 和 /api/article/:slug 动态读取"
+        },
+        {
+          "type": "h4",
+          "text": "4. 不需要重新构建"
+        },
+        {
+          "type": "p",
+          "text": "但有一个细节需要注意：上传后的文章是中文的，英文部分是空的。如果需要英文版，需要后续补充。"
+        },
+        {
+          "type": "p",
+          "text": "另外，如果用户通过 Word 上传，生成的文章 ID 是自动递增的（通过 get_next_id 函数），slug 是文件名。"
+        },
+        {
+          "type": "h4",
+          "text": "让我给用户一个清晰的确认。"
+        },
+        {
+          "type": "h4",
+          "text": "• 是的，完全自动！"
+        },
+        {
+          "type": "p",
+          "text": "Word 上传后的完整流程："
+        },
+        {
+          "type": "h4",
+          "text": "老板拖拽 Word 到 /admin 后台"
+        },
+        {
+          "type": "h4",
+          "text": "↓"
+        },
+        {
+          "type": "h4",
+          "text": "服务端调用 Python 脚本解析 Word"
+        },
+        {
+          "type": "h4",
+          "text": "↓"
+        },
+        {
+          "type": "p",
+          "text": "生成 article-xxx.json 到 public/content/articles/"
+        },
+        {
+          "type": "h4",
+          "text": "↓"
+        },
+        {
+          "type": "h4",
+          "text": "前端 /article 列表页立即显示新文章"
+        },
+        {
+          "type": "h4",
+          "text": "前端 /article/xxx 详情页也能直接访问"
+        },
+        {
+          "type": "h4",
+          "text": "↓"
+        },
+        {
+          "type": "h4",
+          "text": "不需要 npm run build，不需要重启服务器"
+        },
+        {
+          "type": "p",
+          "text": "──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
+        },
+        {
+          "type": "p",
+          "text": "但有两个小细节需要你注意："
+        },
+        {
+          "type": "p",
+          "text": "┌──────────┬──────────────────────────────┬─────────────────────────────────────┐"
+        },
+        {
+          "type": "p",
+          "text": "│ 项目     │ 现状                         │ 建议                                │"
+        },
+        {
+          "type": "p",
+          "text": "├──────────┼──────────────────────────────┼─────────────────────────────────────┤"
+        },
+        {
+          "type": "p",
+          "text": "│ 英文翻译 │ 上传后 en 部分是空的         │ 需要后续翻译，或在 admin 后台补     │"
+        },
+        {
+          "type": "p",
+          "text": "│ 日期     │ 默认 2024-01-01              │ 可以在 admin 后台编辑修改为真实日期 │"
+        },
+        {
+          "type": "p",
+          "text": "│ 文章 ID  │ 自动递增（取现有最大 ID +1） │ 基本不用管                          │"
+        },
+        {
+          "type": "p",
+          "text": "└──────────┴──────────────────────────────┴─────────────────────────────────────┘"
+        },
+        {
+          "type": "p",
+          "text": "──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
+        },
+        {
+          "type": "p",
+          "text": "所以老板以后的工作流就是："
+        },
+        {
+          "type": "h4",
+          "text": "1. 把 Word 文章写好"
+        },
+        {
+          "type": "h4",
+          "text": "2. 打开 /admin，拖拽上传"
+        },
+        {
+          "type": "h4",
+          "text": "3. 如果日期或标题要微调，点\"编辑\"改一下"
+        },
+        {
+          "type": "h4",
+          "text": "4. 完事儿"
+        },
+        {
+          "type": "p",
+          "text": "英文版要么你后续批量翻译，要么暂时只展示中文版（把语言切换按钮藏起来）。"
+        },
+        {
+          "type": "p",
+          "text": "需要我把语言切换按钮在英文内容为空时自动隐藏吗？这样用户不会看到空白英文页面。"
+        },
+        {
+          "type": "p",
+          "text": "✨ 偶发的bug：❌ 55.docx: [POST] \"/api/admin/upload\": 500 : Command failed: python \"D:\\treasure\\job\\QSong_new\\qsong_nuxt"
+        },
+        {
+          "type": "p",
+          "text": "\\scripts\\word_converter.py\" \"D:\\treasure\\job\\QSong_new\\qsong_nuxt\\tmp_upload\\55.docx\" \"D:\\treasure\\job\\QSong_new\\qsong_n"
+        },
+        {
+          "type": "p",
+          "text": "uxt\\public\\content\\articles\"，其次我们考虑一下英语版本的怎么实现好呢？也是直接解析吗？感觉会不太一样"
+        },
+        {
+          "type": "h4",
+          "text": "🌗"
+        }
+      ],
+      "references": [],
+      "conclusion": ""
+    },
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "lead": "",
+      "meta": {
+        "date": "2024-01-01",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [],
+      "references": [],
+      "conclusion": ""
+    }
+  }
+}

@@ -10,7 +10,6 @@
  */
 
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
-import { practicesRaw } from './data'
 import type { PracticeRaw } from './data'
 import { useContentItem } from '~/composables/useContent'
 import { useLocale } from '~/composables/useLocale'
@@ -18,7 +17,8 @@ import { useLocale } from '~/composables/useLocale'
 const route = useRoute()
 const { t } = useLocale()
 
-const practice = useContentItem(practicesRaw as PracticeRaw[], (p) => p.slug === (route.params.slug as string))
+const { data: practicesRaw } = await useFetch<PracticeRaw[]>('/api/practice-areas')
+const practice = useContentItem(practicesRaw.value || [], (p) => p.slug === (route.params.slug as string))
 
 /* -------- 目录导航 -------- */
 const navItems = computed(() => {
@@ -65,8 +65,8 @@ useSeoMeta({
   description: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : 'QingSolve Law Firm practice area details',
   ogTitle: () => practice.value?.name ? practice.value.name + ' - QingSolve Law Firm' : 'Practice Area Detail',
   ogDescription: () => practice.value?.overview?.[0] ? practice.value.overview[0].slice(0, 160) : 'QingSolve Law Firm practice area details',
-  ogImage: 'https://qs-legal.com/images/shared/hero/7.png',
-  ogUrl: () => 'https://qs-legal.com/practice-areas/' + route.params.slug,
+  ogImage: 'https://www.qs-legal.com/images/shared/hero/7.png',
+  ogUrl: () => 'https://www.qs-legal.com/practice-areas/' + route.params.slug,
   twitterCard: 'summary_large_image',
 })
 </script>

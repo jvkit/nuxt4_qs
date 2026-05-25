@@ -1,25 +1,33 @@
 <script setup lang="ts">
 // 统一使用 default layout，Hero 背景由 config 控制
 import { computed } from 'vue'
-import { articlesRaw } from './data'
 import type { ArticleRaw } from './data'
 import ArticleRenderer from '~/components/ArticleRenderer.vue'
-import { useContentItem } from '~/composables/useContent'
 import { useLocale } from '~/composables/useLocale'
 
 const route = useRoute()
 const { locale, t } = useLocale()
 const slug = computed(() => route.params.slug as string)
 
-const article = useContentItem(articlesRaw as ArticleRaw[], (a) => a.slug === slug.value)
+// 运行时从 API 获取单篇文章
+const { data: rawArticle } = await useFetch<ArticleRaw>(`/api/article/${slug.value}`)
+
+// 手动处理多语言翻译（与 useContentItem 相同逻辑）
+const article = computed(() => {
+  const item = rawArticle.value
+  if (!item) return null
+  const tr = item.translations[locale.value] || item.translations['zh'] || {}
+  const { translations, ...rest } = item
+  return { ...rest, ...tr } as any
+})
 
 useSeoMeta({
   title: () => article.value?.title ? article.value.title + ' - QingSolve Law Firm' : 'Article Detail',
   description: () => article.value?.lead ? article.value.lead.slice(0, 160) : 'QingSolve Law Firm article',
   ogTitle: () => article.value?.title ? article.value.title + ' - QingSolve Law Firm' : 'Article Detail',
   ogDescription: () => article.value?.lead ? article.value.lead.slice(0, 160) : 'QingSolve Law Firm article',
-  ogImage: 'https://qs-legal.com/images/shared/hero/5.png',
-  ogUrl: () => 'https://qs-legal.com/article/' + route.params.slug,
+  ogImage: 'https://www.qs-legal.com/images/shared/hero/5.png',
+  ogUrl: () => 'https://www.qs-legal.com/article/' + route.params.slug,
   twitterCard: 'summary_large_image',
 })
 
@@ -35,11 +43,11 @@ useSchemaOrg(() =>
           },
           datePublished: article.value.meta?.date,
           dateModified: article.value.meta?.date,
-          image: 'https://qs-legal.com/images/shared/hero/5.png',
+          image: 'https://www.qs-legal.com/images/shared/hero/5.png',
           publisher: {
             '@type': 'Organization',
             name: locale.value === 'zh' ? '北京青颂律师事务所' : 'Beijing QingSolve Law Firm',
-            url: 'https://qs-legal.com',
+            url: 'https://www.qs-legal.com',
           },
         }),
       ]

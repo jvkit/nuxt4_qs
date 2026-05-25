@@ -69,10 +69,7 @@ async function fetchLawyer() {
   loading.value = true
   errorMsg.value = ''
   try {
-    const res = await $fetch<{
-      attorneys: LawyerDetail[]
-    }>('/data/attorneys.json')
-    lawyer.value = res.attorneys.find((a) => a.id === id) || null
+    lawyer.value = await $fetch<LawyerDetail>(`/api/attorney/${id}`)
     if (!lawyer.value) {
       errorMsg.value = t('attorney.detailNotFound')
     }
@@ -101,8 +98,8 @@ useSeoMeta({
   description: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : 'QingSolve Law Firm attorney details',
   ogTitle: () => lawyer.value?.name ? lawyer.value.name + ' - QingSolve Law Firm' : 'Attorney Detail',
   ogDescription: () => lawyer.value?.bio ? lawyer.value.bio.slice(0, 160) : 'QingSolve Law Firm attorney details',
-  ogImage: () => lawyer.value?.avatar ? 'https://qs-legal.com' + lawyer.value.avatar : 'https://qs-legal.com/images/shared/hero/2.png',
-  ogUrl: () => 'https://qs-legal.com/attorney/' + route.params.id,
+  ogImage: () => lawyer.value?.avatar ? 'https://www.qs-legal.com' + lawyer.value.avatar : 'https://www.qs-legal.com/images/shared/hero/2.png',
+  ogUrl: () => 'https://www.qs-legal.com/attorney/' + route.params.id,
   twitterCard: 'summary_large_image',
 })
 
@@ -114,14 +111,14 @@ useSchemaOrg(() =>
           jobTitle: lawyer.value.title,
           description: lawyer.value.bio,
           image: lawyer.value.avatar
-            ? 'https://qs-legal.com' + lawyer.value.avatar
+            ? 'https://www.qs-legal.com' + lawyer.value.avatar
             : undefined,
           email: lawyer.value.email,
           telephone: lawyer.value.phone,
           worksFor: {
             '@type': 'Organization',
             name: locale.value === 'zh' ? '北京青颂律师事务所' : 'Beijing QingSolve Law Firm',
-            url: 'https://qs-legal.com',
+            url: 'https://www.qs-legal.com',
           },
         }),
       ]

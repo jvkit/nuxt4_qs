@@ -1,0 +1,52 @@
+{
+  "id": 22,
+  "name": "袁瑞祥",
+  "title": "合伙人",
+  "office": "北京",
+  "practice_areas": [
+    {
+      "name": "公司治理"
+    },
+    {
+      "name": "商事争议解决"
+    },
+    {
+      "name": "强制执行"
+    },
+    {
+      "name": "投融资"
+    }
+  ],
+  "image_url": "",
+  "avatar": "/images/attorney/avatars/yrx.jpg",
+  "email": "",
+  "phone": "",
+  "bio": "袁律师是青颂的高级律师。袁律师擅长公司治理和运营中的法律咨询、商事争议解决诉讼、强制执行与资产处置、投融资领域的法律事务。",
+  "featured": false,
+  "sort_order": 5,
+  "is_active": true,
+  "created_at": "2026-05-08T06:43:45.915462+00:00",
+  "updated_at": "2026-05-08T06:43:45.915462+00:00",
+  "profile": {
+    "resume": "袁律师是青颂的高级律师。袁律师擅长公司治理和运营中的法律咨询（劳资纠纷、股权争议、控制权争夺等）、商事争议解决诉讼、强制执行与资产处置、投融资领域的法律事务，具有多年的实操经验和深刻理解。执业以来，尤其擅长从实现委托人商业利益和需求的角度就疑难复杂法律问题和监管合规事项提出可操作的整体解决方案。",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  },
+  "name_en": "Rui Xiang Yuan",
+  "title_en": "Partner",
+  "office_en": "Beijing",
+  "bio_en": "Lawyer Yuan is a senior lawyer of QingSolve. Lawyer Yuan is specialized in legal advice relating to corporate governance and operation, commercial dispute resolution, enforcement and asset disposal, and investment and financing.",
+  "profile_en": {
+    "resume": "Lawyer Yuan is a senior lawyer of QingSolve. Lawyer Yuan is specialized in legal advice relating to corporate governance and operation (labour disputes, equity disputes, control disputes, etc.) and investment and financing, commercial dispute resolution, enforcement and asset disposal, with many years of experience and profound understanding. He is particularly adept at proposing pragmatic and actionable overall solutions to complex legal issues and regulatory compliance issues from the perspective of realizing the client's commercial interests and needs.",
+    "representative_cases": "",
+    "education": "",
+    "qualifications": "",
+    "work_experience": "",
+    "awards": "",
+    "other": ""
+  }
+}

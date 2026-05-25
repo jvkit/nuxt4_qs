@@ -31,6 +31,3 @@ export interface Article extends ArticleTranslation {
   date: string
   tags: string[]
 }
-
-import rawData from './articles.json'
-export const articlesRaw = rawData as ArticleRaw[]

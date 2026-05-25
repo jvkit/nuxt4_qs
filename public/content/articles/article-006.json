@@ -1,0 +1,274 @@
+{
+  "id": 6,
+  "slug": "article-006",
+  "tags": [],
+  "date": "2024-08-05",
+  "translations": {
+    "zh": {
+      "title": "跨境执行中国判决与仲裁裁决：法律框架与实务指南",
+      "lead": "跨境执行是法律规则、司法互信与国际协作的综合博弈。企业应在争议发生前规划管辖条款，胜诉后结合目标国法律动态设计执行策略。专业律师团队在文件准备、互惠关系举证及程序应对中不可或缺...",
+      "meta": {
+        "date": "2024-08-05",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "引言"
+        },
+        {
+          "type": "p",
+          "text": "随着全球经济一体化加速，跨境争议解决中“胜诉易、执行难”的问题日益凸显。中国法院的生效判决或仲裁裁决如何在境外获得承认与执行？本文结合中国法律、国际条约及典型国家实践，系统梳理法律依据与操作路径，为企业与法律从业者提供实务指引。"
+        },
+        {
+          "type": "h2",
+          "text": "国内法依据"
+        },
+        {
+          "type": "h2",
+          "text": "生效仲裁裁决"
+        },
+        {
+          "type": "p",
+          "text": "根据《民事诉讼法》第二百九十七条第二款规定，中国仲裁委员会作出的生效仲裁裁决需在境外执行时，当事人可以直接向有管辖权的外国法院申请承认和执行。"
+        },
+        {
+          "type": "h2",
+          "text": "生效判决：双轨制执行路径"
+        },
+        {
+          "type": "p",
+          "text": "我国法院作出的判决目前无法依靠国际公约在其他国家得到承认和执行，根据《民事诉讼法》第二百九十七条第一款规定，中国法院的生效判决需在境外执行时，当事人可通过以下两种途径申请："
+        },
+        {
+          "type": "p",
+          "text": "1.直接申请：当事人直接向有管辖权的外国法院申请承认和执行；"
+        },
+        {
+          "type": "p",
+          "text": "2.法院协助请求：人民法院依照中华人民共和国缔结或者参加的国际条约的规定，或者按照互惠原则，请求外国法院承认和执行。"
+        },
+        {
+          "type": "h2",
+          "text": "国际条约框架：多边与双边的双重支撑"
+        },
+        {
+          "type": "h2",
+          "text": "多边条约"
+        },
+        {
+          "type": "h2",
+          "text": "《承认及执行外国仲裁裁决公约》（《1958年纽约公约》）"
+        },
+        {
+          "type": "p",
+          "text": "1986年12月2日我国加入1958年在纽约通过的《承认及执行外国仲裁裁决公约》（以下简称《1958年纽约公约》）该公约自1987年4月22日起对中国生效，主要内容总结如下:"
+        },
+        {
+          "type": "h2",
+          "text": "《承认与执行外国民商事判决公约》（《2019年海牙公约》）"
+        },
+        {
+          "type": "p",
+          "text": "2019年7月2日，海牙国际私法大会（HCCH）第22届外交官大会的代表们签署了《承认与执行外国民商事判决公约》，中国未加入该公约，中国法院做出的生效民商事判决也不能通过该公约在缔约国法院申请承认与执行。主要内容总结如下:"
+        },
+        {
+          "type": "h2",
+          "text": "双边条约"
+        },
+        {
+          "type": "p",
+          "text": "中国与39国签署民商事司法协助协定，其中34国明确包含判决相互执行条款，大致情况梳理如下："
+        },
+        {
+          "type": "h2",
+          "text": "互惠原则：从“事实”到“推定”的突破"
+        },
+        {
+          "type": "p",
+          "text": "我国与美、英、日、韩等与中国经济往来相对密切的国家，都未缔结包括互为承认和执行法院判决、裁定内容的双边司法协助协定，在无条约情况下，互惠原则是执行的核心依据。当事人仅能依据互惠原则申请、请求这些国家法院承认和执行我国法院的生效判决和裁定。各国的国内法中，通常会规定司法礼让原则或互惠原则，并根据各国的司法历史与实践，制定相关的法律。中国近年司法政策显著放宽："
+        },
+        {
+          "type": "h4",
+          "text": "事实互惠"
+        },
+        {
+          "type": "p",
+          "text": "事实互惠是指作出请求承认与执行判决的法院所属国有承认与执行被请求国法院判决的先例，被请求国对该国法院的判决也给予承认和执行以作为回报。"
+        },
+        {
+          "type": "p",
+          "text": "2009年7月22日，美国加州联邦地区法院作出裁决，承认和执行湖北省高级人民法院第（2001）鄂民四初字第1号民事判书。罗宾逊公司随后提起上诉，2011年，3月29日，美国第九巡回上诉法院作出裁定，驳回上诉，维持原判，即承认和执行中国法院的生效判决。"
+        },
+        {
+          "type": "h4",
+          "text": "法律互惠"
+        },
+        {
+          "type": "p",
+          "text": "法律互惠指两国规定了大体相同的承认与执行外国法院判决的条件，并要求以国内立法形式做出互惠保证。"
+        },
+        {
+          "type": "p",
+          "text": "最高人民法院在2022年发布的《全国法院涉外商事海事审判工作座谈会会议纪要》确立“法律互惠”标准，第四十四条第一款第一项规定“根据该法院所在国的法律，人民法院作出的民商事判决可以得到该国法院的承认和执行；”互惠关系的认定不再以相关外国法院对人民法院民商事判决先行给予承认和执行为必要条件。"
+        },
+        {
+          "type": "p",
+          "text": "日本最高法院指出，《日本民事诉讼法》118条第4款规定的“互惠的存在”是指，“原审国对外国判决承认和执行的要求与日本法中所规定的要求没有实质上的区别，从而使同类的日本法院判决也能在原审国有效”。日本采取这种宽泛的互惠认定标准，促进了与判决作出国之间互惠关系的建立，有些日本学者也据此建议在立法中取消互惠的规定。"
+        },
+        {
+          "type": "h4",
+          "text": "推定互惠"
+        },
+        {
+          "type": "p",
+          "text": "推定互惠是指通过两国法院达成的互惠谅解或者共识或者外交互惠承诺等事实推定两国存有互惠关系。2017年6月，在最高人民法院举办的第二届中国-东盟大法官会议上通过了《南宁声明》。声明强调，“与会各国法院将……考虑适当促进各国民商事判决的相互承认和执行。尚未缔结有关外国民商事判决承认和执行国际条约的国家，在承认与执行对方国家民商事判决的司法程序中，如对方国家的法院不存在以互惠为理由拒绝承认和执行本国民商事判决的先例，在本国国内法允许的范围内，即可推定与对方国家之间存在互惠关系。”从而将互惠原则在司法实践中的适用从“事实互惠”标准向“推定互惠”标准迈进，有利于中国与没有条约基础的国家之间开展相关司法协助工作。"
+        },
+        {
+          "type": "p",
+          "text": "2024年：南宁中院首次以“推定互惠”执行泰国判决，释放积极信号。但在实践中，部分国家仍要求事实互惠，需个案举证对方存在执行先例。"
+        }
+      ],
+      "references": [
+        "《中华人民共和国民事诉讼法》",
+        "《全国法院涉外商事海事审判工作座谈会会议纪要》",
+        "《承认及执行外国仲裁裁决公约》",
+        "《承认与执行外国民商事判决公约》",
+        "《关于从国外调取民事或商事证据的公约》",
+        "《【研讨会议题三主题发言】马培德：中国和德国在承认和执行外国判决方面的跨境司法合作》",
+        "《【研讨会议题四主题发言】高晓力：加强民商事国际司法协助 服务国际商事争议解决》"
+      ],
+      "subtitle": "——从国内立法到国际条约及互惠原则的全面解析",
+      "conclusion": "跨境执行是法律规则、司法互信与国际协作的综合博弈。企业应在争议发生前规划管辖条款，胜诉后结合目标国法律动态设计执行策略。专业律师团队在文件准备、互惠关系举证及程序应对中不可或缺。"
+    },
+    "en": {
+      "title": "Cross-border Enforcement of Chinese Judgments and Arbitral Awards: Legal Framework and Practical Guidelines",
+      "lead": "Cross-border enforcement is a comprehensive game of legal rules, judicial mutual trust and international cooperation.Enterprises should plan jurisdiction clauses before disputes occur, and design implementation strategies dynamically in light of the laws of the target country after winning the lawsuit.A team of professional lawyers is indispensable in the preparation of documents, the proof of reciprocity and procedural response.. ",
+      "subtitle": "- Comprehensive analysis from domestic legislation to international treaties and the principle of reciprocity",
+      "meta": {
+        "date": "2024-08-05",
+        "author": "Qingsong Law Firm"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "With the acceleration of global economic integration, the problem of\" victory in litigation and difficulty in enforcement \"in cross-border dispute settlement has become increasingly prominent.How can an effective judgment or arbitral award of a Chinese court be recognized and enforced abroad?Based on Chinese laws, international treaties and typical state practices, this article systematically combs the legal basis and operation path, and provides practical guidance for enterprises and legal practitioners."
+        },
+        {
+          "type": "h2",
+          "text": "Basis of domestic law"
+        },
+        {
+          "type": "h2",
+          "text": "Effective arbitral award"
+        },
+        {
+          "type": "p",
+          "text": "In accordance with the provisions of the second paragraph of Article 297 of the Civil Procedure Law, if an effective arbitral award made by the China Arbitration Commission needs to be enforced abroad, the parties may directly apply to the competent foreign court for recognition and enforcement."
+        },
+        {
+          "type": "h2",
+          "text": "Effective judgment: dual track implementation path"
+        },
+        {
+          "type": "p",
+          "text": "At present, judgments made by Chinese courts cannot be recognized and enforced in other countries by relying on international conventions. According to the first paragraph of Article 297 of the Civil Procedure Law, when an effective judgment of a Chinese court needs to be executed abroad, the parties concerned may apply through the following two channels:"
+        },
+        {
+          "type": "p",
+          "text": "1. Direct application: a party directly applies to a foreign court with jurisdiction for recognition and enforcement;"
+        },
+        {
+          "type": "p",
+          "text": "2. Request for assistance of the court: The people's court shall, in accordance with the provisions of the international treaties concluded or acceded to by the People's Republic of China, or in accordance with the principle of reciprocity, request the foreign court to recognize and enforce them."
+        },
+        {
+          "type": "h2",
+          "text": "International treaty framework: dual support of multilateral and bilateral"
+        },
+        {
+          "type": "h2",
+          "text": "Multilateral treaties"
+        },
+        {
+          "type": "h2",
+          "text": "Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York Convention 1958)"
+        },
+        {
+          "type": "p",
+          "text": "On December 2, 1986, China acceded to the Convention on the Recognition and Enforcement of Foreign Arbitral Awards adopted in New York in 1958 (hereinafter referred to as the\" New York Convention 1958 \"), which shall enter into force for China on April 22, 1987. The main contents are summarized as follows:"
+        },
+        {
+          "type": "h2",
+          "text": "Convention on the Recognition and Enforcement of Foreign Civil and Commercial Judgments (Hague Convention 2019)"
+        },
+        {
+          "type": "p",
+          "text": "On July 2, 2019, representatives of the 22nd Diplomatic Congress of the Hague Conference on Private International Law (HCCH) signed the Convention on the Recognition and Enforcement of Foreign Civil and Commercial Judgments. China has not acceded to the Convention, and the effective civil and commercial judgments made by Chinese courts cannot be applied for recognition and enforcement in the courts of the contracting States through the Convention.The main contents are summarized as follows:"
+        },
+        {
+          "type": "h2",
+          "text": "bilateral treaty"
+        },
+        {
+          "type": "p",
+          "text": "China and 39 countries have signed agreements on judicial assistance in civil and commercial matters, including 34 countries that explicitly include provisions on mutual enforcement of judgments. The general situation is summarized as follows:"
+        },
+        {
+          "type": "h2",
+          "text": "The principle of reciprocity: a breakthrough from\" fact \"to\" presumption \""
+        },
+        {
+          "type": "p",
+          "text": "China has not concluded bilateral judicial assistance agreements with the United States, Britain, Japan, South Korea and other countries with relatively close economic exchanges with China, including mutual recognition and enforcement of court judgments and rulings. In the absence of treaties, the principle of reciprocity is the core basis for enforcement.The parties concerned can only apply for and request the courts of these countries to recognize and enforce the effective judgments and rulings of the courts of our country on the basis of the principle of reciprocity.The principle of judicial courtesy or reciprocity is usually stipulated in the domestic laws of various countries, and relevant laws are formulated according to the judicial history and practice of various countries.China's judicial policies have been significantly relaxed in recent years:"
+        },
+        {
+          "type": "h4",
+          "text": "factual reciprocity"
+        },
+        {
+          "type": "p",
+          "text": "factual reciprocity means that the State to which the court making the request for recognition and enforcement of the judgment belongs has a precedent for recognition and enforcement of the judgment of the court of the requested State, and the requested State has also recognized and enforced the judgment of the court of that State in return."
+        },
+        {
+          "type": "p",
+          "text": "On July 22, 2009, the Federal District Court of California of the United States made a ruling to recognize and enforce the Civil Judgment No. 1 [2001] of the Higher People's Court of Hubei Province.Robinson subsequently filed an appeal, and on March 29, 2011, the United States Court of Appeals for the Ninth Circuit ruled to reject the appeal and uphold the original judgment, that is, to recognize and enforce the effective judgment of the Chinese court."
+        },
+        {
+          "type": "h4",
+          "text": "Legal reciprocity"
+        },
+        {
+          "type": "p",
+          "text": "Legal reciprocity means that both countries stipulate substantially the same conditions for recognition and enforcement of foreign court judgments and require reciprocal assurances in the form of domestic legislation."
+        },
+        {
+          "type": "p",
+          "text": "The Minutes of the National Symposium on Foreign-related Commercial Maritime Trials issued by the Supreme People's Court in 2022 establish the standard of\" legal reciprocity \". Paragraph 1 (1) of Article 44 stipulates that\" according to the law of the country where the court is located, the civil and commercial judgment made by the people's court may be recognized and enforced by the court of the country where the court is located; \"The determination of reciprocity no longer requires the relevant foreign court to recognize and enforce the civil and commercial judgment of the people's court in advance."
+        },
+        {
+          "type": "p",
+          "text": "The Supreme Court of Japan has pointed out that the\" existence of reciprocity \"stipulated in Article 118, paragraph 4, of the Japanese Civil Procedure Law means that\" there is no substantial difference between the requirements for recognition and enforcement of foreign judgments in the original trial country and those stipulated in the Japanese law, so that similar Japanese court judgments can also be valid in the original trial country \".The adoption of such a broad standard of reciprocity in Japan has promoted the establishment of a mutually beneficial relationship with the country making the judgment, and some Japanese scholars have accordingly suggested that the provisions on reciprocity be abolished in legislation."
+        },
+        {
+          "type": "h4",
+          "text": "presumed reciprocity"
+        },
+        {
+          "type": "p",
+          "text": "Presumptive reciprocity refers to the presumption of reciprocity between the two countries through such facts as mutual understanding or consensus reached by the courts of the two countries or diplomatic promise of reciprocity.In June 2017, the Nanning Declaration was adopted at the Second China ASEAN Judges' Meeting held by the Supreme People's Court.The statement emphasizes that \"the courts of the participating countries will... consider appropriate promotion of mutual recognition and enforcement of civil and commercial judgments. A country that has not yet concluded an international treaty on the recognition and enforcement of foreign civil and commercial judgments may presume that there is a reciprocity relationship with the other country to the extent permitted by its domestic law if the courts of the other country do not have a precedent of refusing to recognize and enforce their own civil and commercial judgments on the grounds of reciprocity in the judicial proceedings for the recognition and enforcement of the civil and commercial judgments of the other country.\" Thus, the application of the principle of reciprocity in judicial practice is advanced from the \"factual reciprocity\" standard to the \"presumed reciprocity\" standard, which is conducive to the relevant judicial assistance work between China and countries without a treaty basis."
+        },
+        {
+          "type": "p",
+          "text": "2024: Nanning Intermediate People's Court executes the Thai judgment with\" presumed reciprocity \"for the first time, releasing positive signals.However, in practice, some countries still require reciprocity of facts and need to prove the existence of enforcement precedents in the other party by individual cases."
+        }
+      ],
+      "conclusion": "Cross-border enforcement is a comprehensive game of legal rules, judicial mutual trust and international cooperation.Enterprises should plan jurisdiction clauses before disputes occur, and design implementation strategies dynamically in light of the laws of the target country after winning the lawsuit.A team of professional lawyers is indispensable in the preparation of documents, the proof of reciprocity and procedural response.",
+      "references": []
+    }
+  }
+}
