@@ -1,5 +1,4 @@
 import type { Locale } from '~/composables/useLocale'
-import articlesJson from '../article/articles.json'
 
 // 执业领域名称映射（中→英），与 practices.json 的 translations.en.name 保持一致
 const practiceAreaTitleMap: Record<string, string> = {
@@ -147,9 +146,9 @@ export function getHomeData(locale: Locale) {
 // 首页优势卡片 - 取自真实文章（前3篇）
 const articleImages = ['/images/article/covers/12.jpg', '/images/article/covers/16.jpg', '/images/home/advantages/7.jpg']
 
-export function getAdvantageCards(locale: Locale) {
+export function getAdvantageCards(locale: Locale, articles: any[]) {
   const isZh = locale === 'zh'
-  return articlesJson.slice(0, 3).map((article: any, idx: number) => {
+  return articles.slice(0, 3).map((article: any, idx: number) => {
     const tr = article.translations?.[locale] || article.translations?.zh || article
     const lead = tr.lead || ''
     const desc = lead.length > 80 ? lead.slice(0, 80) + '…' : lead

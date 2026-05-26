@@ -58,8 +58,14 @@ function logout() {
 
 async function deleteArticle(slug: string) {
   if (!confirm(`确定删除文章 ${slug}？`)) return
-  await $fetch(`/api/admin/article/${slug}`, { method: 'DELETE' })
-  await refreshArticles()
+  try {
+    await $fetch(`/api/articles/${slug}`, { method: 'DELETE' })
+    alert('删除成功')
+    await refreshArticles()
+  } catch (e: any) {
+    alert('删除失败: ' + (e.statusMessage || e.message || '未知错误'))
+    console.error(e)
+  }
 }
 
 async function translateArticle(slug: string) {
@@ -117,7 +123,7 @@ async function uploadFiles(files: FileList) {
     const formData = new FormData()
     formData.append('file', file)
     try {
-      const res = await $fetch<{ success: boolean; title: string }>('/api/admin/upload', {
+      const res = await $fetch<{ success: boolean; title: string }>('/api/upload/article', {
         method: 'POST',
         body: formData,
       })

@@ -13,7 +13,7 @@ const isNew = slugParam === 'new'
 // 加载现有文章
 const { data: existingArticle } = isNew
   ? { data: ref<ArticleRaw | null>(null) }
-  : await useFetch<ArticleRaw>(`/api/article/${slugParam}`)
+  : await useFetch<ArticleRaw>(`/api/articles/${slugParam}`)
 
 // 表单数据
 const form = reactive<ArticleRaw>({
@@ -113,7 +113,7 @@ async function save() {
   const oldSlug = isNew ? undefined : slugParam
 
   try {
-    await $fetch('/api/admin/article', {
+    await $fetch('/api/articles', {
       method: 'POST',
       body: form,
       query: oldSlug ? { oldSlug } : undefined,

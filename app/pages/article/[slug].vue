@@ -10,7 +10,9 @@ const { locale, t } = useLocale()
 const slug = computed(() => route.params.slug as string)
 
 // 运行时从 API 获取单篇文章
-const { data: rawArticle } = await useFetch<ArticleRaw>(`/api/article/${slug.value}`)
+const { data: rawArticle } = await useFetch<ArticleRaw>(() => `/api/articles/${slug.value}`, {
+  key: () => `article-${slug.value}`,
+})
 
 // 手动处理多语言翻译（与 useContentItem 相同逻辑）
 const article = computed(() => {

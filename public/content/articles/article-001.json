@@ -184,10 +184,10 @@
     },
     "en": {
       "title": "Reform of Equity Transfer Responsibility: Reconstruction of the Original Shareholders' Liability Boundary under the Old and New Company Laws",
-      "lead": "With the formal implementation of the new Company Law on July 1, 2024, the issue of liability for shareholders after transferring their equity within the term of capital contribution has become the focus of practice. By comparing the old and new legal systems and combining the latest judicial interpretations of the Supreme People's Court, this article systematically combs the liability boundaries of the original shareholders in corporate debts, and provides a reference path for creditors and shareholders to safeguard their rights.",
+      "lead": "With the formal implementation of the new Company Law on July 1, 2024, the issue of liability for shareholders after transferring their equity within the term of capital contribution has become the focus of practice.By comparing the old and new legal systems and combining the latest judicial interpretations of the Supreme People's Court, this article systematically combs the liability boundaries of the original shareholders in corporate debts, and provides a reference path for creditors and shareholders to safeguard their rights.",
       "meta": {
         "date": "2024-03-15",
-        "author": "Qingsong Law Firm"
+        "author": "QingSong Law Firm"
       },
       "blocks": [
         {
@@ -201,7 +201,7 @@
         {
           "type": "law",
           "title": "Provisions of the Supreme People's Court on Several Issues Concerning the Application of the Company Law of the People's Republic of China (III)",
-          "content": "Article 18 Where a shareholder of a limited liability company transfers his equity without performing or fully performing his obligation of capital contribution, and the transferee knows or should know about it, and the company requests the shareholder to perform his obligation of capital contribution, and the transferee shall bear joint and several liability for it, the people's court shall support it;Where a creditor of the company brings a lawsuit against the shareholder in accordance with the second paragraph of Article 13 of these Provisions and requests the above-mentioned transferee to bear joint and several liability for this, the people's court shall support it.\n If the transferee, after assuming the liability in accordance with the provisions of the preceding paragraph, claims compensation from the shareholder who has not fulfilled or has not fully fulfilled the obligation of capital contribution, the people's court shall support it.However, unless otherwise agreed upon by the parties.\n The premise for the application of this interpretation is that the shareholder transfers the equity without fulfilling or fully fulfilling the obligation of capital contribution, and the transferee shall be jointly and severally liable to the company or creditors if he knows or should know that the original shareholder has a defect in capital contribution.At the same time, the interpretation gives the transferee the right of recourse, and the transferee has the right to recover from the original shareholder after assuming the responsibility, unless otherwise agreed by both parties.The creditor or the company shall provide evidence to prove that the transferee \"knows or should know\" the defect of the original shareholder's capital contribution, otherwise it is difficult to require the transferee to assume responsibility.In practice, the court will presume the informed state of the transferee according to the relationship between the transferor and the transferee, the reasonableness of the equity transfer price and other factors."
+          "content": "Article 18 Where a shareholder of a limited liability company transfers his equity without performing or fully performing his obligation of capital contribution, and the transferee knows or should know about it, and the company requests the shareholder to perform his obligation of capital contribution, and the transferee shall bear joint and several liability for it, the people's court shall support it;Where a creditor of the company brings a lawsuit against the shareholder in accordance with the second paragraph of Article 13 of these Provisions and requests the above-mentioned transferee to bear joint and several liability for this, the people's court shall support it.\n If the transferee, after assuming the liability in accordance with the provisions of the preceding paragraph, claims compensation from the shareholder who has not fulfilled or has not fully fulfilled the obligation of capital contribution, the people's court shall support it.However, unless otherwise agreed upon by the parties.\n The premise for the application of this interpretation is that the shareholder transfers the equity without fulfilling or fully fulfilling the obligation of capital contribution, and the transferee shall be jointly and severally liable to the company or creditors if he knows or should know that the original shareholder has a defect in capital contribution.At the same time, the interpretation gives the transferee the right of recourse, and the transferee has the right to recover from the original shareholder after assuming the responsibility, unless otherwise agreed by both parties.The creditor or the company shall provide evidence to prove that the transferee \"knows or should know\" the defect of the original shareholder's capital contribution, otherwise it is difficult to require the transferee to assume responsibility.In practice, the court will presume the informed state of the transferee according to the relationship between the transferor and the transferee (such as kinship, duty relationship), whether the consideration for equity transfer is reasonable and other factors."
         },
         {
           "type": "h2",
@@ -235,13 +235,13 @@
         {
           "type": "viewpoint",
           "title": "Opinion 1: The original shareholder is not exempt from liability and still has the responsibility for capital contribution",
-          "content": "This view holds that although the transfer of equity within the term of subscribed capital contribution is a mutual agreement between the two parties, which conforms to the formal requirements of the general assignment of creditor's rights and debts, the transfer of equity involves the capital adequacy of the company. The shareholder's commitment to and obligation to make up capital contributions are mandatory provisions of the Company Law. The freedom of equity transfer transactions and the exercise of shareholders' term interests shall not harm the interests of the company and the company's creditors. The original shareholder's subscribed capital cannot be transferred along with the equity, and the original shareholder still needs to bear the responsibility for capital contribution."
+          "content": "This view holds that although the transfer of equity with unsubscribed capital contribution before the expiration of the contribution period is a mutual agreement between both parties, conforming to the formal requirements of a general transfer of creditor's rights and debts, equity transfer involves the capital adequacy of the company. The shareholder's commitment to and obligation of making up capital contributions to the company are mandatory provisions of the Company Law. The freedom of equity transfer transactions and the exercise of shareholders' term interests must not harm the interests of the company or its creditors. The original shareholder's subscribed capital contribution cannot be transferred along with the equity, and the original shareholder still bears the responsibility for capital contribution."
         },
         {
           "type": "case",
-          "badge": "Reference Case",
-          "caseId": "(2021) SU03 Min Zhong No. 7173",
-          "content": "(2021) SU03 Min Zhong No. 7173 Case, the court of second instance considers that although the time limit for capital contribution has not expired at the time of equity transfer, Article 18 of Judicial Interpretation III of the Company Law stipulates that \"the shareholders of a limited liability company transfer their equity before and after the expiration of the time limit for capital contribution if they fail to perform or fully perform their obligations for capital contribution\" does not distinguish between the transfer of equity before and after the expiration of the time limit for capital contribution. Therefore, whether the equity is transferred before or after the expiration of the capital contribution period, it falls within the normative intent of Article 18, and the original shareholder shall perform the obligation of capital contribution."
+          "badge": "reference case",
+          "caseid": "(2021) No. 7173, Civil Division, SU03",
+          "content": "(2021) Case No. 7173 of SU03 Civil Division, the court of second instance considers that although the time limit for capital contribution has not expired at the time of equity transfer, Article 18 of Judicial Interpretation III of the Company Law stipulates that\" the shareholders of a limited liability company transfer their equity before and after the expiration of the time limit for capital contribution if they fail to perform or fully perform their obligations for capital contribution \"does not distinguish between the transfer of equity before and after the expiration of the time limit for capital contribution.Therefore, whether the equity is transferred before or after the expiration of the capital contribution period, it falls within the normative intent of Article 18, and the original shareholder shall perform the obligation of capital contribution."
         },
         {
           "type": "viewpoint",
@@ -250,9 +250,9 @@
         },
         {
           "type": "case",
-          "badge": "Reference Case",
-          "caseId": "(2021) Wan Min Zhong No. 427",
-          "content": "(2021) Wan Min Zhong No. 427 Case, the court of first instance took the third paragraph of Article 13 of Judicial Interpretation III of the Company Law as the judgment basis, and determined that the original shareholder shall be liable for supplementary compensation. However, the court of second instance considers that the premise of the original shareholder's liability is that the shareholder has the obligation to actually pay the capital contribution at the time of the establishment of the company, and if the shareholder transfers the equity before the expiration of the capital contribution period, the corresponding capital contribution obligations shall be deemed to be transferred together, and the original shareholder shall no longer be liable for the transferee's capital contribution obligations."
+          "badge": "reference case",
+          "caseid": "No. 427 (2021) Wan Min Zhong",
+          "content": "(2021) Wan Min Zhong No. 427 Case, the court of first instance took the third paragraph of Article 13 of Judicial Interpretation III of the Company Law as the judgment basis, and determined that the original shareholder shall be liable for supplementary compensation.However, the court of second instance considers that the premise of the original shareholder's liability is that the shareholder has the obligation to actually pay the capital contribution at the time of the establishment of the company, and if the shareholder transfers the equity before the expiration of the capital contribution period, the corresponding capital contribution obligations shall be deemed to be transferred together, and the original shareholder shall no longer be liable for the transferee's capital contribution obligations."
         },
         {
           "type": "viewpoint",
@@ -261,15 +261,15 @@
         },
         {
           "type": "case",
-          "badge": "Reference Case",
-          "caseId": "(2024) Yue 19 Min Zhong No. 853",
-          "content": "In (2024) Yue 19 Min Zhong No. 853 Civil Judgment, the court pointed out that when the shareholder transferred the equity within the term of capital contribution, the company was in normal business operation. Although it owed debts, there was no evidence to prove that the company was unable to pay off its due debts at the time of equity transfer, and the transferee was not obviously lacking the ability to pay capital contribution. Such equity transfer was a normal commercial act. Therefore, the court did not determine that the shareholder has the malice to evade the obligation of capital contribution when transferring the equity within the term of capital contribution, and thus did not order it to bear responsibility."
+          "badge": "reference case",
+          "caseid": "(2024) Yue 19 Min Zhong No.853",
+          "content": "In the civil judgment (2024) Yue 19 Min Zhong No. 853, the court pointed out that when the shareholder in this case transferred the equity before the expiration of the capital contribution period, the company was in normal operating condition. Although it had debts, there was no evidence proving that the company was unable to pay off its due debts at the time of the equity transfer, and the transferee did not obviously lack the ability to fulfill the capital contribution obligation. Such equity transfer was a normal commercial act. Therefore, the court did not determine that the shareholder had the malice to evade the capital contribution obligation when transferring the equity before the expiration of the contribution period, and thus did not order it to bear responsibility."
         },
         {
           "type": "case",
-          "badge": "Reference Case",
-          "caseId": "(2020) Jing 03 Min Zhong No. 3634",
-          "content": "However, in the case of (2020) Jing 03 Min Zhong No. 3634, although the shareholder has not reached the time limit for capital contribution when transferring his equity, the shareholder knows that the company cannot pay off the due debts at the time of transfer, and the transferee obviously lacks the ability to pay capital contribution. Such equity transfer increases the risk of the paid-in registered capital of the company and affects the realization of the creditor's rights due to the company. Obviously, it is a malicious evasion of the obligation of capital contribution by means of equity transfer, and the transferor shall be liable for capital contribution according to law."
+          "badge": "reference case",
+          "caseid": "(2020) Jing 03 Min Zhong No.3634",
+          "content": "However, in the case of (2020) Jing 03 Min Zhong No.3634, although the shareholder has not reached the time limit for capital contribution when transferring his equity, the shareholder knows that the company cannot pay off the due debts at the time of transfer, and the transferee obviously lacks the ability to pay capital contribution.Such equity transfer increases the risk of the paid-in registered capital of the company and affects the realization of the creditor's rights due to the company. Obviously, it is a malicious evasion of the obligation of capital contribution by means of equity transfer, and the transferor shall be liable for capital contribution according to law."
         },
         {
           "type": "h3",
@@ -281,9 +281,9 @@
         },
         {
           "type": "case",
-          "badge": "Reference Case",
-          "caseId": "(2024) Nei 04 Min Zhong No. 5215",
-          "content": "When a shareholder transfers the equity within the term of capital contribution, if the transferee fails to pay the capital contribution in full and on time, the original shareholder shall bear supplementary liability for the unpaid part, excluding interest. In the case of (2024) Nei 04 Min Zhong No. 5215, the court of second instance held that the debt between the creditor and the company occurred during the period when the original shareholder was a shareholder of the company, and the original shareholder transferred his equity without fully fulfilling his obligation to make capital contributions. If the company was unable to pay off its debts and enforce its final capital, the court applied for adding the original shareholder as the person subjected to execution in accordance with the law."
+          "badge": "reference case",
+          "caseid": "No. 5215 [2024] of the Civil Division of the People's Republic of China",
+          "content": "When a shareholder transfers the equity within the term of capital contribution, if the transferee fails to pay the capital contribution in full and on time, the original shareholder shall bear supplementary liability for the unpaid part, excluding interest.In the case of (2024) N04 Civil Division 5215, the court of second instance held that the debt between the creditor and the company occurred during the period when the original shareholder was a shareholder of the company, and the original shareholder transferred his equity without fully fulfilling his obligation to make capital contributions. If the company was unable to pay off its debts and enforce its final capital, the court applied for adding the original shareholder as the person subjected to execution in accordance with the law."
         },
         {
           "type": "p",
@@ -295,7 +295,7 @@
         },
         {
           "type": "p",
-          "text": "If the original shareholder can prove that the capital contribution has been paid in full or there is no defect, or that the creditor's rights are formed after the transfer of equity, the original shareholder may claim exemption based on the protection of trust interests. In addition, if the limitation of action has expired when the creditor claims the debt, the original shareholder may be exempted from liability by claiming the defense of limitation."
+          "text": "If the original shareholder can prove that the capital contribution has been paid in full or there is no defect, or that the creditor's rights are formed after the transfer of equity, the original shareholder may claim exemption based on the protection of trust interests.In addition, if the limitation of action has expired when the creditor claims the debt, the original shareholder may be exempted from liability by claiming the defense of limitation."
         },
         {
           "type": "h2",
@@ -343,7 +343,7 @@
         },
         {
           "type": "p",
-          "text": "Article 19 Where the property of a company as the person subjected to execution is insufficient to pay off the debts specified in the effective legal documents, and its shareholder fails to perform its obligation of capital contribution in accordance with the law and transfers its equity, the applicant for execution may apply to the people's court for changing or adding the original shareholder or the initiator who shall bear joint and several liability for the capital contribution in accordance with the provisions of the Company Law as the person subjected to execution, and the people's court shall support it if it is liable within the scope of capital contribution not made in accordance with the law."
+          "text": "Article 19 Where a company as the person subjected to execution has insufficient property to pay off the debts determined in an effective legal document, and its shareholder transfers equity without fulfilling the capital contribution obligation in accordance with the law, if the applicant for execution applies to change or add the original shareholder or the promoter who shall bear joint and several liability for such capital contribution in accordance with the provisions of the Company Law as the person subjected to execution to bear liability within the scope of the capital contribution not made in accordance with the law, the people's court shall support it."
         },
         {
           "type": "p",
@@ -357,8 +357,8 @@
         "Provisions on Several Issues Concerning the Alteration and Addition of Parties in Civil Execution",
         "Several Provisions of the Supreme People's Court on the Time Effect of the Application of the Company Law of the People's Republic of China"
       ],
-      "subtitle": "— Article 88 of the Company Law",
-      "conclusion": "The change of the liability rules for the transfer of unexpired equity under the new Company Law has put forward new requirements for all parties. Whether the original shareholders, transferees or creditors, they should accurately grasp the changes in rules, rationally plan commercial acts and prevent legal risks. If you encounter relevant problems in practice, you are welcome to contact us, and Beijing Qingsong Law Firm will provide you with professional legal services."
+      "subtitle": "- Article 88 of the Company Law",
+      "conclusion": "The change of the liability rules for the transfer of unexpired equity under the new Company Law has put forward new requirements for all parties.Whether the original shareholders, transferees or creditors, they should accurately grasp the changes in rules, rationally plan commercial acts and prevent legal risks.If you encounter relevant problems in practice, you are welcome to contact us, and Beijing Qingsong Law Firm will provide you with professional legal services."
     }
   }
 }

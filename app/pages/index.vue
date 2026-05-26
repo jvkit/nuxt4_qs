@@ -12,6 +12,10 @@ const { locale, t } = useLocale()
 
 const hd = computed(() => getHomeData(locale.value))
 
+// 从 API 获取文章列表（替代静态 JSON 引用）
+const { data: articlesRaw } = await useFetch('/api/articles')
+const advantageCards = computed(() => getAdvantageCards(locale.value, articlesRaw.value || []))
+
 useSeoMeta({
   title: () => locale.value === 'zh'
     ? '北京青颂律师事务所 - 专注商事争议解决'
@@ -269,7 +273,7 @@ onUnmounted(() => {
     <section class="advantages-section">
       <div class="qs-container advantages-inner">
         <NuxtLink
-          v-for="card in getAdvantageCards(locale)"
+          v-for="card in advantageCards"
           :key="card.id"
           :to="card.link"
           class="advantage-card"

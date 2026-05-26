@@ -11,14 +11,20 @@
 
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
 import type { PracticeRaw } from './data'
-import { useContentItem } from '~/composables/useContent'
 import { useLocale } from '~/composables/useLocale'
 
 const route = useRoute()
-const { t } = useLocale()
+const { locale, t } = useLocale()
 
 const { data: practicesRaw } = await useFetch<PracticeRaw[]>('/api/practice-areas')
-const practice = useContentItem(practicesRaw.value || [], (p) => p.slug === (route.params.slug as string))
+const practice = computed(() => {
+  const list = practicesRaw.value || []
+  const item = list.find((p) => p.slug === (route.params.slug as string))
+  if (!item) return null
+  const tr = item.translations[locale.value] || item.translations['zh'] || {}
+  const { translations, ...rest } = item
+  return { ...rest, ...tr } as any
+})
 
 /* -------- 目录导航 -------- */
 const navItems = computed(() => {

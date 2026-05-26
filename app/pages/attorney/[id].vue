@@ -8,7 +8,7 @@ definePageMeta({ layout: 'default' })
  * - 左侧导航栏 + 右侧内容区
  */
 
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import type { LawyerDetail } from './detail.data'
 import { getDetailNavItems, render_markdown } from './detail.data'
 import { useLocale } from '~/composables/useLocale'
@@ -69,7 +69,7 @@ async function fetchLawyer() {
   loading.value = true
   errorMsg.value = ''
   try {
-    lawyer.value = await $fetch<LawyerDetail>(`/api/attorney/${id}`)
+    lawyer.value = await $fetch<LawyerDetail>(`/api/attorneys/${id}`)
     if (!lawyer.value) {
       errorMsg.value = t('attorney.detailNotFound')
     }
@@ -90,6 +90,7 @@ function scrollToSection(key: string) {
 }
 
 onMounted(fetchLawyer)
+watch(() => route.params.id, fetchLawyer)
 
 const detailNavItems = computed(() => getDetailNavItems())
 

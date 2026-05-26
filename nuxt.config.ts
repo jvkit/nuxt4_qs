@@ -135,7 +135,7 @@ export default defineNuxtConfig({
 
   nitro: {
     routeRules: {
-      '/api/**': { cors: true },
+      '/api/**': { proxy: 'http://127.0.0.1:8000/api/**' },
       '/images/**': { headers: { 'cache-control': 'public,max-age=31536000,immutable' } },
       '/data/**': { headers: { 'cache-control': 'public,max-age=31536000,immutable' } },
     },
