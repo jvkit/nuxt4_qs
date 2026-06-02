@@ -2,11 +2,35 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from pathlib import Path
 import shutil
+import uuid
 
 from backend.services import file_store
 from backend.services.word_parser import parse_docx
 
 router = APIRouter()
+
+
+AVATAR_DIR = Path(__file__).parent.parent.parent / "public" / "images" / "attorney" / "avatars"
+
+
+@router.post("/avatar")
+async def upload_avatar(file: UploadFile = File(...)):
+    allowed = {"image/jpeg", "image/png", "image/webp", "image/jpg"}
+    if file.content_type not in allowed:
+        raise HTTPException(status_code=400, detail="Only jpg/png/webp images allowed")
+
+    ext = Path(file.filename or "avatar.jpg").suffix
+    if ext.lower() not in {".jpg", ".jpeg", ".png", ".webp"}:
+        ext = ".jpg"
+
+    filename = f"{uuid.uuid4().hex}{ext}"
+    AVATAR_DIR.mkdir(parents=True, exist_ok=True)
+    dest = AVATAR_DIR / filename
+
+    with open(dest, "wb") as f:
+        shutil.copyfileobj(file.file, f)
+
+    return {"success": True, "path": f"/images/attorney/avatars/{filename}"}
 
 
 @router.post("/article")
