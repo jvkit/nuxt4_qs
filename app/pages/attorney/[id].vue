@@ -15,10 +15,20 @@ import { useLocale } from '~/composables/useLocale'
 
 const route = useRoute()
 const { locale, t } = useLocale()
-const lawyer = ref<LawyerDetail | null>(null)
-const loading = ref(false)
-const errorMsg = ref('')
 const activeSection = ref('resume')
+
+const id = computed(() => Number(route.params.id))
+
+const { data: lawyer, pending: loading, error } = await useFetch<LawyerDetail>(() => `/api/attorneys/${id.value}`, {
+  key: () => `attorney-${id.value}`,
+  server: true,
+})
+
+const errorMsg = computed(() => {
+  if (error.value) return t('attorney.detailLoadError')
+  if (!lawyer.value) return t('attorney.detailNotFound')
+  return ''
+})
 
 function displayName() {
   if (!lawyer.value) return ''
@@ -62,25 +72,6 @@ function displayProfile(key: keyof AttorneyProfile) {
   return enProfile?.[key] || zhProfile?.[key] || ''
 }
 
-async function fetchLawyer() {
-  const id = Number(route.params.id)
-  if (!id) return
-
-  loading.value = true
-  errorMsg.value = ''
-  try {
-    lawyer.value = await $fetch<LawyerDetail>(`/api/attorneys/${id}`)
-    if (!lawyer.value) {
-      errorMsg.value = t('attorney.detailNotFound')
-    }
-  } catch (e) {
-    errorMsg.value = t('attorney.detailLoadError')
-    console.error(e)
-  } finally {
-    loading.value = false
-  }
-}
-
 function scrollToSection(key: string) {
   activeSection.value = key
   const el = document.getElementById('section-' + key)
@@ -88,9 +79,6 @@ function scrollToSection(key: string) {
     el.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 }
-
-onMounted(fetchLawyer)
-watch(() => route.params.id, fetchLawyer)
 
 const detailNavItems = computed(() => getDetailNavItems())
 

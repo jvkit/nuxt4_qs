@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 from typing import Optional
 
@@ -22,6 +22,15 @@ class AttorneyCreate(BaseModel):
     sort_order: int = 0
     is_active: bool = True
     profile: Optional[dict] = None
+
+
+def _do_translate_attorney(attorney_id: int):
+    attorney = file_store.get_attorney(attorney_id)
+    if not attorney:
+        return
+    translations = deepseek_translator.translate_attorney(attorney)
+    attorney.update(translations)
+    file_store.save_attorney(attorney_id, attorney)
 
 
 @router.get("")
@@ -58,12 +67,10 @@ def delete_attorney(attorney_id: int):
 
 
 @router.post("/{attorney_id}/translate")
-def translate_attorney(attorney_id: int):
+def translate_attorney(attorney_id: int, background_tasks: BackgroundTasks):
     attorney = file_store.get_attorney(attorney_id)
     if not attorney:
         raise HTTPException(status_code=404, detail="Attorney not found")
 
-    translations = deepseek_translator.translate_attorney(attorney)
-    attorney.update(translations)
-    file_store.save_attorney(attorney_id, attorney)
-    return {"success": True, "id": attorney_id}
+    background_tasks.add_task(_do_translate_attorney, attorney_id)
+    return {"success": True, "id": attorney_id, "message": "翻译中，请稍后刷新查看"}

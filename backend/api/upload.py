@@ -10,7 +10,9 @@ from backend.services.word_parser import parse_docx
 router = APIRouter()
 
 
-AVATAR_DIR = Path(__file__).parent.parent.parent / "public" / "images" / "attorney" / "avatars"
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+AVATAR_DIR = PROJECT_ROOT / "public" / "images" / "attorney" / "avatars"
+OUTPUT_AVATAR_DIR = PROJECT_ROOT / ".output" / "public" / "images" / "attorney" / "avatars"
 
 
 @router.post("/avatar")
@@ -24,11 +26,15 @@ async def upload_avatar(file: UploadFile = File(...)):
         ext = ".jpg"
 
     filename = f"{uuid.uuid4().hex}{ext}"
-    AVATAR_DIR.mkdir(parents=True, exist_ok=True)
-    dest = AVATAR_DIR / filename
 
-    with open(dest, "wb") as f:
-        shutil.copyfileobj(file.file, f)
+    # 只读取一次文件内容，避免 UploadFile 多次 read/seek 导致损坏
+    content = await file.read()
+
+    # 同时保存到源码 public 和 .output/public，确保生产环境立即可见
+    for d in (AVATAR_DIR, OUTPUT_AVATAR_DIR):
+        d.mkdir(parents=True, exist_ok=True)
+        with open(d / filename, "wb") as f:
+            f.write(content)
 
     return {"success": True, "path": f"/images/attorney/avatars/{filename}"}
 

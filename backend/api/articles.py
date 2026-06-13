@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 from typing import Any
 
@@ -14,6 +14,17 @@ class ArticleCreate(BaseModel):
     date: str
     tags: list = []
     translations: dict
+
+
+def _do_translate_article(slug: str):
+    article = file_store.get_article(slug)
+    if not article:
+        return
+    zh = article.get("translations", {}).get("zh")
+    if not zh:
+        return
+    article["translations"]["en"] = deepseek_translator.translate_article(zh)
+    file_store.save_article(slug, article)
 
 
 @router.get("")
@@ -48,7 +59,7 @@ def delete_article(slug: str):
 
 
 @router.post("/{slug}/translate")
-def translate_article(slug: str):
+def translate_article(slug: str, background_tasks: BackgroundTasks):
     article = file_store.get_article(slug)
     if not article:
         raise HTTPException(status_code=404, detail="Article not found")
@@ -57,6 +68,5 @@ def translate_article(slug: str):
     if not zh:
         raise HTTPException(status_code=400, detail="No Chinese content to translate")
 
-    article["translations"]["en"] = deepseek_translator.translate_article(zh)
-    file_store.save_article(slug, article)
-    return {"success": True, "slug": slug}
+    background_tasks.add_task(_do_translate_article, slug)
+    return {"success": True, "slug": slug, "message": "翻译中，请稍后刷新查看"}

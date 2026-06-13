@@ -1,0 +1,434 @@
+{
+  "id": 11,
+  "slug": "新建-Microsoft-Word-文档-(2)",
+  "date": "2024-01-01",
+  "tags": [],
+  "translations": {
+    "zh": {
+      "title": "1. 绪论",
+      "subtitle": "",
+      "lead": "",
+      "meta": {
+        "date": "2024-01-01",
+        "author": "青颂律师事务所"
+      },
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "1.1 研究背景与意义"
+        },
+        {
+          "type": "h4",
+          "text": "1.1.1 无人机技术发展与应用领域拓展"
+        },
+        {
+          "type": "p",
+          "text": "无人机（Unmanned Aerial Vehicle, UAV）从早期军事侦察工具起步，经过几十年迭代，已经变成覆盖民用与军用两大领域的智能化空中平台。Mordor Intelligence的数据显示，2024年全球无人机市场规模约352.8亿美元，预计到2029年将达到676.4亿美元，复合年增长率13.90%。这些数据背后，是无人机应用场景的深度渗透。电力巡检领域，无人机替代人工完成高压线路精细化巡检，铁路巡检中双无人机协同轨迹优化可提升复杂区段覆盖率［1］；应急救援领域，无人机在灾害发生后快速进入危险区域，实时回传现场影像与生命迹象信息［2］；物流配送领域，顺丰丰翼无人机在大湾区日均配送量已突破2万单，基于改进A*算法的城市无人机物流航线规划研究已取得进展［3］，无人机物流正从试点走向规模化商用［4］；农业植保领域，截至2025年6月全球农业无人机保有量突破50万架，累计节水约3.3亿吨，低空防御场景中无人机自主拦截规划同样受到关注［5］。这些场景的共性需求在于：无人机必须在复杂多变的三维空间中自主、安全、高效地完成飞行任务。尤其无人机在森林防火等领域的渗透尤其结合空地协调的场景下的应用有待提高。路径规划技术正是实现这一目标的核心理论支撑。上述应用场景对无人机的自主规划能力提出了刚性需求，设计符合于森林防火巡检于发现火情后的调度是我们交通领域在这个信息时代需要关注的一大问题；"
+        },
+        {
+          "type": "h4",
+          "text": "1.1.2 三维路径规划在复杂地形环境中的必要性与挑战性"
+        },
+        {
+          "type": "p",
+          "text": "路径规划的本质是在给定环境模型中寻找从起始点到目标点的最优或次优无碰撞路径。与二维平面不同，三维路径规划需要在连续空间中同时考虑水平和高度方向的运动约束，搜索空间维度更高，计算复杂度也更大。山地林区、城市峡谷、矿区等场景中，无人机面临地形起伏、障碍物密集、气流扰动等多重挑战［6］，算法必须在安全性、效率和路径质量之间取得平衡。"
+        },
+        {
+          "type": "p",
+          "text": "这里存在三个难点。环境建模的复杂度高，三维地形需要数字高程模型，数据量随分辨率增长。搜索空间增长问题严重，三维栅格地图中，若地图尺寸为 N×N×N，则搜索空间规模达到 O(N3)时，传统算法面临较多额外计算开销。面向复杂三维环境的无人机路径规划算法需要在保证路径最优性的同时，兼顾可飞行性和计算实时性。"
+        },
+        {
+          "type": "h4",
+          "text": "1.1.3 现有路径规划算法在三维复杂场景中的局限性"
+        },
+        {
+          "type": "p",
+          "text": "当前主流路径规划算法大致分为图搜索、采样和智能仿生三大类，但每一类在三维复杂场景中都有些问题。"
+        },
+        {
+          "type": "p",
+          "text": "图搜索算法中，A算法及其变种因结构直观、实现简单而应用广泛［7］。可当升入三维空间，它的时间复杂度和空间复杂度双双攀升。传统A在三维栅格空间中搜索节点数量激增，多障碍物环境下容易陷入局部最优。固定步长策略在密集障碍环境中还会导致搜索空间爆炸——实验表明，传统A*二十六邻域算法在包含85棵树与100丛灌木的密林环境中，耗尽5万次迭代仍未能找到可行路径，耗时417.51秒（实验环境详见第5章）。这个数据暴露了固定步长策略在复杂三维场景中的局限。"
+        },
+        {
+          "type": "p",
+          "text": "采样类算法如RRT在高维空间具有概率完备性，但随机采样机制导致路径质量不稳定，收敛速度慢［8］。现有算法在处理城市三维环境时普遍存在搜索效率低、路径不平滑、难以同时满足多目标需求等问题。"
+        },
+        {
+          "type": "p",
+          "text": "智能仿生算法如遗传算法、蚁群算法等在处理多目标优化时表现出一定适应性，但计算量大、收敛精度低、易陷入局部最优［9］。这些局限性制约了无人机在复杂地形环境中的飞行能力，现有算法需要改进。"
+        },
+        {
+          "type": "h4",
+          "text": "1.2 国内外研究现状"
+        },
+        {
+          "type": "h4",
+          "text": "1.2.1 基于图搜索的路径规划算法研究进展"
+        },
+        {
+          "type": "p",
+          "text": "图搜索算法是路径规划领域中历史最悠久、理论最完善的一类方法。1959年Dijkstra提出了经典算法，通过贪心策略从起始点向外扩散，能保证找到最短路径，但时间复杂度 O(|V|2)（|V| 为图中顶点数）在大规模地图中效率低下。1968年Hart等在此基础上引入启发式函数，提出A算法，用 f(n)=g(n)+h(n) 引导搜索方向。在可许启发式（Admissible Heuristic）条件下，A具有完备性和最优性保证，成为后续研究的重要基石。"
+        },
+        {
+          "type": "p",
+          "text": "A*在三维路径规划中还有改进空间，但现有改进大多集中在启发式函数优化和双向搜索策略上，搜索邻域设计和步长自适应机制被忽略了。"
+        },
+        {
+          "type": "h4",
+          "text": "1.2.2 基于采样的路径规划算法研究进展"
+        },
+        {
+          "type": "p",
+          "text": "采样算法在配置空间（Configuration Space）里随机采样，构建路径图或树结构，避免对障碍物区域显式建模。这类算法在高维空间中具有天然优势，成为解决复杂三维路径规划问题的重要工具。"
+        },
+        {
+          "type": "p",
+          "text": "采样算法在无人机三维路径规划中应用广泛［10］，但随机采样导致路径质量不稳定，收敛速度慢，狭窄通道等复杂场景中采样效率低下。RRT*在高维空间中收敛速度会急剧下降［11］，对实时性要求高的无人机场景来说是个问题。与图搜索算法相比，采样算法缺乏严格的最优性保证，路径质量依赖于采样密度，这在安全敏感的任务中是个隐患。"
+        },
+        {
+          "type": "p",
+          "text": "采样算法的这些缺陷在三维复杂场景中会被进一步放大。图搜索虽然能保证找到解，采样算法却因为确定性不好而迟迟无法收敛。"
+        },
+        {
+          "type": "h4",
+          "text": "1.2.3 智能仿生算法在路径规划中的应用"
+        },
+        {
+          "type": "p",
+          "text": "智能仿生算法模拟自然界生物的群体行为或进化机制来解决优化问题，在多目标、非凸、非线性路径规划问题中表现出独特优势。"
+        },
+        {
+          "type": "p",
+          "text": "蚁群优化（Ant Colony Optimization, ACO）算法模拟蚂蚁通过信息素寻找最短路径的行为机制［12］。Dorigo等对蚁群优化算法的原理和应用进行了系统综述，指出其在组合优化问题中的适应性。蚁群算法鲁棒性强，具有正反馈机制，但收敛速度慢、易陷入局部最优、参数调节困难［13］。"
+        },
+        {
+          "type": "p",
+          "text": "遗传算法（Genetic Algorithm, GA）通过模拟自然选择和遗传进化过程搜索最优解。改进遗传算法已被用于多无人机协同搜索，通过优化编码方式和遗传算子提升效率。粒子群优化（Particle Swarm Optimization, PSO）算法模拟鸟群觅食行为，收敛速度相对较快［14］。改进PSO算法已被应用于无人机三维路径规划［15］，自适应惯性权重可平衡全局搜索和局部开发能力。这些智能仿生算法在解决特定路径规划问题时取得了不错的效果［16］，但普遍存在计算量大、参数敏感、收敛精度有限等共性问题。对于实时性要求高的无人机飞行任务，这类算法往往难以直接应用。"
+        },
+        {
+          "type": "p",
+          "text": "但这些仿生算法的演示环境往往过于理想化——论文中常见的是简单二维场景或小规模三维空间，一旦环境复杂化，参数调节将高度依赖经验，缺乏可移植的指导准则。"
+        },
+        {
+          "type": "h4",
+          "text": "1.2.4 无人机三维路径规划的特定挑战与研究热点"
+        },
+        {
+          "type": "p",
+          "text": "无人机三维路径规划比一般移动机器人路径规划具有特殊的技术挑战［8］。城市三维环境中UAV路径规划算法的比较分析表明，城市峡谷等复杂三维场景对算法的避障能力、路径平滑度和计算效率提出了更高要求。UAV路径规划要面对些许挑战：环境不确定、动态障碍等。"
+        },
+        {
+          "type": "p",
+          "text": "最近几年，多算法融合比较热门——RRT与遗传算法结合、A*与人工势场结合等，靠互补优势提升综合性能。机器学习方法的应用也在探索，尤其是深度强化学习在端到端路径规划中的尝试［17］，融合图神经网络与课程学习的深度强化学习方法在多无人机路径规划中展现出更好的环境适应能力［18］，通过神经网络直接学习从环境状态到控制动作的映射。多无人机协同路径规划和动态环境下的实时重规划同样是热门方向［19][20][21］，后者要求算法能在毫秒级时间内响应环境变化。"
+        },
+        {
+          "type": "p",
+          "text": "但这些方向都没解决一个根本问题：搜索效率、路径质量和多目标适应性三者很难同时满足。单一算法难以同时满足多重需求，基于经典算法做针对性改进、再融合其他策略，这是一个更好的实践。"
+        },
+        {
+          "type": "h4",
+          "text": "表1.1  主要路径规划算法分类对比"
+        },
+        {
+          "type": "p",
+          "text": "图搜索算法有严格的最优性保证，但在三维空间面临搜索效率瓶颈——A的时间复杂度 O(bd) 在三维栅格中节点数剧增，JPS的三维扩展又过于复杂。采样算法在高维空间适应性较好，RRT的渐近最优性理论漂亮，可收敛速度不稳定，狭窄通道采样困难。智能仿生算法在多目标优化中具有灵活性，但计算开销大，缺乏理论保证，参数调节往往依赖经验。这一分析表明，单一算法难以同时满足三维复杂环境中路径规划的多重需求。"
+        },
+        {
+          "type": "h4",
+          "text": "1.3 现有研究存在的问题"
+        },
+        {
+          "type": "h4",
+          "text": "1.3.1 搜索邻域限制导致路径不平滑"
+        },
+        {
+          "type": "p",
+          "text": "传统A*算法在栅格地图中通常采用四邻域（上下左右）或八邻域（含对角线）扩展方式，三维空间中扩展为六邻域（面相邻）或二十六邻域（面、边、角相邻）。然而大多数现有改进方法仍局限于较小的邻域范围，生成的路径由大量与坐标轴平行的线段和少量对角线段组成，呈现明显的折线特征。这种不平滑的路径增加了飞行距离和能量消耗，还导致无人机在拐点处频繁调整姿态，超出了实际飞行器的动力学约束。城市低空物流场景中的路径折线问题影响飞行安全和能耗。减少路径转折次数对移动机器人实际执行有重要意义。六邻域在三维空间里走曼哈顿路线，斜向目标时只能以折线方式前进，路径长度偏离理论最优值。"
+        },
+        {
+          "type": "h4",
+          "text": "1.3.2 固定步长难以兼顾效率与安全"
+        },
+        {
+          "type": "p",
+          "text": "现有A*算法变种大多采用固定步长进行节点扩展。这种策略存在一个根本矛盾：较小步长能提高路径精度，但会导致搜索节点数量急剧增加，计算效率大幅下降；较大步长虽然能加快搜索速度，却可能因跳过关键区域而遗漏狭窄通道中的可行路径，甚至因步幅过大而与障碍物发生碰撞。分层多粒度策略在一定程度上缓解了这一问题，但固定的粒度划分方式难以适应地形密度的变化。固定步长加权策略同样无法根据局部环境特征动态调整。"
+        },
+        {
+          "type": "p",
+          "text": "此前调试中深有体会，固定步长10m时直接找不到路——步幅太大，窄缝全被跳过了。步长缩到2m倒是能找到，但迭代次数飙到几千次，耗时几十秒。固定步长很难在当中找到平横点。"
+        },
+        {
+          "type": "h4",
+          "text": "1.3.3 代价函数设计单一，难以适应多目标需求"
+        },
+        {
+          "type": "p",
+          "text": "A*算法的评估函数 f(n)=g(n)+h(n) 中，g(n) 通常定义为从起点到当前节点的路径长度代价。传统设计里，g(n) 仅考虑欧几里得距离或曼哈顿距离，忽略了飞行安全、能量消耗、地形威胁等多维因素。实际无人机任务中，路径评价往往涉及多个甚至相互冲突的目标。单一的距离代价无法平衡这些多目标需求。改进PSO算法中尝试引入多目标加权策略，但权重系数固定，难以适应动态变化的任务需求。遗传算法方法虽然能处理多目标优化，但计算开销过大。"
+        },
+        {
+          "type": "p",
+          "text": "实际调试中发现的矛盾是：只追最短路径，算法就贴着障碍物边缘走；只追安全，路径又弯得过度。没有一个能随环境改变的代价函数，A*在复杂三维场景中几乎是在随机搜索。"
+        },
+        {
+          "type": "h4",
+          "text": "1.4 本文研究内容与创新点"
+        },
+        {
+          "type": "h4",
+          "text": "1.4.1 研究内容与论文组织结构"
+        },
+        {
+          "type": "p",
+          "text": "本文以复杂三维地形环境中的无人机路径规划为研究对象，以A算法为基础框架，针对搜索邻域受限、固定步长适应性差、代价函数单一等核心问题，提出一种融合二十六邻域全向扩展、预计算威胁栅格查表自适应步长、多目标动态加权代价函数和路径平滑后处理的改进A算法。"
+        },
+        {
+          "type": "p",
+          "text": "论文共分六章。第1章为绪论，阐述研究背景与意义，综述国内外研究现状，分析现有问题，明确本文研究内容与创新点。第2章介绍相关理论与技术基础，包括路径规划数学描述、A算法原理、三维环境建模方法以及路径平滑技术概述，为后续改进奠定理论基础。第3章详细阐述改进A算法的设计方案，依次论述二十六邻域扩展策略、自适应步长机制、多目标动态加权代价函数和路径平滑后处理的具体实现。第4章进行算法实现与实验分析，包括环境搭建、数据集准备、消融实验以及与经典算法的对比实验。第5章讨论算法在实际无人机平台上的应用验证，分析仿真飞行实验结果。第6章总结全文研究工作，归纳主要贡献，并展望未来方向。"
+        },
+        {
+          "type": "h4",
+          "text": "1.4.2 主要创新点"
+        },
+        {
+          "type": "h4",
+          "text": "改动主要在四个地方。"
+        },
+        {
+          "type": "p",
+          "text": "对于搜索方向。传统A*在三维空间里一般用六邻域或八邻域扩展，路径被网格轴限制，折线明显。本文改成二十六邻域全向扩展，覆盖一个节点周围全部26个相邻节点（6个面邻接、12个边邻接、8个角邻接），三维空间里能全向均匀搜索。配合改进的启发式函数，相同搜索深度下可以探索更丰富的路径方向，减少路径折线，生成更接近欧几里得直线的平滑路径。二十六邻域让路径方向变化更连续，无人机姿态调整的频率和幅度都会下降。"
+        },
+        {
+          "type": "p",
+          "text": "步长策略是另一个改动。固定步长没法兼顾效率和安全，本文用预计算威胁栅格地图查表来自适应调节步长。搜索前先把整个地图的威胁值算好建表，搜索时直接查表就知道当前节点周围安不安全，不做耗时的蒙特卡洛随机采样。查完表再动态调整步长：开阔区域障碍物稀疏，步长自动放大加速搜索；狭窄区域障碍物密集，步长自动缩小保证安全。跟蒙特卡洛估算相比，栅格查表是确定的，搜索速度大概快2.6倍，也没有随机采样带来的评估波动。"
+        },
+        {
+          "type": "p",
+          "text": "代价函数也做了调整。路径长度、安全威胁和高度变化三个目标被塞进A*算法的实际代价 g(n) 里，距离代价、威胁代价和高度惩罚代价三部分加权求和。权重不是死的，会根据当前节点所处环境特征动态调整——高威胁区域自动增大威胁代价权重，先保证安全；低威胁开阔区域则增大距离代价权重，尽量走短路径。高度惩罚项把无人机压在2–6 m的低空飞行高度带里，避免不必要的高空爬升。不同地形区域算法的优化倾向不一样，这更符合实际飞行任务的需求。"
+        },
+        {
+          "type": "h4",
+          "text": "表1.2  本文创新点与现有研究的对比"
+        },
+        {
+          "type": "p",
+          "text": "此处表1.2 展示了本文方案与现有研究的对应关系。二十六邻域扩展解决了传统邻域受限导致的折线问题；预计算栅格查表替代蒙特卡洛采样，让步长自适应既快又稳定；三目标动态加权代价函数突破了单一距离代价的局限；关键点保留与B样条曲线结合的后处理则填补了路径可飞行性方面的空白。四项改进共同作用：扩展策略提供搜索方向，自适应步长提升效率，动态加权平衡目标，平滑后处理保障可执行性。"
+        }
+      ],
+      "references": [],
+      "conclusion": ""
+    },
+    "en": {
+      "title": "1. Introduction",
+      "subtitle": "",
+      "lead": "",
+      "conclusion": "",
+      "meta": {
+        "date": "2024-01-01",
+        "author": "Qingsong Law Firm"
+      },
+      "references": [],
+      "blocks": [
+        {
+          "type": "h4",
+          "text": "1.1 Research Background and Significance"
+        },
+        {
+          "type": "h4",
+          "text": "1.1.1 Development of Unmanned Aerial Vehicle Technology and Expansion of Application Fields"
+        },
+        {
+          "type": "p",
+          "text": "Unmanned Aerial Vehicle (UAV) originated from early military reconnaissance tools and, after decades of iteration, has evolved into an intelligent aerial platform covering both civilian and military domains. According to data from Mordor Intelligence, the global UAV market size was approximately USD 35.28 billion in 2024 and is projected to reach USD 67.64 billion by 2029, with a compound annual growth rate of 13.90%. Behind these figures lies the deep penetration of UAV application scenarios. In the field of power line inspection, UAVs replace manual labor to perform refined inspections of high-voltage lines; in railway inspection, dual-UAV collaborative trajectory optimization can improve coverage in complex sections [1]. In the field of emergency rescue, UAVs quickly enter dangerous areas after disasters, transmitting real-time on-site images and signs of life [2]. In the field of logistics and distribution, SF Fengyi UAVs have exceeded 20,000 daily deliveries in the Greater Bay Area, and research on urban UAV logistics route planning based on the improved A* algorithm has made progress [3]; UAV logistics is transitioning from pilot programs to large-scale commercial application [4]. In the field of agricultural plant protection, as of June 2025, the global number of agricultural UAVs has exceeded 500,000, with a cumulative water saving of approximately 330 million tons; in low-altitude defense scenarios, UAV autonomous interception planning has also attracted attention [5]. The common requirement across these scenarios is that UAVs must autonomously, safely, and efficiently complete flight missions in complex and changeable three-dimensional spaces. In particular, the penetration of UAVs in areas such as forest fire prevention, especially in scenarios combining air-ground coordination, still needs improvement. Path planning technology is the core theoretical support for achieving this goal. The aforementioned application scenarios impose rigid demands on the autonomous planning capabilities of UAVs. Designing solutions suitable for forest fire prevention inspection and dispatch after fire detection is a major issue that our transportation field must address in this information age."
+        },
+        {
+          "type": "h4",
+          "text": "1.1.2 Necessity and Challenges of 3D Path Planning in Complex Terrain Environments"
+        },
+        {
+          "type": "p",
+          "text": "The essence of path planning is to find an optimal or suboptimal collision-free path from a starting point to a target point within a given environmental model. Unlike two-dimensional planes, three-dimensional path planning requires simultaneous consideration of motion constraints in both horizontal and vertical directions within a continuous space, resulting in a higher-dimensional search space and greater computational complexity. In scenarios such as mountainous forest areas, urban canyons, and mining zones, unmanned aerial vehicles face multiple challenges including terrain undulations, dense obstacles, and airflow disturbances [6]. Algorithms must strike a balance among safety, efficiency, and path quality."
+        },
+        {
+          "type": "p",
+          "text": "There are three main difficulties. The complexity of environmental modeling is high; three-dimensional terrain requires a digital elevation model, and the data volume increases with resolution. The search space growth issue is severe; in a three-dimensional grid map, if the map size is N×N×N, the search space scale reaches O(N³), causing traditional algorithms to incur significant additional computational overhead. UAV path planning algorithms for complex three-dimensional environments must ensure path optimality while also considering flyability and real-time computation."
+        },
+        {
+          "type": "h4",
+          "text": "1.1.3 Limitations of Existing Path Planning Algorithms in Three-Dimensional Complex Scenes"
+        },
+        {
+          "type": "p",
+          "text": "The current mainstream path planning algorithms are roughly divided into three categories: graph search, sampling, and intelligent bionics, but each category has some problems in complex 3D scenes."
+        },
+        {
+          "type": "p",
+          "text": "In graph search algorithms, the A algorithm and its variants are widely used due to their intuitive structure and simple implementation [7]. However, when extended to three-dimensional space, both their time complexity and space complexity increase significantly. Traditional A* experiences a surge in the number of nodes searched in three-dimensional grid spaces, making it prone to falling into local optima in environments with multiple obstacles. The fixed-step strategy in dense obstacle environments can also lead to an explosion of the search space—experiments show that the traditional A* 26-neighbor algorithm, in a dense forest environment containing 85 trees and 100 bushes, failed to find a feasible path after exhausting 50,000 iterations, taking 417.51 seconds (see Chapter 5 for the experimental setup). This data reveals the limitations of the fixed-step strategy in complex three-dimensional scenarios."
+        },
+        {
+          "type": "p",
+          "text": "Sampling-based algorithms such as RRT are probabilistically complete in high-dimensional spaces, but their random sampling mechanism results in unstable path quality and slow convergence [8]. Existing algorithms generally suffer from low search efficiency, unsmooth paths, and difficulty in simultaneously meeting multi-objective requirements when dealing with urban three-dimensional environments."
+        },
+        {
+          "type": "p",
+          "text": "Intelligent bionic algorithms, such as genetic algorithms and ant colony algorithms, demonstrate certain adaptability in handling multi-objective optimization; however, they suffer from high computational complexity, low convergence accuracy, and a tendency to become trapped in local optima [9]. These limitations constrain the flight capability of unmanned aerial vehicles in complex terrain environments, and existing algorithms require improvement."
+        },
+        {
+          "type": "h4",
+          "text": "1.2 Current Research Status at Home and Abroad"
+        },
+        {
+          "type": "h4",
+          "text": "1.2.1 Research Progress of Path Planning Algorithms Based on Graph Search"
+        },
+        {
+          "type": "p",
+          "text": "Graph search algorithms are among the oldest and most theoretically complete methods in the field of path planning. In 1959, Dijkstra proposed the classic algorithm, which expands outward from the starting point using a greedy strategy, guaranteeing the shortest path, but with a time complexity of O(|V|²) (|V| is the number of vertices in the graph), which is inefficient in large-scale maps. In 1968, Hart et al. introduced a heuristic function on this basis and proposed the A* algorithm, using f(n)=g(n)+h(n) to guide the search direction. Under the condition of an admissible heuristic, A* has guarantees of completeness and optimality, becoming an important cornerstone for subsequent research."
+        },
+        {
+          "type": "p",
+          "text": "A* still has room for improvement in three-dimensional path planning, but existing improvements mostly focus on heuristic function optimization and bidirectional search strategies, while search neighborhood design and step-size adaptive mechanisms have been overlooked."
+        },
+        {
+          "type": "h4",
+          "text": "1.2.2 Research Progress on Sampling-Based Path Planning Algorithms"
+        },
+        {
+          "type": "p",
+          "text": "Sampling algorithms randomly sample in the Configuration Space to construct roadmaps or tree structures, avoiding the need to explicitly model obstacle regions. Such algorithms have inherent advantages in high-dimensional spaces and have become important tools for solving complex three-dimensional path planning problems."
+        },
+        {
+          "type": "p",
+          "text": "Sampling algorithms are widely used in UAV three-dimensional path planning [10], but random sampling leads to unstable path quality, slow convergence speed, and low sampling efficiency in complex scenarios such as narrow passages. The convergence speed of RRT* decreases sharply in high-dimensional spaces [11], which is a problem for UAV scenarios with high real-time requirements. Compared with graph search algorithms, sampling algorithms lack strict optimality guarantees, and path quality depends on sampling density, which poses a risk in safety-sensitive tasks."
+        },
+        {
+          "type": "p",
+          "text": "These shortcomings of sampling algorithms are further amplified in complex three-dimensional scenes. Although graph search can guarantee finding a solution, sampling algorithms fail to converge due to poor determinism."
+        },
+        {
+          "type": "h4",
+          "text": "1.2.3 Application of Intelligent Bionic Algorithms in Path Planning"
+        },
+        {
+          "type": "p",
+          "text": "Intelligent bionic algorithms simulate the swarm behavior or evolutionary mechanisms of natural organisms to solve optimization problems, demonstrating unique advantages in multi-objective, non-convex, and nonlinear path planning problems."
+        },
+        {
+          "type": "p",
+          "text": "The Ant Colony Optimization (ACO) algorithm simulates the behavior mechanism of ants finding the shortest path through pheromones [12]. Dorigo et al. provided a systematic review of the principles and applications of the ant colony optimization algorithm, pointing out its adaptability in combinatorial optimization problems. The ant colony algorithm has strong robustness and a positive feedback mechanism, but it suffers from slow convergence, a tendency to fall into local optima, and difficulty in parameter adjustment [13]."
+        },
+        {
+          "type": "p",
+          "text": "Genetic Algorithm (GA) searches for the optimal solution by simulating the processes of natural selection and genetic evolution. Improved genetic algorithms have been applied to multi-UAV cooperative search, enhancing efficiency by optimizing encoding methods and genetic operators. Particle Swarm Optimization (PSO) simulates the foraging behavior of bird flocks and has a relatively fast convergence rate [14]. Improved PSO algorithms have been applied to UAV three-dimensional path planning [15], where adaptive inertia weights can balance global search and local exploitation capabilities. These intelligent bionic algorithms have achieved good results in solving specific path planning problems [16], but they generally share common issues such as high computational cost, parameter sensitivity, and limited convergence accuracy. For UAV flight missions with high real-time requirements, such algorithms are often difficult to apply directly."
+        },
+        {
+          "type": "p",
+          "text": "However, the demonstration environments for these bionic algorithms are often overly idealized—commonly featuring simple two-dimensional scenarios or small-scale three-dimensional spaces in papers. Once the environment becomes complex, parameter tuning becomes highly dependent on experience, lacking transferable guidelines."
+        },
+        {
+          "type": "h4",
+          "text": "1.2.4 Specific Challenges and Research Hotspots of UAV Three-Dimensional Path Planning"
+        },
+        {
+          "type": "p",
+          "text": "3D path planning for UAVs presents unique technical challenges compared to path planning for general mobile robots [8]. A comparative analysis of UAV path planning algorithms in urban 3D environments indicates that complex 3D scenes, such as urban canyons, impose higher demands on the algorithm's obstacle avoidance capability, path smoothness, and computational efficiency. UAV path planning must address several challenges: environmental uncertainty, dynamic obstacles, and others."
+        },
+        {
+          "type": "p",
+          "text": "In recent years, multi-algorithm fusion has become quite popular—such as the combination of RRT with genetic algorithms, and A* with artificial potential fields—leveraging complementary advantages to enhance overall performance. The application of machine learning methods is also being explored, particularly the attempt of deep reinforcement learning in end-to-end path planning [17]. Deep reinforcement learning methods integrating graph neural networks and curriculum learning have demonstrated better environmental adaptability in multi-UAV path planning [18], directly learning the mapping from environmental states to control actions through neural networks. Multi-UAV cooperative path planning and real-time replanning in dynamic environments are also hot topics [19][20][21], with the latter requiring algorithms to respond to environmental changes within milliseconds."
+        },
+        {
+          "type": "p",
+          "text": "However, none of these approaches address a fundamental issue: it is difficult to simultaneously satisfy search efficiency, path quality, and multi-objective adaptability. A single algorithm can hardly meet multiple requirements simultaneously, so making targeted improvements based on classic algorithms and integrating other strategies constitutes a better practice."
+        },
+        {
+          "type": "h4",
+          "text": "Table 1.1 Classification and Comparison of Major Path Planning Algorithms"
+        },
+        {
+          "type": "p",
+          "text": "Graph search algorithms offer strict optimality guarantees but face search efficiency bottlenecks in 3D space—A*'s time complexity O(b^d) leads to a sharp increase in the number of nodes in 3D grids, while the 3D extension of JPS is overly complex. Sampling-based algorithms exhibit good adaptability in high-dimensional spaces, with RRT's asymptotic optimality theory being elegant, yet its convergence speed is unstable and sampling in narrow passages is difficult. Intelligent biomimetic algorithms provide flexibility in multi-objective optimization but suffer from high computational overhead, lack theoretical guarantees, and often rely on empirical parameter tuning. This analysis indicates that a single algorithm is difficult to simultaneously satisfy the multiple requirements of path planning in complex 3D environments."
+        },
+        {
+          "type": "h4",
+          "text": "1.3 Problems in Existing Research"
+        },
+        {
+          "type": "h4",
+          "text": "1.3.1 Search Neighborhood Restriction Leads to Non-Smooth Path"
+        },
+        {
+          "type": "p",
+          "text": "The traditional A* algorithm typically employs a 4-neighborhood (up, down, left, right) or 8-neighborhood (including diagonals) expansion method in grid maps, and expands to a 6-neighborhood (face-adjacent) or 26-neighborhood (face, edge, and corner-adjacent) in three-dimensional space. However, most existing improved methods are still limited to smaller neighborhood ranges, resulting in paths composed of numerous segments parallel to the coordinate axes and a few diagonal segments, exhibiting obvious polyline characteristics. This unsmooth path increases flight distance and energy consumption, and also causes the drone to frequently adjust its attitude at turning points, exceeding the dynamic constraints of the actual aircraft. The problem of path polylines in urban low-altitude logistics scenarios affects flight safety and energy consumption. Reducing the number of path turns is significant for the practical execution of mobile robots. A 6-neighborhood follows a Manhattan route in three-dimensional space; when moving diagonally toward a target, it can only proceed in a polyline manner, causing the path length to deviate from the theoretical optimum."
+        },
+        {
+          "type": "h4",
+          "text": "1.3.2 Fixed step size makes it difficult to balance efficiency and safety."
+        },
+        {
+          "type": "p",
+          "text": "Most variants of the existing A* algorithm use fixed step sizes for node expansion. This strategy presents a fundamental contradiction: a smaller step size improves path accuracy but leads to a sharp increase in the number of search nodes and a significant decrease in computational efficiency; a larger step size accelerates search speed but may miss feasible paths in narrow passages by skipping critical areas, or even cause collisions with obstacles due to excessive stride. The hierarchical multi-granularity strategy alleviates this problem to some extent, but the fixed granularity division method struggles to adapt to variations in terrain density. Similarly, the fixed-step weighting strategy cannot dynamically adjust based on local environmental features."
+        },
+        {
+          "type": "p",
+          "text": "During previous debugging, it was deeply felt that with a fixed step size of 10m, the path could not be found directly—the step was too large, and all narrow gaps were skipped. Reducing the step size to 2m allowed for pathfinding, but the number of iterations surged to thousands, taking dozens of seconds. It is difficult to find a balance point with a fixed step size."
+        },
+        {
+          "type": "h4",
+          "text": "1.3.3 The cost function design is single, making it difficult to adapt to multi-objective requirements."
+        },
+        {
+          "type": "p",
+          "text": "In the evaluation function f(n)=g(n)+h(n) of the A* algorithm, g(n) is generally defined as the path length cost from the starting point to the current node. In traditional design, g(n) only considers Euclidean distance or Manhattan distance, neglecting multidimensional factors such as flight safety, energy consumption, and terrain threats. In actual UAV missions, path evaluation often involves multiple or even conflicting objectives. A single distance cost cannot balance these multi-objective requirements. Attempts in improved PSO algorithms to introduce multi-objective weighting strategies suffer from fixed weight coefficients, making it difficult to adapt to dynamic mission demands. Although genetic algorithm methods can handle multi-objective optimization, their computational overhead is excessively high."
+        },
+        {
+          "type": "p",
+          "text": "The contradiction discovered during actual debugging is: if only the shortest path is pursued, the algorithm moves close to the edge of obstacles; if only safety is pursued, the path becomes excessively curved. Without a cost function that can change with the environment, A* is almost performing a random search in complex 3D scenes."
+        },
+        {
+          "type": "h4",
+          "text": "1.4 Research Content and Innovations of This Paper"
+        },
+        {
+          "type": "h4",
+          "text": "1.4.1 Research Content and Thesis Structure"
+        },
+        {
+          "type": "p",
+          "text": "This paper takes UAV path planning in complex three-dimensional terrain environments as the research object, and based on the A* algorithm framework, proposes an improved A* algorithm that integrates 26-neighborhood omnidirectional expansion, precomputed threat grid lookup table adaptive step size, multi-objective dynamic weighted cost function, and path smoothing post-processing to address core issues such as limited search neighborhood, poor adaptability of fixed step size, and single cost function."
+        },
+        {
+          "type": "p",
+          "text": "The thesis consists of six chapters. Chapter 1 is the introduction, which elaborates on the research background and significance, reviews the current research status domestically and internationally, analyzes existing problems, and clarifies the research content and innovations of this paper. Chapter 2 introduces the relevant theoretical and technical foundations, including the mathematical description of path planning, the principle of the A* algorithm, three-dimensional environment modeling methods, and an overview of path smoothing techniques, laying the theoretical groundwork for subsequent improvements. Chapter 3 provides a detailed exposition of the design scheme for the improved A* algorithm, sequentially discussing the implementation of the twenty-six-neighborhood expansion strategy, adaptive step-size mechanism, multi-objective dynamic weighted cost function, and path smoothing post-processing. Chapter 4 presents algorithm implementation and experimental analysis, including environment setup, dataset preparation, ablation experiments, and comparative experiments with classical algorithms. Chapter 5 discusses the verification of the algorithm on an actual unmanned aerial vehicle platform and analyzes the results of simulated flight experiments. Chapter 6 summarizes the entire research work, outlines the main contributions, and looks forward to future directions."
+        },
+        {
+          "type": "h4",
+          "text": "1.4.2 Key Innovations"
+        },
+        {
+          "type": "h4",
+          "text": "The amendments are mainly in four provisions."
+        },
+        {
+          "type": "p",
+          "text": "For the search direction: traditional A* typically uses six-neighbor or eight-neighbor expansion in three-dimensional space, where paths are constrained by grid axes, resulting in obvious zigzags. This paper adopts a twenty-six-neighbor omnidirectional expansion, covering all 26 adjacent nodes around a node (6 face-adjacent, 12 edge-adjacent, and 8 corner-adjacent), enabling omnidirectional uniform search in three-dimensional space. Combined with an improved heuristic function, richer path directions can be explored at the same search depth, reducing path zigzags and generating smoother paths closer to Euclidean straight lines. The twenty-six-neighbor configuration makes path direction changes more continuous, thereby reducing both the frequency and amplitude of the drone's attitude adjustments."
+        },
+        {
+          "type": "p",
+          "text": "The step-length strategy is another modification. A fixed step length cannot balance efficiency and safety. This paper uses a precomputed threat grid map lookup table to adaptively adjust the step length. Before searching, the threat values of the entire map are calculated and stored in a table. During search, the table is directly consulted to check whether the area around the current node is safe, avoiding time-consuming Monte Carlo random sampling. After consulting the table, the step length is dynamically adjusted: in open areas with sparse obstacles, the step length is automatically increased to accelerate search; in narrow areas with dense obstacles, the step length is automatically reduced to ensure safety. Compared with Monte Carlo estimation, the grid lookup table is deterministic, making the search speed approximately 2.6 times faster, and there is no evaluation fluctuation caused by random sampling."
+        },
+        {
+          "type": "p",
+          "text": "The cost function has also been adjusted. The three objectives of path length, safety threat, and altitude variation are incorporated into the actual cost g(n) of the A* algorithm, where the distance cost, threat cost, and altitude penalty cost are weighted and summed. The weights are not fixed but dynamically adjusted based on the environmental characteristics of the current node—high-threat areas automatically increase the weight of the threat cost to prioritize safety, while low-threat open areas increase the weight of the distance cost to favor shorter paths. The altitude penalty term constrains the UAV within a low-altitude flight band of 2–6 meters, avoiding unnecessary high-altitude climbs. The optimization tendency of the algorithm varies across different terrain areas, which better aligns with the requirements of actual flight missions."
+        },
+        {
+          "type": "h4",
+          "text": "Table 1.2 Comparison of Innovations in This Paper with Existing Research"
+        },
+        {
+          "type": "p",
+          "text": "Table 1.2 herein illustrates the correspondence between the proposed scheme and existing research. The 26-neighborhood expansion resolves the polyline issue caused by traditional neighborhood constraints; the precomputed grid lookup table replaces Monte Carlo sampling, rendering step-size adaptation both fast and stable; the three-objective dynamic weighted cost function overcomes the limitations of a single distance cost; and the post-processing combining key point preservation with B-spline curves fills the gap in path flyability. These four improvements work in concert: the expansion strategy provides search directions, the adaptive step size enhances efficiency, the dynamic weighting balances objectives, and the smoothing post-processing ensures executability."
+        }
+      ]
+    }
+  }
+}

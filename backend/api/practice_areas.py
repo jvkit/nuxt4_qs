@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 
 from backend.services import file_store, deepseek_translator
@@ -10,6 +10,17 @@ router = APIRouter()
 class PracticeAreaCreate(BaseModel):
     slug: str
     translations: dict
+
+
+def _do_translate_practice_area(slug: str):
+    area = file_store.get_practice_area(slug)
+    if not area:
+        return
+    zh = area.get("translations", {}).get("zh")
+    if not zh:
+        return
+    area["translations"]["en"] = deepseek_translator.translate_practice_area(zh)
+    file_store.save_practice_area(slug, area)
 
 
 @router.get("")
@@ -44,7 +55,7 @@ def delete_practice_area(slug: str):
 
 
 @router.post("/{slug}/translate")
-def translate_practice_area(slug: str):
+def translate_practice_area(slug: str, background_tasks: BackgroundTasks):
     area = file_store.get_practice_area(slug)
     if not area:
         raise HTTPException(status_code=404, detail="Practice area not found")
@@ -53,6 +64,5 @@ def translate_practice_area(slug: str):
     if not zh:
         raise HTTPException(status_code=400, detail="No Chinese content to translate")
 
-    area["translations"]["en"] = deepseek_translator.translate_practice_area(zh)
-    file_store.save_practice_area(slug, area)
-    return {"success": True, "slug": slug}
+    background_tasks.add_task(_do_translate_practice_area, slug)
+    return {"success": True, "slug": slug, "message": "翻译中，请稍后刷新查看"}

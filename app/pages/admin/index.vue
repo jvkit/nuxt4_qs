@@ -84,11 +84,11 @@ async function deleteArticle(slug: string) {
 }
 
 async function translateArticle(slug: string) {
-  if (!confirm(`确定翻译文章 ${slug}？这会调用 AI API 并产生费用。`)) return
+  if (!confirm(`确定翻译文章 ${slug}？`)) return
   loading.value = true
   try {
-    await $fetch(`/api/articles/${slug}/translate`, { method: 'POST' })
-    alert('翻译完成！')
+    const res = await $fetch<{ success: boolean; message?: string }>(`/api/articles/${slug}/translate`, { method: 'POST' })
+    alert(res.message || '翻译完成！')
     await refreshArticles()
   } catch (e: any) {
     alert('翻译失败: ' + (e.message || '未知错误'))
@@ -194,8 +194,8 @@ async function translatePracticeArea(slug: string) {
   if (!confirm(`确定翻译执业领域 ${slug}？`)) return
   loading.value = true
   try {
-    await $fetch(`/api/practice-areas/${slug}/translate`, { method: 'POST' })
-    alert('翻译完成！')
+    const res = await $fetch<{ success: boolean; message?: string }>(`/api/practice-areas/${slug}/translate`, { method: 'POST' })
+    alert(res.message || '翻译完成！')
     await refreshPA()
   } catch (e: any) {
     alert('翻译失败: ' + e.message)
@@ -355,8 +355,8 @@ async function translateAttorney(id: number) {
   if (!confirm(`确定翻译律师 ${id}？`)) return
   loading.value = true
   try {
-    await $fetch(`/api/attorneys/${id}/translate`, { method: 'POST' })
-    alert('翻译完成！')
+    const res = await $fetch<{ success: boolean; message?: string }>(`/api/attorneys/${id}/translate`, { method: 'POST' })
+    alert(res.message || '翻译完成！')
     await refreshAtt()
   } catch (e: any) {
     alert('翻译失败: ' + e.message)
